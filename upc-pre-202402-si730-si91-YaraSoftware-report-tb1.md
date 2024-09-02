@@ -47,6 +47,7 @@
 | 1.0.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega la primera sección del Capítulo I: Introducción |
 | 1.1.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía |
 | 2.0.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la primera y segunda sección del Capitulo II: Requirements Elicitation & Analysis |
+| 2.1.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis |
 
 <div style="page-break-after: always;"></div>
 
@@ -91,6 +92,10 @@
 [2.2. Entrevistas](#22-entrevistas)
 
 [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+
+[2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+
+[2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
 
 [Bibliografía](#bibliografía)
 
@@ -510,6 +515,240 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
 6. Si contara con información contínua sobre el estado de su vehículo, ¿esta información lo impulsaría a visitar más frecuentemente a un mecánico en favor del mantenimiento de su vehículo?
 
 7. ¿Le resultaría útil contar con información del aforo y nivel de ocupación de su taller de mecánica de confianza?
+
+### 2.2.2. Registro de entrevistas
+
+<table>
+    <tr>
+        <th scope="col">Segmento</th>
+        <th scope="col">Datos y resumen de entrevista</th>
+        <th scope="col">Evidencia fotográfica</th>
+    </tr>
+    <tr>
+        <th rowspan="3" scope="row">Dueños de taller</th>
+        <td>
+        <strong>Erwin Romel Riva Rodríguez</strong><br>
+        Edad: 29 años<br>
+        Distrito: Santa Rosa Rodríguez de Mendoza<br>
+        Nivel de educación: técnico superior<br>
+        Estado civil: conviviente<br>
+        Familia: conviviente e hija<br>
+        Dispositivo preferido: celular<br>
+        Tipo de taller: mecánica y electrónica<br>
+        <br>
+        Erwin es responsable de la administración de su taller, además de participar activamente en el trabajo operativo. Actualmente, utiliza un cuaderno para llevar un control del trabajo realizado, especialmente para asegurar transparencia y seguimiento ante sus clientes. Sin embargo, no todos sus empleados siguen este mismo estándar, lo que genera una falta de consistencia en los registros. Entre las principales dificultades que enfrenta, destacan la obtención de repuestos y la falta de información sobre vehículos de marcas menos comunes. Aunque usa dispositivos como celulares y tablets junto con un escáner OBD para diagnósticos, el cual califica de indispensable debido a los modelos de vehículos de sus clientes.
+        </td>
+        <td><img src="img/2/2/2/Evidencia_Erwin.png"></td>
+    </tr>
+    <tr>
+        <td>
+        <strong>Enrique Reaño García</strong><br>
+        Edad: 53 años<br>
+        Distrito: San Juan de Lurigancho<br>
+        Nivel de educación: secundaria completa<br>
+        Estado civil: conviviente<br>
+        Familia: conviviente e hija<br>
+        Dispositivo preferido: celular<br>
+        Tipo de taller: mecánica<br>
+        <br>
+        Enrique se encarga de las operaciones de mecánica general y de adaptación en su taller, trabajando como uno más de su equipo. A pesar de usar ocasionalmente cuadernos o su celular para llevar registros, prefiere no hacerlo, lo que podría estar relacionado con su extensa experiencia en el sector. No percibe dificultades significativas en su trabajo debido a su larga trayectoria, lo que le da una confianza natural en sus habilidades. Sin embargo, debido a que la mayoría de sus clientes poseen vehículos antiguos, no ve mucho valor en el uso de tecnologías como el escáner OBD.
+        </td>
+        <td><img src="img/2/2/2/">No hay imagen, es solo audio</td>
+    </tr>
+    <tr>
+        <td>
+        <strong>Darío Quispe Llamoca</strong><br>
+        Edad: 42 años<br>
+        Distrito: Los Olivos<br>
+        Nivel de educación: técnico superior<br>
+        Estado civil: casado<br>
+        Familia: esposa y tres hijas<br>
+        Dispositivo preferido: celular<br>
+        Tipo de taller: mecánica y electrónica<br>
+        <br>
+        Darío es responsable tanto de la parte operativa como administrativa de su taller. Destaca por su meticulosidad al documentar cada proceso de trabajo, asegurando que todos los pasos queden registrados en un sistema que no solo mejora el control operativo, sino que también optimiza la atención al cliente. Entre las principales dificultades que enfrenta, menciona los errores en los códigos de los manuales de autopartes, la complejidad de manejar solicitudes adicionales de los clientes, y los problemas que pueden surgir si un vehículo o repuesto falla durante las pruebas de calidad.<br>
+        Darío utiliza una combinación de computadoras de escritorio y celulares en su trabajo diario, lo que refleja un enfoque moderno y tecnológico en la gestión de su taller. Además, realiza transmisiones en vivo de su negocio, lo que indica una apertura hacia el uso de nuevas tecnologías para promocionar y mejorar la comunicación con sus clientes. Destaca la importancia del escáner OBD en su labor, considerándolo indispensable, y resalta la necesidad de mantenerse actualizado constantemente para ofrecer un servicio de calidad.
+        </td>
+        <td><img src="img/2/2/2/Evidencia_Dario.png"></td>
+    </tr>
+    <tr>
+        <th rowspan="3" scope="row">Mecánicos</th>
+        <td>
+        <strong>Jheyson Fernández Santillán</strong><br>
+        Edad: 23 años<br>
+        Distrito: Santa Rosa Rodríguez de Mendoza<br>
+        Nivel de educación: técnico superior<br>
+        Estado civil: soltero<br>
+        Familia: madre, padre y hermano<br>
+        Dispositivo preferido: celular<br>
+        Jheyson ha estado involucrado en la mecánica automotriz por cinco años, motivado por sus lazos familiares. En el taller que trabaja, las responsabilidades se distribuyen entre los mecánicos en función de las características del vehículo y la disponibilidad de cada uno. Su principal preocupación es tener acceso a información precisa sobre la estructura del vehículo para evitar daños durante las reparaciones, la cual obtiene a través de su jefe o investigando en internet usando su celular.<br>
+        Utiliza proformas en papel para registrar las actividades realizadas y pendientes, lo que indica un enfoque manual y tradicional en su trabajo. Además, emplea un escáner OBD como herramienta de asistencia para identificar problemas en los vehículos mediante los códigos generados, para así saber por dónde comenzar su trabajo.
+        <br>
+        </td>
+        <td><img src="img/2/2/2/Evidencia_Jheyson.png"></td>
+    </tr>
+    <tr>
+        <td>
+        <strong>Raúl Fernando Reaño García</strong><br>
+        Edad: 56 años<br>
+        Distrito: San Juan de Lurigancho<br>
+        Nivel de educación: técnico superior<br>
+        Estado civil: conviviente<br>
+        Familia: conviviente e hijo<br>
+        Dispositivo preferido: celular<br>
+        Lleva aproximadamente 20 años en la mecánica por su fascinación por el funcionamiento de los vehículos. En el taller que trabaja, las responsabilidades se distribuyen y asignan directamente según su importancia y complejidad al momento que un vehículo ingresa. Señala la importancia de obtener información por parte del cliente, la cuál se complementa con búsquedas por internet con su celular de ser necesario. Utiliza un cuaderno como registro del trabajo realizado donde es importante registrar el número de placa del vehículo. En el taller que trabaja, no se hace uso del escáner OBD, dado el tipo de vehículos que recibe en su taller por parte de sus clientes.
+        <br>
+        </td>
+        <td><img src="img/2/2/2/Evidencia_Raul.png"></td>
+    </tr>
+    <tr>
+        <td>
+        <strong>Alexis Javier García Escobar</strong><br>
+        Edad: 23 años<br>
+        Distrito: Los Olivos<br>
+        Nivel de educación: secundaria completa<br>
+        Estado civil: soltero<br>
+        Familia: padre, madre y hermano<br>
+        Dispositivo preferido: celular<br>
+        Lleva aproximadamente seis años trabajando en mecánica, impulsado por su fascinación por el funcionamiento de los vehículos. En el taller donde labora, las responsabilidades se asignan mediante una hoja de trabajo que describe el problema. Destaca la importancia de obtener información detallada del cliente, incluyendo sus primeras impresiones, y complementa estos datos con su conocimiento técnico y consultas realizadas a través de su celular. Utiliza una hoja de cálculo en Excel para registrar el trabajo realizado, asegurándose de anotar las actividades y las fechas correspondientes. En su trabajo, emplea un escáner OBD para obtener los valores necesarios y determinar la causa de los problemas.
+        <br>
+        </td>
+        <td><img src="img/2/2/2/Evidencia_Alexis.png"></td>
+    </tr>
+    <tr>
+        <th rowspan="3" scope="row">Clientes de taller</th>
+        <td>
+        <strong>Carlos Alberto Ochoa Colonio</strong><br>
+        Edad: 24 años<br>
+        Distrito: Santiago de Surco<br>
+        Nivel de educación: secundaria completa<br>
+        Ocupación: estudiante universitario de pregrado<br>
+        Estado civil: soltero<br>
+        Familia: padre<br>
+        Marca de vehículo: Mazda<br>
+        <br>
+        Carlos, quien conduce un Mazda CX-5 prestado por un familiar, enfatiza la importancia del cuidado del vehículo debido a que no es de su propiedad. Aunque carece de conocimientos técnicos sobre su automóvil, ultimamente está interesado en aprender más. Indicó que confía en un mecánico recomendado, pero no lleva el auto al taller regularmente, solo cuando surgen problemas. La posibilidad de monitorear el estado del vehículo de manera constante le resulta atractiva, ya que reconoce que muchos problemas pueden pasar desapercibidos y requieren tiempo y esfuerzo para ser detectados. Además, le interesa la función de aforo y disponibilidad del taller, recordando una experiencia negativa relacionada con largas colas en el taller y cómo esta funcionalidad podría haberle evitado esa molestia.
+        </td>
+        <td><img src="img/2/2/2/Evidencia_Carlos.png"></td>
+    </tr>
+    <tr>
+        <td>
+        <strong>María Angélica Ramos Quispe</strong><br>
+        Edad: 19 años<br>
+        Distrito: Lurigancho-Chosica<br>
+        Nivel de educación: secundaria completa<br>
+        Ocupación: estudiante universitario de pregrado<br>
+        Estado civil: soltera<br>
+        Familia: madre<br>
+        Marca de vehículo: Hyundai<br>
+        <br>
+        María Angélica tiene 7 años de experiencia manejando, aunque a pesar de su tiempo al volante, no está familiarizada con los aspectos técnicos de su vehículo, lo que le genera preocupaciones sobre la transparencia de los servicios mecánicos. Considera importante el cuidado de su Hyundai Tucson y tiene un mecánico de confianza desde hace 3 años, al que acude solo cuando surgen problemas. La idea de un monitoreo constante del vehículo le parece útil, ya que le ayudaría a evitar accidentes y a mantener el vehículo en buen estado a largo plazo. También encuentra valiosa la funcionalidad que muestra el aforo y la disponibilidad del taller, dado su horario limitado, lo que le permitiría planificar mejor sus visitas al taller dado su tiempo limitado como estudiante.
+        </td>
+        <td><img src="img/2/2/2/Evidencia_Maria.png"></td>
+    </tr>
+    <tr>
+        <td>
+        <strong>Junior Edwars Victoriano Montalvo</strong><br>
+        Edad: 21 años<br>
+        Distrito: San Juan de Lurigancho<br>
+        Nivel de educación: secundaria completa<br>
+        Ocupación: repartidor de delivery<br>
+        Estado civil: soltero<br>
+        Familia: padre, madre y dos hermanos<br>
+        Marca de vehículo: Nissan<br>
+        <br>
+        Junior conduce el Nissan Máxima de su padre desde hace casi dos años y admite tener poco conocimiento sobre el funcionamiento técnico del vehículo. A pesar de ello, se preocupa por el cuidado del coche y confía en un mecánico para tareas como el cambio de aceite, que realiza periódicamente. Valora las funciones de monitoreo del estado del vehículo y el aforo del taller, ya que las percibe como herramientas útiles para evitar problemas graves en el futuro y reducir el tiempo de espera en el taller.
+        <br>
+        </td>
+        <td><img src="img/2/2/2/Evidencia_Junior.png"></td>
+    </tr>
+</table>
+
+### 2.2.3. Análisis de entrevistas
+
+A partir de los datos recopílados en las entrevistas, se utilizaron herramientas de estadística descriptiva como distribución porcentual y medidas de tendencia central como media aritmética para determinar las características con las que construiríamos los User Personas posteriormente.
+
+***Dueños de taller***
+
++ **Edad:** Las edades de nuestros entrevistados fueron 29, 53 y 42 años. Determinamos una edad representativa de 41 años mediante media aritmética.
+
++ **Nivel de educación:** Determinamos el nivel de educación representativo en técnico superior, dada su mayor distribución porcentual dentro de la muestra (66.66%). 
+
+<img src="img/2/2/3/Dueños_de_taller/Nivel_Educacion.png">
+
++ **Estado civil:** Determinamos el estado civil representativo en conviviente, dada su mayor distribución porcentual dentro de la muestra (66.66%). 
+
+<img src="img/2/2/3/Dueños_de_taller/Estado_Civil.png">
+
++ **Dispositivo:** Determinamos el dispositivo representativo en celular, dada que todos los entrevistados de la muestra declararon su preferencia por este en su entorno laboral. 
+
+<img src="img/2/2/3/Dueños_de_taller/Dispositivo_Preferido.png">
+
++ **Herramienta de registro:** Determinamos la herramienta de registro de apoyo representativa en cuaderno, dada su mayor distribución porcentual dentro de la muestra (66.66%). 
+
+<img src="img/2/2/3/Dueños_de_taller/Herramienta_Registro.png">
+
++ **Uso de tecnología OBD:** A partir de lo descrito por los entrevistados, fue de notar que el uso de la tecnología OBD siempre estuvo ligado a las necesidades específicas de cada taller. Talleres modernos de mecánica y electrónica hacen uso de esta tecnología dedbido al tipo de clientes que reciben, mientras que los de solo mecánica no hacen uso de él.
+
+<img src="img/2/2/3/Dueños_de_taller/Uso_OBD_Tipo_Taller.png">
+
+***Mecánicos***
+
++ **Edad:** Las edades de nuestros entrevistados fueron 23, 56 y 23 años. Determinamos una edad representativa de 34 años mediante media aritmética.
+
++ **Nivel de educación:** Determinamos el nivel de educación representativo en técnico superior, dada su mayor distribución porcentual dentro de la muestra (66.66%). 
+
+<img src="img/2/2/3/Mecanicos/Nivel_Educacion.png">
+
++ **Estado civil:** Determinamos el estado civil representativo en soltero, dada su mayor distribución porcentual dentro de la muestra (66.66%). 
+
+<img src="img/2/2/3/Mecanicos/Estado_Civil.png">
+
++ **Dispositivo:** Determinamos el dispositivo representativo en celular, dado que todos los entrevistados de la muestra declararon su preferencia por este en su entorno laboral. 
+
+<img src="img/2/2/3/Mecanicos/Dispositivo_Preferido.png">
+
++ **Asignación de responsabilidades:** Determinamos el método de asignación de responsabilidades representativo en cuaderno, dada su mayor distribución porcentual dentro de la muestra (66.66%). 
+
+<img src="img/2/2/3/Mecanicos/Asignacion_Responsabilidades.png">
+
++ **Uso de tecnología OBD:** Determinamos el uso de tecnología OBD representativo en sí usa escáner, dada su mayor distribución porcentual dentro de la muestra (66.66%). 
+
+<img src="img/2/2/3/Mecanicos/Uso_OBD.png">
+
++ **Priorización de información:** Determinamos la priorización de información representativa en cliente primero, dada su mayor distribución porcentual dentro de la muestra (66.66%). 
+
+<img src="img/2/2/3/Mecanicos/Priorizacion_Informacion.png">
+
+***Clientes de taller***
+
++ **Edad:** Las edades de nuestros entrevistados fueron 24, 19 y 21 años. Determinamos una edad representativa de 21 años mediante media aritmética.
+
++ **Ocupación:** Determinamos la ocupación representativa en estudiante universitario, dada su mayor distribución porcentual dentro de la muestra (66.66%). 
+
+<img src="img/2/2/3/Clientes_de_taller/Ocupacion.png">
+
++ **Estado civil:** Determinamos el estado civil representativo en soltero, dada su mayor distribución porcentual dentro de la muestra (66.66%). 
+
+<img src="img/2/2/3/Clientes_de_taller/Estado_Civil.png">
+
++ **Marca de vehículo:** Concluímos que no se puede determinar una marca de vehículo representativo dado que todos los entrevistados indicaron una marca diferente.
+
+<img src="img/2/2/3/Clientes_de_taller/Marca_Vehiculo.png">
+
++ **Experiencia manejando:** La cantidad de años manejando de nuestros entrevistados fueron 2, 2 y 7 años. Determinamos una cantidad de años manejando representativa de 3 años mediante media aritmética.
+
++ **Conocimiento técnico:** Determinamos un nivel de conocimiento técnico representativo en básico, dada su mayor distribución porcentual en la muestra (66.66%).
+
+<img src="img/2/2/3/Clientes_de_taller/Conocimiento_Tecnico.png">
+
++ **Técnico de confianza:** Determinamos la relación con técnico de confianza representativa en sí cuenta con técnico de confianza, dado que todos los entrevistados lo indicaron así en la entrevista.
+
+<img src="img/2/2/3/Clientes_de_taller/Mecanico_Confianza.png">
+
++ **Confianza en el servicio:** Determinamos el nivel de confianza en el servicio representativo en plena confianza, dada su mayor distribución porcentual en la muestra (66.66%).
+
+<img src="img/2/2/3/Clientes_de_taller/Confianza_Servicio.png">
 
 # Bibliografía
 
