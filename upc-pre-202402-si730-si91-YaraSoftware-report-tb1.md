@@ -48,7 +48,8 @@
 | 1.1.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía |
 | 2.0.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la primera y segunda sección del Capitulo II: Requirements Elicitation & Analysis |
 | 2.1.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis |
-| 2.2.0 | 02/09/2024 | Álvaro Orozco Torres | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis | 
+| 2.2.0 | 02/09/2024 | Álvaro Orozco Torres | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis |  
+| 2.2.1 | 02/09/2024 | Álvaro Orozco Torres | Se corrige el formato de presentación de el As-Is Scenario Mapping | 
 
 <div style="page-break-after: always;"></div>
 
@@ -875,98 +876,15 @@ Se considerando los segmentos de Dueños de taller, Mecánicos y Clientes de tal
 
 ***Dueños de taller***
 
-<table>
-    <tr>
-        <th scope="row">Task</th>
-        <th scope="col">Recepción del cliente</th>
-        <th scope="col">Asignación de responsables</th>
-        <th scope="col">Control de inventario</th>
-    </tr>
-    <tr>
-        <th scope="row">Doing</th>
-        <td>Recibe al cliente en el taller en el ingreso</td>
-        <td>Piensa en quién es el ayudante o empleado disponible y le encarga el trabajo</td>
-        <td>Recibe la proforma y revisa en su cuaderno si cuentan con el repuesto necesario</td>
-    </tr>
-    <tr>
-        <th scope="row">Thinking</th>
-        <td>Piensa en los problemas que tendría que resolver para el cliente</td>
-        <td>Piensa en qué capacidades o conocimientos posee cada uno de sus empleados o ayudantes</td>
-        <td>Piensa en cómo y dónde van a conseguir los repuestos faltantes</td>
-    </tr>
-    <tr>
-        <th scope="row">Feeling</th>
-        <td>Se siente feliz de recibir a un cliente en su negocio</td>
-        <td>Siente incertidumbre sobre como está distribuyendo las responsabilidades en el taller</td>
-        <td>Se siente preocupado, porque conseguir rápido los repuestos adecuados es crucial para la percepción del servicio</td>
-    </tr>
-</table>
+<img src="img/2/3/5/Johan_Chavez.png">
 
 ***Mecánicos***
 
-<table>
-    <tr>
-        <th scope="row">Task</th>
-        <th scope="col">Recibe un caso asignado</th>
-        <th scope="col">Diagnóstico</th>
-        <th scope="col">Proforma</th>
-        <th scope="col">Ejecución de tareas</th>
-    </tr>
-    <tr>
-        <th scope="row">Doing</th>
-        <td>Acepta lo que su jefe le ha asignado con responsabilidad</td>
-        <td>Pregunta al cliente cuál es el problema que percibe que tiene su vehículo y analiza preliminarmenete el vehículo</td>
-        <td>Realiza un diagnóstico presupuestario en base al trabajo y repuestos que pudieran ser necesarios</td>
-        <td>Empieza a realizar las tareas que determinó son necesarias para realizar la reparación</td>
-    </tr>
-    <tr>
-        <th scope="row">Thinking</th>
-        <td>Piensa en lo que va a tener que hacer para atender al cliente</td>
-        <td>Piensa en las posibles causas del problema que señala el cliente</td>
-        <td>Piensa en si cuentan con lo necesario en su inventario para realizar el trabajo</td>
-        <td>Piensa en lo que tiene que hacer y cómo lo va a hacer</td>
-    </tr>
-    <tr>
-        <th scope="row">Feeling</th>
-        <td>Se siente, a veces, abrumado por toda la carga de responsabilidades que tiene</td>
-        <td>Siente cierta incertidumbre sobre si realmente comprende la causa del problema</td>
-        <td>Siente incertidumbre sobre si cuentan o no con los repuestos necesarios o si son realmente compatibles</td>
-        <td>Se siente un poco abrumado por la cantidad de tareas que tiene que hacer al mismo tiempo</td>
-    </tr>
-</table>
+<img src="img/2/3/5/Edilberto_Sosa.png">
 
 ***Clientes de taller***
 
-<table>
-    <tr>
-        <th scope="row">Task</th>
-        <th scope="col">Recepción en el taller</th>
-        <th scope="col">Explicación del problema</th>
-        <th scope="col">Recibimiento de proforma</th>
-        <th scope="col">Espera de la reparación</th>
-    </tr>
-    <tr>
-        <th scope="row">Doing</th>
-        <td>Lleva su vehículo al taller mecánico de conveniencia</td>
-        <td>Explica a quien le atiende cuál es el problema que tiene su vehículo</td>
-        <td>Recibe y analiza la proforma que le entrega el mecánico</td>
-        <td>Deja su vehículo en el taller a la espera de que realicen las reparaciones</td>
-    </tr>
-    <tr>
-        <th scope="row">Thinking</th>
-        <td>Piensa en si el taller es de confianza</td>
-        <td>Piensa en cómo explicarle el problema al mecánico</td>
-        <td>Piensa en lo que dice la proforma y en la relación de lo que está escrito con su precio</td>
-        <td>Piensa en lo que le deben estar haciendo a su vehículo</td>
-    </tr>
-    <tr>
-        <th scope="row">Feeling</th>
-        <td>Se siente inseguro porque piensa que el taller podría ser perjudicial</td>
-        <td>Siente incertidumbre porque no sabe si el mecánico comprenderá su explicación</td>
-        <td>Siente dudas porque no sabe si el cobro es justo</td>
-        <td>Siente estrés por el largo tiempo que conlleva la reparación</td>
-    </tr>
-</table>
+<img src="img/2/3/5/Gonzalo_Mendoza.png">
 
 ## 2.4. Ubiquitous Language
 
