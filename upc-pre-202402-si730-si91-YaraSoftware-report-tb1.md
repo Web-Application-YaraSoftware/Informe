@@ -48,6 +48,7 @@
 | 1.1.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía |
 | 2.0.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la primera y segunda sección del Capitulo II: Requirements Elicitation & Analysis |
 | 2.1.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis |
+| 2.2.0 | 02/09/2024 | Álvaro Orozco Torres | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis | 
 
 <div style="page-break-after: always;"></div>
 
@@ -96,6 +97,20 @@
 [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
 
 [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+
+[2.3. Needfinding](#23-needfinding)
+
+[2.3.1. User Personas](#231-user-personas)
+
+[2.3.2. User Task Matrix](#232-user-task-matrix)
+
+[2.3.3. User Journey Mapping](#233-user-journey-mapping)
+
+[2.3.4. Empathy Mapping](#234-empathy-mapping)
+
+[2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+
+[2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 [Bibliografía](#bibliografía)
 
@@ -749,6 +764,249 @@ A partir de los datos recopílados en las entrevistas, se utilizaron herramienta
 + **Confianza en el servicio:** Determinamos el nivel de confianza en el servicio representativo en plena confianza, dada su mayor distribución porcentual en la muestra (66.66%).
 
 <img src="img/2/2/3/Clientes_de_taller/Confianza_Servicio.png">
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+Para los segmentos objetivo, se tuvo en cuenta principalmente características demográficas extraídas de la entrevista, tanto para modelar la demografía de los User Personas como sus motivaciones e intereses. De forma complementaria, se tuvo en cuenta algunas habilidades y preferencias por el uso de tecnología y herramientas extraídas de las entrevistas.
+
+***Dueños de taller***
+
+<img src="img/2/3/1/Johan_Chavez.png">
+
+***Mecánicos***
+
+<img src="img/2/3/1/Edilberto_Sosa.png">
+
+***Clientes de taller***
+
+<img src="img/2/3/1/Gonzalo_Mendoza.png">
+
+### 2.3.2. User Task Matrix
+
+Se considerando los segmentos de Dueños de taller, Mecánicos y Clientes de taller (mediante sus respectivos user personas). 
+
+<table>
+    <tr>
+        <th scope="col" rowspan="2">Task</th>
+        <th scope="col" colspan="2">Johan Chávez</th>
+        <th scope="col" colspan="2">Edilberto Sosa</th>
+        <th scope="col" colspan="2">Gonzalo Mendoza</th>
+    </tr>
+    <tr>
+        <th scope="col">Frecuencia</th><th scope="col">Importancia</th>
+        <th scope="col">Frecuencia</th><th scope="col">Importancia</th>
+        <th scope="col">Frecuencia</th><th scope="col">Importancia</th>
+    </tr>
+    <tr>
+        <th scope="row">Llevar un control de inventario</th>
+        <td>Alta</td><td>Alta</td>
+        <td>Media</td><td>Media</td>
+        <td>Baja</td><td>Baja</td>
+    </tr>
+    <tr>
+        <th scope="row">Evaluar el estado de vehículo</th>
+        <td>Media</td><td>Alta</td>
+        <td>Alta</td><td>Alta</td>
+        <td>Media</td><td>Alta</td>
+    </tr>
+    <tr>
+        <th scope="row">Designar responsabilidades</th>
+        <td>Alta</td><td>Alta</td>
+        <td>Baja</td><td>Media</td>
+        <td>Baja</td><td>Baja</td>
+    </tr>
+    <tr>
+        <th scope="row">Hacer proformas</th>
+        <td>Alta</td><td>Alta</td>
+        <td>Baja</td><td>Media</td>
+        <td>Media</td><td>Alta</td>
+    </tr>
+    <tr>
+        <th scope="row">Ejecutar tareas y procedimientos de reparación</th>
+        <td>Media</td><td>Alta</td>
+        <td>Alta</td><td>Alta</td>
+        <td>Baja</td><td>Media</td>
+    </tr>
+    <tr>
+        <th scope="row">Llevar su vehículo al taller</th>
+        <td>Baja</td><td>Media</td>
+        <td>Baja</td><td>Baja</td>
+        <td>Alta</td><td>Alta</td>
+    </tr>
+</table>
+
++ Johan Chávez: Como dueño, tiene una alta frecuencia y responsabilidad en la gestión del taller, destacando en tareas administrativas como control de inventario, designación de responsabilidades y elaboración de proformas. Participa menos en tareas operativas como evaluaciones y reparaciones, aunque sigue siendo importante para él.
+
++ Edilberto Sosa: Su enfoque está en las tareas operativas, como la evaluación del estado del vehículo y la ejecución de reparaciones. Tiene menor involucramiento en tareas administrativas, aunque podría ayudar en ciertas ocasiones.
+
++ Gonzalo Mendoza: Como cliente, se enfoca principalmente en la interacción con el taller, evaluando la importancia de obtener diagnósticos precisos y proformas claras. No participa en la gestión ni en la reparación directa.
+
+### 2.3.3. User Journey Mapping
+
+***Dueños de taller***
+
+<img src="img/2/3/3/Johan_Chavez.png">
+
+***Mecánicos***
+
+<img src="img/2/3/3/Edilberto_Sosa.png">
+
+***Clientes de taller***
+
+<img src="img/2/3/3/Gonzalo_Mendoza.png">
+
+### 2.3.4. Empathy Mapping
+
+***Dueños de taller***
+
+<img src="img/2/3/4/Johan_Chavez.png">
+
+***Mecánicos***
+
+<img src="img/2/3/4/Edilberto_Sosa.png">
+
+***Clientes de taller***
+
+<img src="img/2/3/4/Gonzalo_Mendoza.png">
+
+### 2.3.5. As-Is Scenario Mapping
+
+***Dueños de taller***
+
+<table>
+    <tr>
+        <th scope="row">Task</th>
+        <th scope="col">Recepción del cliente</th>
+        <th scope="col">Asignación de responsables</th>
+        <th scope="col">Control de inventario</th>
+    </tr>
+    <tr>
+        <th scope="row">Doing</th>
+        <td>Recibe al cliente en el taller en el ingreso</td>
+        <td>Piensa en quién es el ayudante o empleado disponible y le encarga el trabajo</td>
+        <td>Recibe la proforma y revisa en su cuaderno si cuentan con el repuesto necesario</td>
+    </tr>
+    <tr>
+        <th scope="row">Thinking</th>
+        <td>Piensa en los problemas que tendría que resolver para el cliente</td>
+        <td>Piensa en qué capacidades o conocimientos posee cada uno de sus empleados o ayudantes</td>
+        <td>Piensa en cómo y dónde van a conseguir los repuestos faltantes</td>
+    </tr>
+    <tr>
+        <th scope="row">Feeling</th>
+        <td>Se siente feliz de recibir a un cliente en su negocio</td>
+        <td>Siente incertidumbre sobre como está distribuyendo las responsabilidades en el taller</td>
+        <td>Se siente preocupado, porque conseguir rápido los repuestos adecuados es crucial para la percepción del servicio</td>
+    </tr>
+</table>
+
+***Mecánicos***
+
+<table>
+    <tr>
+        <th scope="row">Task</th>
+        <th scope="col">Recibe un caso asignado</th>
+        <th scope="col">Diagnóstico</th>
+        <th scope="col">Proforma</th>
+        <th scope="col">Ejecución de tareas</th>
+    </tr>
+    <tr>
+        <th scope="row">Doing</th>
+        <td>Acepta lo que su jefe le ha asignado con responsabilidad</td>
+        <td>Pregunta al cliente cuál es el problema que percibe que tiene su vehículo y analiza preliminarmenete el vehículo</td>
+        <td>Realiza un diagnóstico presupuestario en base al trabajo y repuestos que pudieran ser necesarios</td>
+        <td>Empieza a realizar las tareas que determinó son necesarias para realizar la reparación</td>
+    </tr>
+    <tr>
+        <th scope="row">Thinking</th>
+        <td>Piensa en lo que va a tener que hacer para atender al cliente</td>
+        <td>Piensa en las posibles causas del problema que señala el cliente</td>
+        <td>Piensa en si cuentan con lo necesario en su inventario para realizar el trabajo</td>
+        <td>Piensa en lo que tiene que hacer y cómo lo va a hacer</td>
+    </tr>
+    <tr>
+        <th scope="row">Feeling</th>
+        <td>Se siente, a veces, abrumado por toda la carga de responsabilidades que tiene</td>
+        <td>Siente cierta incertidumbre sobre si realmente comprende la causa del problema</td>
+        <td>Siente incertidumbre sobre si cuentan o no con los repuestos necesarios o si son realmente compatibles</td>
+        <td>Se siente un poco abrumado por la cantidad de tareas que tiene que hacer al mismo tiempo</td>
+    </tr>
+</table>
+
+***Clientes de taller***
+
+<table>
+    <tr>
+        <th scope="row">Task</th>
+        <th scope="col">Recepción en el taller</th>
+        <th scope="col">Explicación del problema</th>
+        <th scope="col">Recibimiento de proforma</th>
+        <th scope="col">Espera de la reparación</th>
+    </tr>
+    <tr>
+        <th scope="row">Doing</th>
+        <td>Lleva su vehículo al taller mecánico de conveniencia</td>
+        <td>Explica a quien le atiende cuál es el problema que tiene su vehículo</td>
+        <td>Recibe y analiza la proforma que le entrega el mecánico</td>
+        <td>Deja su vehículo en el taller a la espera de que realicen las reparaciones</td>
+    </tr>
+    <tr>
+        <th scope="row">Thinking</th>
+        <td>Piensa en si el taller es de confianza</td>
+        <td>Piensa en cómo explicarle el problema al mecánico</td>
+        <td>Piensa en lo que dice la proforma y en la relación de lo que está escrito con su precio</td>
+        <td>Piensa en lo que le deben estar haciendo a su vehículo</td>
+    </tr>
+    <tr>
+        <th scope="row">Feeling</th>
+        <td>Se siente inseguro porque piensa que el taller podría ser perjudicial</td>
+        <td>Siente incertidumbre porque no sabe si el mecánico comprenderá su explicación</td>
+        <td>Siente dudas porque no sabe si el cobro es justo</td>
+        <td>Siente estrés por el largo tiempo que conlleva la reparación</td>
+    </tr>
+</table>
+
+## 2.4. Ubiquitous Language
+
++ Vehicle (Vehículo): Objeto principal de las reparaciones y mantenimientos en un taller de mecánica automotriz. Incluye automóviles, camiones, motocicletas, y otros tipos de transporte que requieren servicios para mantener su funcionamiento adecuado.
+
++ Customer (Cliente): Persona o entidad que solicita y paga por los servicios de mantenimiento o reparación de un vehículo.
+
++ Mechanic (Mecánico): Profesional que realiza el mantenimiento y las reparaciones de vehículos.
+
++ Service (Servicio): Término general que abarca todas las actividades o procesos que se realizan a un vehículo, incluyendo tanto el mantenimiento preventivo como las reparaciones correctivas.
+
++ Preventive Maintenance (Mantenimiento Preventivo): Actividades programadas que se realizan para prevenir fallos en el vehículo antes de que ocurran. Esto incluye cambios de aceite, revisiones de frenos, y reemplazos de filtros.
+
++ Corrective Maintenance (Mantenimiento Correctivo): Reparaciones realizadas para corregir fallos que ya han ocurrido en el vehículo. Implica la identificación del problema y la sustitución o reparación de los componentes defectuosos.
+
++ Task (Tarea): Actividad o proceso específico que forma parte del servicio o mantenimiento de un vehículo. Cada tarea tiene un objetivo particular, como cambiar el aceite, revisar los frenos, o reemplazar una pieza defectuosa.
+
++ Inspection (Inspección): Proceso de revisión detallada de un vehículo para identificar posibles problemas o áreas que requieren mantenimiento. Puede incluir una evaluación visual y pruebas funcionales de los sistemas del vehículo.
+
++ Diagnosis (Diagnóstico): Proceso de identificar problemas o fallos en un vehículo mediante la evaluación de síntomas y el uso de herramientas especializadas para determinar la causa subyacente.
+
++ Diagnostic Tool (Herramienta de Diagnóstico): Dispositivo o equipo utilizado para analizar y diagnosticar problemas en un vehículo, como escáneres OBD o herramientas de análisis de sistemas.
+
++ Diagnostic Code (Código de Diagnóstico): Código alfanumérico generado por un escáner de diagnóstico que indica un problema específico en el sistema electrónico del vehículo.
+
++ Proforma (Proforma): Documento preliminar que detalla una estimación de los costos de reparación o mantenimiento para un vehículo. Este documento incluye una descripción de los servicios o reparaciones propuestos, el costo estimado de las piezas y la mano de obra, y otros detalles relevantes.
+
++ Repair Order (Orden de Reparación): Documento o registro que detalla las reparaciones o servicios solicitados para un vehículo, incluyendo las tareas a realizar, las piezas necesarias, y la información del cliente.
+
++ Labor (Mano de Obra): Coste asociado al trabajo manual realizado por un mecánico o técnico durante el mantenimiento o reparación de un vehículo. Este costo generalmente se calcula en función del tiempo que el técnico dedica a completar las tareas y puede incluir tarifas por hora o por trabajo realizado.
+
++ Component (Componente): Parte individual de un sistema dentro del vehículo. Los componentes pueden necesitar mantenimiento o reemplazo según su estado y función.
+
++ Replacement Part (Repuesto): Componente o parte que se utiliza para reemplazar una pieza defectuosa o desgastada en un vehículo.
+
++ Warranty (Garantía): Compromiso ofrecido por el fabricante o proveedor de repuestos que cubre los costos de reparación o reemplazo de piezas defectuosas durante un periodo específico. Puede aplicarse a repuestos nuevos o servicios realizados.
+
++ Record (Registro): Registro de todos los servicios y reparaciones realizadas en un vehículo a lo largo del tiempo. Incluye detalles sobre los trabajos realizados, las piezas utilizadas, y las fechas de los servicios.
+
++ Driving Test (Prueba de Manejo): Evaluación del funcionamiento del vehículo realizada por un mecánico después de realizar una reparación o servicio, para verificar que los problemas se hayan resuelto y que el vehículo funcione correctamente.
 
 # Bibliografía
 
