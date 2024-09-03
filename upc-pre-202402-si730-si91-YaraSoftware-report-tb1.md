@@ -51,6 +51,8 @@
 | 2.2.0 | 02/09/2024 | Álvaro Orozco Torres | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis |
 | 2.2.1 | 02/09/2024 | Álvaro Orozco Torres | Se corrige el formato de presentación de el As-Is Scenario Mapping |
 | 2.2.2 | 02/09/2024 | Álvaro Orozco Torres | Se añade descripción de proceso para As-Is Scenario Mapping |
+| 2.2.3 | 02/09/2024 | Henry Reaño Delgadillo | Se agrega el link de las entrevistas de Needfinding en la sección Anexos |
+| 2.2.4 | 02/09/2024 | Henry Reaño Delgadillo | Se corrige la visualización de los artefactos As-Is para todos los segmentos objetivo y se agrega la foto del dueño de taller Enrique Reaño|
 
 <div style="page-break-after: always;"></div>
 
@@ -570,7 +572,7 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
         <br>
         Enrique se encarga de las operaciones de mecánica general y de adaptación en su taller, trabajando como uno más de su equipo. A pesar de usar ocasionalmente cuadernos o su celular para llevar registros, prefiere no hacerlo, lo que podría estar relacionado con su extensa experiencia en el sector. No percibe dificultades significativas en su trabajo debido a su larga trayectoria, lo que le da una confianza natural en sus habilidades. Sin embargo, debido a que la mayoría de sus clientes poseen vehículos antiguos, no ve mucho valor en el uso de tecnologías como el escáner OBD.
         </td>
-        <td><img src="img/2/2/2/">No hay imagen, es solo audio</td>
+        <td><img src="img/2/2/2/Evidencia_Enrique.jpeg"></td>
     </tr>
     <tr>
         <td>
