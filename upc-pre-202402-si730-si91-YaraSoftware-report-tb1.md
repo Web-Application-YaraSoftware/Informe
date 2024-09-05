@@ -1155,6 +1155,13 @@ El componente es un botón de acción principal, será implementado con Button d
 <br>
 El componente es un conjunto de botones de acción implementado con Button y Icon de PrimeVue. Incluye opciones para eliminar, editar, cancelar y confirmar operaciones, permitiendo al usuario ejecutar las tareas vinculadas de manera intuitiva.
 
+#### Campo de búsqueda
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/input.png" width="170px">
+</div>
+<br>
+El componente es un campo de búsqueda implementado con InputText y Icon de PrimeVue. Permite al usuario realizar búsquedas dentro de la aplicación de manera clara y eficiente, con un diseño minimalista que incluye un ícono de lupa.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
