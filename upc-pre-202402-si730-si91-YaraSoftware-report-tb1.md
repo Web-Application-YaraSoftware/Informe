@@ -1176,6 +1176,13 @@ El componente es un campo de entrada de texto, será implementado con InputText 
 <br>
 El componente es una sección de atajos implementada con Card y Button de PrimeVue. Facilita el acceso rápido a funciones importantes de la plataforma, como la creación de clientes y la programación de citas, permitiendo acciones rápidas y eficientes con botones claramente definidos.
 
+#### Tarjeta de usuario
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/user-cards.png" width="150px">
+</div>
+<br>
+El componente es una tarjeta de perfil de usuario, diseñado para mostrar información clave sobre el usuario dentro de la plataforma, como el nombre, foto de perfil o roles asociados. Implementado con Card de PrimeVue, esta tarjeta utiliza un diseño limpio. Este tipo de componente será ideal para interfaces donde se requiere identificar rápidamente a los usuarios, permitiendo que se despliegue información básica del perfil, o se dé acceso a funcionalidades relacionadas con el usuario.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
