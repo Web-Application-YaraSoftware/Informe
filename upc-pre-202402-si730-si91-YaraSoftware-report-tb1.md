@@ -1183,6 +1183,13 @@ El componente es una sección de atajos implementada con Card y Button de PrimeV
 <br>
 El componente es una tarjeta de perfil de usuario, diseñado para mostrar información clave sobre el usuario dentro de la plataforma, como el nombre, foto de perfil o roles asociados. Implementado con Card de PrimeVue, esta tarjeta utiliza un diseño limpio. Este tipo de componente será ideal para interfaces donde se requiere identificar rápidamente a los usuarios, permitiendo que se despliegue información básica del perfil, o se dé acceso a funcionalidades relacionadas con el usuario.
 
+#### Tarjeta de tareas
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/task-card.png" width="170px">
+</div>
+<br>
+Es una tarjeta de tareas para mecánicos, que será implementada con `Card` de PrimeVue. Muestra información clave como el cliente, vehículo, fecha y modalidad del servicio. Asimismo, incluye un enlace para acceder a más detalles de la tarea.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
