@@ -1148,6 +1148,13 @@ El componente es una barra de navegación implementada con Toolbar de PrimeVue, 
 <br>
 El componente es un botón de acción principal, será implementado con Button de PrimeVue. Su diseño minimalista permite realizar acciones clave, como enviar formularios o confirmar procesos, manteniendo una apariencia clara y funcional.
 
+#### Botones circulares
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/delete-edit.png" width="170px">
+</div>
+<br>
+El componente es un conjunto de botones de acción implementado con Button y Icon de PrimeVue. Incluye opciones para eliminar, editar, cancelar y confirmar operaciones, permitiendo al usuario ejecutar las tareas vinculadas de manera intuitiva.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
