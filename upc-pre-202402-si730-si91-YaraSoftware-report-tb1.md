@@ -1204,6 +1204,13 @@ Será implementado con TieredMenu de PrimeVue. Facilita la navegación ofreciend
 <br>
 El componente es una tabla de columnas a implementar con DataTable de PrimeVue. Permite organizar datos de manera estructurada, con opciones de ordenación en cada columna mediante flechas desplegables, facilitando la gestión de la información.
 
+#### Tarjeta de notificación
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/notification.png" width="500px">
+</div>
+<br>
+Este componente de tarjeta de notificación puede implementarse utilizando `Card` de PrimeVue para estructurar la notificación, y puede complementarse con íconos que refuercen el tipo de alerta o mensaje. El diseño está orientado a destacar información clave para que el usuario gestione las notificaciones de manera eficiente.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
