@@ -117,6 +117,14 @@
 
 [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
+[Capítulo IV: Product Design](#capítulo-iv-product-design)
+
+[4.1. Style Guidelines](#41-style-guidelines)
+
+[4.1.1. General Style Guidelines](#411-general-style-guidelines)
+
+[4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+
 [Bibliografía](#bibliografía)
 
 [Anexos](#anexos)
@@ -939,6 +947,36 @@ Para realizar esta sección de As-Is Scenario Mapping, en grupo, empatizamos ima
 + Record (Registro): Registro de todos los servicios y reparaciones realizadas en un vehículo a lo largo del tiempo. Incluye detalles sobre los trabajos realizados, las piezas utilizadas, y las fechas de los servicios.
 
 + Driving Test (Prueba de Manejo): Evaluación del funcionamiento del vehículo realizada por un mecánico después de realizar una reparación o servicio, para verificar que los problemas se hayan resuelto y que el vehículo funcione correctamente.
+
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines
+### 4.1.1. General Style Guidelines
+
+### Branding
+#### Descripción general de la marca
+<img src =  "img/4/YaraSoftware-logo.png">
+
+<b>Yara Software</b> es una startup emergente fundada por jóvenes estudiantes de Ingeniería de Software, comprometidos con la creación de soluciones digitales personalizadas que optimizan y transforman procesos en sectores a menudo pasados por alto en la digitalización. Nos enfocamos en proporcionar herramientas tecnológicas innovadoras que favorecen el crecimiento y la eficiencia en diversas industrias. Y como primer producto de nuestra desarrolladora tenemos a un software enfocado en la gestión de talleres de mecánica automotriz.
+
+#### Misión:
+Nuestra misión es impulsar el desarrollo tecnológico en diversos sectores de la industria, favoreciendo el crecimiento económico a través de soluciones de software innovadoras, accesibles y adaptadas a las necesidades de sus usuarios.
+#### Visión:
+Como startup, aspiramos a ser reconocidos a nivel nacional por nuestro fuerte compromiso con la calidad y la excelencia, alcanzando afianzar a más de 10,000 usuarios a nivel nacional en los próximos cuatro años, posicionándonos como un referente en cuanto a desarrollo tecnológico e innovación en el país.
+
+#### Producto 
+Nuestro primer producto es un software especializado en la gestión de talleres de mecánica automotriz. Esta solución está diseñada para optimizar la administración de estos talleres, mediante herramientas como agenda de citas, distribución de tareas, control de inventario y métricas de rendimiento.
+
+#### Nombre de producto
+El nombre de nuestro producto es Workshop N-GINE. La idea surge de la combinación de las palabras “Workshop” y “Engine,” evocando la esencia de un taller de mecánica automotriz mediante la centralidad del motor en este ámbito. Asimismo, este nombre refleja la finalidad del software, que se centra en la creación de un sistema para optimizar la gestión de talleres.
+
+#### Logo de producto
+<img src = "img/4/workShop-NGINE-logo.png">
+
+El logo de Workshop N-GINE presenta un engranaje central rodeado por un círculo compuesto por dos flechas curvas que se entrelazan, formando un ciclo continuo. Especificamente, el engranaje central representa la maquinaria, herramientas que son el núcleo de la operación en un taller mecánico. Y las flechas curvas sugieren un ciclo de mejora continua, destacando el enfoque del software en la optimización constante de procesos.
+
+
+### 4.1.2. Web Style Guidelines
+#### Componentes
 
 
 # Bibliografía
