@@ -1197,6 +1197,13 @@ Es una tarjeta de tareas para mecánicos, que será implementada con `Card` de P
 <br>
 Será implementado con TieredMenu de PrimeVue. Facilita la navegación ofreciendo acceso rápido a las principales funciones de la plataforma a través de una lista organizada de opciones.
 
+#### Tabla de columnas
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/column-table.png" width="170px">
+</div>
+<br>
+El componente es una tabla de columnas a implementar con DataTable de PrimeVue. Permite organizar datos de manera estructurada, con opciones de ordenación en cada columna mediante flechas desplegables, facilitando la gestión de la información.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
