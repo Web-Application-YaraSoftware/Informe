@@ -1124,7 +1124,7 @@ Además, la neutralidad de Roboto contribuye a que la comunicación sea respetuo
 El tono de comunicación adoptará un enfoque serio, formal, respetuoso y sereno. Este tono refuerza la percepción de profesionalismo, que es esencial en un sistema que maneja aspectos críticos de la gestión de talleres automotrices. Asimismo, al mantener una comunicación serena y respetuosa, se busca generar confianza en los usuarios, asegurándoles que están interactuando con una solución técnica avanzada. Además, este tono promueve un ambiente de tranquilidad, alineándose con la misión de ofrecer un servicio de alta calidad.
 
 ### 4.1.2. Web Style Guidelines
-
+git pu
 ### Componentes
 
 #### Menú desplegable de perfil
