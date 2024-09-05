@@ -1126,12 +1126,20 @@ El tono de comunicación adoptará un enfoque serio, formal, respetuoso y sereno
 ### 4.1.2. Web Style Guidelines
 
 ### Componentes
+
 #### Menú desplegable de perfil
 <div style="display: grid; justify-content: center; align-items: center;">
   <img src="img/4/componentes/menu-desplegable-perfil.png" width="300px">
 </div>
 <br>
 El componente es un menú desplegable de perfil en Workshop N-GINE, implementado utilizando el componente Dropdown de PrimeVue. Ubicado en ambos lados superiores de la pantalla, contiene íconos de usuario que permiten a los usuarios acceder y modificar su información de cuenta. Al hacer clic en estos íconos, se despliega un panel emergente donde se muestran diversas opciones y configuraciones relacionadas con el perfil del usuario.
+
+#### Header
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/header.png" width="400px">
+</div>
+<br>
+El componente es una barra de navegación implementada con Toolbar de PrimeVue, que incluye íconos de perfil con menús desplegables mediante Dropdown en ambos extremos. Estos permiten al usuario acceder a opciones de cuenta y configuraciones, manteniendo un diseño simple y funcional.
 
 ## 4.2. Information Architecture
 
