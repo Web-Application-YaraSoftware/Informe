@@ -1211,6 +1211,13 @@ El componente es una tabla de columnas a implementar con DataTable de PrimeVue. 
 <br>
 Este componente de tarjeta de notificación puede implementarse utilizando `Card` de PrimeVue para estructurar la notificación, y puede complementarse con íconos que refuercen el tipo de alerta o mensaje. El diseño está orientado a destacar información clave para que el usuario gestione las notificaciones de manera eficiente.
 
+#### Resumen de intervención
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/intervention-summary.png" width="170px">
+</div>
+<br>
+Este componente de resumen de intervención facilita la presentación de información importante como el tipo de intervención, los responsables y el tiempo invertido en la tarea. El uso de Card asegurará una disposición organizada para ofrecer a los usuarios acceso a los resultados de las actividades realizadas.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
