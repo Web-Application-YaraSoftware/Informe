@@ -55,6 +55,7 @@
 | 2.2.4 | 02/09/2024 | Henry Reaño Delgadillo | Se corrige la visualización de los artefactos As-Is para todos los segmentos objetivo y se agrega la foto del dueño de taller Enrique Reaño|
 | 2.2.5 | 03/09/2024 | Henry Reaño Delgadillo | Se agrega tres nuevos conceptos en Ubiquitous Language |
 | 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
+| 3.1.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la primera sección del Capítulo III: Requirements Specification |
 
 <div style="page-break-after: always;"></div>
 
@@ -1057,7 +1058,22 @@ Para realizar esta sección de As-Is Scenario Mapping, en grupo, empatizamos ima
 + Driving Test (Prueba de Manejo): Evaluación del funcionamiento del vehículo realizada por un mecánico después de realizar una reparación o servicio, para verificar que los problemas se hayan resuelto y que el vehículo funcione correctamente.
 
 # Capítulo III: Requirements Specification
+
 ## 3.1. To-Be Scenario Mapping
+
+Se realizó una lluvia de ideas sobre cómo cambiaría la experiencia de nuestros usuarios mediante los features que habíamos proyectado durante la fase de Lean UX. De esa forma, pudimos determinar las áreas de mejora y el efecto concreto que tendrían.
+
+***Dueños de taller***
+
+<img src="img/3/1/Johan_Chavez.jpg">
+
+***Mecánicos***
+
+<img src="img/3/1/Edilberto_Sosa.jpg">
+
+***Clientes de taller***
+
+<img src="img/3/1/Gonzalo_Mendoza.jpg">
 
 ## 3.2. User Stories
 
