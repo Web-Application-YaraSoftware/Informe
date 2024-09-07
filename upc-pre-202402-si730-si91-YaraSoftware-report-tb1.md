@@ -2298,7 +2298,13 @@ En esta sección se describen los Diagramas de Clases, que representan la estruc
 
 ## 4.8. Database Design
 
+Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos MySQL debido a su escalabilidad y su interfaz intuitiva, lo cual facilita su uso. Esta elección se basa en la experiencia del equipo con motores de bases de datos similares, como Microsoft SQL Server, lo que asegura una transición fluida. MySQL ofrece la capacidad de expandir los recursos de la base de datos conforme el taller crezca permitiendo que el sistema maneje eficientemente mayores volúmenes de datos y las necesidades crecientes del negocio.
+
 ### 4.8.1. Database Diagram
+
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/databaseDiagram/databaseDiagram.png" width="1000px">
+</div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
