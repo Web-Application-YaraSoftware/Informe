@@ -1412,6 +1412,12 @@ La imagen muestra la sección "Gestión de Clientes", donde el administrador del
   <img src="img/4/wireframes/page-customers-management.png" width="1000px">
 </div>
 
+#### Registro de nuevo cliente
+En esta sección se permite al administrador registrar un nuevo cliente mediante un formulario sencillo que solicita datos personales como el nombre, apellidos, tipo y número de documento, así como la edad y ubicación. La opción de registro facilita la inclusión de nuevos clientes en el sistema de manera ágil, permitiendo que el taller mantenga actualizada su base de clientes con toda la información relevante.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-customers-modal-creation.png" width="1000px">
+</div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
