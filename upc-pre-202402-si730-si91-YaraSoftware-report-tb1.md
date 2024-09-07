@@ -1659,6 +1659,88 @@ Explicación del flujo: el dueño del taller accede a la sección "Clientes" des
   <img src="img/4/wireflows/7.png" width="1000px">
 </div>
 
+#### User goal: Acceder al registro de intervenciones de un carro.
+User persona: Dueño de taller
+
+Explicación de flujo: el usuario comienza desde la interfaz principal del taller y accede a la sección de Clientes, donde puede seleccionar un cliente y visualizar su información personal, junto con una lista de los vehículos asociados. Al hacer clic en uno de los vehículos registrados, se despliega una nueva vista con los detalles del vehículo, incluyendo una línea de tiempo que muestra el historial de todas las intervenciones realizadas en ese vehículo, organizadas de manera cronológica.
+
+El usuario puede revisar esta línea de tiempo para obtener una visión general de las intervenciones. Al hacer clic en una intervención específica, se accede a una vista detallada de la intervención, que incluye la modalidad, la fecha programada, los mecánicos asignados, y una descripción del trabajo realizado. Si la intervención ya está finalizada, se muestra con el estado correspondiente en el encabezado. Además, en esta sección, se puede visualizar la secuencia de tareas asignadas y completadas durante la intervención, permitiendo al usuario ver el progreso o el resultado final del trabajo realizado en su vehículo.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/22.1png" width="1000px">
+</div>
+
+#### User goal: : Acceder a información de dispositivo IoT.
+User persona: Dueño de taller
+
+Explicación del flujo: Al seleccionar un cliente específico, se despliega la información personal del cliente, incluyendo los vehículos que tiene asociados. El usuario, dueño de taller, selecciona uno de los vehículos registrados para acceder a su información detallada. Una vez seleccionado el vehículo, el dueño del taller accede a una interfaz donde puede ver el registro de actividades o elegir la opción de "Información IoT". Esta última pestaña despliega todos los datos capturados por el dispositivo IoT instalado en el vehículo, proporcionando información detallada sobre los diferentes componentes del auto, su estado actual, y cualquier código de falla detectado. Esta información se presenta de manera clara y organizada, permitiendo que el dueño del taller tenga una visión rápida del estado del vehículo sin necesidad de realizar inspecciones manuales.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/23.1.png" width="1000px">
+</div>
+
+#### User goal: Agendar cita
+User persona: Cliente de taller
+
+Explicación del flujo: El flujo comienza cuando el usuario accede a la pantalla de "Intervenciones" en la cual se muestra una lista de las intervenciones actuales, organizadas en categorías como pendientes, en progreso, y terminadas. Para agendar una nueva intervención, el usuario hace clic en el botón "Agendar intervención". Esto abre un formulario donde el usuario puede ingresar los datos requeridos, como el número de documento del cliente, la placa del vehículo, la modalidad de intervención, la fecha, el mecánico líder asignado, y una descripción opcional. Una vez que el formulario está completo, el usuario hace clic en "Agendar" para confirmar la cita. Si los campos ingresados son correctos, se registra la intervención y se muestra un mensaje de éxito indicando que la cita fue agendada con éxito. Finalmente, la nueva intervención se añade automáticamente a la lista de intervenciones en la pantalla principal. 
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/24.1.png" width="1000px">
+</div>
+
+
+#### User Goal: Visualizar intervenciones
+User Persona: Dueño de taller.
+
+Explicación del flujo: el dueño del taller accede a la sección "Intervenciones" desde el menú principal. Al cargar esta interfaz, se muestra una lista de todas las intervenciones registradas, con información relevante como el cliente, el auto, la modalidad del servicio, la fecha de registro, la fecha de intervención, y el estado de la misma (pendiente, en progreso, o terminada). El usuario puede utilizar la barra de búsqueda para filtrar intervenciones por palabras clave, lo que le permite encontrar intervenciones específicas más rápidamente. También tiene la opción de filtrar por estado de la intervención utilizando los botones de estado en la parte superior de la lista (pendientes, en progreso, terminadas, o todas). Si lo desea, puede ordenar las intervenciones al hacer clic en cualquiera de los campos de la tabla, como el nombre del cliente, el auto, o las fechas.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/8.png" width="1000px">
+</div>
+
+#### User Goal: Gestionar intervenciones
+User Persona: Dueño de taller.
+
+Explicación del flujo: el dueño del taller accede a la sección de "Intervenciones" desde el menú principal, donde puede visualizar todas las intervenciones registradas, ya sea pendientes, en progreso o terminadas. Al hacer clic en "Agendar intervención", se despliega un formulario para crear una nueva intervención. En este formulario, el dueño del taller debe completar información del cliente, como el número de documento, la placa del vehículo, la modalidad del servicio, la fecha de la intervención, el mecánico líder, y una descripción del servicio. Una vez completado el formulario y validada la información, el usuario puede hacer clic en "Agendar" para registrar la intervención. Esta nueva intervención aparecerá automáticamente en la lista con el estado "pendiente", facilitando la organización de las tareas y la asignación de responsabilidades a los mecánicos del taller. 
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/9.png" width="1000px">
+</div>
+
+#### User Goal: Visualizar detalles de intervención
+User Persona: Dueño de taller.
+Explicación del flujo: El flujo de "Visualizar detalles de intervención" comienza cuando el dueño de taller accede a la lista de intervenciones pendientes, en progreso o terminadas. Al hacer clic en una intervención específica, se despliega una vista detallada que contiene dos pestañas principales: "Información general" y "Resumen de intervención." En la pestaña "Información general," el dueño de taller puede ver todos los datos clave de la intervención, tales como el cliente asociado, la placa del vehículo, la marca y modelo del auto, la modalidad del servicio (por ejemplo, reparación o mantenimiento), la fecha programada y el mecánico líder a cargo. Además, puede agregar observaciones opcionales relacionadas con la intervención en curso. En la pestaña "Resumen de intervención," se presenta un desglose de las tareas asignadas al equipo de mecánicos. El dueño de taller puede revisar el tipo de intervención y las observaciones relevantes del trabajo, así como una lista detallada de las tareas completadas y pendientes. Cada tarea está etiquetada con el nombre del mecánico asignado y el estado correspondiente (completado o pendiente), lo que permite una supervisión efectiva del progreso.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/10.png" width="1000px">
+</div>
+
+### User Goal: Gestionar solicitudes de inventario
+User persona: dueño de taller
+Explicación del flujo: En el flujo de gestión de solicitudes de inventario, el dueño del taller accede a la sección de "Inventario" desde el menú lateral, donde puede visualizar dos pestañas principales: "Existencias" y "Solicitudes". Al entrar en la pestaña de "Solicitudes", el dueño del taller visualiza todas las solicitudes realizadas por los mecánicos, mostrando información clave como el nombre de la parte solicitada, la cantidad requerida, el nombre del mecánico solicitante, y la fecha de solicitud. El dueño puede seleccionar una o más solicitudes pendientes para resolverlas. Al hacer clic en el botón de "Resolver solicitudes", que es una checkbox, y a posterior se presiona el icono representativo de "Guardar", las solicitudes seleccionadas desaparecen de la lista y se notifica a los mecánicos correspondientes que las piezas solicitadas han sido aprobadas o resueltas. El flujo también permite ordenar las solicitudes por diferentes criterios, como nombre de la pieza o cantidad solicitada, facilitando la gestión eficiente del inventario y asegurando que el taller cuente con los repuestos necesarios para las intervenciones pendientes.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/11.png" width="1000px">
+</div>
+
+#### User goal: Obtener métricas de rendimiento.
+User Persona: Dueño de taller.
+
+Explicación del flujo: Comienza en la interfaz de métricas, a la cual el usuario accede desde el menú principal. En esta pantalla, el dueño de taller puede visualizar gráficos con datos clave que muestran el rendimiento de su negocio. El primer gráfico presenta el número de intervenciones por día, permitiendo al usuario identificar los días más ocupados en el taller y, por lo tanto, optimizar la distribución de recursos. Al seleccionar diferentes opciones en el menú desplegable, el dueño puede cambiar la visualización a intervenciones por mes, lo que proporciona una visión a largo plazo del rendimiento del taller. Finalmente, el usuario también puede consultar gráficos de distribución porcentual de vehículos por marca, lo que le permite analizar las marcas de vehículos que más frecuentemente son atendidas.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/13.png" width="1000px">
+</div>
+
+#### User goal: Recibir notificaciones
+User Persona: Dueño de taller, mecánico, cliente de taller
+
+Explicación del flujo: En el flujo de recibir notificaciones, el usuario accede a la sección de "Notificaciones" desde el menú lateral. Al cargar la interfaz, se muestran todas las notificaciones que ha recibido, con información relevante como la fecha, la hora, el evento relacionado y un vínculo que lo lleva a la sección correspondiente. Las notificaciones están dispuestas en tarjetas individuales, organizadas en una lista vertical, lo que facilita la visualización cronológica de los eventos importantes. Si el usuario desea obtener más detalles sobre una notificación, puede hacer clic en el vínculo de "Ve a la sección", lo que lo redirige a la interfaz correspondiente dentro de la aplicación, permitiéndole tomar acciones o revisar información relacionada con la notificación recibida.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/14.png" width="1000px">
+</div>
+
 ### 4.4.3. Web Applications Mock-ups
 
 ### 4.4.4. Web Applications User Flow Diagrams
