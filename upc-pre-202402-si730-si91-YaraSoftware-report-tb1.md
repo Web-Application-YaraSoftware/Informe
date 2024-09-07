@@ -1851,8 +1851,18 @@ Explicación del flujo: El flujo para agendar una cita como cliente de taller co
 Esta sección presenta una visión general de la arquitectura basada en DDD, desglosada en diferentes niveles de detalle que van desde el contexto general del sistema hasta los componentes más específicos que lo constituyen.
 
 ### 4.6.1. Software Architecture Context Diagram
+Workshop N-GINE es un sistema centralizado para gestionar talleres automotrices. Interactúa con tres tipos de usuarios: el dueño del taller, quien gestiona el personal y clientes; los mecánicos, que supervisan y ejecutan tareas de reparación; y los clientes, que consultan el estado de sus vehículos. El sistema también se conecta con OBD IoT, que proporciona datos en tiempo real sobre los vehículos, y con Gmail para enviar notificaciones por correo electrónico. A continuación, presento el diagrama hecho en Structurizr:
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-SystemContext.png" width="1000px">
+</div>
 
 ### 4.6.2. Software Architecture Container Diagrams
+El Container Diagram de Workshop N-GINE muestra los principales contenedores que forman parte del sistema y sus interacciones. El sistema está compuesto por una aplicación de página única (SPA), una API RESTful, y una base de datos central. Estos componentes permiten a los dueños de taller, mecánicos, y clientes interactuar con el sistema. Los usuarios acceden al sistema a través de una Landing Page que redirige a la SPA, donde se gestionan las principales operaciones. El sistema también recibe información de OBD IoT para los diagnósticos de vehículos y se apoya en Gmail para enviar notificaciones por correo.A continuación, presento el diagrama hecho en Structurizr:
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-Container.png" width="1000px">
+</div>
 
 ### 4.6.3. Software Architecture Components Diagrams
 
