@@ -1399,6 +1399,13 @@ En esta pantalla se ofrece al dueño del taller la posibilidad de ajustar los de
   <img src="img/4/wireframes/personal-modal-editing.png" width="1000px">
 </div>
 
+#### Seccion personal vacía
+Cuando no hay personal registrado en el sistema, la pantalla mostrará un mensaje indicando la ausencia de personal. Se incluye un botón "Registrar" en el centro, que permite iniciar el proceso de incorporación del primer miembro del equipo de manera rápida
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-no-personal.png" width="1000px">
+</div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
