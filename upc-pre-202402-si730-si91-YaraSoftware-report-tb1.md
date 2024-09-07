@@ -1418,6 +1418,21 @@ En esta sección se permite al administrador registrar un nuevo cliente mediante
   <img src="img/4/wireframes/page-customers-modal-creation.png" width="1000px">
 </div>
 
+#### Información de clientes y vehículos
+
+La imagen muestra la vista de "Información de Clientes y Vehículos", donde el administrador puede ver los detalles personales del cliente junto con la información de sus vehículos registrados en el sistema. Este formato ofrece una visión integral, permitiendo al taller gestionar tanto la información del cliente como de los vehículos en un solo lugar, optimizando la fluidez de la información y la eficiencia en el servicio al cliente.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-info-customers.png" width="1000px">
+</div>
+
+#### Registro de nuevo vehículo
+
+El formulario para registrar un nuevo vehículo permite al administrador añadir vehículos a la cuenta del cliente de manera rápida y sencilla. Los campos a llenar incluyen la placa del vehículo, la marca y el modelo. Esto facilita la actualización continua de la base de datos vehicular del taller, mejorando la precisión y el control sobre los vehículos atendidos en el establecimiento.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-info-customers-modal-creation.png" width="1000px">
+</div>
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
