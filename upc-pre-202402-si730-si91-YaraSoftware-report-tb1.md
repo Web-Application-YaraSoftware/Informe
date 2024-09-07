@@ -1358,6 +1358,26 @@ En Yara Software nos preocupamos por que la navegación resulte lo más eficient
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+Enlace para acceder al [Figma](https://www.figma.com/design/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=138-1515&t=UuW8xHide0QWH0vh-1)
+
+### Web Application Wireframes para Desktop Web Browser
+
+#### Wireframes asociados al dueño del taller
+
+#### Iniciar sesión 
+La imagen muestra la pantalla de inicio de sesión para la aplicación Workshop N-GINE. En esta sección, los usuarios pueden ingresar sus credenciales, como correo electrónico y contraseña, para acceder al sistema. Además, ofrece una opción para crear una cuenta nueva en caso de no estar registrado, invitando a los nuevos usuarios a unirse con el mensaje "¡Hola, Amigo!" y un botón para comenzar el proceso de registro.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/iniciar-sesion.png" width="1000px">
+</div>
+
+#### Crear cuenta 
+Esta imagen muestra la pantalla de creación de cuenta en Workshop N-GINE. Aquí, los usuarios que desean registrarse pueden completar sus datos, como nombre, correo electrónico, contraseña, y nombre del taller, para poder empezar a utilizar la plataforma. El lado izquierdo de la pantalla da la bienvenida a los usuarios recurrentes con el mensaje "¡Bienvenido de nuevo!" y proporciona la opción de iniciar sesión si ya tienen una cuenta creada.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/crear-cuenta.png" width="1000px">
+</div>
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
