@@ -1512,6 +1512,38 @@ La pantalla de "Notificaciones" muestra las alertas importantes para el administ
   <img src="img/4/wireframes/page-notificaciones.png" width="1000px">
 </div>
 
+#### Wireframes asociados a los mecánicos
+
+#### Mis tareas
+La sección Mis Tareas está diseñada para que los usuarios tengan un seguimiento detallado de las intervenciones asignadas. A través de una lista organizada, se muestra información clave como el cliente, el vehículo, la modalidad de reparación, el tipo de tarea asignada, y su estado actual.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/my-tasks.png" width="1000px"> </div>
+
+#### Primera etapa de una intervención como lider
+La primera etapa se enfoca en la recopilación de la información general del vehículo y el cliente, junto con un diagnóstico detallado proporcionado por el sistema IoT. En esta vista, se presentan los componentes del vehículo que muestran fallas, así como su estado y los códigos de falla registrados. Esta información es crucial para definir los próximos pasos en el proceso de intervención.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/information-step.png" width="1000px"> </div>
+
+#### Segunda etapa de una intervención como lider
+En esta fase, Diagnóstico y preparación, los mecánicos asignados pueden visualizar y distribuir las tareas necesarias para completar la intervención. También se muestra el diagnóstico del vehículo, donde se identifica el tipo de reparación necesario y se pueden añadir observaciones específicas. Los mecánicos pueden gestionar las tareas distribuidas a cada uno para asegurar un control preciso del trabajo.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/diagnostic-prepa.png" width="1000px"> </div>
+
+#### Tercera etapa, Ejecución
+En la fase de Ejecución, el progreso de las tareas asignadas se puede revisar de manera estructurada. Los mecánicos pueden agregar puntos de control para marcar las tareas finalizadas, así como solicitar repuestos específicos para completar la intervención.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/execution.png" width="1000px"> </div>
+
+#### Cuarta etapa - supervisión
+En la fase final de Supervisión, se realiza un seguimiento del estado de todas las tareas completadas y pendientes. El jefe de taller o mecánico líder puede verificar que todas las intervenciones se hayan realizado de manera correcta y según lo planeado. Además, se muestra un resumen del tiempo total avanzado, lo que permite una evaluación de la eficiencia en el proceso de reparación.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/supervisor.png" width="1000px"> </div>
+
+#### Notificaciones
+La sección Notificaciones ofrece un resumen rápido de las actualizaciones importantes para el equipo de trabajo. Desde recordatorios sobre intervenciones hasta cambios en las tareas asignadas, los mecánicos y gestores pueden mantenerse informados de cualquier evento relevante. Cada notificación está organizada por fecha y hora para garantizar un flujo de trabajo ágil.
+
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/notifications.png" width="1000px"> </div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
