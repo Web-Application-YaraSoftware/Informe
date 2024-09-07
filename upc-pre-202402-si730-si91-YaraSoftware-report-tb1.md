@@ -1353,7 +1353,135 @@ En Yara Software nos preocupamos por que la navegación resulte lo más eficient
 
 ### 4.3.1. Landing Page Wireframe
 
+#### Landing Page para Desktop Web Browser
+
+En primer lugar, se presenta la landing page vista desde un navegador web en escritorio. Esta página incluye secciones importantes para el usuario, donde se destacan los beneficios del producto, los planes de pago disponibles, así como la misión, visión y valores de la startup. Además, se incorpora un apartado que muestra las experiencias de los clientes con la aplicación y un formulario que permite a los usuarios enviar cualquier consulta especifica.
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Header.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Know-more.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Benefits.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Testimonials.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/About-us.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Plans.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Contact-form.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Footer.png" width="1000px">
+</div>
+
+#### Landing Page para Mobile Web Browser
+
+Se presenta ahora la versión de la landing page optimizada para navegadores móviles. Esta mantiene los mismos contenidos que la versión de escritorio, pero adaptados a las proporciones de los dispositivos móviles. Contar con una landing page responsiva es fundamental, ya que facilita a los usuarios el acceso a la misma información sin dificultades, sin importar el dispositivo desde el cual ingresen.
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/mobile/1.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/mobile/2.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/mobile/3.png" width="1000px">
+</div>
+
 ### 4.3.2. Landing Page Mock-up
+
+#### Landing Page para Desktop Web Browser
+
+El wireframe de la landing page para la vista en navegador de escritorio fue útil para estructurar la disposición de los elementos. Con este esquema en mano, se desarrolló el mock-up de la página, manteniendo los mismos contenidos previamente descritos. En la siguiente imagen se puede observar cómo se aplicaron la paleta de colores primarios y secundarios, así como la tipografía previamente definida.
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Header.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Know-more.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Benefits.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Testimonials.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/About-us.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Plans.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Contact-form.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Footer.png" width="1000px">
+</div>
+
+
+#### Landing Page para Mobile Web Browser
+
+
+La versión mock-up de la landing page para navegadores móviles incorpora los mismos elementos descritos anteriormente. Se observa que el contraste de colores entre el fondo y el texto, junto con la tipografía elegida, garantiza una lectura fácil y comprensible tanto en dispositivos móviles como en escritorio.
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/mobile/1.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/mobile/2.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/mobile/3.png" width="1000px">
+</div>
 
 ## 4.4. Web Applications UX/UI Design
 
