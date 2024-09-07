@@ -1432,6 +1432,43 @@ El formulario para registrar un nuevo vehículo permite al administrador añadir
   <img src="img/4/wireframes/page-info-customers-modal-creation.png" width="1000px">
 </div>
 
+#### Registro de actividades del vehículo
+
+La interfaz de "Registro de Actividades" muestra un resumen visual de las intervenciones o reparaciones realizadas en un vehículo a lo largo del tiempo. Cada intervención incluye su estado, la fecha de realización y un enlace para ver más detalles. Este registro ayuda al taller y al cliente a realizar un seguimiento claro y ordenado del historial de mantenimiento del vehículo, mejorando la transparencia y el servicio brindado.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-customers-car-registro-actividades.png" width="1000px">
+</div>
+
+#### Información general de intervención
+Esta pantalla presenta la sección de "Información General de Intervención", donde el administrador del taller puede visualizar y gestionar los detalles clave de una intervención en curso. Los campos incluyen la modalidad del servicio (reparación o mantenimiento), la fecha programada, el mecánico líder asignado y una descripción opcional. Además, el estado de la intervención se muestra claramente en la parte superior derecha, permitiendo al administrador controlar el progreso o la finalización del servicio. Esta vista es esencial para llevar un seguimiento preciso y efectivo de los trabajos realizados en el taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/page-tasks2.png" width="1000px"> </div>
+
+#### Resumen de intervención
+La pantalla "Resumen de Intervención" permite ver el tipo de intervención realizada, junto con un campo de observaciones opcional para anotar detalles adicionales. Además, se presenta una lista de tareas relacionadas con la intervención, cada una con su respectivo estado para facilitar el control de avance. Esta vista está diseñada para que el administrador pueda tener una visión clara y detallada de todo el trabajo realizado en el vehículo, asegurando una correcta trazabilidad de las reparaciones y mantenimientos.<br>
+
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/page-tasks1.png" width="1000px"> </div>
+
+#### Información IoT del vehículo
+
+La sección de "Información IoT" permite al administrador y al cliente visualizar el estado técnico de los componentes del vehículo en tiempo real. Cada parte se clasifica según su estado y, en caso de fallos, se proporciona el código de error. Esta funcionalidad permite una gestión más proactiva y preventiva, ofreciendo datos actualizados que pueden ayudar a anticipar problemas mecánicos y mejorar el mantenimiento preventivo del automóvil.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/iot-info.png" width="1000px">
+</div>
+
+#### Intervención de vehículo
+
+La imagen refleja la interfaz de gestión de una intervención, donde el administrador puede ingresar los detalles generales de la reparación o servicio que se está llevando a cabo. Los campos incluyen la modalidad del servicio, fecha programada, mecánico encargado y una descripción opcional. Esta sección permite al taller gestionar de manera eficiente los servicios realizados, con la posibilidad de modificar y actualizar información sobre la marcha.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/intervention-to-vehicle.png" width="1000px">
+</div>
+
+#### Resumen de intervención
+
+En el resumen de intervención, se puede observar el tipo de trabajo realizado, las observaciones, y las tareas que componen la intervención mecánica. Este apartado brinda un resumen claro y detallado de cada intervención, lo que permite al personal del taller y al cliente visualizar fácilmente las tareas realizadas y el estado de cada una de ellas. Esta transparencia contribuye a un servicio más eficiente y comprensible para todas las partes involucradas.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/intervention-summary.png" width="1000px">
+</div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
