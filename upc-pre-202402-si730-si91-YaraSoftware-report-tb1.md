@@ -59,6 +59,11 @@
 | 3.2.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la segunda sección del Capítulo III: Requirements Specification |
 | 3.3.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la tercera sección del Capítulo III: Requirements Specification |
 | 3.4.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la última sección del Capítulo III: Requirements Specification |
+| 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
+| 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
+| 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
+| 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
+| 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
 
 <div style="page-break-after: always;"></div>
 
@@ -1011,8 +1016,6 @@ Para realizar esta sección de As-Is Scenario Mapping, en grupo, empatizamos ima
 ***Clientes de taller***
 
 <img src="img/2/3/5/Gonzalo_Mendoza.png">
-
-## 2.4. Ubiquitous Language
 
 ## 2.4. Ubiquitous Language
 
@@ -2142,11 +2145,58 @@ Para llevar un correcto orden del Product Backlog se utilizo la herramienta Pivo
 
 ### 5.1.1. Software Development Environment Configuration
 
+A continuación, se presenta las herramientas y productos de software para el desarrollo del producto. 
+
+| Nombre | Propósito | Ruta de referencia / Descarga |
+| ----------- | ----------- | ----------- |
+| Uxpresia | Elaboración de user personas, empathy maps, journey maps, impact maps | https://uxpressia.com/w/k4lMq |
+| Miro | As-Is To-Be Scenarios maps | https://miro.com/es/ | 
+| Figma | Elaboración de wireframes, mockups y prototipes | https://www.figma.com/ |
+| LucidChart | Elaboración de wireflows, user flows | https://www.lucidchart.com/ | 
+| Structurizer | Elaboracion de diagrama C4 | https://www.structurizr.com/ |
+| Draw.io | Elaboración de diagrama UML | https://app.diagrams.net/ |
+| Vertabelo | Diseño de bases de datos | https://vertabelo.com/ | 
+| SASS | Estilos en la landing page | https://sass-lang.com/ |
+| PrimeVue | Biblioteca de componentes de interfaz de usuario | https://primevue.org/ |
+| Pivotal Tracker | Control de proyectos | https://www.pivotaltracker.com/ |
+| Git | Control de versiones | https://git-scm.com/ | 
+
 ### 5.1.2. Source Code Management
+
+A fecha de hoy, finalizando el sprint 1, consideramos necesario tener dos repositorios en el proyecto. A continuación lo detallo:
+
+| Repositorio | Link | 
+| ----------- | ----------- |
+| Informe | https://github.com/Web-Application-YaraSoftware/Informe |
+| Landing page | https://github.com/Web-Application-YaraSoftware/Landing-page |
+
+Vamos a implementar Conventional Commits, Semantic Versioning y una nomenclatura estandarizada para las ramas. Sin embargo, en el repositorio del informe, las ramas seguirán el formato "chapter" seguido del número correspondiente.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+El Lenguaje de Marcado de Hipertexto (HTML) es esencial para estructurar y presentar contenido en páginas web, siendo común nombrar la página principal como index.html. Algunas convenciones clave que incluiremos en nuestro código:
+Usar elementos en minúsculas y cerrar todos los elementos para asegurar compatibilidad y legibilidad.
+Escribir comentarios breves y evitar líneas de código largas.
+Incluir el atributo lang y especificar detalles como alt, ancho y altura en imágenes para accesibilidad.
+CSS es el lenguaje para dar estilo a las páginas web. Convenciones que utilizaremos:
+Mantener una nomenclatura coherente para clases e identificadores, con una indentación consistente y agrupación de propiedades relacionadas.
+Evitar selectores excesivamente específicos y duplicación de reglas.
+Probar el código en varios navegadores y dispositivos.
+JavaScript agrega interactividad a las páginas web. Las prácticas que utilizaremos son:
+Nomenclatura coherente para variables y funciones, evitando variables globales.
+Manejar errores con bloques try-catch, optimizar el código para rendimiento, y probar en diversos navegadores.
+Gherkin es un lenguaje usado para describir escenarios de prueba de forma legible. Recomendaciones clave:
+Usar un lenguaje claro con una estructura coherente basada en palabras clave como Feature, Scenario, Given, When, y Then.
+Evitar la duplicación de pasos y colaborar con el equipo para mejorar los escenarios.
+
 ### 5.1.4. Software Deployment Configuration
+
+Netlify es una plataforma de alojamiento web y despliegue continuo que simplifica el lanzamiento de sitios web y aplicaciones estáticas. Funciona de la siguiente manera:
+Integración con repositorios Git: Se sincroniza con plataformas como GitHub, GitLab y Bitbucket. Cada vez que se actualiza el código en el repositorio, Netlify inicia automáticamente el proceso de construcción y despliegue.
+Proceso de construcción: Convierte el código (HTML, CSS, JavaScript) en un sitio estático, realizando tareas como la compilación de archivos y optimización de imágenes.
+Red CDN: Una vez construida, la aplicación es desplegada a través de su red de distribución de contenido (CDN) global, garantizando un rendimiento rápido y accesible.
+Vistas previas automáticas: Para cada rama de tu repositorio, genera vistas previas automáticas, facilitando la revisión de cambios antes de fusionarlos con la rama principal.
+Publicaciones automáticas: Configura despliegues automáticos para cada pull request o fusión, lo que garantiza que el sitio esté siempre actualizado con la última versión del código.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -2154,19 +2204,325 @@ Para llevar un correcto orden del Product Backlog se utilizo la herramienta Pivo
 
 #### 5.2.1.1. Sprint Planning 1
 
+<table>
+    <tr>
+        <th scope="row"><strong>Sprint #</strong></th>
+        <td>Sprint 1</td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+        <th scope="row">Date</th>
+        <td>2024/09/03</td>
+    </tr>
+    <tr>
+        <th scope="row">Time</th>
+        <td>21:00</td>
+    </tr>
+    <tr>
+        <th scope="row">Location</th>
+        <td>Videollamada grupal mediante la plataforma Discord</td>
+    </tr>
+    <tr>
+        <th scope="row">Prepared By</th>
+        <td>Álvaro Orozco Torres</td>
+    </tr>
+    <tr>
+        <th scope="row">Attendees (to planning meeting)</th>
+        <td> Álvaro Orozco Torres, Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 1 Goal</th>
+        <td>Nuestro foco se encuentra en crear e implementar una landing page atractiva para el producto. Creemos que entrega mayor visibilidad y facilidad de acceso a la información clave a potenciales clientes. Confirmaremos nuestra hipótesis cuando la landing page esté publica y los usuarios puedan interactuar con ella.</td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 1 Velocity</th>
+        <td>20</td>
+    </tr>
+</table>
+
 #### 5.2.1.2. Sprint Backlog 1
+
+El objetivo del sprint es crear una landing page atractiva e interactiva que permita al usuario familiarizarse con los valores que ofrece el producto. Además, busca principalmente incentivar al usuario a adquirir un plan de suscripción para aprovechar al máximo las funcionalidades disponibles.
+
+Durante todo el sprint 1 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+
+<img src="img/5/2/1/2/trello_board.png">
+
+A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint n</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td>SWR-01</td>
+    <td>Hero Section</td>
+    <td>WI-01</td>
+    <td>Diseño de hero section</td>
+    <td>Creación del diseño visual de la sección hero, incluyendo la elección de colores, tipografía, y disposición de los elementos.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-01</td>
+    <td>Hero Section</td>
+    <td>WI-02</td>
+    <td>Implementación de barra de navegación y menu</td>
+    <td>Desarrollo de la barra de navegación y el menú en la sección hero, asegurando que sea responsive y accesible.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-01</td>
+    <td>Hero Section</td>
+    <td>WI-03</td>
+    <td>Inserción de imagen de hero section</td>
+    <td>Inserción y optimización de la imagen principal en la sección hero, asegurando que se cargue rápidamente.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-02</td>
+    <td>About the product</td>
+    <td>WI-04</td>
+    <td>Diseño de sección about the product</td>
+    <td>Diseño visual de la sección que describe el producto, con un enfoque en la usabilidad y la claridad de la información.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-02</td>
+    <td>About the product</td>
+    <td>WI-05</td>
+    <td>Resumen de sección about the product</td>
+    <td>Elaboración de un resumen atractivo y conciso que describa las características principales del producto.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-02</td>
+    <td>About the product</td>
+    <td>WI-06</td>
+    <td>Imagen de about product</td>
+    <td>Inserción de imágenes relevantes que complementen la descripción del producto en la sección correspondiente.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-03</td>
+    <td>Beneficios</td>
+    <td>WI-07</td>
+    <td>Diseño de beneficios</td>
+    <td>Diseño visual de la sección que destaca los beneficios del producto, utilizando íconos y texto conciso.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-03</td>
+    <td>Beneficios</td>
+    <td>WI-08</td>
+    <td>Implementación de cards</td>
+    <td>Desarrollo e implementación de las cards en la sección de beneficios, asegurando interactividad y responsividad.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-04</td>
+    <td>Testimonios</td>
+    <td>WI-09</td>
+    <td>Diseño de testimonios</td>
+    <td>Creación del diseño visual de la sección de testimonios, enfocándose en la credibilidad y la estética.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-04</td>
+    <td>Testimonios</td>
+    <td>WI-11</td>
+    <td>Consumo de API</td>
+    <td>Integración de una API para obtener y mostrar testimonios en tiempo real en la sección correspondiente.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-04</td>
+    <td>Testimonios</td>
+    <td>WI-12</td>
+    <td>Animación de cards</td>
+    <td>Implementación de animaciones en las cards de testimonios para mejorar la interacción del usuario.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-05</td>
+    <td>About Us</td>
+    <td>WI-13</td>
+    <td>Diseño de about us</td>
+    <td>Creación del diseño visual para la sección de "About Us", incluyendo la historia y misión de la empresa.</td>
+    <td>2</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-05</td>
+    <td>About Us</td>
+    <td>WI-14</td>
+    <td>Animación de about us</td>
+    <td>Desarrollo de animaciones para mejorar la presentación de la sección "About Us".</td>
+    <td>3</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-06</td>
+    <td>Planes</td>
+    <td>WI-15</td>
+    <td>Diseño de planes</td>
+    <td>Diseño visual de la sección de planes, presentando las opciones de suscripción o compra del producto.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-06</td>
+    <td>Planes</td>
+    <td>WI-16</td>
+    <td>Implementación de cards</td>
+    <td>Desarrollo e implementación de las cards en la sección de planes, asegurando interactividad y responsividad.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-07</td>
+    <td>Formulario</td>
+    <td>WI-17</td>
+    <td>Diseño de formulario de contacto</td>
+    <td>Creación del diseño visual para el formulario de contacto, asegurando que sea claro y fácil de usar.</td>
+    <td>2</td>
+    <td>Álvaro Orozco Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-07</td>
+    <td>Formulario</td>
+    <td>WI-18</td>
+    <td>Implementación de formulario</td>
+    <td>Desarrollo e integración del formulario de contacto, incluyendo validación y envío de datos.</td>
+    <td>2</td>
+    <td>Álvaro Orozco Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-08</td>
+    <td>Footer</td>
+    <td>WI-19</td>
+    <td>Diseño de footer</td>
+    <td>Diseño visual del pie de página (footer), incluyendo enlaces a secciones relevantes y redes sociales.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-08</td>
+    <td>Footer</td>
+    <td>WI-20</td>
+    <td>Implementación de footer</td>
+    <td>Desarrollo del pie de página, asegurando que sea responsive y accesible.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
+| Branch | Id Commit | Cabecera | Cuerpo |
+| ----------- | ----------- | ----------- | ----------- | 
+| feature/about-us | 128a66acba46cbac4c3aa11ed9568f212cd685d3  | feat: add styles for about us section with responsive layout and flip card animation | Added responsive layout for "About Us" section Implemented flip card animation for mission, vision, and values Styled text and image alignment, ensuring responsiveness across devices |
+| feature/benefits | fe52f40f297a8783b9fa82ee24aa699aaa18ece0 |  feat: add responsive styles for our-benefits section | Style benefits section with a flexbox layout and responsive grid for medium screens. Extend styles from know-more section for titles and subtitles. Apply responsive behavior to benefit cards, images, and descriptions. Ensure proper alignment and spacing across different screen sizes.|
+| feature/footer | ... | ... | ... |
+| feature/home | 9826c22dd9928e1a07f5ebd7c7e1e886c6cba05c | feat: add resize handler for resetting navbar position and rename menu click functionality  | ... |
+| feature/know-more | 3c7cbddb5bc93546e1a3ae2a52838a77f38ef144 | feat: add responsive styles for know-more section | Apply flexbox layout for smaller screens and grid layout for medium screens and above. Style know-more header, title, subtitle, image, and content. Adjust alignment, gaps, and text alignment for responsiveness. Ensure proper sizing and positioning of elements across breakpoints |
+| feature/plans | 5cf0c538f9338bc35b0e434764c593278ba2f2d8 | ... | ... |
+| feature/testimonials | 0044b6c2d2439339974479a2781ae1f9f91b6d2b | feat: add automatic movement functionality for testimonials carousel | ... |
+| feature/contact-form | 49e3bf92baa6bf089ae2d7bc0caadf20d47cfe83 | feat: add styles for contact form section | Added responsive styles for the contact form section.Included layout adjustments for title, subtitle, input fields, and submit button.Applied background color, padding, and form styling for better user experience. |
+
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+En el desarrollo del sprint 1 se logró desplegar las funcionalidades descritas para la landing page al inicio del sprint,salvo la Internacionalización, la cual quedo incompleta. A continuación, algunas evidencias:
+
+El desarrollo de la Hero Section con una imagen imponente y llamativa para el usuario.
+<img src="img/5/2/1/4/hero.png">
+
+
+La sección About Us que describe nuestra empresa, nuestros valores y visión.
+<img src="img/5/2/1/4/about_us.png">
+
+La sección de planes, centrada en ser atractiva para el usuario.
+<img src="img/5/2/1/4/plans.png">
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Para este primer sprint no fue contemplada la evidencia de documentación de los servicios.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Para la entrega del Sprint número 1, se desplego al completo landing page, salvo la Internacionalización que quedo incompleta, la cual se pasará a detallar a continuación: 
+
+<img src="img/5/2/1/7/1.png">
+<img src="img/5/2/1/7/2.png">
+<img src="img/5/2/1/7/3.png">
+<img src="img/5/2/1/7/4.png">
+<img src="img/5/2/1/7/5.png">
+<img src="img/5/2/1/7/6.png">
+
+Enlace para acceder a la landing page: https://workshop-n-gine-landing-page.netlify.app/#home 
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+| Alumno | Actividad |
+| ----------- | ----------- | 
+| Jhosepmyr Gutiérrez Soto | Implementación de Hero Section, About the Product, Testimonios e Internacionalización |
+| Eric Hernandez Tuiro | Implementación del Footer |
+| Álvaro Orozco Torres | Implementación del Formulario de Contacto |
+| Henry Reaño Delgadillo | Implementación de Planes |
+| Elmer Riva Rodriguez | Implementación de Beneficios y About Us |
+
+<img src="img/5/2/1/8/insights.png">
 
 ## 5.3. Validation Interviews
 
