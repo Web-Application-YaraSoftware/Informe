@@ -1573,6 +1573,92 @@ El historial de intervenciones permite al usuario revisar el estado de cada tare
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+Enlace para acceder al [Lucid Chart](https://lucid.app/lucidchart/fb26e9b9-b73b-458c-a066-ce7342dd4275/edit?viewport_loc=-22784%2C-3867%2C43177%2C23208%2C0_0&invitationId=inv_2df26de4-6d0c-46fb-9c95-77201218901e)
+
+#### User goal: Registro de cuenta
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo de registro de cuenta en WorkShop N-GINE comienza con una pantalla de bienvenida que solicita al dueño del taller iniciar sesión o, si no tiene una cuenta, registrarse. Al presionar el botón "Crear cuenta", el usuario es redirigido a un formulario donde ingresa su nombre, correo electrónico y contraseña. Tras completar estos datos y hacer clic en "Crear", el usuario es llevado al panel principal de la aplicación, donde puede acceder a secciones clave como Personal, Clientes, Intervenciones, Mis Tareas, Inventario, Métricas y Notificaciones. La primera vista disponible es la sección de Personal vacia.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/1.png" width="1000px">
+</div>
+
+#### User goal: Acceder a la cuenta
+User persona: Dueño de taller, cliente de taller,  mecánico
+
+Explicación del flujo: El flujo de acceso a la cuenta en WorkShop N-GINE comienza en la pantalla de Inicio de sesión, donde el usuario (dueño de taller, mecánico o cliente) ingresa su correo electrónico y contraseña. Si ya tiene una cuenta, hace clic en Iniciar sesión. En caso contrario, puede elegir crear una nueva cuenta mediante el botón de registro. Una vez que el usuario accede, el sistema pregunta cuál es su rol (dueño, mecánico o cliente), lo que determina las funcionalidades a las que podrá acceder. Si es dueño del taller, el usuario es redirigido al panel de Personal, donde puede gestionar el equipo de trabajo. Si es mecánico o cliente, el flujo lo dirige a la sección correspondiente, como la gestión de Vehículos o las Obligaciones del taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/2.png" width="1000px">
+</div>
+
+#### Registrar personal
+User persona: Dueño de taller
+
+Explicación del flujo: Para registrar personal en el sistema, el dueño del taller accede a la sección de "Personal" desde el menú principal. Si no hay personal registrado, se muestra un botón de "Registrar" en el centro de la pantalla. Si ya existen registros, el usuario puede agregar un nuevo miembro del personal haciendo clic en el botón "Nuevo mecánico", ubicado en la esquina superior derecha de la ventana de "Personal". Al hacer clic, se despliega un formulario emergente que solicita información relevante del nuevo empleado, como nombre, apellidos, tipo y número de documento, edad y ubicación. Una vez que se completan todos los campos requeridos, el dueño del taller selecciona el botón "Crear". El nuevo miembro del personal queda registrado y aparece en la lista de empleados.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/3.1.png" width="1000px">
+</div>
+
+#### Registrar cliente
+User persona: Dueño de taller
+
+Explicación del flujo: Para registrar a un cliente en el sistema, el dueño de taller inicia el flujo desde la ventana de "Clientes" dentro del sistema. Desde esta vista, el usuario puede visualizar una lista de los clientes existentes, con información como nombre completo, número de documento y correo electrónico. Para agregar un nuevo cliente, el dueño de taller selecciona el botón "Nuevo cliente" en la esquina superior derecha de la pantalla. Al hacer clic en este botón, se despliega un formulario emergente donde el usuario debe ingresar los datos del nuevo cliente, como nombre, apellidos, tipo de documento, número de documento, edad y ubicación. Una vez completados todos los campos requeridos, el usuario hace clic en el botón "Crear". El nuevo cliente queda registrado en el sistema y su información se refleja en la lista principal de clientes
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/3.2.png" width="1000px">
+</div>
+
+#### User Goal: Registrar vehículos de clientes.
+User Persona: Dueño de taller.
+
+Explicación del flujo: El flujo comienza cuando el dueño del taller accede a la interfaz de Clientes y selecciona un cliente específico para visualizar o actualizar la información de sus vehículos. Dentro del perfil del cliente, hay una sección donde se listan los vehículos asociados a dicho cliente, mostrando información relevante como marca, modelo, placa y estado del vehículo.
+
+Para registrar un nuevo vehículo, el dueño del taller hace clic en el botón "Agregar vehículo". Esto despliega un formulario que solicita información como la marca, el modelo, el número de placa, año de fabricación, y cualquier otra información relevante. Una vez que se ha completado el formulario correctamente, el dueño del taller hace clic en "Registrar". El sistema valida la información y, si es correcta, el vehículo se asocia automáticamente al cliente correspondiente y aparece en la lista de vehículos registrados. El formulario se cierra, y el dueño del taller puede visualizar el nuevo vehículo en el perfil del cliente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/21.1.png" width="1000px">
+</div>
+
+
+#### Visualizar la lista de empleados
+User persona: Dueño de taller
+
+Explicación del flujo: Para visualizar la lista de empleados, el dueño del taller accede a la sección de "Personal" desde el menú principal, ubicado en el lateral izquierdo de la pantalla. Al ingresar a esta sección, se despliega una vista general que muestra todas las tarjetas de los empleados registrados, organizadas en formato de cuadrícula. Cada tarjeta contiene la información básica del empleado, como su nombre. En la parte superior, el dueño del taller cuenta con un campo de búsqueda que le permite filtrar la lista de empleados por palabras clave, facilitando la localización rápida de un empleado específico.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/4.png" width="1000px">
+</div>
+
+#### Manejar información de empleados
+User persona: Dueño de taller
+
+Explicación del flujo: el dueño del taller accede a la sección de "Personal" desde el menú principal. En esta pantalla se despliegan las tarjetas de los empleados registrados. Al seleccionar una tarjeta de empleado, se abre un formulario emergente con la información completa del empleado, incluyendo campos como nombre, apellidos, tipo de documento, número de documento, edad y ubicación. El dueño del taller puede editar los datos y luego elegir entre dos opciones: actualizar la información del empleado o eliminarlo del sistema.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/5.png" width="1000px">
+</div>
+
+#### Visualizar lista de clientes.
+User persona: dueño de taller
+
+Explicación del flujo: el dueño del taller accede a la sección de "Clientes" desde el menú principal. En esta pantalla se muestra una tabla que incluye información relevante de cada cliente, como su nombre completo, número de documento y correo electrónico. El dueño del taller puede ordenar y filtrar la información utilizando la barra de búsqueda o las flechas desplegables en los encabezados de las columnas. Esto facilita la gestión y consulta rápida de los datos de los clientes registrados en el sistema
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/6.png" width="1000px">
+</div>
+
+#### User Goal: Manejar información de clientes.
+User Persona: Dueño de taller.
+
+Explicación del flujo: el dueño del taller accede a la sección "Clientes" desde el menú principal. Una vez en esta vista, selecciona un cliente de la lista, lo que le redirige a una nueva pantalla donde se muestran los detalles completos del cliente seleccionado, incluyendo nombre, apellidos, tipo de documento, número de documento, correo electrónico, edad y ubicación. En esta vista, el dueño del taller tiene la opción de guardar los datos modificados del cliente. Además, se muestra una sección donde puede visualizar los vehículos asociados al cliente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/7.png" width="1000px">
+</div>
+
 ### 4.4.3. Web Applications Mock-ups
 
 ### 4.4.4. Web Applications User Flow Diagrams
