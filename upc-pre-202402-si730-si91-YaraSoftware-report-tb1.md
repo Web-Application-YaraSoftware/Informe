@@ -1865,6 +1865,11 @@ El Container Diagram de Workshop N-GINE muestra los principales contenedores que
 </div>
 
 ### 4.6.3. Software Architecture Components Diagrams
+El Component Diagram de Workshop N-GINE desglosa los componentes principales que forman parte de la arquitectura del sistema, específicamente dentro de la API RESTful. Cada controlador maneja una parte del dominio del taller, como usuarios, vehículos, solicitudes, inventario, intervenciones, tareas y notificaciones. Los servicios asociados contienen la lógica de negocio para cada área, mientras que los repositorios se encargan de las operaciones CRUD con la base de datos. Además, el sistema interactúa con servicios externos, como el cliente API para obtener información de vehículos externos y el sistema OBD IoT para recibir diagnósticos en tiempo real.A continuación, presento el diagrama hecho en Structurizr:
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-Component.png" width="1000px">
+</div>
 
 ## 4.7. Software Object-Oriented Design
 
