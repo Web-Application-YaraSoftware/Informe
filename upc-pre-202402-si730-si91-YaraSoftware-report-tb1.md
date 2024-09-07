@@ -59,7 +59,7 @@
 | 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
 | 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
 | 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
-
+| 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 | 
 
 <div style="page-break-after: always;"></div>
 
@@ -1451,15 +1451,61 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
+| Branch | Id Commit | Cabecera | Cuerpo |
+| ----------- | ----------- | ----------- | ----------- | 
+| feature/about-us | 128a66acba46cbac4c3aa11ed9568f212cd685d3  | feat: add styles for about us section with responsive layout and flip card animation | Added responsive layout for "About Us" section Implemented flip card animation for mission, vision, and values Styled text and image alignment, ensuring responsiveness across devices |
+| feature/benefits | fe52f40f297a8783b9fa82ee24aa699aaa18ece0 |  feat: add responsive styles for our-benefits section | Style benefits section with a flexbox layout and responsive grid for medium screens. Extend styles from know-more section for titles and subtitles. Apply responsive behavior to benefit cards, images, and descriptions. Ensure proper alignment and spacing across different screen sizes.|
+| feature/footer | ... | ... | ... |
+| feature/home | 9826c22dd9928e1a07f5ebd7c7e1e886c6cba05c | feat: add resize handler for resetting navbar position and rename menu click functionality  | ... |
+| feature/know-more | 3c7cbddb5bc93546e1a3ae2a52838a77f38ef144 | feat: add responsive styles for know-more section | Apply flexbox layout for smaller screens and grid layout for medium screens and above. Style know-more header, title, subtitle, image, and content. Adjust alignment, gaps, and text alignment for responsiveness. Ensure proper sizing and positioning of elements across breakpoints |
+| feature/plans | 5cf0c538f9338bc35b0e434764c593278ba2f2d8 | ... | ... |
+| feature/testimonials | 0044b6c2d2439339974479a2781ae1f9f91b6d2b | feat: add automatic movement functionality for testimonials carousel | ... |
+| feature/contact-form | 49e3bf92baa6bf089ae2d7bc0caadf20d47cfe83 | feat: add styles for contact form section | Added responsive styles for the contact form section.Included layout adjustments for title, subtitle, input fields, and submit button.Applied background color, padding, and form styling for better user experience. |
+
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+En el desarrollo del sprint 1 se logró desplegar las funcionalidades descritas para la landing page al inicio del sprint,salvo la Internacionalización, la cual quedo incompleta. A continuación, algunas evidencias:
+
+El desarrollo de la Hero Section con una imagen imponente y llamativa para el usuario.
+<img src="img/5/2/1/4/hero.png">
+
+
+La sección About Us que describe nuestra empresa, nuestros valores y visión.
+<img src="img/5/2/1/4/about_us.png">
+
+La sección de planes, centrada en ser atractiva para el usuario.
+<img src="img/5/2/1/4/plans.png">
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Para este primer sprint no fue contemplada la evidencia de documentación de los servicios.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Para la entrega del Sprint número 1, se desplego al completo landing page, salvo la Internacionalización que quedo incompleta, la cual se pasará a detallar a continuación: 
+
+<img src="img/5/2/1/7/1.png">
+<img src="img/5/2/1/7/2.png">
+<img src="img/5/2/1/7/3.png">
+<img src="img/5/2/1/7/4.png">
+<img src="img/5/2/1/7/5.png">
+<img src="img/5/2/1/7/6.png">
+
+Enlace para acceder a la landing page: https://workshop-n-gine-landing-page.netlify.app/#home 
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+| Alumno | Actividad |
+| ----------- | ----------- | 
+| Jhosepmyr Gutiérrez Soto | Implementación de Hero Section, About the Product, Testimonios e Internacionalización |
+| Eric Hernandez Tuiro | Implementación del Footer |
+| Álvaro Orozco Torres | Implementación del Formulario de Contacto |
+| Henry Reaño Delgadillo | Implementación de Planes |
+| Elmer Riva Rodriguez | Implementación de Beneficios y About Us |
+
+<img src="img/5/2/1/8/insights.png">
 
 ## 5.3. Validation Interviews
 
