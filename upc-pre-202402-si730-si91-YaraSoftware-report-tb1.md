@@ -69,6 +69,10 @@
 
 # Project Collaboration Insights
 
+Para esta entrega, Elmer y Eric se encargaron de el diseño de apicación. Henry y Álvaro estuvieron a cargo de el diseño técnico y especificación de requisitos, mientras que Jhosepmyr estuvo a cargo principalmente de la implementación de landing page.
+
+<img src="img/Insight/TB1.png">
+
 <div style="page-break-after: always;"></div>
 
 # Contenido
@@ -254,8 +258,8 @@
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
 | - | - | - |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | Jhosepmyr: <br> Eric: <br> Álvaro: <br> Henry: <br> Elmer: <br> | [Redaccion] |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Jhosepmyr: <br> Eric: <br> Álvaro: <br> Henry: <br> Elmer: <br> | [Redaccion] |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | Jhosepmyr:<br>TB1: Durante este entregable, enfrenté dificultades, mis compañeros estuvieron a mi lado, lo que fortaleció nuestra colaboración y nos permitió avanzar como un equipo unido. <br>TB1: <br> Eric: <brTB1: En este primer entregable participé en todas las reuniones de trabajo y aporté ideas y participé en los debates importantes. Me sentí una pieza importante del equipo al mismo tiempo que consideré que todos los demás lo fueron por igual.  <br> Álvaro: <br>TB1: Considero que he aplicado el liderazgo conjunto a través del diálogo y la polémica. Discutir perspectivas y propuestas es importante para la toma de decisiones, que es una de las responsabilidades que asumen los líderes. <br> Henry: <br>TB1: En este entregable el trabajo en equipo me sentí una pieza clave del equipo, en momentos donde hay inconvenientes o problemas estuve ahí para apoyar a mis compañeros, así como ellos me apoyaron a mi a lo largo de estas semanas. <br> Elmer: <br>TB1: En este primer entregable, trabajé en equipo asumiendo un liderazgo conjunto con mis compañeros. Colaboramos activamente en la toma de decisiones clave, como los flujos de usuario y la arquitectura de la información. Además, distribuimos las responsabilidades de forma equitativa, lo que nos permitió compartir el liderazgo y aprovechar las fortalezas de cada uno para cumplir con los objetivos del proyecto de manera eficiente.<br> | [Redaccion] |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Jhosepmyr:<br>TB1: Aunque el proceso no estuvo exento de desafíos, considero que logramos mantener un ambiente de cooperación y trabajo en equipo. Al principio, tuvimos algunos problemas para organizar nuestras tareas, pero estableciendo objetivos claros y dividiendo responsabilidades, pudimos mejorar nuestra coordinación y cumplir con nuestras metas de manera efectiva. <br> Eric: <br>TB1: Para ayudar a crear un entorno colaborativo saludable trabajé en un entorno colaborativo con los demás miembros del equipo al mismo tiempo que mantuve puntualidad en el cumplimiento de las tareas del trabajo.<br> Álvaro: <br>TB1: Hemos tenido un entorno de cooperación constante, en que todos hemos sido bienvenidos y hemos aportado nuestra cuota de contribución. Mediante estas aportaciones, hemos logrado desarrollar y cumplir una serie de actividades que planificamos previamente. <br> Henry: <br>TB1: A pesar de los problemas que pasamos en el transcurso de este entregable, siento que pudimos, como equipo, mantenernos unidos y cooperativos unos con otros. Al inicio nos costo mantener la constancia pero poco a poco mediante metas que nos propusimos en el equipo logramos el objetivo. <br> Elmer: <br>TB1: En este primer entregable, creé un entorno colaborativo e inclusivo, donde todos los miembros del equipo pudieron participar activamente. Establecimos metas claras desde el principio, como definir los flujos de usuario y la estructura de la UI. Planificamos las tareas de manera organizada, asignando responsabilidades específicas. Por ejemplo, coordinamos el desarrollo de los prototipos interactivos y la revisión conjunta de los User Flow Diagrams, lo que nos permitió cumplir con los objetivos en tiempo.<br> | [Redaccion] |
 
 <div style="page-break-after: always;"></div>
 
@@ -4037,3 +4041,9 @@ Zippia. (2022). Mechanic demographics and statistics in the US. [https://www.zip
 
 # Anexos
 Video entrevistas needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EQ7tBfZua05Ov2i-KsRYiV0BeKLfTZ6glrFDMATNRogDqQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=481Hvy 
+
+Repositorio de informe: https://github.com/Web-Application-YaraSoftware/Informe
+
+Testing protoypes web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Eazn2di6ZRtMhk1PZDpfGMUBz1smfVdJMxImTBNzLqTYaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hpZt0x
+
+Testing prototypes mobile: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ef_ZB2PJR8dAunoOhdG1MFcBPzJ9J79mlDk0-jS6bgmBsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DQQg0b
