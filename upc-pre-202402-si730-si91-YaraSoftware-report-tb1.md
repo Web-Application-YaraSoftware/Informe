@@ -1872,10 +1872,429 @@ El Component Diagram de Workshop N-GINE desglosa los componentes principales que
 </div>
 
 ## 4.7. Software Object-Oriented Design
+En esta sección se describen los Diagramas de Clases, que representan la estructura del sistema, y el Diccionario de Clases, que documenta los atributos y métodos de cada clase utilizada.
 
 ### 4.7.1. Class Diagrams
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/classDiagram/classDiagram.png" width="1000px">
+</div>
 
 ### 4.7.2. Class Dictionary
+<h3>Class User</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>int</td>
+      <td>Unique code for a user</td>
+    </tr>
+    <tr>
+      <td>firstName</td>
+      <td>string</td>
+      <td>First name of a user</td>
+    </tr>
+    <tr>
+      <td>lastName</td>
+      <td>string</td>
+      <td>Last name of a user</td>
+    </tr>
+    <tr>
+      <td>dni</td>
+      <td>string</td>
+      <td>Identification number of a user</td>
+    </tr>
+    <tr>
+      <td>email</td>
+      <td>string</td>
+      <td>Email address of the user</td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>AccountState</td>
+      <td>Status of the user account (active, inactive, hidden)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class Mechanic</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>assignTask</td>
+      <td>Task, Mechanic</td>
+      <td>Assign a task to the mechanic</td>
+    </tr>
+    <tr>
+      <td>completeTask</td>
+      <td>Task</td>
+      <td>Complete the assigned task</td>
+    </tr>
+    <tr>
+      <td>requestItem</td>
+      <td>InventoryItem, quantity</td>
+      <td>Request an item from the inventory</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class WorkshopOwner</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>viewInventory</td>
+      <td>List&lt;InventoryItem&gt;</td>
+      <td>View the workshop's inventory</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class WorkshopClient</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>vehicles</td>
+      <td>List&lt;Vehicle&gt;</td>
+      <td>List of vehicles registered by the client</td>
+    </tr>
+    <tr>
+      <td>registerVehicle</td>
+      <td>Vehicle</td>
+      <td>Register a new vehicle</td>
+    </tr>
+    <tr>
+      <td>viewInterventionStatus</td>
+      <td>Intervention</td>
+      <td>View status of a specific intervention</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class Vehicle</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>int</td>
+      <td>Unique code for the vehicle</td>
+    </tr>
+    <tr>
+      <td>licensePlate</td>
+      <td>string</td>
+      <td>License plate of the vehicle</td>
+    </tr>
+    <tr>
+      <td>brand</td>
+      <td>string</td>
+      <td>Brand of the vehicle</td>
+    </tr>
+    <tr>
+      <td>model</td>
+      <td>string</td>
+      <td>Model of the vehicle</td>
+    </tr>
+    <tr>
+      <td>scanList</td>
+      <td>List&lt;Scan&gt;</td>
+      <td>List of scans performed on the vehicle</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class Workshop</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>int</td>
+      <td>Unique identifier for the workshop</td>
+    </tr>
+    <tr>
+      <td>owner</td>
+      <td>WorkshopOwner</td>
+      <td>Owner of the workshop</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>string</td>
+      <td>Name of the workshop</td>
+    </tr>
+    <tr>
+      <td>inventory</td>
+      <td>List&lt;InventoryItem&gt;</td>
+      <td>List of items in the workshop's inventory</td>
+    </tr>
+    <tr>
+      <td>inventoryRequests</td>
+      <td>List&lt;ItemRequest&gt;</td>
+      <td>List of inventory requests made to the workshop</td>
+    </tr>
+    <tr>
+      <td>interventionList</td>
+      <td>List&lt;Intervention&gt;</td>
+      <td>List of interventions registered in the workshop</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class Intervention</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>int</td>
+      <td>Unique identifier for the intervention</td>
+    </tr>
+    <tr>
+      <td>workshop</td>
+      <td>Workshop</td>
+      <td>Workshop where the intervention is performed</td>
+    </tr>
+    <tr>
+      <td>leader</td>
+      <td>Mechanic</td>
+      <td>Mechanic in charge of the intervention</td>
+    </tr>
+    <tr>
+      <td>vehicle</td>
+      <td>Vehicle</td>
+      <td>Vehicle involved in the intervention</td>
+    </tr>
+    <tr>
+      <td>client</td>
+      <td>WorkshopClient</td>
+      <td>Client who owns the vehicle</td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>InterventionState</td>
+      <td>Current status of the intervention</td>
+    </tr>
+    <tr>
+      <td>registrationDate</td>
+      <td>datetime</td>
+      <td>Date of registration for the intervention</td>
+    </tr>
+    <tr>
+      <td>completionDate</td>
+      <td>datetime</td>
+      <td>Date of completion for the intervention</td>
+    </tr>
+    <tr>
+      <td>taskList</td>
+      <td>List&lt;Task&gt;</td>
+      <td>List of tasks associated with the intervention</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class Task</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>int</td>
+      <td>Unique identifier for the task</td>
+    </tr>
+    <tr>
+      <td>assistant</td>
+      <td>Mechanic</td>
+      <td>Mechanic assigned to assist with the task</td>
+    </tr>
+    <tr>
+      <td>intervention</td>
+      <td>Intervention</td>
+      <td>Intervention to which the task is related</td>
+    </tr>
+    <tr>
+      <td>requestList</td>
+      <td>List&lt;ItemRequest&gt;</td>
+      <td>List of inventory requests related to the task</td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>TaskState</td>
+      <td>Status of the task (pending, done, etc.)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class ItemRequest</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>int</td>
+      <td>Unique identifier for the item request</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>string</td>
+      <td>Name of the requested item</td>
+    </tr>
+    <tr>
+      <td>amount</td>
+      <td>int</td>
+      <td>Amount of the requested item</td>
+    </tr>
+    <tr>
+      <td>requester</td>
+      <td>Mechanic</td>
+      <td>Mechanic who made the request</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class InventoryItem</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>int</td>
+      <td>Unique identifier for the inventory item</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>string</td>
+      <td>Name of the inventory item</td>
+    </tr>
+    <tr>
+      <td>amount</td>
+      <td>int</td>
+      <td>Available amount of the item</td>
+    </tr>
+    <tr>
+      <td>updateStock</td>
+      <td>quantity</td>
+      <td>Update the stock of the inventory item</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class Scan</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>int</td>
+      <td>Unique identifier for the scan</td>
+    </tr>
+    <tr>
+      <td>scanDate</td>
+      <td>datetime</td>
+      <td>Date when the scan was performed</td>
+    </tr>
+    <tr>
+      <td>codeList</td>
+      <td>List&lt;Code&gt;</td>
+      <td>List of error codes found in the scan</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Class Code</h3>
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>int</td>
+      <td>Unique identifier for the code</td>
+    </tr>
+    <tr>
+      <td>code</td>
+      <td>string</td>
+      <td>Error code detected in the scan</td>
+    </tr>
+    <tr>
+      <td>description</td>
+      <td>string</td>
+      <td>Description of the error code</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 4.8. Database Design
 
