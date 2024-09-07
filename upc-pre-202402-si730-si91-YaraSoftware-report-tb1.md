@@ -1396,7 +1396,7 @@ Esta imagen presenta el proceso de "Registro de nuevo personal" en Workshop N-GI
 En esta pantalla se ofrece al dueño del taller la posibilidad de ajustar los detalles de un miembro del equipo. Aquí se pueden editar campos importantes como el nombre, apellidos, documento de identidad, edad y ubicación del empleado. Además, se incluyen botones que permiten actualizar la información o eliminar al mecánico del sistema.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/5-personal-modal-editing.png" width="1000px">
+  <img src="img/4/wireframes/personal-modal-editing.png" width="1000px">
 </div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
