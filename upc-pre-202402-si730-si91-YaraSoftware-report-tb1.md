@@ -1544,6 +1544,33 @@ La sección Notificaciones ofrece un resumen rápido de las actualizaciones impo
 
 <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/notifications.png" width="1000px"> </div>
 
+#### Wireframes asociados al cliente de taller
+
+#### Vehículos
+En esta sección, los usuarios pueden visualizar una lista de sus vehículos registrados. Cada tarjeta de vehículo muestra información importante como el modelo, la marca, la última revisión y el estado actual de la cita. Si un vehículo tiene una cita pendiente, el usuario podrá notarlo fácilmente y proceder a agendar o verificar más detalles.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/cliente/vehicles.png" width="1000px"> </div>
+
+#### Registro de actividades
+Aquí se pueden observar las intervenciones pasadas realizadas en el vehículo. Cada una está representada en una línea de tiempo, facilitando la identificación rápida de intervenciones completadas. El usuario puede acceder a detalles adicionales de cada intervención y ver los técnicos responsables de cada servicio.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/cliente/activities-record.png" width="1000px"> </div>
+
+#### Información IoT
+Se incluye un monitoreo en tiempo real del estado de cada componente del vehículo. El sistema IoT detecta y reporta cualquier fallo en los componentes, mostrando los códigos de error asociados y facilitando así el diagnóstico y la reparación del vehículo.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/cliente/iot-information.png" width="1000px"> </div>
+
+#### Nueva Intervención
+La opción de "Nueva Intervención" permite a los usuarios agendar citas para intervenciones en sus vehículos. El usuario deberá seleccionar la placa del vehículo, la modalidad de servicio, la fecha de la intervención y una descripción opcional para proporcionar más contexto sobre el servicio que se solicita.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/cliente/new-intervention.png" width="1000px"> </div>
+
+#### Registro Nuevo Carro
+Si un usuario desea añadir un vehículo nuevo, esta opción facilita el registro. El usuario solo necesita proporcionar la placa del vehículo, la marca y el modelo para crear el registro. Posteriormente, el vehículo será visible en la lista principal.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/cliente/new-car-registration.png" width="1000px"> </div>
+
+#### Detalles de la intervención
+El historial de intervenciones permite al usuario revisar el estado de cada tarea realizada en el vehículo. Se detalla la fecha, el técnico encargado y el estado de la intervención. También se puede visualizar notas relacionadas con la intervención en curso.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/cliente/intervention-detail1.png" width="1000px"> </div>
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/cliente/intervention-detail2.png" width="1000px"> </div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
