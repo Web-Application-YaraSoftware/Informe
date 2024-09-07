@@ -57,7 +57,9 @@
 | 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
 | 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
 | 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
-| 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue | 
+| 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
+| 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
+
 
 <div style="page-break-after: always;"></div>
 
@@ -1185,7 +1187,267 @@ Publicaciones automáticas: Configura despliegues automáticos para cada pull re
 
 #### 5.2.1.1. Sprint Planning 1
 
+<table>
+    <tr>
+        <th scope="row"><strong>Sprint #</strong></th>
+        <td>Sprint 1</td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+        <th scope="row">Date</th>
+        <td>2024/09/03</td>
+    </tr>
+    <tr>
+        <th scope="row">Time</th>
+        <td>21:00</td>
+    </tr>
+    <tr>
+        <th scope="row">Location</th>
+        <td>Videollamada grupal mediante la plataforma Discord</td>
+    </tr>
+    <tr>
+        <th scope="row">Prepared By</th>
+        <td>Álvaro Orozco Torres</td>
+    </tr>
+    <tr>
+        <th scope="row">Attendees (to planning meeting)</th>
+        <td> Álvaro Orozco Torres, Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 1 Goal</th>
+        <td>Nuestro foco se encuentra en crear e implementar una landing page atractiva para el producto. Creemos que entrega mayor visibilidad y facilidad de acceso a la información clave a potenciales clientes. Confirmaremos nuestra hipótesis cuando la landing page esté publica y los usuarios puedan interactuar con ella.</td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 1 Velocity</th>
+        <td>20</td>
+    </tr>
+</table>
+
 #### 5.2.1.2. Sprint Backlog 1
+
+El objetivo del sprint es crear una landing page atractiva e interactiva que permita al usuario familiarizarse con los valores que ofrece el producto. Además, busca principalmente incentivar al usuario a adquirir un plan de suscripción para aprovechar al máximo las funcionalidades disponibles.
+
+Durante todo el sprint 1 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+
+<img src="img/5/2/1/2/trello_board.png">
+
+A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint n</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td>SWR-01</td>
+    <td>Hero Section</td>
+    <td>WI-01</td>
+    <td>Diseño de hero section</td>
+    <td>Creación del diseño visual de la sección hero, incluyendo la elección de colores, tipografía, y disposición de los elementos.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-01</td>
+    <td>Hero Section</td>
+    <td>WI-02</td>
+    <td>Implementación de barra de navegación y menu</td>
+    <td>Desarrollo de la barra de navegación y el menú en la sección hero, asegurando que sea responsive y accesible.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-01</td>
+    <td>Hero Section</td>
+    <td>WI-03</td>
+    <td>Inserción de imagen de hero section</td>
+    <td>Inserción y optimización de la imagen principal en la sección hero, asegurando que se cargue rápidamente.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-02</td>
+    <td>About the product</td>
+    <td>WI-04</td>
+    <td>Diseño de sección about the product</td>
+    <td>Diseño visual de la sección que describe el producto, con un enfoque en la usabilidad y la claridad de la información.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-02</td>
+    <td>About the product</td>
+    <td>WI-05</td>
+    <td>Resumen de sección about the product</td>
+    <td>Elaboración de un resumen atractivo y conciso que describa las características principales del producto.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-02</td>
+    <td>About the product</td>
+    <td>WI-06</td>
+    <td>Imagen de about product</td>
+    <td>Inserción de imágenes relevantes que complementen la descripción del producto en la sección correspondiente.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-03</td>
+    <td>Beneficios</td>
+    <td>WI-07</td>
+    <td>Diseño de beneficios</td>
+    <td>Diseño visual de la sección que destaca los beneficios del producto, utilizando íconos y texto conciso.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-03</td>
+    <td>Beneficios</td>
+    <td>WI-08</td>
+    <td>Implementación de cards</td>
+    <td>Desarrollo e implementación de las cards en la sección de beneficios, asegurando interactividad y responsividad.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-04</td>
+    <td>Testimonios</td>
+    <td>WI-09</td>
+    <td>Diseño de testimonios</td>
+    <td>Creación del diseño visual de la sección de testimonios, enfocándose en la credibilidad y la estética.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-04</td>
+    <td>Testimonios</td>
+    <td>WI-11</td>
+    <td>Consumo de API</td>
+    <td>Integración de una API para obtener y mostrar testimonios en tiempo real en la sección correspondiente.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-04</td>
+    <td>Testimonios</td>
+    <td>WI-12</td>
+    <td>Animación de cards</td>
+    <td>Implementación de animaciones en las cards de testimonios para mejorar la interacción del usuario.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-05</td>
+    <td>About Us</td>
+    <td>WI-13</td>
+    <td>Diseño de about us</td>
+    <td>Creación del diseño visual para la sección de "About Us", incluyendo la historia y misión de la empresa.</td>
+    <td>2</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-05</td>
+    <td>About Us</td>
+    <td>WI-14</td>
+    <td>Animación de about us</td>
+    <td>Desarrollo de animaciones para mejorar la presentación de la sección "About Us".</td>
+    <td>3</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-06</td>
+    <td>Planes</td>
+    <td>WI-15</td>
+    <td>Diseño de planes</td>
+    <td>Diseño visual de la sección de planes, presentando las opciones de suscripción o compra del producto.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-06</td>
+    <td>Planes</td>
+    <td>WI-16</td>
+    <td>Implementación de cards</td>
+    <td>Desarrollo e implementación de las cards en la sección de planes, asegurando interactividad y responsividad.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-07</td>
+    <td>Formulario</td>
+    <td>WI-17</td>
+    <td>Diseño de formulario de contacto</td>
+    <td>Creación del diseño visual para el formulario de contacto, asegurando que sea claro y fácil de usar.</td>
+    <td>2</td>
+    <td>Álvaro Orozco Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-07</td>
+    <td>Formulario</td>
+    <td>WI-18</td>
+    <td>Implementación de formulario</td>
+    <td>Desarrollo e integración del formulario de contacto, incluyendo validación y envío de datos.</td>
+    <td>2</td>
+    <td>Álvaro Orozco Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-08</td>
+    <td>Footer</td>
+    <td>WI-19</td>
+    <td>Diseño de footer</td>
+    <td>Diseño visual del pie de página (footer), incluyendo enlaces a secciones relevantes y redes sociales.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-08</td>
+    <td>Footer</td>
+    <td>WI-20</td>
+    <td>Implementación de footer</td>
+    <td>Desarrollo del pie de página, asegurando que sea responsive y accesible.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
