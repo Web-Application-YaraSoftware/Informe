@@ -55,6 +55,7 @@
 | 2.2.4 | 02/09/2024 | Henry Reaño Delgadillo | Se corrige la visualización de los artefactos As-Is para todos los segmentos objetivo y se agrega la foto del dueño de taller Enrique Reaño|
 | 2.2.5 | 03/09/2024 | Henry Reaño Delgadillo | Se agrega tres nuevos conceptos en Ubiquitous Language |
 | 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
+| 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
 
 <div style="page-break-after: always;"></div>
 
@@ -1125,7 +1126,26 @@ Para realizar esta sección de As-Is Scenario Mapping, en grupo, empatizamos ima
 
 ### 5.1.1. Software Development Environment Configuration
 
+A continuación, se presenta las herramientas y productos de software para el desarrollo del producto. 
+
+| Nombre | Propósito | Ruta de referencia / Descarga |
+| ----------- | ----------- | ----------- |
+| Uxpresia | Elaboración de user personas, empathy maps, journey maps, impact maps | https://uxpressia.com/w/k4lMq |
+| Miro | As-Is To-Be Scenarios maps | https://miro.com/es/ | 
+| Figma | Elaboración de wireframes, mockups y prototipes | https://www.figma.com/ |
+| LucidChart | Elaboración de wireflows, user flows | https://www.lucidchart.com/ | 
+| Structurizer | Elaboracion de diagrama C4 | https://www.structurizr.com/ |
+| Draw.io | Elaboración de diagrama UML | https://app.diagrams.net/ |
+| Vertabelo | Diseño de bases de datos | https://vertabelo.com/ | 
+| SASS | Estilos en la landing page | https://sass-lang.com/ |
+| PrimeVue | Biblioteca de componentes de interfaz de usuario | https://primevue.org/ |
+| Pivotal Tracker | Control de proyectos | https://www.pivotaltracker.com/ |
+| Git | Control de versiones | https://git-scm.com/ | 
+
 ### 5.1.2. Source Code Management
+
+
+
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
