@@ -1801,6 +1801,46 @@ Explicación del flujo: El flujo de "Verificar cumplimiento de tareas" comienza 
   <img src="img/4/wireflows/20.png" width="1000px">
 </div>
 
+#### User Goal: Registrar su propio vehículo.
+User Persona: cliente de taller.
+
+Explicación del flujo: El flujo inicia cuando el dueño del carro, como cliente del taller, accede a su perfil dentro de la aplicación y navega a la sección de Mis Vehículos. Si ya tiene vehículos registrados, se despliega una lista que muestra detalles de cada vehículo como marca, modelo, placa, estado de mantenimiento, entre otros.
+
+Si el dueño del carro desea agregar un nuevo vehículo, hace clic en el botón "Agregar vehículo", lo que abre un formulario para introducir la información del nuevo vehículo, como marca, modelo, número de placa, año de fabricación y otros detalles necesarios. Una vez que el cliente ha llenado todos los campos obligatorios correctamente, hace clic en "Registrar". El sistema valida la información ingresada, y si todo está en orden, el nuevo vehículo se agrega a la lista de vehículos registrados del cliente. El formulario se cierra automáticamente, y el cliente puede ver el nuevo vehículo registrado en su sección de Mis Vehículos, con la opción de monitorear su estado o programar futuras intervenciones en el taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/21.2.png" width="1000px">
+</div>
+
+#### User goal: Acceder al registro de intervenciones de un carro.
+User persona: Cliente de taller
+
+Explicación de flujo: el usuario comienza desde la vista principal de sus vehículos registrados. Puede seleccionar uno de sus vehículos para visualizar su información detallada y el historial de intervenciones. Una vez seleccionado el vehículo, se despliega una nueva interfaz que muestra una línea de tiempo cronológica con todas las intervenciones asociadas al vehículo, permitiendo al usuario ver rápidamente un resumen de cada intervención, como la fecha y el tipo de servicio realizado.
+
+Al hacer clic en una intervención específica dentro de esta línea de tiempo, el usuario accede a los detalles completos de la intervención. En esta vista detallada, se muestra toda la información relevante de la intervención, como la modalidad, la fecha programada, el mecánico líder, las observaciones adicionales, y el estado de la intervención. Además, el usuario puede acceder a un resumen de las tareas ejecutadas durante la intervención, con un desglose de las tareas y su estado actual.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/22.2.png" width="1000px">
+</div>
+
+#### User goal: : Acceder a información de dispositivo IoT.
+User persona: Cliente de taller
+
+Explicación del flujo: El flujo comienza cuando el cliente del taller accede a la pantalla de "Vehículos", donde puede visualizar los autos que ha registrado, junto con información básica como la fecha de la última revisión y cualquier cita pendiente. Al seleccionar uno de los vehículos, el cliente es dirigido a una nueva pantalla que ofrece dos opciones: "Registro de Actividades", que muestra el historial de intervenciones, y "Información IoT", que permite consultar el estado actual del vehículo. Al elegir "Información IoT", se despliega un panel con el estado de los distintos componentes del automóvil, acompañado de los códigos de error que han sido generados por el sistema. Esta información permite al cliente evaluar rápidamente el estado de su vehículo y, si es necesario, tomar la decisión de agendar una cita para mantenimiento o reparación. 
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/23.2.png" width="1000px">
+</div>
+
+#### User goal: Agendar cita
+User persona: Cliente de taller
+
+Explicación del flujo: El flujo para agendar una cita como cliente de taller comienza en la pantalla de detalles del vehículo, asociada a la opción Carros, donde el usuario visualiza el historial de intervenciones y la información IoT. El usuario selecciona el vehículo correspondiente y accede a la opción "Agendar cita". Al hacer clic, se despliega un formulario donde el usuario debe ingresar la información relevante, como la placa del vehículo, la modalidad de la intervención (por ejemplo, reparación o mantenimiento), la fecha deseada y una descripción opcional de la intervención. Una vez que el usuario completa el formulario, hace clic en el botón "Agendar". Si los datos son correctos, la cita se registra en el sistema y se muestra un mensaje de éxito que indica que la cita ha sido agendada correctamente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/24.2.png" width="1000px">
+</div>
+
 ### 4.4.3. Web Applications Mock-ups
 
 ### 4.4.4. Web Applications User Flow Diagrams
