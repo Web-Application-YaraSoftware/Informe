@@ -1378,6 +1378,19 @@ Esta imagen muestra la pantalla de creación de cuenta en Workshop N-GINE. Aquí
   <img src="img/4/wireframes/crear-cuenta.png" width="1000px">
 </div>
 
+#### Gestión de personal
+En esta vista, se muestra una lista de los empleados registrados en el taller, presentados en formato de tarjetas. Cada tarjeta contiene el nombre del empleado. En la parte superior derecha, el usuario puede agregar nuevos mecánicos utilizando el botón "Nuevo mecánico", lo que permite un acceso rápido para añadir personal adicional.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/personal-window.png" width="1000px">
+</div>
+
+#### Registro de nuevo mecánico
+Esta imagen presenta el proceso de "Registro de nuevo personal" en Workshop N-GINE. Al seleccionar la opción "Nuevo mecánico", el dueño de taller puede ingresar los datos personales del nuevo empleado, como nombre, apellidos, tipo de documento, número de documento, edad y ubicación. Este formulario facilita la adición de nuevos miembros al equipo de trabajo, asegurando que toda la información relevante quede registrada.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/personal-modal-creation.png" width="1000px">
+</div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
