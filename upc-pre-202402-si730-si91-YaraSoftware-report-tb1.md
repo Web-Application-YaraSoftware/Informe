@@ -57,6 +57,7 @@
 | 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
 | 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
 | 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
+| 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue | 
 
 <div style="page-break-after: always;"></div>
 
@@ -1012,8 +1013,6 @@ Para realizar esta sección de As-Is Scenario Mapping, en grupo, empatizamos ima
 
 ## 2.4. Ubiquitous Language
 
-## 2.4. Ubiquitous Language
-
 + Vehicle (Vehículo): Objeto principal de las reparaciones y mantenimientos en un taller de mecánica automotriz. Incluye automóviles, camiones, motocicletas, y otros tipos de transporte que requieren servicios para mantener su funcionamiento adecuado.
 
 + Customer (Cliente): Persona o entidad que solicita y paga por los servicios de mantenimiento o reparación de un vehículo.
@@ -1156,7 +1155,29 @@ Vamos a implementar Conventional Commits, Semantic Versioning y una nomenclatura
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+El Lenguaje de Marcado de Hipertexto (HTML) es esencial para estructurar y presentar contenido en páginas web, siendo común nombrar la página principal como index.html. Algunas convenciones clave que incluiremos en nuestro código:
+Usar elementos en minúsculas y cerrar todos los elementos para asegurar compatibilidad y legibilidad.
+Escribir comentarios breves y evitar líneas de código largas.
+Incluir el atributo lang y especificar detalles como alt, ancho y altura en imágenes para accesibilidad.
+CSS es el lenguaje para dar estilo a las páginas web. Convenciones que utilizaremos:
+Mantener una nomenclatura coherente para clases e identificadores, con una indentación consistente y agrupación de propiedades relacionadas.
+Evitar selectores excesivamente específicos y duplicación de reglas.
+Probar el código en varios navegadores y dispositivos.
+JavaScript agrega interactividad a las páginas web. Las prácticas que utilizaremos son:
+Nomenclatura coherente para variables y funciones, evitando variables globales.
+Manejar errores con bloques try-catch, optimizar el código para rendimiento, y probar en diversos navegadores.
+Gherkin es un lenguaje usado para describir escenarios de prueba de forma legible. Recomendaciones clave:
+Usar un lenguaje claro con una estructura coherente basada en palabras clave como Feature, Scenario, Given, When, y Then.
+Evitar la duplicación de pasos y colaborar con el equipo para mejorar los escenarios.
+
 ### 5.1.4. Software Deployment Configuration
+
+Netlify es una plataforma de alojamiento web y despliegue continuo que simplifica el lanzamiento de sitios web y aplicaciones estáticas. Funciona de la siguiente manera:
+Integración con repositorios Git: Se sincroniza con plataformas como GitHub, GitLab y Bitbucket. Cada vez que se actualiza el código en el repositorio, Netlify inicia automáticamente el proceso de construcción y despliegue.
+Proceso de construcción: Convierte el código (HTML, CSS, JavaScript) en un sitio estático, realizando tareas como la compilación de archivos y optimización de imágenes.
+Red CDN: Una vez construida, la aplicación es desplegada a través de su red de distribución de contenido (CDN) global, garantizando un rendimiento rápido y accesible.
+Vistas previas automáticas: Para cada rama de tu repositorio, genera vistas previas automáticas, facilitando la revisión de cambios antes de fusionarlos con la rama principal.
+Publicaciones automáticas: Configura despliegues automáticos para cada pull request o fusión, lo que garantiza que el sitio esté siempre actualizado con la última versión del código.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
