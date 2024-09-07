@@ -1406,6 +1406,12 @@ Cuando no hay personal registrado en el sistema, la pantalla mostrará un mensaj
   <img src="img/4/wireframes/page-no-personal.png" width="1000px">
 </div>
 
+#### Gestión de clientes
+La imagen muestra la sección "Gestión de Clientes", donde el administrador del taller puede visualizar una lista detallada de los clientes registrados. En esta interfaz, se presentan los datos esenciales como el nombre completo, número de documento, y dirección de correo electrónico de cada cliente. Además, se permite agregar nuevos clientes a través de un botón dedicado. Este sistema simplifica la organización y acceso rápido a la información de los clientes, optimizando la interacción y gestión de los datos de los mismos.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-customers-management.png" width="1000px">
+</div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
