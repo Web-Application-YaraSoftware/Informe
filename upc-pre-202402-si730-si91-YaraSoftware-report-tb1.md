@@ -58,6 +58,7 @@
 | 3.1.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la primera sección del Capítulo III: Requirements Specification |
 | 3.2.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la segunda sección del Capítulo III: Requirements Specification |
 | 3.3.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la tercera sección del Capítulo III: Requirements Specification |
+| 3.4.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la última sección del Capítulo III: Requirements Specification |
 
 <div style="page-break-after: always;"></div>
 
@@ -2015,6 +2016,71 @@ Es esta sección, elaboramos el impact mapping. Para ello, refinamos nuestras hi
 <img src="img/3/3/Impact_Mapping.png">
 
 ## 3.4. Product Backlog
+
+Para elaborar el Product backlog se priorizo por el método MoSCoW y se estimo a través de story points con la escala de Fibonacci.
+
+| # Orden | User Story ID | Título | Descripción | Story points (1/2/3/5/8) |
+| - | -| - | - | - |
+| 1 | SWR-01 | Hero Section | Como visitante de landing page quiero ver una presentación clara y atractiva en la hero section que hacen mis clientes para captar rápidamente la propuesta de valor del sitio y decidir si el producto o servicio es relevante para mi taller | 1 |
+| 2 | SWR-03 | Beneficios | Como visitante de landing page quiero ver una lista de beneficios potenciales para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller | 2 |
+| 3 | SWR-07 | Formulario de contacto | Como visitante de landing page quiero encontrar un formulario de contacto fácil de usar para poder hacer preguntas específicas sobre el producto y recibir asistencia antes de tomar una decisión de compra. | 2 |
+| 4 | SWR-06 | Planes y precios | Como visitante de landing page quiero ver los planes y precios disponibles en la sección "Planes y precios" para comparar las opciones y decidir cuál se ajusta mejor a mi presupuesto y necesidades. | 2 |
+| 5 | SWR-02 | About the Product | Como visitante de landing page quiero leer una descripción detallada del producto para entender cómo el producto puede resolver mis problemas específicos y mejorar la gestión de mi taller | 1 |
+| 6 | SWR-04 | Testimonios | Como visitante de landing page quiero leer testimonios de otros usuarios que han utilizado la aplicación web para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller | 3 |
+| 7 | SWR-09 | Internacionalización | Como visitante de landing page quiero que la landing page sea accesible en español e inglés para que pueda acceder a la información en el idioma que prefiera y proporcionar una experiencia adecuada para usuarios de diferentes regiones | 2 |
+| 8 | SWR-05 | About Us | Como dueño de taller visitante de landing page quiero conocer más sobre la empresa en la sección "About Us" para entender mejor la experiencia y credibilidad de la empresa detrás del producto antes de considerar una compra. | 2 |
+| 9 | SWR-08 | Footer | Como visitante de landing page quiero acceder a enlaces importantes en el footer para encontrar rápidamente información adicional, como políticas de privacidad, términos de servicio y detalles de contacto de la empresa | 3 |
+| 10 | TS-01 | Crear Usuario a través de la API RESTful | Como desarrollador quiero agregar un usuario a través de la API para que el usuario pueda registrarse y acceder al sistema del taller | 3 |
+| 11 | TS-15 | Consultar Usuario a través de la API RESTful | Como desarrollador quiero consultar los detalles de un usuario a través de la API para que se pueda obtener la información del usuario registrado. | 2 |
+| 12 | TS-09 | Actualizar Usuario a través de la API RESTful | Como desarrollador quiero actualizar un usuario a través de la API para que se puedan modificar los detalles de los usuarios existentes | 3 |
+| 13 | US-03 | Creación de cuentas de taller | Como dueño de taller quiero registrar a mis clientes y personal en el sistema para gestionar la información de las intervenciones y tareas en el taller | 3 |
+| 14 | US-06 | Clientes | Como dueño de taller quiero visualizar mi lista de clientes para saber quiénes son mis clientes | 3 |
+| 15 | US-04 | Personal | Como dueño de taller quiero visualizar mi lista de empleados saber qué empleados están registrados en el sistema | 2 |
+| 16 | TS-02 | Crear Vehículo a través de la API RESTful | Como desarrollador quiero agregar un vehículo a través de la API para que se pueda gestionar el vehículo de cada usuario. | 3 |
+| 17 | TS-16 | Consultar Vehículo a través de la API RESTful | Como desarrollador quiero consultar los detalles de un vehículo a través de la API para que se pueda obtener la información del vehículo registrado | 2 |
+| 18 | TS-10 | Actualizar Vehículo a través de la API RESTful | Como desarrollador quiero actualizar un vehículo a través de la API para que se puedan modificar los detalles de los vehículos existentes. | 3 |
+| 19 | US-21 | Registro de vehículos | Como usuario quiero poder registrar vehículos para poder asociar y monitorear su información mediante la aplicación | 2 |
+| 20 | TS-05 | Crear Intervención a través de la API RESTful | Como desarrollador quiero agregar una intervención a través de la API para que se registren las reparaciones y el mantenimiento realizados a un vehículo. | 3 |
+| 21 | TS-19 | Consultar Intervención a través de la API RESTful| Como desarrollador quiero consultar los detalles de una intervención a través de la API para que se pueda obtener la información de la intervención registrada. | 2 |
+| 22 | TS-13 | Actualizar Intervención a través de la API RESTful | Como desarrollador quiero actualizar una intervención a través de la API para que se puedan modificar los detalles de las intervenciones existentes | 3 |
+| 23 | TS-07 | Eliminar Intervención a través de la API RESTful | Como desarrollador quiero eliminar una intervención a través de la API para que se pueda eliminar una intervención del sistema | 3 |
+| 24 | US-09 | Creación de intervenciones | Como dueño de taller quiero poder gestionar las intervenciones de mi taller para organizar eficientemente a mis mecánicos | 5 |
+| 25 | TS-06 | Crear Tarea dentro de una Intervención a través de la API RESTful | Como desarrollador quiero agregar una tarea dentro de una intervención a través de la API para que las tareas asociadas a las intervenciones sean gestionadas correctamente. | 3 |
+| 26 | TS-20 | Consultar Tarea dentro de una Intervención a través de la API RESTful | Como desarrollador quiero consultar los detalles de una tarea dentro de una intervención a través de la API para que se pueda obtener la información de la tarea registrada. | 2 |
+| 27 | TS-08 | Eliminar Tarea a través de la API RESTful | Como desarrollador quiero eliminar una tarea a través de la API para que se pueda eliminar una tarea de una intervención del sistema | 3 |
+| 28 | TS-14 | Actualizar Tarea dentro de una Intervención a través de la API RESTful| Como desarrollador quiero actualizar una tarea dentro de una intervención a través de la API para que se puedan modificar los detalles de las tareas asociadas a una intervención. | 2 |
+| 29 | US-15 | Mis tareas (lider) | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.| 3 |
+| 30 | US-16 | Mis tareas (asistente) | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos. | 2 |
+| 31 | US-17 | Información de intervención | Como mecánico quiero consultar información relevante de la intervención para realizar un mejor diagnóstico | 1 |
+| 32 | US-18 | Diagnóstico de intervención | Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo | 3 |
+| 33 | US-19 | Ejecución de intervención | Como mecánico quiero controlar la ejecución de las tareas de una intervención para  controlar y conocer el desarrollo de las tareas correspondientes | 5 |
+| 34 | US-20 | Supervisión de intervención | Como mecánico quiero poder verificar el cumplimiento de todas las tareas de intervención para poder registrar el trabajo como terminado | 2 |
+| 35 | US-08 | Intervenciones | Como dueño de taller quiero visualizar las intervenciones para controlar los servicios realizados y pendientes en el taller | 2 |
+| 36 | US-10 | Detalles de intervención | Como dueño de taller quiero visualizar los detalles asociados a una intervención para tener un control claro y detallado del trabajo realizado y gestionar los cambios de los clientes | 5 |
+| 37 | US-07 | Detalles de clientes | Como dueño de taller quiero manejar información de mis clientes para mantener sus datos actualizados y aprovecharlos | 2 |
+| 38 | US-05 | Detalles de empleado | Como dueño de taller quiero manejar la información de mis empleados para gestionar sus cuentas | 2 |
+| 39 | US-22 | Registro de intervenciones | Como usuario quiero acceder al registro de intervenciones de un vehículo para utilizar la información para tomar mejores decisiones | 2 |
+| 40 | TS-04 | Crear Ítem de Inventario a través de la API RESTful | Como desarrollador quiero agregar un ítem de inventario a través de la API para que se tenga un control adecuado del inventario en el taller. | 3 |
+| 41 | TS-18 | Consultar Ítem de Inventario a través de la API RESTful | Como desarrollador quiero consultar los detalles de un ítem de inventario a través de la API para que se pueda obtener la información del ítem de inventario registrado. | 2 |
+| 42 | TS-12 | Actualizar Ítem de Inventario a través de la API RESTful | Como desarrollador Quiero actualizar un ítem de inventario a través de la API Para que se puedan modificar los detalles de los ítems de inventario existentes. | 3 |
+| 43 | US-11 | Existencias de inventario | Como dueño de taller quiero poder manejar existencias en mi inventario para asegurar que siempre haya disponibilidad de piezas y materiales necesarios para las intervenciones eficientemente | 2 |
+| 44 | TS-03 | Crear Solicitud a través de la API RESTful | Como desarrollador quiero agregar una solicitud a través de la API para que se pueda gestionar la necesidad de piezas y repuestos en el taller. | 3 |
+| 45 | TS-17 | Consultar Solicitud a través de la API RESTful | Como desarrollador quiero consultar los detalles de una solicitud a través de la API para que se pueda obtener la información de la solicitud registrada. | 2 |
+| 46 | TS-11 | Actualizar Solicitud a través de la API RESTful | Como desarrollador quiero actualizar una solicitud a través de la API para que se puedan modificar los detalles de las solicitudes existentes. | 3 |
+| 47 | US-12 | Solicitudes de inventario | Como dueño de taller quiero crear y manejar solicitudes de inventario realizadas por los mecánicos para conocer los materiales y repuestos necesarios para las intervenciones pendientes | 2 |
+| 48 | US-01 | Formulario de registro | Como dueño de taller quiero registrar una cuenta de usuario para empezar a utilizar la aplicación para gestionar mi taller | 2 |
+| 49 | US-02 | Pantalla de login | Como usuario quiero acceder a mi cuenta para usar las funcionalidades de la aplicación | 3 |
+| 50 | US-23 | Información IoT de vehículo | Como usuario quiero acceder a la información generada por el dispositivo IoT del vehículo para conocer el estado actual del vehículo más rápidamente | 3 |
+| 51 | US-24 | Agendar cita de intervención | Como usuario quiero agendar citas de intervención para ahorrarme tiempo | 2 |
+| 52 | TS-21 | Crear Notificación a través de la API RESTful | Como desarrollador quiero crear una notificación a través de la API para que se pueda generar una notificación asociada a un usuario. | 3 |
+| 53 | TS-22 | Consultar Notificación a través de la API RESTful | Como desarrollador quiero consultar los detalles de una notificación a través de la API para que se pueda obtener la información de una notificación específica asociada a un usuario. | 2 |
+| 54 | US-14 | Notificaciones | Como usuario quiero recibir notificaciones para estar al tanto y llevar un registro de eventos importantes de la aplicación | 5 |
+| 55 | US-13 | Métricas | Como dueño de taller quiero contar con métricas de rendimiento de mi negocio y características de clientes para conocer el rendimiento y tomar mejores decisiones que mejoren la eficiencia | 5 |
+
+Para llevar un correcto orden del Product Backlog se utilizo la herramienta Pivotal Tracker. 
+
+ <img src="img/3/4/Pivotal.png">
+ 
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
