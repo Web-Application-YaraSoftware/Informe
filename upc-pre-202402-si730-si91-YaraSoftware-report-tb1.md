@@ -1221,14 +1221,133 @@ Este componente de resumen de intervención facilita la presentación de informa
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+Para organizar de manera eficiente y completa nuestra aplicación Workshop N-GINE, utilizaremos jerarquía visual para crear un organizador visual basada en una estructura jerárquica para diseñar un sistema que cumpla con las necesidades del usuario.
+
+***Dueño de Vehículo***
+
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/2/1/Organizador_sistema_duenoVehiculo.png" width="400px">
+</div>
+
+<br>
+
+***Mecánico***
+
+
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/2/1/Organizador_sistema_mecanico.png" width="400px">
+</div>
+
+<br>
+
+***Dueño de Taller***
+
+
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/2/1/Organizador_sistema_duenoTaller.png" width="1000px">
+</div>
+
+
+<br><br>
+Debido a la complejidad se han realizado tres organizadores visuales, uno por cada segmento objetivo. Analizando la organización para el dueño del taller: las secciones principales de esta organización son: Información, Personal, Clientes, Intervención, Obligación, Inventario, Métricas, y Notificaciones. 
+
+
+Cada sección principal puede contener contenidos secundarios, que representan tanto las funcionalidades encargadas de activar eventos, por ejemplo, botones, como secciones secundarias que tienen sus propios contenidos. A modo de ejemplo tenemos la sección "Intervención", la cual tiene varios contenidos secundarios como formato, progreso, etc. Estos son elementos interactivos que en conjunto crear la sección "intervención". Existe un contenido secundario "Intervención X", que hace referencia a cuando se presiona una intervención dentro de la sección. Esto es una sección secundaria ya que al presionarlo genera una nueva sección con varios contenidos secundarios en ella.
+
+También existen contenidos secundarios con los que se puede interactuar mediante la misma validación pero con diferentes condiciones que provoca distintos eventos. Estos contenidos secundarios aparecen con el color verde.
+
+En Workshop N-GINE, utilizaremos esquemas de categorización de contenido para optimizar la experiencia del usuario por defecto, sin necesidad de que el usuario realice una acción de búsqueda o filtrado previa, lo cual agilizará la gestión de datos que tenga que realizar el usuario. Las categorizaciones de contenido utilizadas son las siguientes:
+
+**Alfabético:** Utilizada para ordenar los clientes, personal, y el inventario. Permite al usuario buscar de una forma cómoda datos en los cuales el nombre es un elemento principal. 
+
+**Cronológico:** Utilizada para ordenar las intervenciones, obligaciones, y notificaciones. Permite al usuario buscar datos en los cuales la fecha resulta una prioridad.
 
 ### 4.2.2. Labeling Systems
 
+La interfaz de nuestra aplicación debe ser eficiente, pero también clara y sencilla para el usuario. Por ello las etiquetas utilizadas en nuestra aplicación deben de ser capaces de explicar en la menor cantidad de palabras su funcionalidad. Por ello hemos diseñado etiquetas para la navegación principal para las tres versiones de nuestra aplicación:
+
+***Dueño del taller***
+
+**Información:** Acceso a la información general del taller mecánico automotriz, con botones para editar, guardar y cancelar cambios.
+
+**Personal:** Acceso a la información del personal que trabaja en el taller.
+
+**Clientes:** Acceso a los datos de los clientes actuales del taller incluyendo su información general y  datos de sus vehículos.
+
+**Intervención:** Acceso a las herramientas para visualizar las intervenciones que se están realizando en el taller junto con sus datos generales y sus estados de cumplimiento y/o crear nuevas intervenciones.
+
+**Obligación:** Acceso a las intervenciones ya asignadas al personal según nivel de responsabilidad, las cuales se convierten en obligaciones. 
+
+**Inventario:** Acceso al inventario del taller.
+Métricas: Acceso a las métricas sobre el rendimiento del taller.
+
+**Notificaciones:** Acceso a la lista de notificaciones para el usuario.
+
+***Mecánico***
+
+**Obligación:** Acceso a las intervenciones ya asignadas al personal según nivel de responsabilidad, las cuales se convierten en obligaciones. 
+
+**Notificaciones:** Acceso a la lista de notificaciones para el usuario.
+
+***Dueño de vehículo***
+
+**Vehículos:** Acceso a los vehículos registrados del usuario con información detallada de estos
+
+**Notificaciones:** Acceso a la lista de notificaciones para el usuario.
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+Como desarrolladores de aplicaciones web, valorizamos como nos vemos frente a los motores de búsqueda y buscamos cumplir con SEO (Search Engine Optimizarion), el proceso para mejorar la visibilidad de un sitio web. Para ello utilizamos Meta tags, elementos de html que proveen información personalizada sobre nuestro sitio web. Hemos usado las mismas meta tags tanto para nuestra Landing Page como para nuestra aplicación web, salvo por su contenido en dos meta tags específicos:
+
+**Author:** Procedimiento estándar para definir el autor intelectual del sitio web: “YaraSoftware”
+
+**Viewport:**  Controla la apariencia de la aplicación para que se adapte a diferentes tipos de dispositivos: “width=device-width, initial-scale=1.0”
+
+**Charset:** Define el conjunto de caracteres utilizados: “UTF-8”
+
+**Keywords:**** Define palabras clave que pueden ayudar a ser encontrados por el motor de búsqueda: “taller, mecánico, gestión, automotriz, organizar”
+
+**Tittle:** Define el título con el que será visible en el navegador web como un resultado de búsqueda. La Landing Page y el sitio web tienen diferentes “Tittle”.
+
+**Description:** Provee de una descripción breve de la página que es visible desde el navegador web debajo del título de la página. La Landing Page y el sitio web tienen diferentes “Description”.
+
+***Landing Page***
+
+**Tittle:** “Workshop N-GINE | Gestiona tu taller y clientes en una sola aplicación ”
+
+**Description:** “Conoce nuestra aplicación de gestión de talleres mecánicos automotrices enfocado en brindar una buena experiencia a los talleres y sus clientes.”
+
+***Web Application***
+
+**Tittle:** “Sistema de gestión de taller de mecánica automotriz | Workshop N-GINE”
+
+**Description:** “Workshop N-GINE es una propuesta para todos los dueños de talleres mecánicos automotrices que desean una herramienta que mejore su relación con sus clientes y al mismo tiempo les permita gestionar mejor su taller”
 
 ### 4.2.4. Searching Systems
 
+Nuestras aplicaciones utilizaran sistemas de búsqueda avanzados para facilitar y mejorar la experiencia del usuario. Reconocemos que cuanta más información maneje una aplicación, más difícil le resulta al usuario poder trabajar a un nivel eficiente. Por ello nos hemos enfocado en implementar las siguientes herramientas que permitan a los usuarios manejar estos datos de forma rápida y simple:
+
+**Búsqueda por palabra clave:** El usuario puede ingresar una palabra clave en un buscador y el sistema le mostrará coincidencias. Esta herramienta está implementada en las secciones principales Personal, Clientes, e Intervención.
+
+**Filtro de intervenciones por estado:** El usuario puede apretar cuatro botones con filtros establecidos cuyos nombres son: “Pendientes”, “Progreso”, “Terminados”, “Todo”. Mediante estos, el usuario es capaz de filtrar y visualizar las intervenciones según su estado de culminación se forma rápida e intuitiva.
+
 ### 4.2.5. Navigation Systems
+
+En Yara Software nos preocupamos por que la navegación resulte lo más eficiente y cómoda para el usuario. La navegación está enfocada en conceptos como la usabilidad para que resulte útil al usuario mediante una interfaz. Hemos utilizado las siguientes técnicas para la Landing Page y la Aplicación:
+
+***Landing Page***
+
+**Barra de Menú superior:** Se mantiene siempre en el superior de la página mientras se desplaza hacia abajo. Tiene enlaces a las secciones: Conoce más, Beneficios, Testimonios, Nosotros, Plan, Contáctanos.
+
+**Scroll Down Interactivo:** Al interactuar con la página y ser redirigido a secciones de esta se producen transiciones y animaciones suaves.
+
+**Call to Action:** En las secciones Home, Conoce más, y Plan se encuentran botones de “Comenzar” 
+
+***Web Application***
+
+**Navegación principal:** Mediante un menú desplegable que aparece a la izquierda de la página. Contiene botones que redirigen a las secciones principales de la aplicación como por ejemplo Personal, que muestra la información detallada sobre el personal que trabaja en el taller.
+
+**Accesibilidad y Usabilidad:** Utilizamos el enfoque “Responsive Design” para que la navegación se mantenga eficiente al ser utilizada en desktop o dispositivos móviles. Empleamos tamaños de texto y contrastes de color adecuados para que la información de la interfaz se mantenga accesible dependiendo del nivel de habilidad visual del usuario. 
 
 ## 4.3. Landing Page UI Design
 
