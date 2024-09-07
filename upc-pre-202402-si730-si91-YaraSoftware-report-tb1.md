@@ -1470,6 +1470,48 @@ En el resumen de intervención, se puede observar el tipo de trabajo realizado, 
   <img src="img/4/wireframes/intervention-summary.png" width="1000px">
 </div>
 
+#### Inventario de existencias
+
+En esta pantalla se presenta el inventario de existencias del taller, donde se detallan las partes disponibles, la cantidad en stock y su respectivo límite. El sistema permite realizar un seguimiento detallado de los componentes disponibles, lo que ayuda a mantener el taller abastecido y evita la escasez de productos críticos. Además, se permite eliminar partes innecesarias o que ya no están en stock.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-inventario-existencias.png" width="1000px">
+</div>
+
+#### Solicitudes de inventario
+
+La interfaz de "Solicitudes de Inventario" ofrece una vista detallada de las solicitudes de partes o componentes por parte de los mecánicos o administradores del taller. Se incluyen detalles como la cantidad solicitada, la ID de la intervención relacionada, la fecha de la solicitud y observaciones adicionales. Esto facilita la gestión y el control del flujo de materiales dentro del taller, asegurando que se cumplan las demandas en tiempo y forma.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-inventario-solicitudes.png" width="1000px">
+</div>
+
+#### Métricas de intervenciones por día
+
+En la pantalla de "Métricas de intervenciones por día", el administrador puede visualizar el número de intervenciones realizadas en el taller durante cada día de la semana. Esta información es crucial para comprender los picos de demanda y optimizar la planificación de las intervenciones, permitiendo una mejor organización y uso de los recursos disponibles en el taller.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-metricas-1.png" width="1000px">
+</div>
+
+#### Métricas de intervenciones por mes
+
+La imagen refleja las "Métricas de intervenciones por mes", proporcionando una visión más amplia sobre el rendimiento del taller a lo largo de varios meses. Con esta información, el administrador puede detectar patrones de demanda estacionales o fluctuaciones en el volumen de trabajo, permitiendo ajustar la capacidad operativa del taller de manera efectiva.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-metricas-2.png" width="1000px">
+</div>
+
+#### Distribución de vehículos por marca
+
+En esta sección, se presenta un gráfico de torta que muestra la distribución porcentual de los vehículos atendidos en el taller, desglosada por marca. Esta información permite al administrador identificar qué marcas de vehículos son más frecuentes en el taller, lo que puede ayudar en la planificación de inventarios y en la especialización de los servicios ofrecidos.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-metricas-3.png" width="1000px">
+</div>
+
+#### Notificaciones
+
+La pantalla de "Notificaciones" muestra las alertas importantes para el administrador del taller, como recordatorios de citas, actualizaciones de estado de intervenciones, o avisos sobre inventario. Cada notificación incluye la hora y la fecha en la que fue emitida, así como un enlace para ir a la sección correspondiente y gestionar la acción requerida.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/page-notificaciones.png" width="1000px">
+</div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
