@@ -64,6 +64,9 @@
 | 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
 | 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
 | 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
+| 5.5.0 | 25/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning y sprint backlog del sprint 2 |
+| 5.5.1 | 25/09/2024 | Henry Reaño Delgadillo | Se agrega el esquema de sprint 2 completo |
+| 5.5.2 | 25/09/2024 | Henry Reaño Delgadillo | Se completa las secciones de testing, execution, services, software deployment evidences parcialmente |
 
 <div style="page-break-after: always;"></div>
 
@@ -253,8 +256,6 @@ Para esta entrega, Elmer y Eric se encargaron de el diseño de apicación. Henry
 # Student Outcome
 
 **ABET – EAC - Student Outcome 5:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
-
-
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
 | - | - | - |
@@ -3749,7 +3750,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
     <th colspan="2">Sprint #</th>
-    <th colspan="5">Sprint n</th>
+    <th colspan="5">Sprint 1</th>
   </tr>
   <tr>
     <th colspan="2">User Story</th>
@@ -3977,7 +3978,6 @@ En el desarrollo del sprint 1 se logró desplegar las funcionalidades descritas 
 El desarrollo de la Hero Section con una imagen imponente y llamativa para el usuario.
 <img src="img/5/2/1/4/hero.png">
 
-
 La sección About Us que describe nuestra empresa, nuestros valores y visión.
 <img src="img/5/2/1/4/about_us.png">
 
@@ -4015,6 +4015,192 @@ Enlace para acceder a la landing page: https://workshop-n-gine-landing-page.netl
 
 <img src="img/5/2/1/8/insights.png">
 
+### 5.2.2 Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+<table>
+    <tr>
+        <th scope="row"><strong>Sprint #</strong></th>
+        <td>Sprint 2</td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Planning Background</strong></td>
+        <td>Para la elaboración de este sprint contamos con un integrante menos en el equipo. El tiempo de desarrollo es corto y hay muchas funcionalidades por implementar</td>
+    </tr>
+    <tr>
+        <th scope="row">Date</th>
+        <td>2024/09/18</td>
+    </tr>
+    <tr>
+        <th scope="row">Time</th>
+        <td>20:00</td>
+    </tr>
+    <tr>
+        <th scope="row">Location</th>
+        <td>Videollamada grupal mediante la plataforma Discord</td>
+    </tr>
+    <tr>
+        <th scope="row">Prepared By</th>
+        <td>Jhosephmyr Gutierrez Soto</td>
+    </tr>
+    <tr>
+        <th scope="row">Attendees (to planning meeting)</th>
+        <td>Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
+        <td>Desarrollo de la US-03, US-04, US-26, US-14</td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 1 Goal</th>
+        <td>Nuestro foco se centra en la implementación de las primeras historias de usuario relacionadas a la página web. Creemos que entregaremos mayor confiabilidad y eficiencia a los talleres mecanicos. Confirmaremos nuestra hipótesis cuando la primera versión de la pagina web se encuentre disponible para ser utilizada por los clientes.</td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 1 Velocity</th>
+        <td>20</td>
+    </tr>
+</table>
+
+#### 5.2.2.2. Sprint Backlog 2
+
+El objetivo del sprint 2 es diseñar e implementar la primera versión de la página web de WorkShop N-Gine. 
+
+Durante todo el sprint 2 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+
+<img src="img/5/2/2/2/trello_board.png">
+
+A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint 2</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  </tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-01</td>
+    <td>Lista de empleados</td>
+    <td>Desarrollar la pantalla para mostrar la lista de empleados</td>
+    <td>3</td>
+    <td>---</td>
+    <td>Done</td>
+  </tr>
+    </tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-02</td>
+    <td>Registro de personal</td>
+    <td>Diseño e implementación del formulario de registro de personal</td>
+    <td>3</td>
+    <td>---</td>
+    <td>Done</td>
+  </tr>
+     </tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-03</td>
+    <td>Formulario</td>
+    <td>Validación de los formularios</td>
+    <td>1</td>
+    <td>---</td>
+    <td>Done</td>
+  </tr>
+       </tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-04</td>
+    <td>Llamada a API</td>
+    <td>Realizar llamadas a la API para enviar los datos de registro</td>
+    <td>2</td>
+    <td>---</td>
+    <td>Done</td>
+  </tr>
+   </tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-05</td>
+    <td>Confirmación de registro</td>
+    <td>Popup de confirmación de registro</td>
+    <td>2</td>
+    <td>---</td>
+    <td>Done</td>
+  </tr>
+     </tr>  
+    <td>US-04</td>
+    <td>Personal</td>
+    <td>TK-06</td>
+    <td>Gestion de personal</td>
+    <td>Implementr pantalla de Gestión de Personal</td>
+    <td>2</td>
+    <td>Gestión de personal</td>
+    <td>Done</td>
+  </tr>
+       </tr>  
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-07</td>
+    <td>Validar datos del login</td>
+    <td> Implementar validaciones para datos incompletos o incorrectos.</td>
+    <td>1</td>
+    <td>Gestiona</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.2.3. Development Evidence for Sprint Review
+
+| Branch | Id Commit | Cabecera | Cuerpo |
+| - | - | - | - |
+| Rama | ID Commit | Cabecera | Cuerpo |
+
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+No se ha realizado nada especifico con respecto a esta sección en este sprint.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Para este sprint se ha logrado completar distintas historias de usuario, entre las cuales destacan las historias de usuario relacionadas al registro y autentificación de cuentas, pantallas principales de la página web, flujo intervención de mecánico, notificaciones de usuarios y demás. 
+
+A continuación algunas evidencias en imágen de las historias de usuario más relevantes: ...
+
+Link del video de navegación del sprint 2: ...
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Para el diseño, desarrollo y despliegue del sprint 2 se ha utilizado una Fake API creada por el equipo para simular el backend. 
+
+A continuación algunas evidencias en imágen de la fake API:
+...
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify para el despliegue total de la página a internet. 
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint. 
+
+| Alumno | Actividad |
+| Jhosepmyr Gutiérrez Soto	 |  |
+| Eric Hernandez Tuiro	 |  |
+| Henry Reaño Delgadillo	 |  |
+| Elmer Riva Rodriguez	 |  |
+<img src="img/Insight/TP.png">
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -4047,3 +4233,6 @@ Repositorio de informe: https://github.com/Web-Application-YaraSoftware/Informe
 Testing protoypes web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Eazn2di6ZRtMhk1PZDpfGMUBz1smfVdJMxImTBNzLqTYaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hpZt0x
 
 Testing prototypes mobile: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ef_ZB2PJR8dAunoOhdG1MFcBPzJ9J79mlDk0-jS6bgmBsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DQQg0b
+
+
+Video expositivo entrega parcial: https://www.canva.com/design/DAGRxKvZHpM/c474erF4sW5iZrAOG_UVUA/edit?utm_content=DAGRxKvZHpM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
