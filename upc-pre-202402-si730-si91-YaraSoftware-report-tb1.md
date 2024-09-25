@@ -4199,6 +4199,7 @@ Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify p
 | Eric Hernandez Tuiro	 |  |
 | Henry Reaño Delgadillo	 |  |
 | Elmer Riva Rodriguez	 |  |
+<img src="img/Insight/TP.png">
 
 ## 5.3. Validation Interviews
 
