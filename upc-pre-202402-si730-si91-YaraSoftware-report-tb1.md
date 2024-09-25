@@ -66,6 +66,7 @@
 | 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
 | 5.5.0 | 25/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning y sprint backlog del sprint 2 |
 | 5.5.1 | 25/09/2024 | Henry Reaño Delgadillo | Se agrega el esquema de sprint 2 completo |
+| 5.5.2 | 25/09/2024 | Henry Reaño Delgadillo | Se completa las secciones de testing, execution, services, software deployment evidences parcialmente |
 
 <div style="page-break-after: always;"></div>
 
@@ -255,8 +256,6 @@ Para esta entrega, Elmer y Eric se encargaron de el diseño de apicación. Henry
 # Student Outcome
 
 **ABET – EAC - Student Outcome 5:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
-
-
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
 | - | - | - |
@@ -3979,7 +3978,6 @@ En el desarrollo del sprint 1 se logró desplegar las funcionalidades descritas 
 El desarrollo de la Hero Section con una imagen imponente y llamativa para el usuario.
 <img src="img/5/2/1/4/hero.png">
 
-
 La sección About Us que describe nuestra empresa, nuestros valores y visión.
 <img src="img/5/2/1/4/about_us.png">
 
@@ -4147,35 +4145,60 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>US-04</td>
     <td>Personal</td>
     <td>TK-06</td>
-    <td></td>
+    <td>Gestion de personal</td>
     <td>Implementr pantalla de Gestión de Personal</td>
     <td>2</td>
-    <td>---</td>
+    <td>Gestión de personal</td>
     <td>Done</td>
   </tr>
        </tr>  
-    <td>US-04</td>
-    <td>Personal</td>
+    <td>US-02</td>
+    <td>Pantalla de login</td>
     <td>TK-07</td>
-    <td></td>
-    <td>Implementr pantalla de Gestión de Personal</td>
-    <td>2</td>
-    <td>---</td>
+    <td>Validar datos del login</td>
+    <td> Implementar validaciones para datos incompletos o incorrectos.</td>
+    <td>1</td>
+    <td>Gestiona</td>
     <td>Done</td>
   </tr>
 </table>
 
 #### 5.2.2.3. Development Evidence for Sprint Review
 
+| Branch | Id Commit | Cabecera | Cuerpo |
+| - | - | - | - |
+| Rama | ID Commit | Cabecera | Cuerpo |
+
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+No se ha realizado nada especifico con respecto a esta sección en este sprint.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+Para este sprint se ha logrado completar distintas historias de usuario, entre las cuales destacan las historias de usuario relacionadas al registro y autentificación de cuentas, pantallas principales de la página web, flujo intervención de mecánico, notificaciones de usuarios y demás. 
+
+A continuación algunas evidencias en imágen de las historias de usuario más relevantes: ...
+
+Link del video de navegación del sprint 2: ...
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Para el diseño, desarrollo y despliegue del sprint 2 se ha utilizado una Fake API creada por el equipo para simular el backend. 
+
+A continuación algunas evidencias en imágen de la fake API:
+...
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
+Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify para el despliegue total de la página a internet. 
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint. 
+
+| Alumno | Actividad |
+| Jhosepmyr Gutiérrez Soto	 |  |
+| Eric Hernandez Tuiro	 |  |
+| Henry Reaño Delgadillo	 |  |
+| Elmer Riva Rodriguez	 |  |
 
 ## 5.3. Validation Interviews
 
