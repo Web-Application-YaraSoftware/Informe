@@ -64,7 +64,8 @@
 | 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
 | 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
 | 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
-| 5.5.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning y sprint backlog del sprint 2 |
+| 5.5.0 | 25/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning y sprint backlog del sprint 2 |
+| 5.5.1 | 25/09/2024 | Henry Reaño Delgadillo | Se agrega el esquema de sprint 2 completo |
 
 <div style="page-break-after: always;"></div>
 
@@ -4092,197 +4093,89 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <th>Assigned To</th>
     <th>Status (To-do / In-Process / To-Review / Done)</th>
   </tr>
-  <tr>
-    <td>SWR-01</td>
-    <td>Hero Section</td>
-    <td>WI-01</td>
-    <td>Diseño de hero section</td>
-    <td>Creación del diseño visual de la sección hero, incluyendo la elección de colores, tipografía, y disposición de los elementos.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-01</td>
-    <td>Hero Section</td>
-    <td>WI-02</td>
-    <td>Implementación de barra de navegación y menu</td>
-    <td>Desarrollo de la barra de navegación y el menú en la sección hero, asegurando que sea responsive y accesible.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-01</td>
-    <td>Hero Section</td>
-    <td>WI-03</td>
-    <td>Inserción de imagen de hero section</td>
-    <td>Inserción y optimización de la imagen principal en la sección hero, asegurando que se cargue rápidamente.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-02</td>
-    <td>About the product</td>
-    <td>WI-04</td>
-    <td>Diseño de sección about the product</td>
-    <td>Diseño visual de la sección que describe el producto, con un enfoque en la usabilidad y la claridad de la información.</td>
+  </tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-01</td>
+    <td>Lista de empleados</td>
+    <td>Desarrollar la pantalla para mostrar la lista de empleados</td>
     <td>3</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>---</td>
     <td>Done</td>
   </tr>
-  <tr>
-    <td>SWR-02</td>
-    <td>About the product</td>
-    <td>WI-05</td>
-    <td>Resumen de sección about the product</td>
-    <td>Elaboración de un resumen atractivo y conciso que describa las características principales del producto.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-02</td>
-    <td>About the product</td>
-    <td>WI-06</td>
-    <td>Imagen de about product</td>
-    <td>Inserción de imágenes relevantes que complementen la descripción del producto en la sección correspondiente.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-03</td>
-    <td>Beneficios</td>
-    <td>WI-07</td>
-    <td>Diseño de beneficios</td>
-    <td>Diseño visual de la sección que destaca los beneficios del producto, utilizando íconos y texto conciso.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-03</td>
-    <td>Beneficios</td>
-    <td>WI-08</td>
-    <td>Implementación de cards</td>
-    <td>Desarrollo e implementación de las cards en la sección de beneficios, asegurando interactividad y responsividad.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-04</td>
-    <td>Testimonios</td>
-    <td>WI-09</td>
-    <td>Diseño de testimonios</td>
-    <td>Creación del diseño visual de la sección de testimonios, enfocándose en la credibilidad y la estética.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-04</td>
-    <td>Testimonios</td>
-    <td>WI-11</td>
-    <td>Consumo de API</td>
-    <td>Integración de una API para obtener y mostrar testimonios en tiempo real en la sección correspondiente.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-04</td>
-    <td>Testimonios</td>
-    <td>WI-12</td>
-    <td>Animación de cards</td>
-    <td>Implementación de animaciones en las cards de testimonios para mejorar la interacción del usuario.</td>
+    </tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-02</td>
+    <td>Registro de personal</td>
+    <td>Diseño e implementación del formulario de registro de personal</td>
     <td>3</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>---</td>
     <td>Done</td>
   </tr>
-  <tr>
-    <td>SWR-05</td>
-    <td>About Us</td>
-    <td>WI-13</td>
-    <td>Diseño de about us</td>
-    <td>Creación del diseño visual para la sección de "About Us", incluyendo la historia y misión de la empresa.</td>
-    <td>2</td>
-    <td>Elmer Augusto Riva Rodriguez</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-05</td>
-    <td>About Us</td>
-    <td>WI-14</td>
-    <td>Animación de about us</td>
-    <td>Desarrollo de animaciones para mejorar la presentación de la sección "About Us".</td>
-    <td>3</td>
-    <td>Elmer Augusto Riva Rodriguez</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-06</td>
-    <td>Planes</td>
-    <td>WI-15</td>
-    <td>Diseño de planes</td>
-    <td>Diseño visual de la sección de planes, presentando las opciones de suscripción o compra del producto.</td>
-    <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-06</td>
-    <td>Planes</td>
-    <td>WI-16</td>
-    <td>Implementación de cards</td>
-    <td>Desarrollo e implementación de las cards en la sección de planes, asegurando interactividad y responsividad.</td>
-    <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-07</td>
+     </tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-03</td>
     <td>Formulario</td>
-    <td>WI-17</td>
-    <td>Diseño de formulario de contacto</td>
-    <td>Creación del diseño visual para el formulario de contacto, asegurando que sea claro y fácil de usar.</td>
-    <td>2</td>
-    <td>Álvaro Orozco Torres</td>
+    <td>Validación de los formularios</td>
+    <td>1</td>
+    <td>---</td>
     <td>Done</td>
   </tr>
-  <tr>
-    <td>SWR-07</td>
-    <td>Formulario</td>
-    <td>WI-18</td>
-    <td>Implementación de formulario</td>
-    <td>Desarrollo e integración del formulario de contacto, incluyendo validación y envío de datos.</td>
+       </tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-04</td>
+    <td>Llamada a API</td>
+    <td>Realizar llamadas a la API para enviar los datos de registro</td>
     <td>2</td>
-    <td>Álvaro Orozco Torres</td>
+    <td>---</td>
     <td>Done</td>
   </tr>
-  <tr>
-    <td>SWR-08</td>
-    <td>Footer</td>
-    <td>WI-19</td>
-    <td>Diseño de footer</td>
-    <td>Diseño visual del pie de página (footer), incluyendo enlaces a secciones relevantes y redes sociales.</td>
+   </tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-05</td>
+    <td>Confirmación de registro</td>
+    <td>Popup de confirmación de registro</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>---</td>
     <td>Done</td>
   </tr>
-  <tr>
-    <td>SWR-08</td>
-    <td>Footer</td>
-    <td>WI-20</td>
-    <td>Implementación de footer</td>
-    <td>Desarrollo del pie de página, asegurando que sea responsive y accesible.</td>
+     </tr>  
+    <td>US-04</td>
+    <td>Personal</td>
+    <td>TK-06</td>
+    <td></td>
+    <td>Implementr pantalla de Gestión de Personal</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>---</td>
+    <td>Done</td>
+  </tr>
+       </tr>  
+    <td>US-04</td>
+    <td>Personal</td>
+    <td>TK-07</td>
+    <td></td>
+    <td>Implementr pantalla de Gestión de Personal</td>
+    <td>2</td>
+    <td>---</td>
     <td>Done</td>
   </tr>
 </table>
+
+#### 5.2.2.3. Development Evidence for Sprint Review
+
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint. 
 
 ## 5.3. Validation Interviews
 
