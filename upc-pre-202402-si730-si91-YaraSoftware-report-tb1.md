@@ -4232,3 +4232,5 @@ Repositorio de informe: https://github.com/Web-Application-YaraSoftware/Informe
 Testing protoypes web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Eazn2di6ZRtMhk1PZDpfGMUBz1smfVdJMxImTBNzLqTYaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hpZt0x
 
 Testing prototypes mobile: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ef_ZB2PJR8dAunoOhdG1MFcBPzJ9J79mlDk0-jS6bgmBsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DQQg0b
+
+Video expositivo entrega parcial: https://www.canva.com/design/DAGRxKvZHpM/c474erF4sW5iZrAOG_UVUA/edit?utm_content=DAGRxKvZHpM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
