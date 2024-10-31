@@ -4201,6 +4201,664 @@ Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify p
 | Elmer Riva Rodriguez	 |  |
 <img src="img/Insight/TP.png">
 
+### 5.2.3 Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+<table>
+    <tr>
+        <th scope="row"><strong>Sprint #</strong></th>
+        <td>Sprint 3</td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Planning Background</strong></td>
+        <td>Para la elaboración de este sprint contamos con dos integrantes menos en el equipo. Hay muchas funcionalidades por implementar, pero el equipo se encuentra motivado</td>
+    </tr>
+    <tr>
+        <th scope="row">Date</th>
+        <td>2024/10/14</td>
+    </tr>
+    <tr>
+        <th scope="row">Time</th>
+        <td>20:00</td>
+    </tr>
+    <tr>
+        <th scope="row">Location</th>
+        <td>Videollamada grupal mediante la plataforma Discord</td>
+    </tr>
+    <tr>
+        <th scope="row">Prepared By</th>
+        <td>Elmer Riva, Jhosepmyr Gutierrez, y Erick Hernandez</td>
+    </tr>
+    <tr>
+        <th scope="row">Attendees (to planning meeting)</th>
+        <td>Elmer Augusto Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
+        <td>Desarrollo de la US-07, US-10, US-11, US-12, US-15, US-16, US-17, US-18, US-19, US-20, US-21, US-22, US-23, US-24, US-26</td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 3 Goal</th>
+        <td>Nuestro enfoque está en mejorar la landing page agregando videos del equipo y del producto en la sección "About Us", enriquecer el flujo de ejecución de intervenciones y generar métricas, y permitir incrementar las posibilidades de nuevas características.
+        Creemos que esto facilitará la elección del producto y generará confianza a los visitantes, aumentará la eficiencia operativa de las intervenciones y mejorará la toma de decisiones para mecánicos y dueños de talleres, y permitirá implementar nuevas funcionalidades para los desarrolladores.
+        Esto se confirmará cuando los usuarios se suscriban y se vuelvan clientes, cuando los mecánicos completen exitosamente una intervención y los dueños del taller revisen los reportes, y cuando se desarrollen los endpoints relacionados a los mecánicos y dueños de talleres.</td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 3 Velocity</th>
+        <td>42</td>
+    </tr>
+</table>
+
+#### 5.2.3.2. Sprint Backlog 3
+
+El objetivo del sprint 3 es mejorar la landing page agregando videos del equipo y del producto en la sección "About Us", enriquecer el flujo de ejecución de intervenciones y generar métricas, y permitir incrementar las posibilidades de nuevas características
+
+Durante todo el sprint 3 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+
+<img src="img/5/2/3/trello_board.png">
+
+A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint 2</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>  
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
+    <td>TK-01</td>
+    <td>Crear interfaz de detalles de cliente </td>
+    <td>Diseñar la pantalla para mostrar información detallada del cliente y sus vehículos.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
+    <td>TK-02</td>
+    <td>Editar y actualizar datos</td>
+    <td>Permitir la edición de los datos del cliente y enviar cambios al backend.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
+    <td>TK-03</td>
+    <td>Eliminar cliente</td>
+    <td>Implementar funcionalidad para cambiar el estado del cliente a inactivo.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
+    <td>TK-04</td>
+    <td>Restaurar cliente</td>
+    <td>Permitir restaurar clientes inactivos desde la interfaz de clientes.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Not done</td>
+  </tr>
+  <tr>  
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-05</td>
+    <td>Crear detalles de intervención</td>
+    <td>Diseñar la interfaz para mostrar la información completa de una intervención</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-06</td>
+    <td>Modificar intervención</td>
+    <td>Permitir la edición de la intervención si está en estado pendiente.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-07</td>
+    <td>Guardar cambios</td>
+    <td>Implementar funcionalidad para guardar los cambios realizados.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-08</td>
+    <td>Cancelar intervención </td>
+    <td>Permitir la cancelación de la intervención si está en estado pendiente.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-09</td>
+    <td>Crear la interfaz de inventario</td>
+    <td>Mostrar las existencias del inventario, incluyendo el nombre, cantidad, límite, y descripción.</td>
+    <td>3</td>
+    <td>Eric Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-10</td>
+    <td>Añadir entrada de inventario </td>
+    <td>Implementar un formulario para añadir una nueva entrada de inventario.</td>
+    <td>2</td>
+    <td>Eric Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-11</td>
+    <td>Modificar entrada de inventario:</td>
+    <td>Permitir la modificación de las entradas existentes desde la misma interfaz.</td>
+    <td>2</td>
+    <td>Eric Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-12</td>
+    <td>Guardar cambios de inventario</td>
+    <td>Implementar funcionalidad para guardar los cambios realizados en las entradas de inventario.</td>
+    <td>2</td>
+    <td>Eric Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-13</td>
+    <td>Ordenar por campos</td>
+    <td>Agregar funcionalidad para ordenar el inventario según los campos seleccionados</td>
+    <td>1</td>
+    <td>Eric Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-14</td>
+    <td>Crear interfaz de solicitudes de inventario</td>
+    <td>Mostrar las solicitudes pendientes de los mecánicos, incluyendo el mecánico solicitante, la pieza, la cantidad solicitada y la fecha de solicitud.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-15</td>
+    <td>Guardar cambios en solicitudes</td>
+    <td>Permitir la selección de solicitudes y su posterior eliminación de la lista tras guardar cambios</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-16</td>
+    <td>Deshacer cambios</td>
+    <td>Implementar funcionalidad para revertir las acciones si se decide no realizar los cambios.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-17</td>
+    <td>Ordenar solicitudes por campos</td>
+    <td>Agregar funcionalidad para ordenar las solicitudes según los campos seleccionados</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-15</td>
+    <td>Mis tareas - líder</td>
+    <td>TK-18</td>
+    <td>Mostrar lista de tareas</td>
+    <td>Mostrar las tareas correspondientes a las intervenciones en las que el usuario es líder, con campos como cliente, fecha, y modalidad</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-15</td>
+    <td>Mis tareas - líder</td>
+    <td>TK-19</td>
+    <td>Mostrar etiqueta de líder</td>
+    <td>Incluir una etiqueta en cada tarea que indique que el usuario es el líder de la intervención.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-15</td>
+    <td>Mis tareas - líder</td>
+    <td>TK-20</td>
+    <td>Acceso a más información</td>
+    <td>Permitir que el líder pueda hacer clic en las tareas para ver más información, como diagnóstico y preparación.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-16</td>
+    <td>Mis tareas - asistente</td>
+    <td>TK-21</td>
+    <td>Mostrar lista de tareas del asistente</td>
+    <td>Mostrar las tareas correspondientes a las intervenciones en las que el usuario es asistente, con los campos correspondientes</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-16</td>
+    <td>Mis tareas - asistente</td>
+    <td>TK-22</td>
+    <td>Mostrar etiqueta de asistente</td>
+    <td>Incluir una etiqueta en cada tarea que indique que el usuario es el asistente en la intervención</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-16</td>
+    <td>Mis tareas - asistente</td>
+    <td>TK-23</td>
+    <td>Acceso a más información</td>
+    <td>Permitir al asistente hacer clic en las tareas para ver más detalles de la intervención.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-24</td>
+    <td>Mostrar resumen IoT</td>
+    <td>Mostrar un resumen de la información obtenida por el análisis OBD-IoT, con campos como componente, estado y código de error.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-25</td>
+    <td>Mostrar información general</td>
+    <td>Mostrar información general de la intervención, como cliente, vehículo, fecha, entre otros</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-26</td>
+    <td>Mostrar registro de intervenciones anteriores</td>
+    <td>Permitir ver un registro de intervenciones anteriores asociadas al vehículo</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-27</td>
+    <td>Acceso a detalles de intervenciones anteriores</td>
+    <td>Implementar la funcionalidad para hacer clic en intervenciones anteriores y mostrar sus detalles completos.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-28</td>
+    <td>Mostrar lista de tareas de diagnóstico</td>
+    <td>Mostrar las tareas asociadas a la intervención</td>
+    <td>1</td>
+    <td>Jhosepmy Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-29</td>
+    <td>Añadir tarea</td>
+    <td>Implementar funcionalidad para que el líder de la intervención añada nuevas tareas a la lista</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-30</td>
+    <td>Eliminar tarea</td>
+    <td>Permitir al líder eliminar tareas de la lista</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-31</td>
+    <td>Guardar cambios en el diagnóstico</td>
+    <td>Implementar funcionalidad para guardar los cambios realizados en las tareas.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-32</td>
+    <td>Deshacer cambios</td>
+    <td>Permitir deshacer los cambios y regresar al estado previo</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-33</td>
+    <td>Mostrar tareas asignadas</td>
+    <td>Mostrar la lista de tareas asignadas para la intervención</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-34</td>
+    <td>Añadir tarea</td>
+    <td>Permitir que el líder de la intervención añada tareas adicionales durante la ejecución.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-35</td>
+    <td>Eliminar tarea</td>
+    <td>Implementar funcionalidad para que el líder elimine tareas en ejecución si es necesario.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-36</td>
+    <td>Guardar cambios</td>
+    <td>Permitir guardar los cambios realizados en la intervención.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-37</td>
+    <td>Deshacer cambios</td>
+    <td>Implementar funcionalidad para revertir los cambios si es necesario.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-38</td>
+    <td>Mostrar estado de las tareas</td>
+    <td>Mostrar la lista de tareas con su estado (completado, pendiente)</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-39</td>
+    <td>Finalizar intervención</td>
+    <td>Implementar funcionalidad para finalizar la intervención una vez todas las tareas estén completadas.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-40</td>
+    <td>Mostrar lista de vehículos</td>
+    <td>Mostrar todos los vehículos registrados del usuario, con la información relevante (modelo, marca, año).</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-41</td>
+    <td>Agregar vehículo</td>
+    <td>Implementar un formulario para añadir un nuevo vehículo, incluyendo los campos requeridos (marca, modelo, año, placa).</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-42</td>
+    <td>Validar datos del vehículo</td>
+    <td>Validar que los datos ingresados en el formulario sean correctos y completos.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-43</td>
+    <td>Mostrar mensaje de éxito</td>
+    <td>Mostrar una confirmación cuando el vehículo se haya registrado correctamente.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-44</td>
+    <td>Eliminar vehículo</td>
+    <td>Implementar funcionalidad para eliminar un vehículo de la lista registrada.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Registro de intervenciones</td>
+    <td>TK-45</td>
+    <td>Mostrar historial de intervenciones</td>
+    <td>Mostrar una línea de tiempo con todas las intervenciones realizadas en un vehículo, ordenadas cronológicamente.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Registro de intervenciones</td>
+    <td>TK-46</td>
+    <td>Acceso a detalles de intervención</td>
+    <td>Permitir que el usuario haga clic en una intervención y vea los detalles completos de esa intervención.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Registro de intervenciones</td>
+    <td>TK-47</td>
+    <td>Mostrar detalles de intervención</td>
+    <td>Mostrar información detallada de cada intervención, como la fecha, servicios realizados, y costo.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-48</td>
+    <td>Mostrar información IoT</td>
+    <td>Implementar una interfaz que muestre la información generada por el dispositivo IoT, como el estado de los componentes y códigos de error.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-49</td>
+    <td>Mostrar detalles de códigos de error</td>
+    <td>Permitir que el usuario haga clic en un código de error para obtener una explicación detallada de su significado.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-50</td>
+    <td>Actualizar información en tiempo real</td>
+    <td>Implementar la actualización automática de la información IoT cada cierto intervalo de tiempo para reflejar el estado actual del vehículo.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-51</td>
+    <td>Crear formulario de agendar cita</td>
+    <td>Diseñar un formulario donde el usuario pueda seleccionar una fecha y modalidad para agendar la cita.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-52</td>
+    <td>Validar datos de la cita</td>
+    <td>Validar que los datos ingresados (fecha, modalidad) sean correctos y válidos</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-53</td>
+    <td>Mostrar confirmación de cita</td>
+    <td>Mostrar una notificación cuando la cita se haya agendado correctamente y enviar una confirmación al taller.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-54</td>
+    <td>Manejo de errores de fecha</td>
+    <td>Implementar mensajes de error si la fecha seleccionada no es válida o está incompleta.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.3.3. Development Evidence for Sprint Review
+
+| Branch | Id Commit | Cabecera | Cuerpo |
+| - | - | - | - |
+| Rama | ID Commit | Cabecera | Cuerpo |
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review
+
+No se ha realizado nada especifico con respecto a esta sección en este sprint.
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Para este sprint se ha logrado completar distintas historias de usuario, entre las cuales destacan las historias de usuario relacionadas al registro y autentificación de cuentas, pantallas principales de la página web, flujo intervención de mecánico, notificaciones de usuarios y demás. 
+
+A continuación algunas evidencias en imágen de las historias de usuario más relevantes: ...
+
+Link del video de navegación del sprint 2: ...
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Para el diseño, desarrollo y despliegue del sprint 2 se ha utilizado una Fake API creada por el equipo para simular el backend. 
+
+A continuación algunas evidencias en imágen de la fake API:
+...
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify para el despliegue total de la página a internet. 
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint. 
+
+| Alumno | Actividad |
+| Jhosepmyr Gutiérrez Soto	 |  |
+| Eric Hernandez Tuiro	 |  |
+| Henry Reaño Delgadillo	 |  |
+| Elmer Riva Rodriguez	 |  |
+<img src="img/Insight/TP.png">
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
