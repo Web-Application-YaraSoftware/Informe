@@ -4050,14 +4050,14 @@ Enlace para acceder a la landing page: https://workshop-n-gine-landing-page.netl
     </tr>
     <tr>
         <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
-        <td>Desarrollo de la US-03, US-04, US-26, US-14</td>
+        <td>Desarrollo de la US-01, US-02, US-03, US-04, US-05, US-06, US-08, US-09, US-13, US-14, US-25</td>
     </tr>
     <tr>
-        <th scope="row">Sprint 1 Goal</th>
+        <th scope="row">Sprint 2 Goal</th>
         <td>Nuestro foco se centra en la implementación de las primeras historias de usuario relacionadas a la página web. Creemos que entregaremos mayor confiabilidad y eficiencia a los talleres mecanicos. Confirmaremos nuestra hipótesis cuando la primera versión de la pagina web se encuentre disponible para ser utilizada por los clientes.</td>
     </tr>
     <tr>
-        <th scope="row">Sprint 1 Velocity</th>
+        <th scope="row">Sprint 2 Velocity</th>
         <td>20</td>
     </tr>
 </table>
@@ -4068,7 +4068,7 @@ El objetivo del sprint 2 es diseñar e implementar la primera versión de la pá
 
 Durante todo el sprint 2 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
 
-<img src="img/5/2/2/2/trello_board.png">
+<img src="img/5/2/2/trello_board.png">
 
 A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
 
@@ -4167,7 +4167,85 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
 
 | Branch | Id Commit | Cabecera | Cuerpo |
 | - | - | - | - |
-| Rama | ID Commit | Cabecera | Cuerpo |
+| main | 05e63642d20242b5d70560017e0b8da8a0dd4760 | Merge pull request #17 from Web-Application-YaraSoftware/develop | Develop |
+| main | f084a393cf8a7de2b254fd4564ec7e1b2aac53df | Merge pull request #16 from Web-Application-YaraSoftware/feature/login-screen | Feature/login screen |
+| feature/login-screen | ea91e08d914e3e74816d688d7cee0fbceff73720 | feat(router-guard): add navigation guard for authentication check | - Implemented route guard to redirect unauthenticated users to the login page.<br>- Integrated `useAuthStore` to verify authentication status before navigating to protected routes. |
+| main | 73b933d5979ae2289c25afe7c8ca59deca98b931 | feat(auth-store): create auth store using Pinia for authentication management | No body available. |
+| main | d2fc004021bc9003f108dc1ad5296eefd3abfe8e | feat(auth): enhance login with access service validation and token storage | - Integrated `AccessService` to validate user credentials during login.<br>- Redirected users to home upon successful authentication.<br>- Stored authentication token in local storage for session management.<br>- Displayed confirmation messages based on login success or failure. |
+| main | 4804091330093f04ce3370b21eed6901260faaa6 | feat(access-service): create service for user access management | No body available. |
+| main | adba60afe6949267f7e9bc4dc1fe12100f8af785 | Merge pull request #15 from Web-Application-YaraSoftware/develop | Develop |
+| main | 392a69714bfae9923ff08bc3edc1701a00967a70 | chore: merge to solve conflicts | No body available. |
+| main | 910e4fcb48b521d522e37abbc0bcfdf4589f77eb | Merge pull request #14 from Web-Application-YaraSoftware/feature/notifications | Feature/notifications |
+| main | 442773ab312bfbafe4117b731e2e4057ab3af1b3 | Merge pull request #13 from Web-Application-YaraSoftware/feature/notifications | Feature/notifications |
+| hotfix/notifications | 53d712303ed6751f73c2badb23f0b84cfc9d8765 | fix(api): update fake API JSON to align endpoint paths with actual routes | No body available. |
+| main | c6fc544f8c30adfddc66456365f9ca91d709ea43 | feat(date-service): create service for improved date formatting | No body available. |
+| main | bfc52e9fc01c77ce00cc9fb5245b5d713488299a | fix(notifications): add missing endpoint and update entity structure | No body available. |
+| main | e24bda86308edc9e22aea0c6f742da49796b3fa5 | style(notifications): improve layout for notification item and list | No body available. |
+| main | 9b4393df78fcd6fc73ad7fc541d0537fdc73e95d | Merge pull request #12 from Web-Application-YaraSoftware/feature/interventions | Feature/interventions |
+| feature/interventions | 2ceb2959081b73fffa47e7ce0744732275cebadc | feat(interventions): integrate new intervention dialog by clicking button | No body available. |
+| feature/interventions | 34f8eb11e05b11ef66405a13013c49d6821402c1 | feat(interventions): add new intervention dialog component with client and vehicle lookup and form submission | No body available. |
+| feature/interventions | ac05a02dc90395dbb4d8cd85c86fb0517f46ae9a | feat(interventions): add intervention-list component with api integration, filtering, and UI components | No body available. |
+| feature/interventions | 5a942431052c6eb77477ab33d506f0194966ac0f | feat(interventions): add client and vehicle entities | No body available. |
+| main | fba31344c1fdd9190e06e275825f8fff5ac5b4b6 | chore: register primevue datepicker and textarea components in main.js | No body available. |
+| main | d26f2168b3651d6bcd14cb90edd188c13ab71f1f | Merge pull request #11 from Web-Application-YaraSoftware/feature/clients-detail | No body available. |
+| main | 31179ad0ba3417e83224f014254423855d3cf141 | feat(client-management): add create, delete (single/multiple) functionality with success and error messages | No body available. |
+| main | 02a5a1a069776f64cdb4eca26e6cef3fccb26dd2 | Merge pull request #10 from Web-Application-YaraSoftware/hotfix/personnel | No body available. |
+| main | d000835112ccab1079fa68c37f8d14ab612846c5 | refactor(personnel.view): update functions associated with crud operations | No body available. |
+| main | 99b9b9f196caf75bc238c6ab4572857ac3b0d350 | refactor(mechanic): modify mechanic entity to include state and userType objects | No body available. |
+| main | f07ba96865ddfff3303545a35b32bb1713513bc6 | Merge pull request #9 from Web-Application-YaraSoftware/feature/clients | Feature/clients |
+| client-management | 4ada34d31475df0527b8819bab9a5cabf4fe1a14 | feat(client-management): implement create, delete (single/multiple), and confirmation flows | - Added functionality to create new clients.<br>- Implemented single and multiple client deletion with confirmation dialogs.<br>- Enhanced user experience with confirmation flows for critical actions. |
+| client-management | d8fb3faa4a89d89e151370161b470a4c7e39d3a5 | feat(components): add confirmation dialog and client creation components | No body available. |
+| notifications | 8d02469c11284e5d7b7e027d54b5f9f353f2f384 | feat(notifications): add api configuration for the connection with the fake api and build the section for the items list in notification-list component | No body available. |
+| notifications | e4cfc39cf0c6e878593c8e35c6c8ec6bd9e693d5 | feat(notifications): add methods and configure the notification-item component | No body available. |
+| notifications | f4f4cc5cc9c87f017ded3cf0b4e398562fd23235 | feat(notifications): add notification service file and add the class NotificationService | No body available. |
+| notifications | a2179546e278656b9b2b4885a5e47ef299ec26d7 | feat(notifications): add notification entity file and add the class Notification | No body available. |
+| login-screen | b3bb1a611f99d36c8ae80d76b168f09794d07a52 | feat(login-screen): add primevue components and styles for users in log in page | No body available. |
+| login-screen | 92a99f974f43147634ba804451ed6f90082a16a3 | feat(login-screen): add primevue components and styles for users in log in page | No body available. |
+| hotfix/dynamic-navigation-by-role | 385eb09055da7d15ff54914e663d7f3130b7dfc5 | Merge pull request #8 from Web-Application-YaraSoftware/hotfix/dynamic-navigation-by-role | Hotfix/dynamic navigation by role |
+| hotfix/dynamic-navigation-by-role | 12a2aab70c622960d302bf201097d7dd31f2ba7b | Merge branch 'develop' into hotfix/dynamic-navigation-by-role | No body available. |
+| main | 06dbcbca25fa62d62b66dbc06980ebfc89e07a9b | style: adjust header content height | No body available. |
+| hotfix/personnel | 982b80e9cbe03b8c87334fabc47173c372465695 | Merge pull request #7 from Web-Application-YaraSoftware/hotfix/personnel | style: adjust height and enable vertical scrolling for full viewport display |
+| hotfix/personnel | 4cbabacf3514d0620b795ac4eb07be7fe7cbe266 | Merge pull request #6 from Web-Application-YaraSoftware/revert-4-hotfix/dynamic-navigation-by-role | Revert "fix: update header content disposition" |
+| main | c8dc9e784d144985d788412ff26b22a8a2090458 | style: adjust height and enable vertical scrolling for full viewport display | No body available. |
+| main | d16493b33d332fdd6e12c5c2154b6c881e5e28d2 | fix: update header content disposition | No body available. |
+| main | 2269c3cef97c6a34b96a3b4a8e24dc71be2c5e55 | Revert "fix: update header content disposition" | No body available. |
+| hotfix/dynamic-navigation-by-role | f7de14c6a0c83cf6d737df2fe464844f16d3b861 | Merge pull request #4 from Web-Application-YaraSoftware/hotfix/dynamic-navigation-by-role | fix: update header content disposition |
+| hotfix/dynamic-navigation-by-role | f747b590cd825cf87e4b9f16dbc763f749db9daf | fix: update header content disposition | No body available. |
+| feature/personnel | 7b2a1020423a165215173399f4c25b8353f57135 | Merge pull request #3 from Web-Application-YaraSoftware/feature/personnel | Feature/personnel |
+| feature/personnel | e532064dc571f0996a8db564b335dec77891cfae | feat(personnel): add search filter functionality for mechanics in personnel view | No body available. |
+| feature/personnel | 206c8d2e2b876ebc016ce83a2e152b3d1141bb25 | feat(personnel): implement personnel view with crud operations to personnel service, and modal dialogs | No body available. |
+| feature/personnel | b616eccb62550c947859de79cfffe761f9a647dc | feat(personnel): add mechanic form dialog for creating, updating, and deleting mechanics with validation | No body available. |
+| feature/personnel | 220e8576556f17cf34100b1ce965b10af6c65319 | feat(personnel): implement personnel list component with mechanic selection emit | No body available. |
+| feature/personnel | 5d948dcd0846699e4a7ead18c54b17e0b1dc8388 | feat(personnel): add post, delete and put methods to personnel service for user management | No body available. |
+| feature/personnel | b8be4c2d2967ba98272afda5de45812cabb7b9b7 | feat(personnel): update personnel-item component with click event to show information dialog | No body available. |
+| feature/clients | 3220a0c6be030143da92f624931a3cc9d3fb1b59 | feat(clients): add searchable and sortable table component | No body available. |
+| feature/clients | 2a5f20932eee298da03a7e80559a96097e7788a4 | feat(clients): create user, user-tate and user-type class and service. | No body available. |
+| feature/personnel | e3b9f1cc7eb5ec6993cdfc431f6ad007620bb75f | feat(personnel): add personnel-list component with mechanic data fetching and emit noMechanics event | No body available. |
+| feature/personnel | d8cef0368e43b311801db998f88790b03aba21d0 | feat(personnel): add personnel-item component | No body available. |
+| feature/personnel | 3c8e5f1123eade511dfd0386e3f837c84a81d46c | feat(personnel): add mechanic entity and personnel service | No body available. |
+| feature/dynamic-navigation-by-role | e3a606c02538a63cbfcf7daffb98e29208ab80dc | Merge pull request #1 from Web-Application-YaraSoftware/feature/dynamic-nagitation-by-role | Feature/dynamic nagitation by role |
+| feature/dynamic-navigation-by-role | 7cceaa74c2d73a7b8abcfcc9f67a2b80e34517ea | feat(layout): create components and implement role-based button visibility | No body available. |
+| main | 4987b9bfb8d566dcc99e106c7b5d16148f3d92a6 | feat: create workshop class, service and store | No body available. |
+| main | 99bf5b496e4db97bacc3a0499391f8e08731414a | fix: update sample data to db.json | No body available. |
+| main | 1f20e6799ea714e671b9631b16b8ea2dbd662220 | fix(router): update personnel path to point to the correct route | No body available. |
+| main | 6c7d3e5913e4f04684c4c4569105c0c865605993 | chore: configure axios instance with base url and default headers | No body available. |
+| main | 3101049755cb0a19aa588f7edcf92247cfa509d4 | chore(api): add sample data to db.json for fake api consumption | No body available. |
+| main | b46432c7fb94f5e83ee5470e48d2dc25f1cd235c | chore(deps): add Pinia state management and configure globally | No body available. |
+| main | 765b4c25f9e5f6a08c794d2d43630592a5402b9a | chore(deps): add PrimeFlex and configure globally in main.js | No body available. |
+| main | c108ce92e7fcff94a23fedc74a08fdd2c660f69b | refactor(structure): update folder names to reflect new bounded contexts and update routes | No body available. |
+| main | bdaa424cbafba7aa318308f3f0fe716bc006c905 | chore(router): setup basic routing structure with placeholder components | - Created routes for all paths with empty component files.<br>- Configured Vue Router to handle navigation between paths. |
+| main | c86df0ffee909f0da1b54bbff893f05179ca715b | style(global): add base styles for html element | - Set global font family to 'Roboto', sans-serif.<br>- Adjusted base font size to 62.5% for easier rem calculations. |
+| main | a51072c8f8ab037a7cbe9e4a3849f23e3ee954c4 | chore(api): setup fake API for testing purposes | - Created a fake API using JSON Server.<br>- Added sample data for initial testing.<br>- Configured basic endpoints for CRUD operations. |
+| main | 96dc30bc4ae578a5556c8f540469b00861058648 | chore(i18n): setup initial structure for json translation files in 'en' and 'es' | - Added placeholder `en.json` and `es.json` translation files.<br>- Configured basic i18n setup in Vue app, ready for future integration. |
+| main | 9f6c7038e14add4cda6076336d68a2471e199675 | chore(deps): add i18n, vue-router, and primeicons dependencies and set up basic router configuration | No body available. |
+| main | 1bff751740f2491a86da61e04eac362141452747 | feat(components): import and alias primeVue components | No body available. |
+| main | db4691f7bf3df4e9f6d6c98b05e91d283cfdaf12 | chore(project): clean up project structure and add global styles | No body available. |
+| main | 06c050e9faadb08d8f22d6c6feed9b7af95f8756 | chore(deps): add json server dependency | No body available. |
+| main | ed52563b893f3099ccfaca8525fae91858109c35 | chore(deps): add vue router dependency | No body available. |
+| main | 310397aff91c2c255e866ba99e0fa8eb0fae1f5c | chore(deps): add axios dependency | No body available. |
+| main | ec549d8d7d15faeeba685acfefb9a2b160cf4809 | chore(deps): add PrimeVue dependency | No body available. |
+| main | c4d61ec7ed8fc73036c51933d551e87559ce57e8 | chore: init commit | No body available. |
+
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review
 
