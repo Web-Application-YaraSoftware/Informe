@@ -5040,11 +5040,9 @@ No se ha realizado nada especifico con respecto a esta sección en este sprint.
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-Para este sprint se ha logrado completar distintas historias de usuario, entre las cuales destacan las historias de usuario relacionadas al registro y autentificación de cuentas, pantallas principales de la página web, flujo intervención de mecánico, notificaciones de usuarios y demás. 
+Para este sprint se ha logrado completar distintas historias de usuario, entre las cuales destacan las historias de usuario relacionadas a la informacion de vehiculos, intervenciones, pantallas principales de la página web, flujo intervención de mecánico, activity log de los vehiculos, y las tecnical stories asociadas a los recursos Profiles, Authenthication y Notifications.
 
 A continuación algunas evidencias en imágen de las historias de usuario más relevantes: ...
-
-Link del video de navegación del sprint 2: ...
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -5052,6 +5050,56 @@ Para el diseño, desarrollo y despliegue del sprint 2 se ha utilizado una Fake A
 
 A continuación algunas evidencias en imágen de la fake API:
 ...
+
+#### US-06	Clientes
+
+<img src="img/5/2/3/clients.png">
+
+#### US-07 	Detalles de clientes
+
+<img src="img/5/2/3/personal_information.png">
+
+#### US-08 	Intervenciones
+
+<img src="img/5/2/3/activity_log.png">
+
+#### US-10 Detalles de intervención
+
+<img src="img/5/2/3/general_information.png">
+
+<img src="img/5/2/3/intervention_summary.png">
+
+#### US-11 Existencias de inventario
+
+<img src="img/5/2/3/inventory_stock.png">
+
+#### US-12 Solicitudes de inventario
+
+<img src="img/5/2/3/inventory_request.png">
+
+#### US-15 Mis tareas (líder)
+
+<img src="img/5/2/3/activities_assistant.png">
+
+#### US-17 Información de intervención
+
+<img src="img/5/2/3/activities_information.png">
+
+#### US-18	Diagnóstico de intervención
+
+<img src="img/5/2/3/diagnostic.png">
+
+#### US-19	Ejecución de intervención
+
+<img src="img/5/2/3/execution.png">
+
+#### US-20	Supervisión de intervención
+
+<img src="img/5/2/3/supervision.png">
+
+#### US-22	Registro de intervenciones
+
+<img src="img/5/2/3/interventions_list.png">
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
