@@ -5272,11 +5272,23 @@ Al finalizar estos pasos, la URL de la web API estará lista para su uso y conex
 
 ## 5.4. Video About-the-Product
 
+A continuación, la primera version del video About The Product
+<img src="img/5/2/videos/AboutTheProduct.png">
+<br>
+[Enlace Video About The Product](https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
 
 ## Video About-the-Team
+
+A continuación, la primera version del video About The Team
+<img src="img/5/2/videos/AboutTheTeam.png">
+<br>
+[Enlace de Video About The Team](https://www.canva.com/design/DAGVM_ZK3PM/7hTxeqOyIRzgtSVTm5T1qQ/watch?utm_content=DAGVM_ZK3PM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 
 # Bibliografía
 
@@ -5296,6 +5308,11 @@ Testing protoypes web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e
 Testing prototypes mobile: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ef_ZB2PJR8dAunoOhdG1MFcBPzJ9J79mlDk0-jS6bgmBsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DQQg0b
 
 
-Video expositivo entrega parcial: https://www.canva.com/design/DAGRxKvZHpM/c474erF4sW5iZrAOG_UVUA/edit?utm_content=DAGRxKvZHpM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Enlace Video About The Product: https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
+Enlace de Video About The Team: https://www.canva.com/design/DAGVM_ZK3PM/7hTxeqOyIRzgtSVTm5T1qQ/watch?utm_content=DAGVM_ZK3PM&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
+
+Video expositivo entrega TB2: https://www.canva.com/design/DAGVMxTlQwY/gqpbmrFevsFGvLM_VJD6aw/watch?utm_content=DAGVMxTlQwY&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 Documentación Swagger - Workshop N-GINE: https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html
