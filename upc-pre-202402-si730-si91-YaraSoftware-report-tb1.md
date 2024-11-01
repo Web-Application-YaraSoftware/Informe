@@ -5136,9 +5136,45 @@ A continuación evidencia en imágen de tres recursos de nuestro Backend.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify para el despliegue total de la página a internet. 
+Posterior al desarrollo completo del sprint 3, se procedió a utilizar Railway para el despliegue total del backend en la web.
 
-<img src="img/5/2/3/YOUR IMAGES JOGO">
+### LINK DEL BACKEND DEPLOYADO: 
+[Documentación Swagger - Workshop N-GINE](https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html)
+
+#### Acceso a Railway: 
+Inicia sesión en Railway preferiblemente utilizando una cuenta de GitHub para facilitar la integración continua. Si aún no tienes cuenta, créala y luego inicia sesión.
+<img src="img/5/2/3/railway/ingresarRailway.png">
+
+#### Creación del Proyecto y Configuración de la Base de Datos
+Crea un nuevo proyecto en Railway. Como primer paso, configura la base de datos seleccionando MySQL. Esto creará automáticamente una instancia de MySQL para tu proyecto.
+<img src="img/5/2/3/railway/newProject.png">\
+
+#### Obtención de Credenciales de la Base de Datos
+Una vez creada la base de datos, accede a los detalles de la instancia para obtener las credenciales necesarias, incluyendo la URL del host, puerto, nombre de usuario y contraseña. Estos datos serán esenciales para configurar la conexión desde tu API.
+<img src="img/5/2/3/railway/getUrl.png">
+
+#### Configuración de la Conexión en el Proyecto Web API
+En el proyecto de la web API, configura la cadena de conexión DefaultConnection con las credenciales de la base de datos que obtuviste en el paso anterior. Asegúrate de que esta configuración esté correcta para evitar problemas de conexión en el despliegue.
+<img src="img/5/2/3/railway/addValues.png">
+
+#### Preparación del Archivo Dockerfile
+En la raíz del proyecto, agrega un archivo Dockerfile. Define las configuraciones necesarias en este archivo para construir y ejecutar la imagen de tu proyecto. Este paso es clave, ya que Railway utilizará el Dockerfile para empaquetar y desplegar tu aplicación.
+<img src="img/5/2/3/railway/addDocker.png">
+
+#### Agregar el Proyecto desde GitHub a Railway
+En Railway, dentro del proyecto, agrega un nuevo servicio. Selecciona la opción para vincular un repositorio de GitHub y elige el repositorio de tu proyecto de la web API.
+<img src="img/5/2/3/railway/newService.png">
+
+#### Selección del Repositorio de la Web API
+Una vez que hayas vinculado GitHub, selecciona el repositorio específico de la web API. Railway comenzará a construir el proyecto usando la imagen de Docker configurada.
+<img src="img/5/2/3/railway/repositorie.png">
+
+#### Cargar y Configurar el Proyecto en Railway
+Espera a que Railway complete la carga y construcción del proyecto con la imagen de Docker. Una vez finalizado, habilita el puerto de acceso público y establece un dominio personalizado o acorde a las configuraciones de inicio para tu API.
+<img src="img/5/2/3/railway/docker.png">
+
+
+Al finalizar estos pasos, la URL de la web API estará lista para su uso y conexión con el frontend del proyecto. Es importante destacar que cualquier cambio que realices en la rama principal del repositorio de GitHub se reflejará automáticamente en el despliegue de la web API, lo cual permite mantener el proyecto actualizado sin necesidad de redeployar manualmente.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint. 
 
@@ -5183,3 +5219,5 @@ Testing prototypes mobile: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20
 
 
 Video expositivo entrega parcial: https://www.canva.com/design/DAGRxKvZHpM/c474erF4sW5iZrAOG_UVUA/edit?utm_content=DAGRxKvZHpM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+Documentación Swagger - Workshop N-GINE: https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html
