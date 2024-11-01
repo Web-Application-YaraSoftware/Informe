@@ -5044,13 +5044,6 @@ Para este sprint se ha logrado completar distintas historias de usuario, entre l
 
 A continuación algunas evidencias en imágen de las historias de usuario más relevantes: ...
 
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
-
-Para el diseño, desarrollo y despliegue del sprint 2 se ha utilizado una Fake API creada por el equipo para simular el backend. 
-
-A continuación algunas evidencias en imágen de la fake API:
-...
-
 #### FrontEnd
 
 #### US-06	Clientes
@@ -5103,9 +5096,43 @@ A continuación algunas evidencias en imágen de la fake API:
 
 <img src="img/5/2/3/interventions_list.png">
 
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+A continuación evidencia en imágen de tres recursos de nuestro Backend.
+
 #### Backend
 
+#### Imagen de los tres recursos
 <img src="img/5/2/3/backend.png">
+
+### Authentication
+
+#### Post en /api/v1/authentication/sign-up
+<img src="img/5/2/3/post_sign_up.png">
+
+#### Post en /api/v1/authentication/sign-in
+<img src="img/5/2/3/post_sign_in.png">
+
+### Notifications
+
+#### Get en /api/v1/notifications/{userId}
+<img src="img/5/2/3/get_notifications.png">
+
+
+### Profiles
+
+#### Get en /api/v1/profiles/profile/{profileId}
+<img src="img/5/2/3/getProfileId.png">
+
+
+#### Get en /api/v1/profiles/dni/{dni}
+<img src="img/5/2/3/getDni.png">
+
+### Put en Profiles
+<img src="img/5/2/3/putProfile.png">
+
+#### Post en Profiles
+<img src="img/5/2/3/post_profile.png">
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -5115,6 +5142,11 @@ Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify p
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint. 
 
+#### Front End Insights
+<img src="img/Insight/TB2_FrontEnd.png">
+
+#### Back End Insights
+<img src="img/Insight/TB2_BackendEnd.png">
 
 ## 5.3. Validation Interviews
 
