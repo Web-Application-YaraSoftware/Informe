@@ -5051,6 +5051,8 @@ Para el diseño, desarrollo y despliegue del sprint 2 se ha utilizado una Fake A
 A continuación algunas evidencias en imágen de la fake API:
 ...
 
+#### FrontEnd
+
 #### US-06	Clientes
 
 <img src="img/5/2/3/clients.png">
@@ -5101,18 +5103,18 @@ A continuación algunas evidencias en imágen de la fake API:
 
 <img src="img/5/2/3/interventions_list.png">
 
+#### Backend
+
+<img src="img/5/2/3/backend.png">
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify para el despliegue total de la página a internet. 
 
+<img src="img/5/2/3/YOUR IMAGES JOGO">
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint. 
 
-| Alumno | Actividad |
-| Jhosepmyr Gutiérrez Soto	 |  |
-| Eric Hernandez Tuiro	 |  |
-| Henry Reaño Delgadillo	 |  |
-| Elmer Riva Rodriguez	 |  |
-<img src="img/Insight/TP.png">
 
 ## 5.3. Validation Interviews
 
