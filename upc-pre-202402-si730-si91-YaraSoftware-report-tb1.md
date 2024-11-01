@@ -3191,10 +3191,41 @@ El Container Diagram de Workshop N-GINE muestra los principales contenedores que
 </div>
 
 ### 4.6.3. Software Architecture Components Diagrams
-El Component Diagram de Workshop N-GINE desglosa los componentes principales que forman parte de la arquitectura del sistema, específicamente dentro de la API RESTful. Cada controlador maneja una parte del dominio del taller, como usuarios, vehículos, solicitudes, inventario, intervenciones, tareas y notificaciones. Los servicios asociados contienen la lógica de negocio para cada área, mientras que los repositorios se encargan de las operaciones CRUD con la base de datos. Además, el sistema interactúa con servicios externos, como el cliente API para obtener información de vehículos externos y el sistema OBD IoT para recibir diagnósticos en tiempo real.A continuación, presento el diagrama hecho en Structurizr:
+Los diagramas de componentes proporcionan una representación clara y detallada de los diferentes bounded contexts que estructuran la aplicación Workshop N-GINE. A continuación se presenta una breve descripción de cada contexto y los principales componentes que lo constituyen:
+
+#### Customer Relationship Management Bounded Context
+Este diagrama representa el contexto de Customer Relationship Management (CRM) dentro de la aplicación Workshop N-GINE. En este contexto, se gestionan los aspectos relacionados con los clientes, incluyendo la creación, actualización y consulta de información de clientes y la administración de la relación entre los clientes y sus vehículos.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-Component.png" width="1000px">
+  <img src="img/4/c4model/structurizr-crm.png" width="1000px">
+</div>
+
+#### Identity and Access Management Bounded Context
+Este diagrama representa el contexto de Identity and Access Management (IAM) dentro de la aplicación Workshop N-GINE, encargado de la autenticación, gestión de usuarios y control de roles. Su propósito es garantizar un acceso seguro y controlado a los recursos del sistema mediante la gestión de usuarios y sus respectivas autorizaciones.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-iam.png" width="1000px">
+</div>
+
+#### Service Management Bounded Context
+El Service Management controla la planificación y ejecución de intervenciones en el taller. Los controladores de operaciones gestionan las intervenciones, y el manejador de comandos asigna tareas a mecánicos. La integración con IoT permite monitorear vehículos en tiempo real.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-service-management.png" width="1000px">
+</div>
+
+#### Comunication Management Bounded Context
+Este diagrama ilustra la comunicación de la SPA con el Communication Controller, que maneja notificaciones internas y mensajes. El Notification Manager gestiona las alertas, mientras que el Message Command Handler se encarga del envío de mensajes externos a través del Messaging Facade. Todo se registra en el Notification Repository.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-comunication-management.png" width="1000px">
+</div>
+
+#### Analytics Bounded context 
+El diagrama muestra cómo la SPA interactúa con el Analytics Controller, que coordina la recolección de métricas, manejo de datos históricos, generación de reportes y visualización de datos. Todos los datos analíticos se almacenan en el Analytics Repository, conectado a la base de datos.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-analytics.png" width="1000px">
 </div>
 
 ## 4.7. Software Object-Oriented Design
