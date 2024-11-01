@@ -5316,3 +5316,7 @@ Enlace de Video About The Team: https://www.canva.com/design/DAGVM_ZK3PM/7hTxeqO
 Video expositivo entrega TB2: https://www.canva.com/design/DAGVMxTlQwY/gqpbmrFevsFGvLM_VJD6aw/watch?utm_content=DAGVMxTlQwY&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 Documentación Swagger - Workshop N-GINE: https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html
+
+Link repositorio FrontEnd: https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd
+
+Link repositorio BackEnd: https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform
