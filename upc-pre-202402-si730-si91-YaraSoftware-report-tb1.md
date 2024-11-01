@@ -4819,6 +4819,87 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Erick Hernandez</td>
     <td>Done</td>
   </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Registro de Usuario</td>
+    <td>TK-55</td>
+    <td>Implementar endpoint de registro</td>
+    <td>Configurar el endpoint /api/v1/authentication/sign-up para permitir que los usuarios se registren con sus datos.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-02</td>
+    <td>Inicio de Sesión de Usuario</td>
+    <td>TK-56</td>
+    <td>Implementar endpoint de inicio de sesión</td>
+    <td>Configurar el endpoint /api/v1/authentication/sign-in para permitir que los usuarios inicien sesión y reciban un token de autenticación.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-03</td>
+    <td>Consulta de Perfil por ID</td>
+    <td>TK-57</td>
+    <td>Implementar consulta de perfil</td>
+    <td>Configurar el endpoint /api/v1/profiles/profile/{profileId} para obtener detalles del perfil.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-04</td>
+    <td>Consulta de Perfil por DNI</td>
+    <td>TK-58</td>
+    <td>Implementar consulta de perfil por DNI</td>
+    <td>Configurar el endpoint /api/v1/profiles/dni/{dni} para obtener el perfil utilizando el DNI.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-05</td>
+    <td>Consulta de Perfil por ID de Usuario</td>
+    <td>TK-59</td>
+    <td>Implementar consulta de perfil por ID de usuario</td>
+    <td>Configurar el endpoint /api/v1/profiles/user-id/{userId} para obtener el perfil basado en el ID de usuario.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-06</td>
+    <td>Actualización de Perfil</td>
+    <td>TK-60</td>
+    <td>Implementar actualización de perfil</td>
+    <td>Configurar el endpoint /api/v1/profiles/{profileId} para permitir la actualización de los detalles del perfil.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-07</td>
+    <td>Creación de Perfil</td>
+    <td>TK-61</td>
+    <td>Implementar creación de perfil</td>
+    <td>Configurar el endpoint /api/v1/profiles para permitir la creación de nuevos perfiles.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-08</td>
+    <td>Consulta de Notificaciones de Usuario</td>
+    <td>TK-62</td>
+    <td>Implementar consulta de notificaciones</td>
+    <td>Configurar el endpoint /api/v1/notifications/{userId} para obtener todas las notificaciones de un usuario específico.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+</tr>
+
 </table>
 
 #### 5.2.3.3. Development Evidence for Sprint Review
