@@ -4903,10 +4903,105 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
 </table>
 
 #### 5.2.3.3. Development Evidence for Sprint Review
+| Rama                         | Hash                                       | Mensaje de Commit                                                                                          |
+|------------------------------|--------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| develop                      | 6d20119eea0b7558f7214ee5586436000dd13c95   | Merge remote-tracking branch 'origin/develop' into develop                                                 |
+| develop                      | 163719e268d38598202ff227d501ef04ccd0d1bf   | chore: update path references                                                                              |
+| develop                      | 2d83a3850ea28e002c9c328251cf65899f8b384f   | Merge pull request #26 from Web-Application-YaraSoftware/feature/inventory-stock                            |
+| feature/inventory-stock      | c3a6e89206b080ca8e7763fa6e7fdbfb69871724   | feat(product-request): enhance request dialog with dynamic titles and messages                              |
+| develop                      | 8b04f9ffa3b17c39d5c99cba2e185df33c00350a   | Merge pull request #25 from Web-Application-YaraSoftware/feature/inventory-stock                            |
+| feature/inventory-stock      | ea6758b421d09a46b2dff08dce8fa3fe2a95e133   | Merge branch 'develop' into feature/inventory-stock                                                         |
+| develop                      | 87a251f53e727d97aad54cf9312b36a2452da456   | chore: delete obsolete functions in inventory services                                                     |
+| develop                      | b536e98d27a3ebd047e772411f6bcfe2571c8987   | chore: delete obsolete services and entities for inventory                                                 |
+| develop                      | 13b573888f6b1318dbef2a0c6604b5e8c022f604   | Merge branch 'feature/intervention-monitoring' into develop                                                |
+| feature/intervention-monitoring | 5d67ecfce108b783c2588e912b1e6f331337aa7e | feat(task-status): display tasks with mechanic names and status indicators                                 |
+| feature/intervention-execution  | 6afd3ef093a74cddca29f155bf938cc2cd373f32 | feat(checkpoint-management): implement add, update, and delete functionality for checkpoints               |
+| feature/product-management      | 9bba798ffeec8f67678d26274d598e48989b01de | feat(product-management): add stock and request tabs with editing and quantity validation                  |
+| feature/task-execution          | 1b73b5534c73eb720dd8342f6dd49fd9c3e1c581 | feat(task-execution): add task management tabs for requests and tracking with finish option               |
+| feature/intervention-diagnostic-preparation | 1a40f3290222a63cf117924ae5e0ccd3fdf947f9 | feat(diagnostic): add editable diagnostic form with intervention type and description                    |
+| feature/task-distribution       | 72bcf61d6721641e35018e12cfe7a601573f3d51 | feat(task-distribution): implement task management with assignment and editing functionality               |
+| feature/intervention-diagnostic-preparation | 623b322c4c1e7114d01db88443f87d3998ccdcbd | feat(intervention-diagnostic-preparation): add task and intervention management with confirmation dialogs |
+| feature/intervention-information  | cf9fb37e78b1cb17bc4a9f09703648cc49a4f6a6 | feat(timeline): add responsive intervention timeline with state-based severity and navigation             |
+| feature/iot-information          | c7b60be5aa77f32446e3c93321b2f7f178f3ef6f | feat(iot-information): display IoT code list with detailed state and error information popover            |
+| feature/intervention-general-information | 206e17674623eb549420c9deea42dafb0df0e48e | feat(intervention-general-information): implement role-based intervention update with client and vehicle data validation |
+| feature/activity-information      | 0884cc6771f4b787d72a95e3d9352b577e92a562 | feat(activity-information): add components for detailed intervention and IoT data display                |
+| feature/activities-assistant      | 0b97722b36e43fd614a13a99463e9a18fde667e6 | feat(app setup): extend PrimeVue component and service integration for enhanced UI flexibility           |
+| feature/activity                  | 6c8667e767478e384374caa409d2f19eda00fc04  | feat(activity): implement multi-step flow with dynamic components for intervention stages               |
+| feature/router                   | 1c0160c5572868044c2eab5f5b60b80cc174af3f  | refactor(router): update route paths and structure for consistency and clarity                           |
+| feature/interventions-table       | bd57c3dd57b8fe9d85f8783d62f497f0413e4e95  | feat(interventions-table): add client names to interventions table for assistant view                   |
+| feature/checkpoint               | 1e012278924039ce09c9c4240bcc1c88af9e70a8  | feat(checkpoint): add CheckpointService and Checkpoint class                                             |
+| feature/task-product-usage       | 28f38a48c855c18141c7e0d334dd148193ff8c0a  | feat(task-product-usage): add TaskProductUsageService and TaskProductUsage class                         |
+| feature/product-stock            | 45453361c8b6b0bcc5c3027f11662420bd08f331  | feat(product-stock): add ProductStockService, ProductStock, and ProductType classes                      |
+| feature/product-request          | f3cbf68f64e9fafb27d2f96741c0060af73757eb  | feat(product-request): add ProductRequestService, ProductRequest class, and ProductRequestState enum     |
+| feature/iot-devices              | 7e75e128500f5b22fa204040863714aaa09a8666  | feat(iot-devices): add IotDevicesService, IoTDevice, Code, and CodeState classes                         |
+| feature/activities-assistant     | 54966487695304417b0d89f16a45c6508eb990c5  | refactor(tasks-service): add filtering methods for intervention and mechanic in TasksService             |
+| feature/personnel                | 8518f85a9577916705be4c1fdec262b659f6e621  | refactor(personnel): update Mechanic class to extend User and modify PersonnelService endpoints          |
+| feature/vehicle                  | 2190fffd8783f23bcc0ee406706b922e44cfd780  | refactor(vehicle): update Vehicle class properties and add fullName method                               |
+| feature/project-structure        | ca0b6894bd03903ea3aa273a1b948832cd06dc10  | refactor(project-structure): move Workshop class from shared to service-management module                |
+| feature/intervention             | 6fec54185efcbe2bbfd2435e8243b0c810401d69  | refactor(intervention): update Intervention properties and add getFormattedDate method                   |
+| feature/activities-leader        | 3d6a382b61bbaeec1fd9e627f7b022cd89376c5d  | feat(leader-intervention-list): add client names to leader intervention list with client data fetching   |
+| feature/client-service           | 82bddff497881e1ea22a345164cd494be90b00ba  | refactor(client-service): update ClientsService endpoints and add getByDocument method                   |
+| feature/notifications            | 583ed030d11c68dec7149fd64971d4b13ab128b2  | Merge pull request #23 from Web-Application-YaraSoftware/feature/notifications                           |
+| feature/notification-item        | a83ede0ade1fb619e34cdf57be8d5d5a69ef2846  | feat(notification-item): add state update on icon click                                                   |
+| feature/notifications-page       | 0c7a9cebedee5a8b5948c4caf84e4b6a5a4652dc  | refactor(notifications-page): use NotificationManager for managing notifications                          |
+| feature/notification-service     | 82f79b111ac1c4112c36ed191d4f88c15d697ae7  | feat(notification-service): add updateState method and refactor API parameter                             |
+| feature/notification             | 079a484ad98a9a8afc44d48f79c078a24fb7390d  | refactor(notification): update Notification class to use NotificationState enum                           |
+| feature/client                   | 27644e183760928a673dacbc348458aec518cf00  | refactor(client): extend Client class from User with updated properties                                   |
+| feature/entities                 | c78af1b55738002c56e5a78f2097fb3e3a25317e  | feat(entities): add NotificationManager and NotificationState for notification management                 |
+| feature/user                     | 6653d7ff346757ad122cb18a7d51658e7af258d3  | refactor(user): update User class properties and replace UserType/UserState with enums                    |
+| feature/intervention-log-timeline | 22781358f4a7e54c254124e9126e155578261d03  | Merge pull request #22 from Web-Application-YaraSoftware/feature/intervention-log-timeline               |
+| feature/intervention-log-timeline | cf8e33dfb6cb8c661d9fc06a51e15bdfa7081284  | chore: delete previous interventions component                                                            |
+| feature/intervention-detail      | 4af21e8acfd2649de855493d830591113de8b8ea  | refactor(intervention-detail): modify logic to display general information child                          |
+| feature/general-information      | 6b7cc0917c6b4e606d7b4fea1c7ac287a5798933  | refactor: general information component updated with improved variable naming and simplified logic       |
+| feature/inventory-stock          | c1cf2e90aecd87218ce8d606ba26a02d14eeeee9  | Merge pull request #21 from Web-Application-YaraSoftware/feature/inventory-stock                         |
+| feature/inventory-stock          | 94cb4731b8dba49ba2aba8c404ca8f58d941a5d0  | feat(product-stock): Refactor inventory request component to product request component                    |
+| feature/inventory-stock          | cb0aead7cdc6f5de5edce33b064b18f9d028f1fa  | feat(product-stock): enhance product stock management with type filtering, edit, and delete dialogs       |
+| feature/inventory-management      | e680b13ff7bfccb29c7258dc310aa6c3378d3475  | feat(inventory-management): add ProductStock edit dialog component                                       |
+| feature/product-request-state     | e034e69699cc3a3680f1323d82451bbe78178acf  | feat(product-request-state): add ProductRequestState enum with state name retrieval                      |
+| feature/product-type             | c145b3e9fe756a39cd8aef9d911c2ae5d5d30306  | feat(inventory-stock): add ProductType model and ProductTypeService for product type management          |
+| feature/intervention-summary      | 970bbeb6cd9a2cfdc9283f9ee59f0e374e024349  | feat(intervention-summary): add functionality to load and display task product usages                    |
+| feature/intervention-summary      | 77c7d80e7ce2b1c9e9854a2f1b14921be388f4e9  | feat(intervention-summary): add intervention summary component with functionality to load and display task checkpoints |
+| feature/intervention-detail       | b27f3d224bc7bc0443eed8ea471d331e3e461688  | feat(intervention-detail): implement logic for intervention summary component                            |
+| feature/general-information       | 3fd45cf318f389f6faa97d2c74f7810648a73be4  | feat(general-information): add form validation and update intervention functionality                     |
+| develop                         | 730780fc2e713e09afc4aa2fe5e10f4034164f3d  | Merge remote-tracking branch 'origin/feature/intervention-log-timeline' into feature/intervention-log-timeline |
+| feature/intervention-detail       | 4ad86c6f49da77e69eb397dac33f9d6ef876cfb2  | feat(intervention-detail): add intervention detail component with logic to display and update intervention info. |
+| feature/general-info             | d3c5186f0b439c0c08bb1dd3fbeb762cf859f9f6  | feat(general-info): add intervention detail component with logic to display and update intervention info. |
+| feature/intervention-detail       | 2a95c4d8543c87049a591c2e153d0c13b9645013  | feature(intervention-detail): add intervention service                                                   |
+| feature/general-information       | 153cfbbf49727a59719ef5ea5f9bed868198ecd2  | feature(general-information): add general information component, initialize form values and watch for updates to intervention |
+| feature/task-detail              | 98c98b363ef432f26fc3ea2c073330906e87d5b1  | feature(task-detail): add task detail component with task and product usage details                      |
+| feature/router                   | 5dd43c64b718a74c4ad712e7f1ce13ba0433861d  | refactor(router): rename path declaration for interventions details                                      |
+| feature/intervention-detail       | 3c3f72b342b8955a1a768c6981b09fa63c4c3f40  | refactor(vehicle-detail): refactor fetching logic to serve correctly the previous interventions child component |
+| feature/register-interventions    | 2ad831e637f5f140d1697c08f88d010675c25006  | refactor(register-interventions): replace vehicle entity with intervention entity for status handling    |
+| feature/vehicle-detail           | bdba96086390e034c5e00380fc207f57ec49352f  | chore: update vehicle detail route navigation to use dynamic vehicle ID                                  |
+| feature/intervention-log-timeline | 20af49c687511e1cc9b7ecc32176757a48ac000a  | feat(intervention-log-timeline): add vehicle detail view with activity log section                       |
+| feature/vehicle-service          | 475f4779e956f575efd373d2c66688b20de2a12e  | feat(vehicle-service): add method to fetch vehicle data by id                                            |
+| feature/previous-interventions    | c1cdeecc21b91196085e78d0e1025c9a01993ba9  | feat: add previous interventions component with responsive timeline for vehicle interventions, dynamic alignment and navigation to intervention details |
+| feature/clients-detail           | a5120d82ee49622c1226b1bf11d4bcd32f0837ae  | Merge pull request #20 from Web-Application-YaraSoftware/feature/clients-detail                          |
+| feature/clients-detail           | c1be29c5f5519bbb8a3d62b79f0a8e760b57fa31  | Merge branch 'develop' into feature/clients-detail                                                       |
+| feature/leader-intervention-list  | 3f3caeaad33cab51a5918be31498e5fc84c69a56  | feat(leader-intervention-list): add leader intervention list table with filters and row selection        |
+| feature/intervention-list-assistants | 21dda6d757c9bda9bbca7071eef79ed2d633b4ec | feat(intervention-list-assistants): add intervention list table for assistant mechanics with filters and row selection |
+| feature/activities               | 145322c24bc195f9ffd277b4a3abc76fdd65f6d5  | feat(activities): add activities header page template with navigation buttons for assistant and leader   |
+| feature/workshop-store           | ae061006a54e36f39f5dbebc97c8c4d6671304f5  | feat(workshop-store): add mechanicType state with leader and assistant setters                           |
+| feature/app                      | b5afcd4305688f3d2d3374438f01aed37fe71c41  | feat(app): add PrimeVue Tag component to the application                                                 |
+| feature/interventions-service     | 86b757bb41e7a3a682fc21cac12713776af5780e  | refactor(interventions-service): add methods to filter interventions by mechanic leader and assistant    |
+| feature/tasks-service             | 8b94802aadf735f2f1583e98baf7c3f50573e42a  | feat(tasks-service): add TasksService class with CRUD methods                                            |
+| feature/task-state                | 8e1aceb1e320213d473e531395db6827ca293ad5  | feat(task-state): add TaskState enum with getName method                                                 |
+| feature/intervention-type         | f9ca6f9ed81f31d185f64cc09780ddd9aaca1a06  | feat(intervention-type): add InterventionType enum with getName method                                   |
+| feature/intervention-state        | 52c948d34eddce2d63e3ee16b2e065c513733e34  | feat(intervention-state): add InterventionState enum with getName method                                 |
+| feature/task                      | cd81d76e0f1f0ea0fb72d45fdff381e51cd11254  | feat(task): add Task class with finishTask and cancelTask methods                                        |
+| feature/intervention              | dccd1bce6555b626c3818154b4d3bb232cdd7e27  | refactor(intervention): update Intervention class structure and add finish method                        |
+| feature/vehicle-registration      | 52f475fe5281d4b22a534de16ba0cea8f0b80a05  | feat(vehicle-registration): add vehicle entity, and iot dispositive entity                               |
+| feature/client-detail             | bbb41baab80425a92d5739af11580e55365a38b3  | feat(client detail): add workshop client entity, user entity, account state enum, and role enum          |
+| feature/client-detail             | 3047b6379bdc68c49f401391c2fc746afc58bb7a  | feat(client-detail): add vehicle management with listing and registration dialogs                        |
+| feature/client-detail             | 619c65515f788c0d623753745a2ba74d8f05e8e8  | feat(client-detail): add client detail component with display, update, and delete functionality          |
+| feature/vehicle-item             | bc8a263f63e1a8582584612468ae00805d503661  | chore: add default car image for vehicle item components                                                 |
+| feature/vehicle-item             | 64923c12f7f783c27b216d2006de0776d7ba5155  | feat(vehicle-item): add vehicle card component with vehicle selection and last intervention display       |
+| feature/vehicle-service          | 97dba59f6df40c67641bd464aa799e434cfdd722  | feat(vehicle-service): add vehicle service with methods to retrieve and create vehicles                   |
+| feature/client-service            | 2d9ffb1292507aac808698af95b7ee766bc94e49  | feat(client-service): add workshop client service for fetching, updating, and deleting clients           |
+| feature/vehicle-creation         | 1d54311f45063c44331352c8f40def2eb35e4970  | feat(vehicle-creation): add new vehicle registration dialog with save and cancel actions                 |
+| feature/confirmation-dialog       | 040bb8a4beaa4e045c965ceca1f7d4c43524f3fe  | feat(confirmation-dialog): add confirmation dialog component with confirm and dismiss actions             |
+| feature/develop                  | 819a11e0ab379d9ed17242de3b0214a700273615  | Merge pull request #19 from Web-Application-YaraSoftware/develop                                        |
 
-| Branch | Id Commit | Cabecera | Cuerpo |
-| - | - | - | - |
-| Rama | ID Commit | Cabecera | Cuerpo |
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review
 
