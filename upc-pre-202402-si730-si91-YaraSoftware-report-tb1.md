@@ -259,8 +259,8 @@ Para esta entrega, Elmer y Eric se encargaron de el diseño de apicación. Henry
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
 | - | - | - |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | Jhosepmyr:<br>TB1: Durante este entregable, enfrenté dificultades, mis compañeros estuvieron a mi lado, lo que fortaleció nuestra colaboración y nos permitió avanzar como un equipo unido. <br>TP: En esta entrega, corrigió los errores en la página de aterrizaje y completó las funcionalidades faltantes. Además, se encargó de documentar los commits hechos durante el sprint y de planificar el sprint correspondiente. También ajustó las historias de usuario relacionadas con la página de aterrizaje y las agregó en Trello. <br>TB1: <br> Eric: <br>TB1: En este primer entregable participé en todas las reuniones de trabajo y aporté ideas y participé en los debates importantes. Me sentí una pieza importante del equipo al mismo tiempo que consideré que todos los demás lo fueron por igual.  <br>TP: En la entrega TP, se detalla el desarrollo del informe en la sección de insights de colaboración. Esta información es relevante para que los stakeholders internos del proyecto comprendan cómo ha sido el desempeño del equipo en la creación de su documentación.<br> Álvaro: <br>TB1: Considero que he aplicado el liderazgo conjunto a través del diálogo y la polémica. Discutir perspectivas y propuestas es importante para la toma de decisiones, que es una de las responsabilidades que asumen los líderes. <br> Henry: <br>TB1: En este entregable el trabajo en equipo me sentí una pieza clave del equipo, en momentos donde hay inconvenientes o problemas estuve ahí para apoyar a mis compañeros, así como ellos me apoyaron a mi a lo largo de estas semanas. <br>TP: Durante la entrega TP, Carlo realizó commits tanto para la página de aterrizaje como para la aplicación web, siguiendo las convenciones de comunicación escrita. También documentó y desplegó la aplicación para que los interesados pudieran observar el progreso y tener acceso al producto en desarrollo durante el sprint. <br> Elmer: <br>TB1: En este primer entregable, trabajé en equipo asumiendo un liderazgo conjunto con mis compañeros. Colaboramos activamente en la toma de decisiones clave, como los flujos de usuario y la arquitectura de la información. Además, distribuimos las responsabilidades de forma equitativa, lo que nos permitió compartir el liderazgo y aprovechar las fortalezas de cada uno para cumplir con los objetivos del proyecto de manera eficiente.<br> TP: Refinó los criterios de aceptación para facilitar la comprensión tanto del equipo como de las partes interesadas. Usó Trello para transcribir las historias de usuario y tareas que habían sido redactadas previamente, lo que permitió a los stakeholders y desarrolladores monitorear el progreso de las funcionalidades del proyecto. | [Redaccion] |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Jhosepmyr:<br>TB1: Aunque el proceso no estuvo exento de desafíos, considero que logramos mantener un ambiente de cooperación y trabajo en equipo. Al principio, tuvimos algunos problemas para organizar nuestras tareas, pero estableciendo objetivos claros y dividiendo responsabilidades, pudimos mejorar nuestra coordinación y cumplir con nuestras metas de manera efectiva. <br>TP: En la presentación del proyecto, Jhosepmyr detalló el desarrollo del segundo sprint y organizó el código del proyecto. Además, incluyó el proceso de despliegue y los insights sobre la colaboración del equipo durante el sprint.<br> Eric: <br>TB1: Para ayudar a crear un entorno colaborativo saludable trabajé en un entorno colaborativo con los demás miembros del equipo al mismo tiempo que mantuve puntualidad en el cumplimiento de las tareas del trabajo.<br>TP: Se organizaron reuniones dentro del equipo para revisar los avances del sprint y se realizó un video donde se presentó lo trabajado durante el segundo sprint.<br> Álvaro: <br>TB1: Hemos tenido un entorno de cooperación constante, en que todos hemos sido bienvenidos y hemos aportado nuestra cuota de contribución. Mediante estas aportaciones, hemos logrado desarrollar y cumplir una serie de actividades que planificamos previamente. <br> Henry: <br>TB1: A pesar de los problemas que pasamos en el transcurso de este entregable, siento que pudimos, como equipo, mantenernos unidos y cooperativos unos con otros. Al inicio nos costo mantener la constancia pero poco a poco mediante metas que nos propusimos en el equipo logramos el objetivo. <br>TP: Henry ajustó las historias de usuario correspondientes a la página de aterrizaje y las incluyó en Trello. También modificó el diseño de la landing page en Figma para alinearlo con las mejoras realizadas.<br> Elmer: <br>TB1: En este primer entregable, creé un entorno colaborativo e inclusivo, donde todos los miembros del equipo pudieron participar activamente. Establecimos metas claras desde el principio, como definir los flujos de usuario y la estructura de la UI. Planificamos las tareas de manera organizada, asignando responsabilidades específicas. Por ejemplo, coordinamos el desarrollo de los prototipos interactivos y la revisión conjunta de los User Flow Diagrams, lo que nos permitió cumplir con los objetivos en tiempo.<br>  TP: Alan organizó diversas reuniones con el equipo para avanzar en conjunto en el proyecto, colaborar en la implementación de funcionalidades y comunicar las metas y objetivos alcanzados.<br> | [Redaccion] |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | Jhosepmyr:<br>TB1: Durante este entregable, enfrenté dificultades, mis compañeros estuvieron a mi lado, lo que fortaleció nuestra colaboración y nos permitió avanzar como un equipo unido. <br>TP: En esta entrega, corrigió los errores en la página de aterrizaje y completó las funcionalidades faltantes. Además, se encargó de documentar los commits hechos durante el sprint y de planificar el sprint correspondiente. También ajustó las historias de usuario relacionadas con la página de aterrizaje y las agregó en Trello. <br>TB2:  Contribuí a redactar las instrucciones para desplegar el backend de la aplicación elaborada, es to con el objetivo de que futuros developers puedan comprender y replicar el despliegue por su cuenta. <br> Eric: <br>TB1: En este primer entregable participé en todas las reuniones de trabajo y aporté ideas y participé en los debates importantes. Me sentí una pieza importante del equipo al mismo tiempo que consideré que todos los demás lo fueron por igual.  <br>TP: En la entrega TP, se detalla el desarrollo del informe en la sección de insights de colaboración. Esta información es relevante para que los stakeholders internos del proyecto comprendan cómo ha sido el desempeño del equipo en la creación de su documentación<br> TB2: Realicé avances en el back-end de la aplicación web. Los endpoints creados se encuentran debidamente documentados gracias al uso de la herramienta de swagger-ui.<br> Álvaro: <br>TB1: Considero que he aplicado el liderazgo conjunto a través del diálogo y la polémica. Discutir perspectivas y propuestas es importante para la toma de decisiones, que es una de las responsabilidades que asumen los líderes. <br> Henry: <br>TB1: En este entregable el trabajo en equipo me sentí una pieza clave del equipo, en momentos donde hay inconvenientes o problemas estuve ahí para apoyar a mis compañeros, así como ellos me apoyaron a mi a lo largo de estas semanas. <br>TP: Durante la entrega TP, Carlo realizó commits tanto para la página de aterrizaje como para la aplicación web, siguiendo las convenciones de comunicación escrita. También documentó y desplegó la aplicación para que los interesados pudieran observar el progreso y tener acceso al producto en desarrollo durante el sprint. <br> Elmer: <br>TB1: En este primer entregable, trabajé en equipo asumiendo un liderazgo conjunto con mis compañeros. Colaboramos activamente en la toma de decisiones clave, como los flujos de usuario y la arquitectura de la información. Además, distribuimos las responsabilidades de forma equitativa, lo que nos permitió compartir el liderazgo y aprovechar las fortalezas de cada uno para cumplir con los objetivos del proyecto de manera eficiente.<br> TP: Refinó los criterios de aceptación para facilitar la comprensión tanto del equipo como de las partes interesadas. Usó Trello para transcribir las historias de usuario y tareas que habían sido redactadas previamente, lo que permitió a los stakeholders y desarrolladores monitorear el progreso de las funcionalidades del proyecto. <br> TB2: Contribui con la elaboracion del back end y desarrollo del front end de manera que se pueda realizar un avance significativo y bajo los criterios establecidos, manteniendo en cuenta los deseos del cliente. <br> | [Redaccion] |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Jhosepmyr:<br>TB1: Aunque el proceso no estuvo exento de desafíos, considero que logramos mantener un ambiente de cooperación y trabajo en equipo. Al principio, tuvimos algunos problemas para organizar nuestras tareas, pero estableciendo objetivos claros y dividiendo responsabilidades, pudimos mejorar nuestra coordinación y cumplir con nuestras metas de manera efectiva. <br>TP: En la presentación del proyecto, Jhosepmyr detalló el desarrollo del segundo sprint y organizó el código del proyecto. Además, incluyó el proceso de despliegue y los insights sobre la colaboración del equipo durante el sprint.<br> TB2: Se organizaron reuniones con el equipo de trabajo para conocer los avances constantes durante el sprint, además de realizar un video de presentación con lo realizado durante el sprint 2.<br> Eric: <br>TB1: Para ayudar a crear un entorno colaborativo saludable trabajé en un entorno colaborativo con los demás miembros del equipo al mismo tiempo que mantuve puntualidad en el cumplimiento de las tareas del trabajo.<br>TP: Se organizaron reuniones dentro del equipo para revisar los avances del sprint y se realizó un video donde se presentó lo trabajado durante el segundo sprint.<br> TB2: En la presentación del proyecto se explica a detalle el desarrollo del tercer sprint y la organización del código del proyecto. Se incluye el proceso de deployment y los insights de la colaboración del equipo durante el sprint. <br>Álvaro: <br>TB1: Hemos tenido un entorno de cooperación constante, en que todos hemos sido bienvenidos y hemos aportado nuestra cuota de contribución. Mediante estas aportaciones, hemos logrado desarrollar y cumplir una serie de actividades que planificamos previamente. <br> Henry: <br>TB1: A pesar de los problemas que pasamos en el transcurso de este entregable, siento que pudimos, como equipo, mantenernos unidos y cooperativos unos con otros. Al inicio nos costo mantener la constancia pero poco a poco mediante metas que nos propusimos en el equipo logramos el objetivo. <br>TP: Henry ajustó las historias de usuario correspondientes a la página de aterrizaje y las incluyó en Trello. También modificó el diseño de la landing page en Figma para alinearlo con las mejoras realizadas.<br> Elmer: <br>TB1: En este primer entregable, creé un entorno colaborativo e inclusivo, donde todos los miembros del equipo pudieron participar activamente. Establecimos metas claras desde el principio, como definir los flujos de usuario y la estructura de la UI. Planificamos las tareas de manera organizada, asignando responsabilidades específicas. Por ejemplo, coordinamos el desarrollo de los prototipos interactivos y la revisión conjunta de los User Flow Diagrams, lo que nos permitió cumplir con los objetivos en tiempo.<br>  TP: Organice diversas reuniones con el equipo para avanzar en conjunto en el proyecto, colaborar en la implementación de funcionalidades y comunicar las metas y objetivos alcanzados.<br> TB2: Realice el sprint backlog del sprint 3, ademas de organizar sprint en trello para la documentacion de avances y organizacion de entregables.<br> | [Redaccion] |
 
 <div style="page-break-after: always;"></div>
 
@@ -3191,10 +3191,41 @@ El Container Diagram de Workshop N-GINE muestra los principales contenedores que
 </div>
 
 ### 4.6.3. Software Architecture Components Diagrams
-El Component Diagram de Workshop N-GINE desglosa los componentes principales que forman parte de la arquitectura del sistema, específicamente dentro de la API RESTful. Cada controlador maneja una parte del dominio del taller, como usuarios, vehículos, solicitudes, inventario, intervenciones, tareas y notificaciones. Los servicios asociados contienen la lógica de negocio para cada área, mientras que los repositorios se encargan de las operaciones CRUD con la base de datos. Además, el sistema interactúa con servicios externos, como el cliente API para obtener información de vehículos externos y el sistema OBD IoT para recibir diagnósticos en tiempo real.A continuación, presento el diagrama hecho en Structurizr:
+Los diagramas de componentes proporcionan una representación clara y detallada de los diferentes bounded contexts que estructuran la aplicación Workshop N-GINE. A continuación se presenta una breve descripción de cada contexto y los principales componentes que lo constituyen:
+
+#### Customer Relationship Management Bounded Context
+Este diagrama representa el contexto de Customer Relationship Management (CRM) dentro de la aplicación Workshop N-GINE. En este contexto, se gestionan los aspectos relacionados con los clientes, incluyendo la creación, actualización y consulta de información de clientes y la administración de la relación entre los clientes y sus vehículos.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-Component.png" width="1000px">
+  <img src="img/4/c4model/structurizr-crm.png" width="1000px">
+</div>
+
+#### Identity and Access Management Bounded Context
+Este diagrama representa el contexto de Identity and Access Management (IAM) dentro de la aplicación Workshop N-GINE, encargado de la autenticación, gestión de usuarios y control de roles. Su propósito es garantizar un acceso seguro y controlado a los recursos del sistema mediante la gestión de usuarios y sus respectivas autorizaciones.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-iam.png" width="1000px">
+</div>
+
+#### Service Management Bounded Context
+El Service Management controla la planificación y ejecución de intervenciones en el taller. Los controladores de operaciones gestionan las intervenciones, y el manejador de comandos asigna tareas a mecánicos. La integración con IoT permite monitorear vehículos en tiempo real.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-service-management.png" width="1000px">
+</div>
+
+#### Comunication Management Bounded Context
+Este diagrama ilustra la comunicación de la SPA con el Communication Controller, que maneja notificaciones internas y mensajes. El Notification Manager gestiona las alertas, mientras que el Message Command Handler se encarga del envío de mensajes externos a través del Messaging Facade. Todo se registra en el Notification Repository.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-comunication-management.png" width="1000px">
+</div>
+
+#### Analytics Bounded context 
+El diagrama muestra cómo la SPA interactúa con el Analytics Controller, que coordina la recolección de métricas, manejo de datos históricos, generación de reportes y visualización de datos. Todos los datos analíticos se almacenan en el Analytics Repository, conectado a la base de datos.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-analytics.png" width="1000px">
 </div>
 
 ## 4.7. Software Object-Oriented Design
@@ -4050,14 +4081,14 @@ Enlace para acceder a la landing page: https://workshop-n-gine-landing-page.netl
     </tr>
     <tr>
         <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
-        <td>Desarrollo de la US-03, US-04, US-26, US-14</td>
+        <td>Desarrollo de la US-01, US-02, US-03, US-04, US-05, US-06, US-08, US-09, US-13, US-14, US-25</td>
     </tr>
     <tr>
-        <th scope="row">Sprint 1 Goal</th>
+        <th scope="row">Sprint 2 Goal</th>
         <td>Nuestro foco se centra en la implementación de las primeras historias de usuario relacionadas a la página web. Creemos que entregaremos mayor confiabilidad y eficiencia a los talleres mecanicos. Confirmaremos nuestra hipótesis cuando la primera versión de la pagina web se encuentre disponible para ser utilizada por los clientes.</td>
     </tr>
     <tr>
-        <th scope="row">Sprint 1 Velocity</th>
+        <th scope="row">Sprint 2 Velocity</th>
         <td>20</td>
     </tr>
 </table>
@@ -4068,7 +4099,7 @@ El objetivo del sprint 2 es diseñar e implementar la primera versión de la pá
 
 Durante todo el sprint 2 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
 
-<img src="img/5/2/2/2/trello_board.png">
+<img src="img/5/2/2/trello_board.png">
 
 A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
 
@@ -4167,7 +4198,85 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
 
 | Branch | Id Commit | Cabecera | Cuerpo |
 | - | - | - | - |
-| Rama | ID Commit | Cabecera | Cuerpo |
+| main | 05e63642d20242b5d70560017e0b8da8a0dd4760 | Merge pull request #17 from Web-Application-YaraSoftware/develop | Develop |
+| main | f084a393cf8a7de2b254fd4564ec7e1b2aac53df | Merge pull request #16 from Web-Application-YaraSoftware/feature/login-screen | Feature/login screen |
+| feature/login-screen | ea91e08d914e3e74816d688d7cee0fbceff73720 | feat(router-guard): add navigation guard for authentication check | - Implemented route guard to redirect unauthenticated users to the login page.<br>- Integrated `useAuthStore` to verify authentication status before navigating to protected routes. |
+| main | 73b933d5979ae2289c25afe7c8ca59deca98b931 | feat(auth-store): create auth store using Pinia for authentication management | No body available. |
+| main | d2fc004021bc9003f108dc1ad5296eefd3abfe8e | feat(auth): enhance login with access service validation and token storage | - Integrated `AccessService` to validate user credentials during login.<br>- Redirected users to home upon successful authentication.<br>- Stored authentication token in local storage for session management.<br>- Displayed confirmation messages based on login success or failure. |
+| main | 4804091330093f04ce3370b21eed6901260faaa6 | feat(access-service): create service for user access management | No body available. |
+| main | adba60afe6949267f7e9bc4dc1fe12100f8af785 | Merge pull request #15 from Web-Application-YaraSoftware/develop | Develop |
+| main | 392a69714bfae9923ff08bc3edc1701a00967a70 | chore: merge to solve conflicts | No body available. |
+| main | 910e4fcb48b521d522e37abbc0bcfdf4589f77eb | Merge pull request #14 from Web-Application-YaraSoftware/feature/notifications | Feature/notifications |
+| main | 442773ab312bfbafe4117b731e2e4057ab3af1b3 | Merge pull request #13 from Web-Application-YaraSoftware/feature/notifications | Feature/notifications |
+| hotfix/notifications | 53d712303ed6751f73c2badb23f0b84cfc9d8765 | fix(api): update fake API JSON to align endpoint paths with actual routes | No body available. |
+| main | c6fc544f8c30adfddc66456365f9ca91d709ea43 | feat(date-service): create service for improved date formatting | No body available. |
+| main | bfc52e9fc01c77ce00cc9fb5245b5d713488299a | fix(notifications): add missing endpoint and update entity structure | No body available. |
+| main | e24bda86308edc9e22aea0c6f742da49796b3fa5 | style(notifications): improve layout for notification item and list | No body available. |
+| main | 9b4393df78fcd6fc73ad7fc541d0537fdc73e95d | Merge pull request #12 from Web-Application-YaraSoftware/feature/interventions | Feature/interventions |
+| feature/interventions | 2ceb2959081b73fffa47e7ce0744732275cebadc | feat(interventions): integrate new intervention dialog by clicking button | No body available. |
+| feature/interventions | 34f8eb11e05b11ef66405a13013c49d6821402c1 | feat(interventions): add new intervention dialog component with client and vehicle lookup and form submission | No body available. |
+| feature/interventions | ac05a02dc90395dbb4d8cd85c86fb0517f46ae9a | feat(interventions): add intervention-list component with api integration, filtering, and UI components | No body available. |
+| feature/interventions | 5a942431052c6eb77477ab33d506f0194966ac0f | feat(interventions): add client and vehicle entities | No body available. |
+| main | fba31344c1fdd9190e06e275825f8fff5ac5b4b6 | chore: register primevue datepicker and textarea components in main.js | No body available. |
+| main | d26f2168b3651d6bcd14cb90edd188c13ab71f1f | Merge pull request #11 from Web-Application-YaraSoftware/feature/clients-detail | No body available. |
+| main | 31179ad0ba3417e83224f014254423855d3cf141 | feat(client-management): add create, delete (single/multiple) functionality with success and error messages | No body available. |
+| main | 02a5a1a069776f64cdb4eca26e6cef3fccb26dd2 | Merge pull request #10 from Web-Application-YaraSoftware/hotfix/personnel | No body available. |
+| main | d000835112ccab1079fa68c37f8d14ab612846c5 | refactor(personnel.view): update functions associated with crud operations | No body available. |
+| main | 99b9b9f196caf75bc238c6ab4572857ac3b0d350 | refactor(mechanic): modify mechanic entity to include state and userType objects | No body available. |
+| main | f07ba96865ddfff3303545a35b32bb1713513bc6 | Merge pull request #9 from Web-Application-YaraSoftware/feature/clients | Feature/clients |
+| client-management | 4ada34d31475df0527b8819bab9a5cabf4fe1a14 | feat(client-management): implement create, delete (single/multiple), and confirmation flows | - Added functionality to create new clients.<br>- Implemented single and multiple client deletion with confirmation dialogs.<br>- Enhanced user experience with confirmation flows for critical actions. |
+| client-management | d8fb3faa4a89d89e151370161b470a4c7e39d3a5 | feat(components): add confirmation dialog and client creation components | No body available. |
+| notifications | 8d02469c11284e5d7b7e027d54b5f9f353f2f384 | feat(notifications): add api configuration for the connection with the fake api and build the section for the items list in notification-list component | No body available. |
+| notifications | e4cfc39cf0c6e878593c8e35c6c8ec6bd9e693d5 | feat(notifications): add methods and configure the notification-item component | No body available. |
+| notifications | f4f4cc5cc9c87f017ded3cf0b4e398562fd23235 | feat(notifications): add notification service file and add the class NotificationService | No body available. |
+| notifications | a2179546e278656b9b2b4885a5e47ef299ec26d7 | feat(notifications): add notification entity file and add the class Notification | No body available. |
+| login-screen | b3bb1a611f99d36c8ae80d76b168f09794d07a52 | feat(login-screen): add primevue components and styles for users in log in page | No body available. |
+| login-screen | 92a99f974f43147634ba804451ed6f90082a16a3 | feat(login-screen): add primevue components and styles for users in log in page | No body available. |
+| hotfix/dynamic-navigation-by-role | 385eb09055da7d15ff54914e663d7f3130b7dfc5 | Merge pull request #8 from Web-Application-YaraSoftware/hotfix/dynamic-navigation-by-role | Hotfix/dynamic navigation by role |
+| hotfix/dynamic-navigation-by-role | 12a2aab70c622960d302bf201097d7dd31f2ba7b | Merge branch 'develop' into hotfix/dynamic-navigation-by-role | No body available. |
+| main | 06dbcbca25fa62d62b66dbc06980ebfc89e07a9b | style: adjust header content height | No body available. |
+| hotfix/personnel | 982b80e9cbe03b8c87334fabc47173c372465695 | Merge pull request #7 from Web-Application-YaraSoftware/hotfix/personnel | style: adjust height and enable vertical scrolling for full viewport display |
+| hotfix/personnel | 4cbabacf3514d0620b795ac4eb07be7fe7cbe266 | Merge pull request #6 from Web-Application-YaraSoftware/revert-4-hotfix/dynamic-navigation-by-role | Revert "fix: update header content disposition" |
+| main | c8dc9e784d144985d788412ff26b22a8a2090458 | style: adjust height and enable vertical scrolling for full viewport display | No body available. |
+| main | d16493b33d332fdd6e12c5c2154b6c881e5e28d2 | fix: update header content disposition | No body available. |
+| main | 2269c3cef97c6a34b96a3b4a8e24dc71be2c5e55 | Revert "fix: update header content disposition" | No body available. |
+| hotfix/dynamic-navigation-by-role | f7de14c6a0c83cf6d737df2fe464844f16d3b861 | Merge pull request #4 from Web-Application-YaraSoftware/hotfix/dynamic-navigation-by-role | fix: update header content disposition |
+| hotfix/dynamic-navigation-by-role | f747b590cd825cf87e4b9f16dbc763f749db9daf | fix: update header content disposition | No body available. |
+| feature/personnel | 7b2a1020423a165215173399f4c25b8353f57135 | Merge pull request #3 from Web-Application-YaraSoftware/feature/personnel | Feature/personnel |
+| feature/personnel | e532064dc571f0996a8db564b335dec77891cfae | feat(personnel): add search filter functionality for mechanics in personnel view | No body available. |
+| feature/personnel | 206c8d2e2b876ebc016ce83a2e152b3d1141bb25 | feat(personnel): implement personnel view with crud operations to personnel service, and modal dialogs | No body available. |
+| feature/personnel | b616eccb62550c947859de79cfffe761f9a647dc | feat(personnel): add mechanic form dialog for creating, updating, and deleting mechanics with validation | No body available. |
+| feature/personnel | 220e8576556f17cf34100b1ce965b10af6c65319 | feat(personnel): implement personnel list component with mechanic selection emit | No body available. |
+| feature/personnel | 5d948dcd0846699e4a7ead18c54b17e0b1dc8388 | feat(personnel): add post, delete and put methods to personnel service for user management | No body available. |
+| feature/personnel | b8be4c2d2967ba98272afda5de45812cabb7b9b7 | feat(personnel): update personnel-item component with click event to show information dialog | No body available. |
+| feature/clients | 3220a0c6be030143da92f624931a3cc9d3fb1b59 | feat(clients): add searchable and sortable table component | No body available. |
+| feature/clients | 2a5f20932eee298da03a7e80559a96097e7788a4 | feat(clients): create user, user-tate and user-type class and service. | No body available. |
+| feature/personnel | e3b9f1cc7eb5ec6993cdfc431f6ad007620bb75f | feat(personnel): add personnel-list component with mechanic data fetching and emit noMechanics event | No body available. |
+| feature/personnel | d8cef0368e43b311801db998f88790b03aba21d0 | feat(personnel): add personnel-item component | No body available. |
+| feature/personnel | 3c8e5f1123eade511dfd0386e3f837c84a81d46c | feat(personnel): add mechanic entity and personnel service | No body available. |
+| feature/dynamic-navigation-by-role | e3a606c02538a63cbfcf7daffb98e29208ab80dc | Merge pull request #1 from Web-Application-YaraSoftware/feature/dynamic-nagitation-by-role | Feature/dynamic nagitation by role |
+| feature/dynamic-navigation-by-role | 7cceaa74c2d73a7b8abcfcc9f67a2b80e34517ea | feat(layout): create components and implement role-based button visibility | No body available. |
+| main | 4987b9bfb8d566dcc99e106c7b5d16148f3d92a6 | feat: create workshop class, service and store | No body available. |
+| main | 99bf5b496e4db97bacc3a0499391f8e08731414a | fix: update sample data to db.json | No body available. |
+| main | 1f20e6799ea714e671b9631b16b8ea2dbd662220 | fix(router): update personnel path to point to the correct route | No body available. |
+| main | 6c7d3e5913e4f04684c4c4569105c0c865605993 | chore: configure axios instance with base url and default headers | No body available. |
+| main | 3101049755cb0a19aa588f7edcf92247cfa509d4 | chore(api): add sample data to db.json for fake api consumption | No body available. |
+| main | b46432c7fb94f5e83ee5470e48d2dc25f1cd235c | chore(deps): add Pinia state management and configure globally | No body available. |
+| main | 765b4c25f9e5f6a08c794d2d43630592a5402b9a | chore(deps): add PrimeFlex and configure globally in main.js | No body available. |
+| main | c108ce92e7fcff94a23fedc74a08fdd2c660f69b | refactor(structure): update folder names to reflect new bounded contexts and update routes | No body available. |
+| main | bdaa424cbafba7aa318308f3f0fe716bc006c905 | chore(router): setup basic routing structure with placeholder components | - Created routes for all paths with empty component files.<br>- Configured Vue Router to handle navigation between paths. |
+| main | c86df0ffee909f0da1b54bbff893f05179ca715b | style(global): add base styles for html element | - Set global font family to 'Roboto', sans-serif.<br>- Adjusted base font size to 62.5% for easier rem calculations. |
+| main | a51072c8f8ab037a7cbe9e4a3849f23e3ee954c4 | chore(api): setup fake API for testing purposes | - Created a fake API using JSON Server.<br>- Added sample data for initial testing.<br>- Configured basic endpoints for CRUD operations. |
+| main | 96dc30bc4ae578a5556c8f540469b00861058648 | chore(i18n): setup initial structure for json translation files in 'en' and 'es' | - Added placeholder `en.json` and `es.json` translation files.<br>- Configured basic i18n setup in Vue app, ready for future integration. |
+| main | 9f6c7038e14add4cda6076336d68a2471e199675 | chore(deps): add i18n, vue-router, and primeicons dependencies and set up basic router configuration | No body available. |
+| main | 1bff751740f2491a86da61e04eac362141452747 | feat(components): import and alias primeVue components | No body available. |
+| main | db4691f7bf3df4e9f6d6c98b05e91d283cfdaf12 | chore(project): clean up project structure and add global styles | No body available. |
+| main | 06c050e9faadb08d8f22d6c6feed9b7af95f8756 | chore(deps): add json server dependency | No body available. |
+| main | ed52563b893f3099ccfaca8525fae91858109c35 | chore(deps): add vue router dependency | No body available. |
+| main | 310397aff91c2c255e866ba99e0fa8eb0fae1f5c | chore(deps): add axios dependency | No body available. |
+| main | ec549d8d7d15faeeba685acfefb9a2b160cf4809 | chore(deps): add PrimeVue dependency | No body available. |
+| main | c4d61ec7ed8fc73036c51933d551e87559ce57e8 | chore: init commit | No body available. |
+
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review
 
@@ -4201,6 +4310,958 @@ Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify p
 | Elmer Riva Rodriguez	 |  |
 <img src="img/Insight/TP.png">
 
+### 5.2.3 Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+<table>
+    <tr>
+        <th scope="row"><strong>Sprint #</strong></th>
+        <td>Sprint 3</td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Planning Background</strong></td>
+        <td>Para la elaboración de este sprint contamos con dos integrantes menos en el equipo. Hay muchas funcionalidades por implementar, pero el equipo se encuentra motivado</td>
+    </tr>
+    <tr>
+        <th scope="row">Date</th>
+        <td>2024/10/14</td>
+    </tr>
+    <tr>
+        <th scope="row">Time</th>
+        <td>20:00</td>
+    </tr>
+    <tr>
+        <th scope="row">Location</th>
+        <td>Videollamada grupal mediante la plataforma Discord</td>
+    </tr>
+    <tr>
+        <th scope="row">Prepared By</th>
+        <td>Elmer Riva, Jhosepmyr Gutierrez, y Erick Hernandez</td>
+    </tr>
+    <tr>
+        <th scope="row">Attendees (to planning meeting)</th>
+        <td>Elmer Augusto Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
+        <td>Desarrollo de la US-07, US-10, US-11, US-12, US-15, US-16, US-17, US-18, US-19, US-20, US-21, US-22, US-23, US-24, US-26</td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 3 Goal</th>
+        <td>Nuestro enfoque está en mejorar la landing page agregando videos del equipo y del producto en la sección "About Us", enriquecer el flujo de ejecución de intervenciones y generar métricas, y permitir incrementar las posibilidades de nuevas características.
+        Creemos que esto facilitará la elección del producto y generará confianza a los visitantes, aumentará la eficiencia operativa de las intervenciones y mejorará la toma de decisiones para mecánicos y dueños de talleres, y permitirá implementar nuevas funcionalidades para los desarrolladores.
+        Esto se confirmará cuando los usuarios se suscriban y se vuelvan clientes, cuando los mecánicos completen exitosamente una intervención y los dueños del taller revisen los reportes, y cuando se desarrollen los endpoints relacionados a los mecánicos y dueños de talleres.</td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 3 Velocity</th>
+        <td>42</td>
+    </tr>
+</table>
+
+#### 5.2.3.2. Sprint Backlog 3
+
+El objetivo del sprint 3 es mejorar la landing page agregando videos del equipo y del producto en la sección "About Us", enriquecer el flujo de ejecución de intervenciones y generar métricas, y permitir incrementar las posibilidades de nuevas características
+
+Durante todo el sprint 3 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+
+<img src="img/5/2/3/trello_board.png">
+
+A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint 2</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>  
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
+    <td>TK-01</td>
+    <td>Crear interfaz de detalles de cliente </td>
+    <td>Diseñar la pantalla para mostrar información detallada del cliente y sus vehículos.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
+    <td>TK-02</td>
+    <td>Editar y actualizar datos</td>
+    <td>Permitir la edición de los datos del cliente y enviar cambios al backend.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
+    <td>TK-03</td>
+    <td>Eliminar cliente</td>
+    <td>Implementar funcionalidad para cambiar el estado del cliente a inactivo.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
+    <td>TK-04</td>
+    <td>Restaurar cliente</td>
+    <td>Permitir restaurar clientes inactivos desde la interfaz de clientes.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Not done</td>
+  </tr>
+  <tr>  
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-05</td>
+    <td>Crear detalles de intervención</td>
+    <td>Diseñar la interfaz para mostrar la información completa de una intervención</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-06</td>
+    <td>Modificar intervención</td>
+    <td>Permitir la edición de la intervención si está en estado pendiente.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-07</td>
+    <td>Guardar cambios</td>
+    <td>Implementar funcionalidad para guardar los cambios realizados.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-08</td>
+    <td>Cancelar intervención </td>
+    <td>Permitir la cancelación de la intervención si está en estado pendiente.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-09</td>
+    <td>Crear la interfaz de inventario</td>
+    <td>Mostrar las existencias del inventario, incluyendo el nombre, cantidad, límite, y descripción.</td>
+    <td>3</td>
+    <td>Eric Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-10</td>
+    <td>Añadir entrada de inventario </td>
+    <td>Implementar un formulario para añadir una nueva entrada de inventario.</td>
+    <td>2</td>
+    <td>Eric Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-11</td>
+    <td>Modificar entrada de inventario:</td>
+    <td>Permitir la modificación de las entradas existentes desde la misma interfaz.</td>
+    <td>2</td>
+    <td>Eric Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-12</td>
+    <td>Guardar cambios de inventario</td>
+    <td>Implementar funcionalidad para guardar los cambios realizados en las entradas de inventario.</td>
+    <td>2</td>
+    <td>Eric Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-13</td>
+    <td>Ordenar por campos</td>
+    <td>Agregar funcionalidad para ordenar el inventario según los campos seleccionados</td>
+    <td>1</td>
+    <td>Eric Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-14</td>
+    <td>Crear interfaz de solicitudes de inventario</td>
+    <td>Mostrar las solicitudes pendientes de los mecánicos, incluyendo el mecánico solicitante, la pieza, la cantidad solicitada y la fecha de solicitud.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-15</td>
+    <td>Guardar cambios en solicitudes</td>
+    <td>Permitir la selección de solicitudes y su posterior eliminación de la lista tras guardar cambios</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-16</td>
+    <td>Deshacer cambios</td>
+    <td>Implementar funcionalidad para revertir las acciones si se decide no realizar los cambios.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-17</td>
+    <td>Ordenar solicitudes por campos</td>
+    <td>Agregar funcionalidad para ordenar las solicitudes según los campos seleccionados</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-15</td>
+    <td>Mis tareas - líder</td>
+    <td>TK-18</td>
+    <td>Mostrar lista de tareas</td>
+    <td>Mostrar las tareas correspondientes a las intervenciones en las que el usuario es líder, con campos como cliente, fecha, y modalidad</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-15</td>
+    <td>Mis tareas - líder</td>
+    <td>TK-19</td>
+    <td>Mostrar etiqueta de líder</td>
+    <td>Incluir una etiqueta en cada tarea que indique que el usuario es el líder de la intervención.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-15</td>
+    <td>Mis tareas - líder</td>
+    <td>TK-20</td>
+    <td>Acceso a más información</td>
+    <td>Permitir que el líder pueda hacer clic en las tareas para ver más información, como diagnóstico y preparación.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-16</td>
+    <td>Mis tareas - asistente</td>
+    <td>TK-21</td>
+    <td>Mostrar lista de tareas del asistente</td>
+    <td>Mostrar las tareas correspondientes a las intervenciones en las que el usuario es asistente, con los campos correspondientes</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-16</td>
+    <td>Mis tareas - asistente</td>
+    <td>TK-22</td>
+    <td>Mostrar etiqueta de asistente</td>
+    <td>Incluir una etiqueta en cada tarea que indique que el usuario es el asistente en la intervención</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-16</td>
+    <td>Mis tareas - asistente</td>
+    <td>TK-23</td>
+    <td>Acceso a más información</td>
+    <td>Permitir al asistente hacer clic en las tareas para ver más detalles de la intervención.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-24</td>
+    <td>Mostrar resumen IoT</td>
+    <td>Mostrar un resumen de la información obtenida por el análisis OBD-IoT, con campos como componente, estado y código de error.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-25</td>
+    <td>Mostrar información general</td>
+    <td>Mostrar información general de la intervención, como cliente, vehículo, fecha, entre otros</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-26</td>
+    <td>Mostrar registro de intervenciones anteriores</td>
+    <td>Permitir ver un registro de intervenciones anteriores asociadas al vehículo</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-27</td>
+    <td>Acceso a detalles de intervenciones anteriores</td>
+    <td>Implementar la funcionalidad para hacer clic en intervenciones anteriores y mostrar sus detalles completos.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-28</td>
+    <td>Mostrar lista de tareas de diagnóstico</td>
+    <td>Mostrar las tareas asociadas a la intervención</td>
+    <td>1</td>
+    <td>Jhosepmy Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-29</td>
+    <td>Añadir tarea</td>
+    <td>Implementar funcionalidad para que el líder de la intervención añada nuevas tareas a la lista</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-30</td>
+    <td>Eliminar tarea</td>
+    <td>Permitir al líder eliminar tareas de la lista</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-31</td>
+    <td>Guardar cambios en el diagnóstico</td>
+    <td>Implementar funcionalidad para guardar los cambios realizados en las tareas.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-32</td>
+    <td>Deshacer cambios</td>
+    <td>Permitir deshacer los cambios y regresar al estado previo</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-33</td>
+    <td>Mostrar tareas asignadas</td>
+    <td>Mostrar la lista de tareas asignadas para la intervención</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-34</td>
+    <td>Añadir tarea</td>
+    <td>Permitir que el líder de la intervención añada tareas adicionales durante la ejecución.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-35</td>
+    <td>Eliminar tarea</td>
+    <td>Implementar funcionalidad para que el líder elimine tareas en ejecución si es necesario.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-36</td>
+    <td>Guardar cambios</td>
+    <td>Permitir guardar los cambios realizados en la intervención.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-37</td>
+    <td>Deshacer cambios</td>
+    <td>Implementar funcionalidad para revertir los cambios si es necesario.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-38</td>
+    <td>Mostrar estado de las tareas</td>
+    <td>Mostrar la lista de tareas con su estado (completado, pendiente)</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-39</td>
+    <td>Finalizar intervención</td>
+    <td>Implementar funcionalidad para finalizar la intervención una vez todas las tareas estén completadas.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-40</td>
+    <td>Mostrar lista de vehículos</td>
+    <td>Mostrar todos los vehículos registrados del usuario, con la información relevante (modelo, marca, año).</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-41</td>
+    <td>Agregar vehículo</td>
+    <td>Implementar un formulario para añadir un nuevo vehículo, incluyendo los campos requeridos (marca, modelo, año, placa).</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-42</td>
+    <td>Validar datos del vehículo</td>
+    <td>Validar que los datos ingresados en el formulario sean correctos y completos.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-43</td>
+    <td>Mostrar mensaje de éxito</td>
+    <td>Mostrar una confirmación cuando el vehículo se haya registrado correctamente.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-44</td>
+    <td>Eliminar vehículo</td>
+    <td>Implementar funcionalidad para eliminar un vehículo de la lista registrada.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Registro de intervenciones</td>
+    <td>TK-45</td>
+    <td>Mostrar historial de intervenciones</td>
+    <td>Mostrar una línea de tiempo con todas las intervenciones realizadas en un vehículo, ordenadas cronológicamente.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Registro de intervenciones</td>
+    <td>TK-46</td>
+    <td>Acceso a detalles de intervención</td>
+    <td>Permitir que el usuario haga clic en una intervención y vea los detalles completos de esa intervención.</td>
+    <td>1</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Registro de intervenciones</td>
+    <td>TK-47</td>
+    <td>Mostrar detalles de intervención</td>
+    <td>Mostrar información detallada de cada intervención, como la fecha, servicios realizados, y costo.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-48</td>
+    <td>Mostrar información IoT</td>
+    <td>Implementar una interfaz que muestre la información generada por el dispositivo IoT, como el estado de los componentes y códigos de error.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-49</td>
+    <td>Mostrar detalles de códigos de error</td>
+    <td>Permitir que el usuario haga clic en un código de error para obtener una explicación detallada de su significado.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-50</td>
+    <td>Actualizar información en tiempo real</td>
+    <td>Implementar la actualización automática de la información IoT cada cierto intervalo de tiempo para reflejar el estado actual del vehículo.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-51</td>
+    <td>Crear formulario de agendar cita</td>
+    <td>Diseñar un formulario donde el usuario pueda seleccionar una fecha y modalidad para agendar la cita.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-52</td>
+    <td>Validar datos de la cita</td>
+    <td>Validar que los datos ingresados (fecha, modalidad) sean correctos y válidos</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-53</td>
+    <td>Mostrar confirmación de cita</td>
+    <td>Mostrar una notificación cuando la cita se haya agendado correctamente y enviar una confirmación al taller.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-54</td>
+    <td>Manejo de errores de fecha</td>
+    <td>Implementar mensajes de error si la fecha seleccionada no es válida o está incompleta.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Registro de Usuario</td>
+    <td>TK-55</td>
+    <td>Implementar endpoint de registro</td>
+    <td>Configurar el endpoint /api/v1/authentication/sign-up para permitir que los usuarios se registren con sus datos.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-02</td>
+    <td>Inicio de Sesión de Usuario</td>
+    <td>TK-56</td>
+    <td>Implementar endpoint de inicio de sesión</td>
+    <td>Configurar el endpoint /api/v1/authentication/sign-in para permitir que los usuarios inicien sesión y reciban un token de autenticación.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-03</td>
+    <td>Consulta de Perfil por ID</td>
+    <td>TK-57</td>
+    <td>Implementar consulta de perfil</td>
+    <td>Configurar el endpoint /api/v1/profiles/profile/{profileId} para obtener detalles del perfil.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-04</td>
+    <td>Consulta de Perfil por DNI</td>
+    <td>TK-58</td>
+    <td>Implementar consulta de perfil por DNI</td>
+    <td>Configurar el endpoint /api/v1/profiles/dni/{dni} para obtener el perfil utilizando el DNI.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-05</td>
+    <td>Consulta de Perfil por ID de Usuario</td>
+    <td>TK-59</td>
+    <td>Implementar consulta de perfil por ID de usuario</td>
+    <td>Configurar el endpoint /api/v1/profiles/user-id/{userId} para obtener el perfil basado en el ID de usuario.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-06</td>
+    <td>Actualización de Perfil</td>
+    <td>TK-60</td>
+    <td>Implementar actualización de perfil</td>
+    <td>Configurar el endpoint /api/v1/profiles/{profileId} para permitir la actualización de los detalles del perfil.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-07</td>
+    <td>Creación de Perfil</td>
+    <td>TK-61</td>
+    <td>Implementar creación de perfil</td>
+    <td>Configurar el endpoint /api/v1/profiles para permitir la creación de nuevos perfiles.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+</tr>
+<tr>  
+    <td>TS-08</td>
+    <td>Consulta de Notificaciones de Usuario</td>
+    <td>TK-62</td>
+    <td>Implementar consulta de notificaciones</td>
+    <td>Configurar el endpoint /api/v1/notifications/{userId} para obtener todas las notificaciones de un usuario específico.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+</tr>
+
+</table>
+
+#### 5.2.3.3. Development Evidence for Sprint Review
+| Rama                         | Hash                                       | Mensaje de Commit                                                                                          |
+|------------------------------|--------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| develop                      | 6d20119eea0b7558f7214ee5586436000dd13c95   | Merge remote-tracking branch 'origin/develop' into develop                                                 |
+| develop                      | 163719e268d38598202ff227d501ef04ccd0d1bf   | chore: update path references                                                                              |
+| develop                      | 2d83a3850ea28e002c9c328251cf65899f8b384f   | Merge pull request #26 from Web-Application-YaraSoftware/feature/inventory-stock                            |
+| feature/inventory-stock      | c3a6e89206b080ca8e7763fa6e7fdbfb69871724   | feat(product-request): enhance request dialog with dynamic titles and messages                              |
+| develop                      | 8b04f9ffa3b17c39d5c99cba2e185df33c00350a   | Merge pull request #25 from Web-Application-YaraSoftware/feature/inventory-stock                            |
+| feature/inventory-stock      | ea6758b421d09a46b2dff08dce8fa3fe2a95e133   | Merge branch 'develop' into feature/inventory-stock                                                         |
+| develop                      | 87a251f53e727d97aad54cf9312b36a2452da456   | chore: delete obsolete functions in inventory services                                                     |
+| develop                      | b536e98d27a3ebd047e772411f6bcfe2571c8987   | chore: delete obsolete services and entities for inventory                                                 |
+| develop                      | 13b573888f6b1318dbef2a0c6604b5e8c022f604   | Merge branch 'feature/intervention-monitoring' into develop                                                |
+| feature/intervention-monitoring | 5d67ecfce108b783c2588e912b1e6f331337aa7e | feat(task-status): display tasks with mechanic names and status indicators                                 |
+| feature/intervention-execution  | 6afd3ef093a74cddca29f155bf938cc2cd373f32 | feat(checkpoint-management): implement add, update, and delete functionality for checkpoints               |
+| feature/product-management      | 9bba798ffeec8f67678d26274d598e48989b01de | feat(product-management): add stock and request tabs with editing and quantity validation                  |
+| feature/task-execution          | 1b73b5534c73eb720dd8342f6dd49fd9c3e1c581 | feat(task-execution): add task management tabs for requests and tracking with finish option               |
+| feature/intervention-diagnostic-preparation | 1a40f3290222a63cf117924ae5e0ccd3fdf947f9 | feat(diagnostic): add editable diagnostic form with intervention type and description                    |
+| feature/task-distribution       | 72bcf61d6721641e35018e12cfe7a601573f3d51 | feat(task-distribution): implement task management with assignment and editing functionality               |
+| feature/intervention-diagnostic-preparation | 623b322c4c1e7114d01db88443f87d3998ccdcbd | feat(intervention-diagnostic-preparation): add task and intervention management with confirmation dialogs |
+| feature/intervention-information  | cf9fb37e78b1cb17bc4a9f09703648cc49a4f6a6 | feat(timeline): add responsive intervention timeline with state-based severity and navigation             |
+| feature/iot-information          | c7b60be5aa77f32446e3c93321b2f7f178f3ef6f | feat(iot-information): display IoT code list with detailed state and error information popover            |
+| feature/intervention-general-information | 206e17674623eb549420c9deea42dafb0df0e48e | feat(intervention-general-information): implement role-based intervention update with client and vehicle data validation |
+| feature/activity-information      | 0884cc6771f4b787d72a95e3d9352b577e92a562 | feat(activity-information): add components for detailed intervention and IoT data display                |
+| feature/activities-assistant      | 0b97722b36e43fd614a13a99463e9a18fde667e6 | feat(app setup): extend PrimeVue component and service integration for enhanced UI flexibility           |
+| feature/activity                  | 6c8667e767478e384374caa409d2f19eda00fc04  | feat(activity): implement multi-step flow with dynamic components for intervention stages               |
+| feature/router                   | 1c0160c5572868044c2eab5f5b60b80cc174af3f  | refactor(router): update route paths and structure for consistency and clarity                           |
+| feature/interventions-table       | bd57c3dd57b8fe9d85f8783d62f497f0413e4e95  | feat(interventions-table): add client names to interventions table for assistant view                   |
+| feature/checkpoint               | 1e012278924039ce09c9c4240bcc1c88af9e70a8  | feat(checkpoint): add CheckpointService and Checkpoint class                                             |
+| feature/task-product-usage       | 28f38a48c855c18141c7e0d334dd148193ff8c0a  | feat(task-product-usage): add TaskProductUsageService and TaskProductUsage class                         |
+| feature/product-stock            | 45453361c8b6b0bcc5c3027f11662420bd08f331  | feat(product-stock): add ProductStockService, ProductStock, and ProductType classes                      |
+| feature/product-request          | f3cbf68f64e9fafb27d2f96741c0060af73757eb  | feat(product-request): add ProductRequestService, ProductRequest class, and ProductRequestState enum     |
+| feature/iot-devices              | 7e75e128500f5b22fa204040863714aaa09a8666  | feat(iot-devices): add IotDevicesService, IoTDevice, Code, and CodeState classes                         |
+| feature/activities-assistant     | 54966487695304417b0d89f16a45c6508eb990c5  | refactor(tasks-service): add filtering methods for intervention and mechanic in TasksService             |
+| feature/personnel                | 8518f85a9577916705be4c1fdec262b659f6e621  | refactor(personnel): update Mechanic class to extend User and modify PersonnelService endpoints          |
+| feature/vehicle                  | 2190fffd8783f23bcc0ee406706b922e44cfd780  | refactor(vehicle): update Vehicle class properties and add fullName method                               |
+| feature/project-structure        | ca0b6894bd03903ea3aa273a1b948832cd06dc10  | refactor(project-structure): move Workshop class from shared to service-management module                |
+| feature/intervention             | 6fec54185efcbe2bbfd2435e8243b0c810401d69  | refactor(intervention): update Intervention properties and add getFormattedDate method                   |
+| feature/activities-leader        | 3d6a382b61bbaeec1fd9e627f7b022cd89376c5d  | feat(leader-intervention-list): add client names to leader intervention list with client data fetching   |
+| feature/client-service           | 82bddff497881e1ea22a345164cd494be90b00ba  | refactor(client-service): update ClientsService endpoints and add getByDocument method                   |
+| feature/notifications            | 583ed030d11c68dec7149fd64971d4b13ab128b2  | Merge pull request #23 from Web-Application-YaraSoftware/feature/notifications                           |
+| feature/notification-item        | a83ede0ade1fb619e34cdf57be8d5d5a69ef2846  | feat(notification-item): add state update on icon click                                                   |
+| feature/notifications-page       | 0c7a9cebedee5a8b5948c4caf84e4b6a5a4652dc  | refactor(notifications-page): use NotificationManager for managing notifications                          |
+| feature/notification-service     | 82f79b111ac1c4112c36ed191d4f88c15d697ae7  | feat(notification-service): add updateState method and refactor API parameter                             |
+| feature/notification             | 079a484ad98a9a8afc44d48f79c078a24fb7390d  | refactor(notification): update Notification class to use NotificationState enum                           |
+| feature/client                   | 27644e183760928a673dacbc348458aec518cf00  | refactor(client): extend Client class from User with updated properties                                   |
+| feature/entities                 | c78af1b55738002c56e5a78f2097fb3e3a25317e  | feat(entities): add NotificationManager and NotificationState for notification management                 |
+| feature/user                     | 6653d7ff346757ad122cb18a7d51658e7af258d3  | refactor(user): update User class properties and replace UserType/UserState with enums                    |
+| feature/intervention-log-timeline | 22781358f4a7e54c254124e9126e155578261d03  | Merge pull request #22 from Web-Application-YaraSoftware/feature/intervention-log-timeline               |
+| feature/intervention-log-timeline | cf8e33dfb6cb8c661d9fc06a51e15bdfa7081284  | chore: delete previous interventions component                                                            |
+| feature/intervention-detail      | 4af21e8acfd2649de855493d830591113de8b8ea  | refactor(intervention-detail): modify logic to display general information child                          |
+| feature/general-information      | 6b7cc0917c6b4e606d7b4fea1c7ac287a5798933  | refactor: general information component updated with improved variable naming and simplified logic       |
+| feature/inventory-stock          | c1cf2e90aecd87218ce8d606ba26a02d14eeeee9  | Merge pull request #21 from Web-Application-YaraSoftware/feature/inventory-stock                         |
+| feature/inventory-stock          | 94cb4731b8dba49ba2aba8c404ca8f58d941a5d0  | feat(product-stock): Refactor inventory request component to product request component                    |
+| feature/inventory-stock          | cb0aead7cdc6f5de5edce33b064b18f9d028f1fa  | feat(product-stock): enhance product stock management with type filtering, edit, and delete dialogs       |
+| feature/inventory-management      | e680b13ff7bfccb29c7258dc310aa6c3378d3475  | feat(inventory-management): add ProductStock edit dialog component                                       |
+| feature/product-request-state     | e034e69699cc3a3680f1323d82451bbe78178acf  | feat(product-request-state): add ProductRequestState enum with state name retrieval                      |
+| feature/product-type             | c145b3e9fe756a39cd8aef9d911c2ae5d5d30306  | feat(inventory-stock): add ProductType model and ProductTypeService for product type management          |
+| feature/intervention-summary      | 970bbeb6cd9a2cfdc9283f9ee59f0e374e024349  | feat(intervention-summary): add functionality to load and display task product usages                    |
+| feature/intervention-summary      | 77c7d80e7ce2b1c9e9854a2f1b14921be388f4e9  | feat(intervention-summary): add intervention summary component with functionality to load and display task checkpoints |
+| feature/intervention-detail       | b27f3d224bc7bc0443eed8ea471d331e3e461688  | feat(intervention-detail): implement logic for intervention summary component                            |
+| feature/general-information       | 3fd45cf318f389f6faa97d2c74f7810648a73be4  | feat(general-information): add form validation and update intervention functionality                     |
+| develop                         | 730780fc2e713e09afc4aa2fe5e10f4034164f3d  | Merge remote-tracking branch 'origin/feature/intervention-log-timeline' into feature/intervention-log-timeline |
+| feature/intervention-detail       | 4ad86c6f49da77e69eb397dac33f9d6ef876cfb2  | feat(intervention-detail): add intervention detail component with logic to display and update intervention info. |
+| feature/general-info             | d3c5186f0b439c0c08bb1dd3fbeb762cf859f9f6  | feat(general-info): add intervention detail component with logic to display and update intervention info. |
+| feature/intervention-detail       | 2a95c4d8543c87049a591c2e153d0c13b9645013  | feature(intervention-detail): add intervention service                                                   |
+| feature/general-information       | 153cfbbf49727a59719ef5ea5f9bed868198ecd2  | feature(general-information): add general information component, initialize form values and watch for updates to intervention |
+| feature/task-detail              | 98c98b363ef432f26fc3ea2c073330906e87d5b1  | feature(task-detail): add task detail component with task and product usage details                      |
+| feature/router                   | 5dd43c64b718a74c4ad712e7f1ce13ba0433861d  | refactor(router): rename path declaration for interventions details                                      |
+| feature/intervention-detail       | 3c3f72b342b8955a1a768c6981b09fa63c4c3f40  | refactor(vehicle-detail): refactor fetching logic to serve correctly the previous interventions child component |
+| feature/register-interventions    | 2ad831e637f5f140d1697c08f88d010675c25006  | refactor(register-interventions): replace vehicle entity with intervention entity for status handling    |
+| feature/vehicle-detail           | bdba96086390e034c5e00380fc207f57ec49352f  | chore: update vehicle detail route navigation to use dynamic vehicle ID                                  |
+| feature/intervention-log-timeline | 20af49c687511e1cc9b7ecc32176757a48ac000a  | feat(intervention-log-timeline): add vehicle detail view with activity log section                       |
+| feature/vehicle-service          | 475f4779e956f575efd373d2c66688b20de2a12e  | feat(vehicle-service): add method to fetch vehicle data by id                                            |
+| feature/previous-interventions    | c1cdeecc21b91196085e78d0e1025c9a01993ba9  | feat: add previous interventions component with responsive timeline for vehicle interventions, dynamic alignment and navigation to intervention details |
+| feature/clients-detail           | a5120d82ee49622c1226b1bf11d4bcd32f0837ae  | Merge pull request #20 from Web-Application-YaraSoftware/feature/clients-detail                          |
+| feature/clients-detail           | c1be29c5f5519bbb8a3d62b79f0a8e760b57fa31  | Merge branch 'develop' into feature/clients-detail                                                       |
+| feature/leader-intervention-list  | 3f3caeaad33cab51a5918be31498e5fc84c69a56  | feat(leader-intervention-list): add leader intervention list table with filters and row selection        |
+| feature/intervention-list-assistants | 21dda6d757c9bda9bbca7071eef79ed2d633b4ec | feat(intervention-list-assistants): add intervention list table for assistant mechanics with filters and row selection |
+| feature/activities               | 145322c24bc195f9ffd277b4a3abc76fdd65f6d5  | feat(activities): add activities header page template with navigation buttons for assistant and leader   |
+| feature/workshop-store           | ae061006a54e36f39f5dbebc97c8c4d6671304f5  | feat(workshop-store): add mechanicType state with leader and assistant setters                           |
+| feature/app                      | b5afcd4305688f3d2d3374438f01aed37fe71c41  | feat(app): add PrimeVue Tag component to the application                                                 |
+| feature/interventions-service     | 86b757bb41e7a3a682fc21cac12713776af5780e  | refactor(interventions-service): add methods to filter interventions by mechanic leader and assistant    |
+| feature/tasks-service             | 8b94802aadf735f2f1583e98baf7c3f50573e42a  | feat(tasks-service): add TasksService class with CRUD methods                                            |
+| feature/task-state                | 8e1aceb1e320213d473e531395db6827ca293ad5  | feat(task-state): add TaskState enum with getName method                                                 |
+| feature/intervention-type         | f9ca6f9ed81f31d185f64cc09780ddd9aaca1a06  | feat(intervention-type): add InterventionType enum with getName method                                   |
+| feature/intervention-state        | 52c948d34eddce2d63e3ee16b2e065c513733e34  | feat(intervention-state): add InterventionState enum with getName method                                 |
+| feature/task                      | cd81d76e0f1f0ea0fb72d45fdff381e51cd11254  | feat(task): add Task class with finishTask and cancelTask methods                                        |
+| feature/intervention              | dccd1bce6555b626c3818154b4d3bb232cdd7e27  | refactor(intervention): update Intervention class structure and add finish method                        |
+| feature/vehicle-registration      | 52f475fe5281d4b22a534de16ba0cea8f0b80a05  | feat(vehicle-registration): add vehicle entity, and iot dispositive entity                               |
+| feature/client-detail             | bbb41baab80425a92d5739af11580e55365a38b3  | feat(client detail): add workshop client entity, user entity, account state enum, and role enum          |
+| feature/client-detail             | 3047b6379bdc68c49f401391c2fc746afc58bb7a  | feat(client-detail): add vehicle management with listing and registration dialogs                        |
+| feature/client-detail             | 619c65515f788c0d623753745a2ba74d8f05e8e8  | feat(client-detail): add client detail component with display, update, and delete functionality          |
+| feature/vehicle-item             | bc8a263f63e1a8582584612468ae00805d503661  | chore: add default car image for vehicle item components                                                 |
+| feature/vehicle-item             | 64923c12f7f783c27b216d2006de0776d7ba5155  | feat(vehicle-item): add vehicle card component with vehicle selection and last intervention display       |
+| feature/vehicle-service          | 97dba59f6df40c67641bd464aa799e434cfdd722  | feat(vehicle-service): add vehicle service with methods to retrieve and create vehicles                   |
+| feature/client-service            | 2d9ffb1292507aac808698af95b7ee766bc94e49  | feat(client-service): add workshop client service for fetching, updating, and deleting clients           |
+| feature/vehicle-creation         | 1d54311f45063c44331352c8f40def2eb35e4970  | feat(vehicle-creation): add new vehicle registration dialog with save and cancel actions                 |
+| feature/confirmation-dialog       | 040bb8a4beaa4e045c965ceca1f7d4c43524f3fe  | feat(confirmation-dialog): add confirmation dialog component with confirm and dismiss actions             |
+| feature/develop                  | 819a11e0ab379d9ed17242de3b0214a700273615  | Merge pull request #19 from Web-Application-YaraSoftware/develop                                        |
+
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review
+
+No se ha realizado nada especifico con respecto a esta sección en este sprint.
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Para este sprint se ha logrado completar distintas historias de usuario, entre las cuales destacan las historias de usuario relacionadas a la informacion de vehiculos, intervenciones, pantallas principales de la página web, flujo intervención de mecánico, activity log de los vehiculos, y las tecnical stories asociadas a los recursos Profiles, Authenthication y Notifications.
+
+A continuación algunas evidencias en imágen de las historias de usuario más relevantes: ...
+
+#### FrontEnd
+
+#### US-06	Clientes
+
+<img src="img/5/2/3/clients.png">
+
+#### US-07 	Detalles de clientes
+
+<img src="img/5/2/3/personal_information.png">
+
+#### US-08 	Intervenciones
+
+<img src="img/5/2/3/activity_log.png">
+
+#### US-10 Detalles de intervención
+
+<img src="img/5/2/3/general_information.png">
+
+<img src="img/5/2/3/intervention_summary.png">
+
+#### US-11 Existencias de inventario
+
+<img src="img/5/2/3/inventory_stock.png">
+
+#### US-12 Solicitudes de inventario
+
+<img src="img/5/2/3/inventory_request.png">
+
+#### US-15 Mis tareas (líder)
+
+<img src="img/5/2/3/activities_assistant.png">
+
+#### US-17 Información de intervención
+
+<img src="img/5/2/3/activities_information.png">
+
+#### US-18	Diagnóstico de intervención
+
+<img src="img/5/2/3/diagnostic.png">
+
+#### US-19	Ejecución de intervención
+
+<img src="img/5/2/3/execution.png">
+
+#### US-20	Supervisión de intervención
+
+<img src="img/5/2/3/supervision.png">
+
+#### US-22	Registro de intervenciones
+
+<img src="img/5/2/3/interventions_list.png">
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+A continuación evidencia en imágen de tres recursos de nuestro Backend.
+
+#### Backend
+
+#### Imagen de los tres recursos
+<img src="img/5/2/3/backend.png">
+
+### Authentication
+
+#### Post en /api/v1/authentication/sign-up
+<img src="img/5/2/3/post_sign_up.png">
+
+#### Post en /api/v1/authentication/sign-in
+<img src="img/5/2/3/post_sign_in.png">
+
+### Notifications
+
+#### Get en /api/v1/notifications/{userId}
+<img src="img/5/2/3/get_notifications.png">
+
+
+### Profiles
+
+#### Get en /api/v1/profiles/profile/{profileId}
+<img src="img/5/2/3/getProfileId.png">
+
+
+#### Get en /api/v1/profiles/dni/{dni}
+<img src="img/5/2/3/getDni.png">
+
+### Put en Profiles
+<img src="img/5/2/3/putProfile.png">
+
+#### Post en Profiles
+<img src="img/5/2/3/post_profile.png">
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Posterior al desarrollo completo del sprint 3, se procedió a utilizar Railway para el despliegue total del backend en la web.
+
+### LINK DEL BACKEND DEPLOYADO: 
+[Documentación Swagger - Workshop N-GINE](https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html)
+
+#### Acceso a Railway: 
+Inicia sesión en Railway preferiblemente utilizando una cuenta de GitHub para facilitar la integración continua. Si aún no tienes cuenta, créala y luego inicia sesión.
+<img src="img/5/2/3/railway/ingresarRailway.png">
+
+#### Creación del Proyecto y Configuración de la Base de Datos
+Crea un nuevo proyecto en Railway. Como primer paso, configura la base de datos seleccionando MySQL. Esto creará automáticamente una instancia de MySQL para tu proyecto.
+<img src="img/5/2/3/railway/newProject.png">\
+
+#### Obtención de Credenciales de la Base de Datos
+Una vez creada la base de datos, accede a los detalles de la instancia para obtener las credenciales necesarias, incluyendo la URL del host, puerto, nombre de usuario y contraseña. Estos datos serán esenciales para configurar la conexión desde tu API.
+<img src="img/5/2/3/railway/getUrl.png">
+
+#### Configuración de la Conexión en el Proyecto Web API
+En el proyecto de la web API, configura la cadena de conexión DefaultConnection con las credenciales de la base de datos que obtuviste en el paso anterior. Asegúrate de que esta configuración esté correcta para evitar problemas de conexión en el despliegue.
+<img src="img/5/2/3/railway/addValues.png">
+
+#### Preparación del Archivo Dockerfile
+En la raíz del proyecto, agrega un archivo Dockerfile. Define las configuraciones necesarias en este archivo para construir y ejecutar la imagen de tu proyecto. Este paso es clave, ya que Railway utilizará el Dockerfile para empaquetar y desplegar tu aplicación.
+<img src="img/5/2/3/railway/addDocker.png">
+
+#### Agregar el Proyecto desde GitHub a Railway
+En Railway, dentro del proyecto, agrega un nuevo servicio. Selecciona la opción para vincular un repositorio de GitHub y elige el repositorio de tu proyecto de la web API.
+<img src="img/5/2/3/railway/newService.png">
+
+#### Selección del Repositorio de la Web API
+Una vez que hayas vinculado GitHub, selecciona el repositorio específico de la web API. Railway comenzará a construir el proyecto usando la imagen de Docker configurada.
+<img src="img/5/2/3/railway/repositorie.png">
+
+#### Cargar y Configurar el Proyecto en Railway
+Espera a que Railway complete la carga y construcción del proyecto con la imagen de Docker. Una vez finalizado, habilita el puerto de acceso público y establece un dominio personalizado o acorde a las configuraciones de inicio para tu API.
+<img src="img/5/2/3/railway/docker.png">
+
+
+Al finalizar estos pasos, la URL de la web API estará lista para su uso y conexión con el frontend del proyecto. Es importante destacar que cualquier cambio que realices en la rama principal del repositorio de GitHub se reflejará automáticamente en el despliegue de la web API, lo cual permite mantener el proyecto actualizado sin necesidad de redeployar manualmente.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint. 
+
+#### Front End Insights
+<img src="img/Insight/TB2_FrontEnd.png">
+
+#### Back End Insights
+<img src="img/Insight/TB2_BackendEnd.png">
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -4211,11 +5272,23 @@ Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify p
 
 ## 5.4. Video About-the-Product
 
+A continuación, la primera version del video About The Product
+<img src="img/5/2/videos/AboutTheProduct.png">
+<br>
+[Enlace Video About The Product](https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
 
 ## Video About-the-Team
+
+A continuación, la primera version del video About The Team
+<img src="img/5/2/videos/AboutTheTeam.png">
+<br>
+[Enlace de Video About The Team](https://www.canva.com/design/DAGVM_ZK3PM/7hTxeqOyIRzgtSVTm5T1qQ/watch?utm_content=DAGVM_ZK3PM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 
 # Bibliografía
 
@@ -4235,4 +5308,11 @@ Testing protoypes web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e
 Testing prototypes mobile: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ef_ZB2PJR8dAunoOhdG1MFcBPzJ9J79mlDk0-jS6bgmBsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DQQg0b
 
 
-Video expositivo entrega parcial: https://www.canva.com/design/DAGRxKvZHpM/c474erF4sW5iZrAOG_UVUA/edit?utm_content=DAGRxKvZHpM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Enlace Video About The Product: https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
+Enlace de Video About The Team: https://www.canva.com/design/DAGVM_ZK3PM/7hTxeqOyIRzgtSVTm5T1qQ/watch?utm_content=DAGVM_ZK3PM&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
+
+Video expositivo entrega TB2: https://www.canva.com/design/DAGVMxTlQwY/gqpbmrFevsFGvLM_VJD6aw/watch?utm_content=DAGVMxTlQwY&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
+Documentación Swagger - Workshop N-GINE: https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html
