@@ -4200,20 +4200,42 @@ Se utilizarán las siguientes convenciones para los mensajes de commit basado en
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-El Lenguaje de Marcado de Hipertexto (HTML) es esencial para estructurar y presentar contenido en páginas web, siendo común nombrar la página principal como index.html. Algunas convenciones clave que incluiremos en nuestro código:
-Usar elementos en minúsculas y cerrar todos los elementos para asegurar compatibilidad y legibilidad.
-Escribir comentarios breves y evitar líneas de código largas.
-Incluir el atributo lang y especificar detalles como alt, ancho y altura en imágenes para accesibilidad.
-CSS es el lenguaje para dar estilo a las páginas web. Convenciones que utilizaremos:
-Mantener una nomenclatura coherente para clases e identificadores, con una indentación consistente y agrupación de propiedades relacionadas.
-Evitar selectores excesivamente específicos y duplicación de reglas.
-Probar el código en varios navegadores y dispositivos.
-JavaScript agrega interactividad a las páginas web. Las prácticas que utilizaremos son:
-Nomenclatura coherente para variables y funciones, evitando variables globales.
-Manejar errores con bloques try-catch, optimizar el código para rendimiento, y probar en diversos navegadores.
-Gherkin es un lenguaje usado para describir escenarios de prueba de forma legible. Recomendaciones clave:
-Usar un lenguaje claro con una estructura coherente basada en palabras clave como Feature, Scenario, Given, When, y Then.
-Evitar la duplicación de pasos y colaborar con el equipo para mejorar los escenarios.
+En esta sección se detallan las convenciones de estilo y buenas prácticas que se seguirán en el código fuente del proyecto.
+
+**HTML**: Es un lenguaje de marcado que se utiliza para definir la estructura de las páginas web. Se seguirán las siguientes convenciones de estilo:
+
+1. Se utilizarán etiquetas semánticas como header, footer, section, article, nav, aside, main, etc.
+2. Se utilizará la indentación de 2 espacios para mejorar la legibilidad del código.
+3. Se utilizarán atributos alt en las imágenes para mejorar la accesibilidad.
+4. Se utilizarán comentarios para documentar el código y facilitar su mantenimiento.
+5. Se utilizarán nombres descriptivos para las clases y los ids.
+6. Se utilizarán las mejores prácticas de SEO para mejorar la visibilidad del sitio web.
+7. Se utilizarán las mejores prácticas de accesibilidad para garantizar que el sitio sea accesible para todos los usuarios.
+
+**CSS**: Es un lenguaje de estilos que se utiliza para definir la apariencia de las páginas web. Se seguirán las siguientes convenciones de estilo:
+1. Se utilizará la metodología BEM (Block Element Modifier) para nombrar las clases de CSS.
+2. Se utilizarán variables CSS para definir colores, fuentes y tamaños.
+3. Se evitará el uso de estilos en línea y se fomentará el uso de hojas de estilo externas.
+4. Se utilizará la indentación de 2 espacios para mejorar la legibilidad del código.
+5. Se utilizarán comentarios para documentar el código y facilitar su mantenimiento.
+
+**JavaScript**: Es un lenguaje de programación que se utiliza para agregar interactividad a las páginas web. Se seguirán las siguientes convenciones de estilo:
+1. Se utilizará el estándar ECMAScript 6 (ES6) para escribir código JavaScript.
+2. Se utilizarán nombres descriptivos para las variables y las funciones.
+3. Se evitará el uso de variables globales y se fomentará el uso de módulos.
+4. Se utilizará la indentación de 2 espacios para mejorar la legibilidad del código.
+5. Se utilizarán comentarios para documentar el código y facilitar su mantenimiento.
+
+**C#**: Es un lenguaje de programación que se utiliza para desarrollar aplicaciones en el entorno .NET. Se seguirán las siguientes convenciones de estilo:
+1. Se utilizará el estándar de codificación de C# para escribir código C#.
+2. Se utilizará la indentación de 4 espacios para mejorar la legibilidad del código.
+3. Se utilizarán comentarios para documentar el código y facilitar su mantenimiento.
+4. Se seguirán las convenciones de nomenclatura de C# para los nombres de clases, métodos y propiedades.
+5. Se utilizarán las mejores prácticas de programación orientada a objetos en C#.
+
+**Gherkin**: Es un lenguaje de especificación que se utiliza para escribir escenarios de prueba en lenguaje natural. Se seguirán las siguientes convenciones de estilo:
+1. Se utilizará el lenguaje natural para escribir escenarios de prueba en Gherkin.
+2. Se utilizarán las palabras clave Given, When, Then y And para estructurar los escenarios.
 
 ### 5.1.4. Software Deployment Configuration
 
