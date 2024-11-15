@@ -2596,7 +2596,7 @@ Además, la neutralidad de Roboto contribuye a que la comunicación sea respetuo
 El tono de comunicación adoptará un enfoque serio, formal, respetuoso y sereno. Este tono refuerza la percepción de profesionalismo, que es esencial en un sistema que maneja aspectos críticos de la gestión de talleres automotrices. Asimismo, al mantener una comunicación serena y respetuosa, se busca generar confianza en los usuarios, asegurándoles que están interactuando con una solución técnica avanzada. Además, este tono promueve un ambiente de tranquilidad, alineándose con la misión de ofrecer un servicio de alta calidad.
 
 ### 4.1.2. Web Style Guidelines
-git pu
+
 ### Componentes
 
 #### Menú desplegable de perfil
@@ -3596,6 +3596,152 @@ La pantalla de "Notificaciones" muestra las alertas importantes para el administ
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+Enlace para acceder al [Lucid Chart](https://lucid.app/lucidchart/fb26e9b9-b73b-458c-a066-ce7342dd4275/edit?viewport_loc=-22784%2C-3867%2C43177%2C23208%2C0_0&invitationId=inv_2df26de4-6d0c-46fb-9c95-77201218901e)
+
+#### User goal: Registro de cuenta
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo registro de cuenta en WorkShop N-GINE comienza con una pantalla de bienvenida en la que el dueño del taller puede iniciar sesión o registrarse si aún no tiene una cuenta. Al presionar el botón "Create account", el usuario es redirigido al formulario de registro donde ingresa su nombre, correo electrónico, contraseña y nombre del taller. Si se completa correctamente el formulario y se presiona "Crear", el sistema redirige al usuario nuevamente a la pantalla de inicio de sesión con un mensaje de confirmación. Tras iniciar sesión exitosamente, el usuario es dirigido al panel principal de la aplicación, donde puede acceder a secciones clave. La primera vista disponible es la sección de Personal vacía, con un botón para añadir personal.
+
+Si los campos del formulario de registro no se llenan correctamente o hay errores en los datos ingresados, el usuario verá un mensaje de error emergente que indica el problema específico (por ejemplo, "correo electrónico inválido" o "contraseña no coincide"). El usuario deberá corregir los errores antes de poder continuar con el proceso de registro.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/1.png" width="1000px">
+</div>
+
+#### User goal: Acceder a la cuenta
+User persona: Dueño de taller, cliente de taller,  mecánico
+
+Explicación del flujo: El proceso de inicio de sesión en WorkShop N-GINE arranca con una pantalla donde el dueño del taller debe ingresar su correo electrónico y contraseña. Una vez completados estos campos y presionado el botón "Iniciar Sesión", el sistema verifica las credenciales ingresadas. Si las credenciales son correctas, el usuario es redirigido directamente al panel principal de la aplicación. Desde ahí, puede navegar por las secciones clave como Personal, Clientes, Intervenciones, Inventario, Métricas y Notificaciones. En este caso, el sistema mostrará la vista de Personal con una lista de empleados registrados. En caso de que los datos sean incorrectos, el sistema desplegará un mensaje emergente de error, detallando cuál es el problema (por ejemplo, "Contraseña incorrecta"). Esto obligará al usuario a corregir los campos antes de poder continuar con el inicio de sesión.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/2.png" width="1000px">
+</div>
+
+#### Registrar personal
+User persona: Dueño de taller
+
+Explicación del flujo: El proceso de gestión de personal en WorkShop N-GINE comienza cuando el dueño del taller accede a la sección de Personnel desde el panel principal. Si no hay empleados registrados, el sistema muestra un mensaje indicando "No registered personnel" y un botón para añadir nuevo personal. El usuario puede hacer clic en el botón New mechanic para iniciar el proceso de registro de un nuevo mecánico. Una vez que el usuario presiona el botón, aparece un formulario de registro donde se deben ingresar los datos del mecánico, como nombre, edad, ubicación, etc. Si los datos se completan correctamente, el usuario puede hacer clic en Save, y el sistema agregará el nuevo mecánico a la lista de personal, mostrando un mensaje de confirmación exitoso. Si el usuario no completa correctamente el formulario (por ejemplo, si falta algún dato obligatorio), se mostrará un mensaje de error emergente, indicando la necesidad de corregir los errores antes de poder continuar con el registro del nuevo mecánico.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/3.1.png" width="1000px">
+</div>
+
+#### Registrar cliente
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo de gestión de clientes en WorkShop N-GINE inicia cuando el usuario accede a la sección de Clients desde el menú principal. Al visualizar la tabla de clientes registrados, puede decidir añadir un nuevo cliente presionando el botón New Client. Al hacerlo, se despliega una ventana modal de registro donde se ingresan los datos del cliente, como nombre, documento de identidad, edad y correo electrónico. Si los datos ingresados son correctos y únicos, el sistema guarda el nuevo cliente y actualiza la tabla de clientes, mostrando un mensaje de éxito que confirma la acción. En caso de que la información ingresada ya exista en el sistema (por ejemplo, si el documento de identidad coincide con un cliente registrado previamente), el sistema despliega un mensaje de error indicando que el cliente ya está registrado. El usuario deberá corregir los datos antes de poder completar el proceso de registro del nuevo cliente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/3.2.png" width="1000px">
+</div>
+
+#### Visualizar la lista de empleados
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo de acceso a la sección de Personnel en WorkShop N-GINE comienza con la pantalla de inicio de sesión. El usuario ingresa su correo electrónico y contraseña para acceder al sistema. Si las credenciales son correctas, se redirige al usuario a la vista de gestión de personal. Si el usuario tiene empleados registrados, se muestra una tabla en formato de tarjetas con los perfiles de los mecánicos. Si no hay personal registrado, la vista de Personnel mostrará un mensaje que indica "No registered personnel" y un botón Register para agregar nuevos empleados. De esta manera, el usuario puede gestionar el personal de su taller de forma rápida y eficiente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/4.png" width="1000px">
+</div>
+
+#### Manejar información de empleados
+User persona: Dueño de taller
+
+Explicación del flujo: En el proceso de edición de información del personal en WorkShop N-GINE, el usuario accede primero a la vista de Personnel, donde se muestran los perfiles de los mecánicos en formato de tarjetas. El usuario selecciona el perfil que desea editar, lo que abre una ventana modal con la información actual del empleado. El usuario puede modificar los datos del mecánico, como nombre, apellido, y otros campos. Al presionar el botón Update, el sistema despliega un cuadro de confirmación, pidiendo al usuario verificar la acción. Si el usuario confirma, los cambios se guardan y el sistema muestra un mensaje emergente indicando que la operación fue exitosa. Si el proceso es exitoso, el sistema actualiza la información del mecánico en la tabla principal de Personnel, reflejando los nuevos datos ingresados.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/5.png" width="1000px">
+</div>
+
+#### Visualizar lista de clientes.
+User persona: dueño de taller
+
+Explicación del flujo: el usuario accede a la vista de Personnel desde el panel principal. Desde esta pantalla, puede seleccionar la opción Clients en el menú lateral para ser redirigido a la vista de gestión de clientes. Si el dueño del taller ya ha registrado clientes, el sistema muestra una tabla con la información de los clientes, incluyendo su nombre, documento de identidad y correo electrónico. En caso contrario, si no hay clientes registrados, se mostrará una pantalla vacía con un botón para añadir nuevos clientes.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/6.png" width="1000px">
+</div>
+
+#### User Goal: Manejar información de clientes.
+User Persona: Dueño de taller.
+
+Explicación del flujo:El proceso de gestión de clientes en WorkShop N-GINE comienza cuando el usuario accede a la sección de Clients desde el panel principal, donde puede ver una tabla con la información de los clientes registrados. Al seleccionar un cliente, el sistema muestra una nueva pantalla con los datos personales del cliente, como nombre, edad, y ubicación, además de los vehículos registrados a nombre del cliente. El usuario tiene la opción de editar la información del cliente. Si se realizan cambios, al presionar Confirm, el sistema verifica la validez de los nuevos datos. Si los datos ingresados ya existen en el sistema (por ejemplo, un número de identificación duplicado), se muestra un mensaje emergente de error indicando que el cliente ya está registrado. Si los cambios son exitosos, el sistema guarda la nueva información y muestra un mensaje de confirmación, actualizando tanto los datos del cliente como la tabla en la vista de Clients.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/7.png" width="1000px">
+</div>
+
+#### User Goal: Visualizar intervenciones
+User Persona: Dueño de taller.
+
+Exxplicación del flujo: el dueño del taller acceder a la vista de Interventions desde la pantalla de Personnel utilizando el menú lateral. Si hay intervenciones registradas, el sistema muestra una tabla con información detallada de cada intervención, incluyendo el cliente, el vehículo, el tipo de intervención, y el estado actual (por ejemplo, pendiente, en progreso, o completado). En caso de que no haya intervenciones registradas, la vista de Interventions mostrará un mensaje indicando que no se ha encontrado información sobre intervenciones. Esta vista permite al usuario gestionar fácilmente las intervenciones de los vehículos, programar nuevas o realizar un seguimiento del estado de las actuales.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/8.png" width="1000px">
+</div>
+
+#### User Goal: Gestionar intervenciones
+User Persona: Dueño de taller.
+
+Explicación del flujo: el dueño de taller accede a la sección de Interventions, donde puede ver una tabla con las intervenciones de los vehículos en diferentes estados: pendiente, en progreso y completado. Para agendar una nueva intervención, el usuario presiona el botón Schedule intervention, lo que abre un formulario modal donde se ingresan detalles como el número de documento del cliente, matrícula del vehículo, modalidad, y descripción de la intervención. Después de completar el formulario, el usuario hace clic en Schedule. Si la disponibilidad de horario es adecuada, el sistema registra la nueva intervención y actualiza la tabla, mostrando un mensaje de éxito. Sin embargo, si el horario seleccionado ya está ocupado o no es válido, el sistema despliega un mensaje de error emergente que indica que el horario no está disponible. El usuario deberá corregir los datos para proceder con la programación de la intervención.
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/9.png" width="1000px">
+</div>
+
+#### User Goal: Visualizar detalles de intervención
+User Persona: Dueño de taller.
+Explicación del flujo: El flujo de actualización y gestión de una intervención en WorkShop N-GINE comienza con el usuario accediendo a la sección de Interventions. Aquí, el usuario selecciona una intervención específica de la lista, que lo redirige a una nueva vista donde se muestran los detalles de la intervención seleccionada. El usuario tiene la opción de actualizar el estado de la intervención, como pasarla a "En progreso" o "Completado". Si los datos ingresados son correctos y la intervención puede continuar según lo previsto, el sistema guarda los cambios y muestra un mensaje emergente de éxito. La intervención también se actualiza en la tabla principal, reflejando el nuevo estado. Si surge algún problema (por ejemplo, horarios de intervención en conflicto), el sistema desplegará un mensaje de error, pidiendo al usuario resolver el conflicto antes de continuar. El flujo asegura que los datos se gestionan de forma precisa y oportuna, permitiendo mantener control sobre el progreso de cada intervención en el taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/10.png" width="1000px">
+</div>
+
+#### User Goal: Gestionar solicitudes de inventario
+User persona: dueño de taller
+Explicación del flujo: El usuario accede a la sección de "Inventory" donde puede ver las partes disponibles. En esta pantalla, el usuario puede interactuar con dos funcionalidades: eliminar ítems o actualizar cantidades.
+
+Eliminar Ítems: El usuario selecciona varios ítems utilizando casillas de verificación. Una vez que el usuario elige los ítems que desea eliminar, aparece un cuadro de confirmación. Si el usuario confirma la acción, se muestra un mensaje emergente que confirma que los ítems han sido eliminados exitosamente del inventario.
+
+Actualizar Cantidades: El usuario también tiene la opción de modificar las cantidades de las partes en stock. Después de hacer los cambios deseados, el usuario guarda los ajustes, lo que genera un mensaje emergente que confirma que las cantidades han sido actualizadas correctamente.
+
+Si un ítem seleccionado para eliminación o actualización ya no existe en el inventario, el sistema mostrará un mensaje de error emergente notificando al usuario de la situación.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/11.png" width="1000px">
+</div>
+
+#### User goal: Gestionar solicitudes de inventario
+User persona: dueño de taller
+
+Explicación de flujo: El usuario ingresa a la sección de "Inventory" y selecciona ítems para realizar una solicitud marcando las casillas correspondientes. Una vez realizada la selección, aparece un cuadro de diálogo de confirmación para verificar la solicitud. Al presionar "Confirm", se muestra un mensaje emergente indicando que la solicitud ha sido satisfecha con éxito. Si los ítems solicitados no están disponibles, se muestra un mensaje de error.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/12.png" width="1000px">
+</div>
+
+#### User goal: Obtener métricas de rendimiento.
+User Persona: Dueño de taller.
+
+Explicación del flujo: El usuario accede a la sección de "Metrics" donde puede visualizar diferentes gráficos que muestran datos importantes. El primer gráfico muestra la cantidad de intervenciones por día de la semana, mientras que otro gráfico detalla la cantidad de intervenciones por mes. Además, el usuario puede ver un gráfico circular que muestra la distribución porcentual de vehículos por marca. Estas visualizaciones ayudan a entender el comportamiento de las intervenciones y la composición del parque vehicular.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/13.png" width="1000px">
+</div>
+
+#### User goal: Recibir notificaciones
+User Persona: Dueño de taller, mecánico, cliente de taller
+
+Explicación del flujo: El usuario accede a la sección de "Notifications" donde puede visualizar las notificaciones recientes en un formato de lista, junto con enlaces para redirigirlo a la sección relevante. Si hay notificaciones disponibles, se muestra la lista completa.
+
+En el caso de que no existan notificaciones, el usuario verá un mensaje que indica que no hay notificaciones por el momento y que debe volver más tarde.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/14.png" width="1000px">
+</div>
+
 ## 4.5. Web Applications Prototyping
 El propósito de esta sección es describir los posibles User Flows que se han diseñado para la aplicación web en navegador para desktop y mobile. A través de prototipos interactivos, se busca representar los flujos de interacción del usuario, mostrando cómo cada usuario, ya sea dueño del taller, mecánico o cliente, navega por la plataforma para completar sus tareas.
 
@@ -3618,7 +3764,6 @@ Enlace para acceder al [Web Application prototype para Mecanico en Mobile](https
 Enlace para acceder al [Web Application prototype para Cliente de taller en Desktop](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=569-23587&node-type=FRAME&t=DjYjNwCQy27e8BfB-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=569%3A23587&show-proto-sidebar=1)
 
 Enlace para acceder al [Web Application prototype para Cliente de taller en Mobile](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=818-23532&node-type=FRAME&t=XjxMdzq3JYYDYEGk-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=818%3A23532&show-proto-sidebar=1)
-
 
 ## 4.6. Domain-Driven Software Architecture
 Esta sección presenta una visión general de la arquitectura basada en DDD, desglosada en diferentes niveles de detalle que van desde el contexto general del sistema hasta los componentes más específicos que lo constituyen.
