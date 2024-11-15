@@ -4091,63 +4091,112 @@ En esta sección se describen las actividades de configuración de software, inc
 A continuación, se presentan las herramientas y tecnologías utilizadas en el entorno de desarrollo del proyecto.
 
 **Requirements Management**
+
 1. Trello: Herramienta de gestión de proyectos que permite organizar tareas y colaborar en equipo. Se utilizará para definir y priorizar los requisitos del proyecto. [Trello](https://trello.com/)
 2. Pivotal Tracker: Herramienta de gestión de proyectos ágiles que facilita la planificación y seguimiento de las tareas. Se utilizará para gestionar las historias de usuario y las tareas del proyecto. [Pivotal Tracker](https://www.pivotaltracker.com/)
 
 **Design & Prototyping**
+
 1. Uxpressia: Herramienta de diseño centrada en el usuario que permite crear user personas, empathy maps, journey maps y otros artefactos de diseño. Se utilizará para elaborar los perfiles de usuario y los mapas de empatía. [Uxpressia](https://uxpressia.com/w/k4lMq)
 2. Figma: Herramienta de diseño de interfaces de usuario que permite crear wireframes, mockups y prototipos interactivos. Se utilizará para diseñar la interfaz de usuario del producto. [Figma](https://www.figma.com/)
 3. LucidChart: Herramienta de diagramación que permite crear wireflows y user flows. Se utilizará para diseñar los flujos de usuario del producto. [LucidChart](https://www.lucidchart.com/)
 4. Miro: Herramienta de colaboración en línea que permite crear mapas de escenarios y mapas de impacto. Se utilizará para diseñar los escenarios de uso del producto. [Miro](https://miro.com/es/)
 
 **Software Architecture**
+
 1. Structurizr: Herramienta de modelado de arquitectura que permite crear diagramas C4. Se utilizará para diseñar la arquitectura del sistema. [Structurizr](https://www.structurizr.com/)
 2. Draw.io: Herramienta de diagramación que permite crear diagramas UML. Se utilizará para diseñar los diagramas de clases y componentes. [Draw.io](https://app.diagrams.net/)
 3. Vertabelo: Herramienta de diseño de bases de datos que permite crear modelos de datos. Se utilizará para diseñar la base de datos del sistema. [Vertabelo](https://vertabelo.com/)
 
 **Software Development**
+
 1. Git: Sistema de control de versiones distribuido que permite gestionar el código fuente de forma colaborativa. Se utilizará para controlar las versiones del código del proyecto. [Git](https://git-scm.com/)
 
 **Software Documentation and Collaboration**
+
 1. GitHub: Plataforma de desarrollo colaborativo que permite alojar proyectos, revisar código y gestionar versiones. Se utilizará para alojar el código fuente y colaborar en el desarrollo del proyecto. [GitHub](
 
 **IDE & Tools**
+
 1. WebStorm: Entorno de desarrollo integrado (IDE) para JavaScript y TypeScript. Se utilizará para desarrollar la aplicación web. [WebStorm](https://www.jetbrains.com/webstorm/)
 2. Rider: Entorno de desarrollo integrado (IDE) para .NET y C#. Se utilizará para desarrollar la API RESTful. [Rider](https://www.jetbrains.com/rider/)
 3. MySQL Workbench: Herramienta de diseño y administración de bases de datos MySQL. Se utilizará para diseñar y administrar la base de datos del sistema. [MySQL Workbench](https://www.mysql.com/products/workbench/)
 
 **Landing Page Development**
+
 1. HTML5: Lenguaje de marcado para la estructura de páginas web. Se utilizará para definir la estructura de la landing page. [HTML5](https://developer.mozilla.org/es/docs/Web/HTML)
 2. SASS: Preprocesador de CSS que permite escribir estilos de forma más eficiente. Se utilizará para definir los estilos de la landing page. [SASS](https://sass-lang.com/)
 3. JavaScript: Lenguaje de programación para la interactividad en páginas web. Se utilizará para implementar la lógica de la landing page. [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 **Frontend Development**
+
 1. Vue.js: Framework de JavaScript para la creación de interfaces de usuario. Se utilizará para desarrollar la aplicación web. [Vue.js](https://vuejs.org/)
 
 **Backend Development**
+
 1. C#: Lenguaje de programación para el desarrollo de aplicaciones en el entorno .NET. Se utilizará para desarrollar la API RESTful. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 2. ASP.NET Core: Framework de desarrollo de aplicaciones web de código abierto. Se utilizará para desarrollar la API RESTful. [ASP.NET Core](https://dotnet.microsoft.com/apps/aspnet)
 
 **Database Development**
+
 1. MySQL: Sistema de gestión de bases de datos relacional de código abierto. Se utilizará para diseñar y administrar la base de datos del sistema. [MySQL](https://www.mysql.com/)
 
 **Testing & Quality Assurance**
+
 1. Postman: Herramienta de colaboración para el desarrollo de APIs. Se utilizará para probar y documentar la API RESTful. [Postman](https://www.postman.com/)
 
 **Deployment & Continuous Integration**
+
 1. Netlify: Plataforma de alojamiento web y despliegue continuo. Se utilizará para desplegar la landing page y la aplicación web. [Netlify](https://www.netlify.com/)
 2. Railway: Plataforma de alojamiento web y despliegue continuo. Se utilizará para desplegar la API RESTful. [Railway](https://railway.app/)
 
 ### 5.1.2. Source Code Management
 
-A fecha de hoy, finalizando el sprint 1, consideramos necesario tener dos repositorios en el proyecto. A continuación lo detallo:
+En esta sección se detallan las prácticas y herramientas utilizadas para la gestión del código fuente del proyecto.
+De ese modo, se seguirá la metodología GitFlow, que establece una serie de reglas y buenas prácticas para el control de versiones en proyectos de software. 
+A continuación, se presenta como se estructurará el repositorio del proyecto y las convenciones que se seguirán para la nomenclatura de ramas y commits.
 
-| Repositorio | Link | 
-| ----------- | ----------- |
-| Informe | https://github.com/Web-Application-YaraSoftware/Informe |
-| Landing page | https://github.com/Web-Application-YaraSoftware/Landing-page |
+**Repositorio del Proyecto**
 
-Vamos a implementar Conventional Commits, Semantic Versioning y una nomenclatura estandarizada para las ramas. Sin embargo, en el repositorio del informe, las ramas seguirán el formato "chapter" seguido del número correspondiente.
+Se muestran los repositorios que forman parte del proyecto Workshop
+
+| Repositorio              | Link                                                                     | 
+|--------------------------|--------------------------------------------------------------------------|
+| Organización             | https://github.com/Web-Application-YaraSoftware                          |
+| Landing page             | https://github.com/Web-Application-YaraSoftware/Landing-page             |
+| FrontEnd Web Application | https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd |
+| Web Services             | https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform |
+
+**Flujo de Trabajo GitFlow**
+
+El flujo de trabajo a seguir será el GitFlow, que establece una serie de reglas y buenas prácticas para el control de versiones en proyectos de software desarrollado por Vincent Driessen. 
+Se basa en dos ramas principales: main y develop, y en ramas de soporte para la corrección de errores y nuevas características.
+
+![GitFlow](img/5/1/2/git-flow.png)
+
+**Estructura de Ramas**
+
+1. Main: Rama principal del proyecto que contiene la versión estable y lista para producción.
+2. Develop: Rama de desarrollo que contiene la última versión en desarrollo.
+3. Feature: Ramas de soporte para el desarrollo de nuevas características.
+4. Hotfix: Ramas de soporte para la corrección de errores en producción.
+5. Release: Ramas de soporte para la preparación de una nueva versión.
+
+**Versionado Semántico**
+
+Se seguirá el versionado semántico para la numeración de versiones del proyecto(Semantic Versioning 2.0.0).
+
+El formato de versionado es el siguiente: MAJOR.MINOR.PATCH
+
+1. MAJOR: Incrementa cuando se realizan cambios incompatibles con versiones anteriores.
+2. MINOR: Incrementa cuando se agregan funcionalidades compatibles con versiones anteriores.
+3. PATCH: Incrementa cuando se corrigen errores compatibles con versiones anteriores.
+
+**Convenciones de Commits**
+
+Se utilizarán las siguientes convenciones para los mensajes de commit basado en el formato de Angular Commit Guidelines:
+
+`git commit -m "<type>[optional scope]:<title>" -m"<description">`
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
