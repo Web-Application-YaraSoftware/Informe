@@ -2596,7 +2596,7 @@ Además, la neutralidad de Roboto contribuye a que la comunicación sea respetuo
 El tono de comunicación adoptará un enfoque serio, formal, respetuoso y sereno. Este tono refuerza la percepción de profesionalismo, que es esencial en un sistema que maneja aspectos críticos de la gestión de talleres automotrices. Asimismo, al mantener una comunicación serena y respetuosa, se busca generar confianza en los usuarios, asegurándoles que están interactuando con una solución técnica avanzada. Además, este tono promueve un ambiente de tranquilidad, alineándose con la misión de ofrecer un servicio de alta calidad.
 
 ### 4.1.2. Web Style Guidelines
-git pu
+
 ### Componentes
 
 #### Menú desplegable de perfil
@@ -3596,15 +3596,166 @@ La pantalla de "Notificaciones" muestra las alertas importantes para el administ
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+Enlace para acceder al [Lucid Chart](https://lucid.app/lucidchart/fb26e9b9-b73b-458c-a066-ce7342dd4275/edit?viewport_loc=-22784%2C-3867%2C43177%2C23208%2C0_0&invitationId=inv_2df26de4-6d0c-46fb-9c95-77201218901e)
+
+#### User goal: Registro de cuenta
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo registro de cuenta en WorkShop N-GINE comienza con una pantalla de bienvenida en la que el dueño del taller puede iniciar sesión o registrarse si aún no tiene una cuenta. Al presionar el botón "Create account", el usuario es redirigido al formulario de registro donde ingresa su nombre, correo electrónico, contraseña y nombre del taller. Si se completa correctamente el formulario y se presiona "Crear", el sistema redirige al usuario nuevamente a la pantalla de inicio de sesión con un mensaje de confirmación. Tras iniciar sesión exitosamente, el usuario es dirigido al panel principal de la aplicación, donde puede acceder a secciones clave. La primera vista disponible es la sección de Personal vacía, con un botón para añadir personal.
+
+Si los campos del formulario de registro no se llenan correctamente o hay errores en los datos ingresados, el usuario verá un mensaje de error emergente que indica el problema específico (por ejemplo, "correo electrónico inválido" o "contraseña no coincide"). El usuario deberá corregir los errores antes de poder continuar con el proceso de registro.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/1.png" width="1000px">
+</div>
+
+#### User goal: Acceder a la cuenta
+User persona: Dueño de taller, cliente de taller,  mecánico
+
+Explicación del flujo: El proceso de inicio de sesión en WorkShop N-GINE arranca con una pantalla donde el dueño del taller debe ingresar su correo electrónico y contraseña. Una vez completados estos campos y presionado el botón "Iniciar Sesión", el sistema verifica las credenciales ingresadas. Si las credenciales son correctas, el usuario es redirigido directamente al panel principal de la aplicación. Desde ahí, puede navegar por las secciones clave como Personal, Clientes, Intervenciones, Inventario, Métricas y Notificaciones. En este caso, el sistema mostrará la vista de Personal con una lista de empleados registrados. En caso de que los datos sean incorrectos, el sistema desplegará un mensaje emergente de error, detallando cuál es el problema (por ejemplo, "Contraseña incorrecta"). Esto obligará al usuario a corregir los campos antes de poder continuar con el inicio de sesión.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/2.png" width="1000px">
+</div>
+
+#### Registrar personal
+User persona: Dueño de taller
+
+Explicación del flujo: El proceso de gestión de personal en WorkShop N-GINE comienza cuando el dueño del taller accede a la sección de Personnel desde el panel principal. Si no hay empleados registrados, el sistema muestra un mensaje indicando "No registered personnel" y un botón para añadir nuevo personal. El usuario puede hacer clic en el botón New mechanic para iniciar el proceso de registro de un nuevo mecánico. Una vez que el usuario presiona el botón, aparece un formulario de registro donde se deben ingresar los datos del mecánico, como nombre, edad, ubicación, etc. Si los datos se completan correctamente, el usuario puede hacer clic en Save, y el sistema agregará el nuevo mecánico a la lista de personal, mostrando un mensaje de confirmación exitoso. Si el usuario no completa correctamente el formulario (por ejemplo, si falta algún dato obligatorio), se mostrará un mensaje de error emergente, indicando la necesidad de corregir los errores antes de poder continuar con el registro del nuevo mecánico.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/3.1.png" width="1000px">
+</div>
+
+#### Registrar cliente
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo de gestión de clientes en WorkShop N-GINE inicia cuando el usuario accede a la sección de Clients desde el menú principal. Al visualizar la tabla de clientes registrados, puede decidir añadir un nuevo cliente presionando el botón New Client. Al hacerlo, se despliega una ventana modal de registro donde se ingresan los datos del cliente, como nombre, documento de identidad, edad y correo electrónico. Si los datos ingresados son correctos y únicos, el sistema guarda el nuevo cliente y actualiza la tabla de clientes, mostrando un mensaje de éxito que confirma la acción. En caso de que la información ingresada ya exista en el sistema (por ejemplo, si el documento de identidad coincide con un cliente registrado previamente), el sistema despliega un mensaje de error indicando que el cliente ya está registrado. El usuario deberá corregir los datos antes de poder completar el proceso de registro del nuevo cliente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/3.2.png" width="1000px">
+</div>
+
+#### Visualizar la lista de empleados
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo de acceso a la sección de Personnel en WorkShop N-GINE comienza con la pantalla de inicio de sesión. El usuario ingresa su correo electrónico y contraseña para acceder al sistema. Si las credenciales son correctas, se redirige al usuario a la vista de gestión de personal. Si el usuario tiene empleados registrados, se muestra una tabla en formato de tarjetas con los perfiles de los mecánicos. Si no hay personal registrado, la vista de Personnel mostrará un mensaje que indica "No registered personnel" y un botón Register para agregar nuevos empleados. De esta manera, el usuario puede gestionar el personal de su taller de forma rápida y eficiente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/4.png" width="1000px">
+</div>
+
+#### Manejar información de empleados
+User persona: Dueño de taller
+
+Explicación del flujo: En el proceso de edición de información del personal en WorkShop N-GINE, el usuario accede primero a la vista de Personnel, donde se muestran los perfiles de los mecánicos en formato de tarjetas. El usuario selecciona el perfil que desea editar, lo que abre una ventana modal con la información actual del empleado. El usuario puede modificar los datos del mecánico, como nombre, apellido, y otros campos. Al presionar el botón Update, el sistema despliega un cuadro de confirmación, pidiendo al usuario verificar la acción. Si el usuario confirma, los cambios se guardan y el sistema muestra un mensaje emergente indicando que la operación fue exitosa. Si el proceso es exitoso, el sistema actualiza la información del mecánico en la tabla principal de Personnel, reflejando los nuevos datos ingresados.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/5.png" width="1000px">
+</div>
+
+#### Visualizar lista de clientes.
+User persona: dueño de taller
+
+Explicación del flujo: el usuario accede a la vista de Personnel desde el panel principal. Desde esta pantalla, puede seleccionar la opción Clients en el menú lateral para ser redirigido a la vista de gestión de clientes. Si el dueño del taller ya ha registrado clientes, el sistema muestra una tabla con la información de los clientes, incluyendo su nombre, documento de identidad y correo electrónico. En caso contrario, si no hay clientes registrados, se mostrará una pantalla vacía con un botón para añadir nuevos clientes.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/6.png" width="1000px">
+</div>
+
+#### User Goal: Manejar información de clientes.
+User Persona: Dueño de taller.
+
+Explicación del flujo:El proceso de gestión de clientes en WorkShop N-GINE comienza cuando el usuario accede a la sección de Clients desde el panel principal, donde puede ver una tabla con la información de los clientes registrados. Al seleccionar un cliente, el sistema muestra una nueva pantalla con los datos personales del cliente, como nombre, edad, y ubicación, además de los vehículos registrados a nombre del cliente. El usuario tiene la opción de editar la información del cliente. Si se realizan cambios, al presionar Confirm, el sistema verifica la validez de los nuevos datos. Si los datos ingresados ya existen en el sistema (por ejemplo, un número de identificación duplicado), se muestra un mensaje emergente de error indicando que el cliente ya está registrado. Si los cambios son exitosos, el sistema guarda la nueva información y muestra un mensaje de confirmación, actualizando tanto los datos del cliente como la tabla en la vista de Clients.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/7.png" width="1000px">
+</div>
+
+#### User Goal: Visualizar intervenciones
+User Persona: Dueño de taller.
+
+Exxplicación del flujo: el dueño del taller acceder a la vista de Interventions desde la pantalla de Personnel utilizando el menú lateral. Si hay intervenciones registradas, el sistema muestra una tabla con información detallada de cada intervención, incluyendo el cliente, el vehículo, el tipo de intervención, y el estado actual (por ejemplo, pendiente, en progreso, o completado). En caso de que no haya intervenciones registradas, la vista de Interventions mostrará un mensaje indicando que no se ha encontrado información sobre intervenciones. Esta vista permite al usuario gestionar fácilmente las intervenciones de los vehículos, programar nuevas o realizar un seguimiento del estado de las actuales.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/8.png" width="1000px">
+</div>
+
+#### User Goal: Gestionar intervenciones
+User Persona: Dueño de taller.
+
+Explicación del flujo: el dueño de taller accede a la sección de Interventions, donde puede ver una tabla con las intervenciones de los vehículos en diferentes estados: pendiente, en progreso y completado. Para agendar una nueva intervención, el usuario presiona el botón Schedule intervention, lo que abre un formulario modal donde se ingresan detalles como el número de documento del cliente, matrícula del vehículo, modalidad, y descripción de la intervención. Después de completar el formulario, el usuario hace clic en Schedule. Si la disponibilidad de horario es adecuada, el sistema registra la nueva intervención y actualiza la tabla, mostrando un mensaje de éxito. Sin embargo, si el horario seleccionado ya está ocupado o no es válido, el sistema despliega un mensaje de error emergente que indica que el horario no está disponible. El usuario deberá corregir los datos para proceder con la programación de la intervención.
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/9.png" width="1000px">
+</div>
+
+#### User Goal: Visualizar detalles de intervención
+User Persona: Dueño de taller.
+Explicación del flujo: El flujo de actualización y gestión de una intervención en WorkShop N-GINE comienza con el usuario accediendo a la sección de Interventions. Aquí, el usuario selecciona una intervención específica de la lista, que lo redirige a una nueva vista donde se muestran los detalles de la intervención seleccionada. El usuario tiene la opción de actualizar el estado de la intervención, como pasarla a "En progreso" o "Completado". Si los datos ingresados son correctos y la intervención puede continuar según lo previsto, el sistema guarda los cambios y muestra un mensaje emergente de éxito. La intervención también se actualiza en la tabla principal, reflejando el nuevo estado. Si surge algún problema (por ejemplo, horarios de intervención en conflicto), el sistema desplegará un mensaje de error, pidiendo al usuario resolver el conflicto antes de continuar. El flujo asegura que los datos se gestionan de forma precisa y oportuna, permitiendo mantener control sobre el progreso de cada intervención en el taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/10.png" width="1000px">
+</div>
+
+#### User Goal: Gestionar solicitudes de inventario
+User persona: dueño de taller
+Explicación del flujo: El usuario accede a la sección de "Inventory" donde puede ver las partes disponibles. En esta pantalla, el usuario puede interactuar con dos funcionalidades: eliminar ítems o actualizar cantidades.
+
+Eliminar Ítems: El usuario selecciona varios ítems utilizando casillas de verificación. Una vez que el usuario elige los ítems que desea eliminar, aparece un cuadro de confirmación. Si el usuario confirma la acción, se muestra un mensaje emergente que confirma que los ítems han sido eliminados exitosamente del inventario.
+
+Actualizar Cantidades: El usuario también tiene la opción de modificar las cantidades de las partes en stock. Después de hacer los cambios deseados, el usuario guarda los ajustes, lo que genera un mensaje emergente que confirma que las cantidades han sido actualizadas correctamente.
+
+Si un ítem seleccionado para eliminación o actualización ya no existe en el inventario, el sistema mostrará un mensaje de error emergente notificando al usuario de la situación.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/11.png" width="1000px">
+</div>
+
+#### User goal: Gestionar solicitudes de inventario
+User persona: dueño de taller
+
+Explicación de flujo: El usuario ingresa a la sección de "Inventory" y selecciona ítems para realizar una solicitud marcando las casillas correspondientes. Una vez realizada la selección, aparece un cuadro de diálogo de confirmación para verificar la solicitud. Al presionar "Confirm", se muestra un mensaje emergente indicando que la solicitud ha sido satisfecha con éxito. Si los ítems solicitados no están disponibles, se muestra un mensaje de error.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/12.png" width="1000px">
+</div>
+
+#### User goal: Obtener métricas de rendimiento.
+User Persona: Dueño de taller.
+
+Explicación del flujo: El usuario accede a la sección de "Metrics" donde puede visualizar diferentes gráficos que muestran datos importantes. El primer gráfico muestra la cantidad de intervenciones por día de la semana, mientras que otro gráfico detalla la cantidad de intervenciones por mes. Además, el usuario puede ver un gráfico circular que muestra la distribución porcentual de vehículos por marca. Estas visualizaciones ayudan a entender el comportamiento de las intervenciones y la composición del parque vehicular.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/13.png" width="1000px">
+</div>
+
+#### User goal: Recibir notificaciones
+User Persona: Dueño de taller, mecánico, cliente de taller
+
+Explicación del flujo: El usuario accede a la sección de "Notifications" donde puede visualizar las notificaciones recientes en un formato de lista, junto con enlaces para redirigirlo a la sección relevante. Si hay notificaciones disponibles, se muestra la lista completa.
+
+En el caso de que no existan notificaciones, el usuario verá un mensaje que indica que no hay notificaciones por el momento y que debe volver más tarde.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/userflows/14.png" width="1000px">
+</div>
+
 ## 4.5. Web Applications Prototyping
-El propósito de esta sección es describir los posibles User Flows que se han diseñado para la aplicación web en navegador para desktop y mobile. A través de prototipos interactivos, se busca representar los flujos de interacción del usuario, mostrando cómo cada usuario, ya sea dueño del taller, mecánico o cliente, navega por la plataforma para completar sus tareas.
+Para poder elaborar los prototipos de la interfaz de usuario destinados a Desktop y Mobile Web Browser, se siguieron una serie de criterios fundamentales, entre ellos:
 
-A continuación, se presentan los enlaces a los videos explicativos que detallan los flujos de usuario relacionados:
-<br>
-<br>
-Enlace para acceder al video de explicación del [Web Application Prototyping en Desktop](https://upcedupe-my.sharepoint.com/personal/u20221e247_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221e247%5Fupc%5Fedu%5Fpe%2FDocuments%2Fweb%201%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5f2ff1c2%2D5b7d%2D4a92%2D893a%2Dfe2d9b135c82)
+- **Diseño centrado en el usuario**: Se consideró la experiencia del usuario como el eje central del diseño, asegurando que la interfaz sea intuitiva y fácil de usar.
+- **Consistencia visual**: Se mantuvo una coherencia visual en todos los elementos de la interfaz, incluyendo colores, tipografías y estilos.
+- **Facilidad de navegación**: Se diseñó una estructura de navegación clara y sencilla, permitiendo al usuario acceder a las diferentes secciones de la aplicación de forma rápida y eficiente.
 
-Enlace para acceder al video de explicación del [Web Application Prototyping en Mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ef_ZB2PJR8dAunoOhdG1MFcBPzJ9J79mlDk0-jS6bgmBsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DQQg0b)
+A continuación, se presentan los prototipos de la interfaz de usuario para Desktop y Mobile Web Browser, incluyendo las vistas clave de la aplicación WorkShop N-GINE.
+
+![Prototipo de interfaz de usuario para Desktop](img/4/prototyping/desktop.png)
+Enlace para acceder al video de explicación del [Web Application Prototyping en Desktop](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/EaMLk0L_CipDivuBrwlyAnoBTAbSdbFPOs2c30OsSXKGnw?e=n18tVm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+![Prototipo de interfaz de usuario para Mobile](img/4/prototyping/mobile.png)
+Enlace para acceder al video de explicación del [Web Application Prototyping en Mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/Eb3KrJ1ly5hHjDMNTTdZ5cIB8UWopmtJDMUmJE3oEC8MWw?e=D3dgE3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Asimismo, a continuación se presentan los enlaces que llevan a los flujos por cada user persona:
 Enlace para acceder al [Web Application prototype para Dueño de taller en Desktop](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=646-15803&node-type=FRAME&t=bjZZ32OEbZOtQ8Kq-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=646%3A15803&show-proto-sidebar=1)
@@ -3618,7 +3769,6 @@ Enlace para acceder al [Web Application prototype para Mecanico en Mobile](https
 Enlace para acceder al [Web Application prototype para Cliente de taller en Desktop](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=569-23587&node-type=FRAME&t=DjYjNwCQy27e8BfB-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=569%3A23587&show-proto-sidebar=1)
 
 Enlace para acceder al [Web Application prototype para Cliente de taller en Mobile](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=818-23532&node-type=FRAME&t=XjxMdzq3JYYDYEGk-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=818%3A23532&show-proto-sidebar=1)
-
 
 ## 4.6. Domain-Driven Software Architecture
 Esta sección presenta una visión general de la arquitectura basada en DDD, desglosada en diferentes niveles de detalle que van desde el contexto general del sistema hasta los componentes más específicos que lo constituyen.
@@ -3680,425 +3830,243 @@ En esta sección se describen los Diagramas de Clases, que representan la estruc
 
 ### 4.7.1. Class Diagrams
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/classDiagram/classDiagram.png" width="1000px">
+  <img src="img/4/classDiagram/class-diagram.png" width="1000px">
 </div>
 
 ### 4.7.2. Class Dictionary
-<h3>Class User</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique code for a user</td>
-    </tr>
-    <tr>
-      <td>firstName</td>
-      <td>string</td>
-      <td>First name of a user</td>
-    </tr>
-    <tr>
-      <td>lastName</td>
-      <td>string</td>
-      <td>Last name of a user</td>
-    </tr>
-    <tr>
-      <td>dni</td>
-      <td>string</td>
-      <td>Identification number of a user</td>
-    </tr>
-    <tr>
-      <td>email</td>
-      <td>string</td>
-      <td>Email address of the user</td>
-    </tr>
-    <tr>
-      <td>state</td>
-      <td>AccountState</td>
-      <td>Status of the user account (active, inactive, hidden)</td>
-    </tr>
-  </tbody>
-</table>
 
-<h3>Class Mechanic</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>assignTask</td>
-      <td>Task, Mechanic</td>
-      <td>Assign a task to the mechanic</td>
-    </tr>
-    <tr>
-      <td>completeTask</td>
-      <td>Task</td>
-      <td>Complete the assigned task</td>
-    </tr>
-    <tr>
-      <td>requestItem</td>
-      <td>InventoryItem, quantity</td>
-      <td>Request an item from the inventory</td>
-    </tr>
-  </tbody>
-</table>
+`Identity and Access Management`
 
-<h3>Class WorkshopOwner</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>viewInventory</td>
-      <td>List&lt;InventoryItem&gt;</td>
-      <td>View the workshop's inventory</td>
-    </tr>
-  </tbody>
-</table>
+**Class User**
 
-<h3>Class WorkshopClient</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>vehicles</td>
-      <td>List&lt;Vehicle&gt;</td>
-      <td>List of vehicles registered by the client</td>
-    </tr>
-    <tr>
-      <td>registerVehicle</td>
-      <td>Vehicle</td>
-      <td>Register a new vehicle</td>
-    </tr>
-    <tr>
-      <td>viewInterventionStatus</td>
-      <td>Intervention</td>
-      <td>View status of a specific intervention</td>
-    </tr>
-  </tbody>
-</table>
+Esta clase representa un aggregate root que encapsula la información de un usuario en el sistema. Contiene atributos como id, username, password, state, role y workshopId.
 
-<h3>Class Vehicle</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique code for the vehicle</td>
-    </tr>
-    <tr>
-      <td>licensePlate</td>
-      <td>string</td>
-      <td>License plate of the vehicle</td>
-    </tr>
-    <tr>
-      <td>brand</td>
-      <td>string</td>
-      <td>Brand of the vehicle</td>
-    </tr>
-    <tr>
-      <td>model</td>
-      <td>string</td>
-      <td>Model of the vehicle</td>
-    </tr>
-    <tr>
-      <td>scanList</td>
-      <td>List&lt;Scan&gt;</td>
-      <td>List of scans performed on the vehicle</td>
-    </tr>
-  </tbody>
-</table>
+| Attribute  | Type          | Description                                                 |
+|------------|---------------|-------------------------------------------------------------|
+| id         | int           | Unique identifier for the user                              |
+| username   | string        | Username for the user account                               |
+| password   | string        | Password for the user account                               |
+| state      | AccountStatus | Status of the user account (e.g., active, inactive, hidden) |
+| role       | Role          | Role assigned to the user                                   |
+| workshopId | Long          | Identifier for the workshop associated with the user        |
 
-<h3>Class Workshop</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the workshop</td>
-    </tr>
-    <tr>
-      <td>owner</td>
-      <td>WorkshopOwner</td>
-      <td>Owner of the workshop</td>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td>string</td>
-      <td>Name of the workshop</td>
-    </tr>
-    <tr>
-      <td>inventory</td>
-      <td>List&lt;InventoryItem&gt;</td>
-      <td>List of items in the workshop's inventory</td>
-    </tr>
-    <tr>
-      <td>inventoryRequests</td>
-      <td>List&lt;ItemRequest&gt;</td>
-      <td>List of inventory requests made to the workshop</td>
-    </tr>
-    <tr>
-      <td>interventionList</td>
-      <td>List&lt;Intervention&gt;</td>
-      <td>List of interventions registered in the workshop</td>
-    </tr>
-  </tbody>
-</table>
+**Class Role**
 
-<h3>Class Intervention</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the intervention</td>
-    </tr>
-    <tr>
-      <td>workshop</td>
-      <td>Workshop</td>
-      <td>Workshop where the intervention is performed</td>
-    </tr>
-    <tr>
-      <td>leader</td>
-      <td>Mechanic</td>
-      <td>Mechanic in charge of the intervention</td>
-    </tr>
-    <tr>
-      <td>vehicle</td>
-      <td>Vehicle</td>
-      <td>Vehicle involved in the intervention</td>
-    </tr>
-    <tr>
-      <td>client</td>
-      <td>WorkshopClient</td>
-      <td>Client who owns the vehicle</td>
-    </tr>
-    <tr>
-      <td>state</td>
-      <td>InterventionState</td>
-      <td>Current status of the intervention</td>
-    </tr>
-    <tr>
-      <td>registrationDate</td>
-      <td>datetime</td>
-      <td>Date of registration for the intervention</td>
-    </tr>
-    <tr>
-      <td>completionDate</td>
-      <td>datetime</td>
-      <td>Date of completion for the intervention</td>
-    </tr>
-    <tr>
-      <td>taskList</td>
-      <td>List&lt;Task&gt;</td>
-      <td>List of tasks associated with the intervention</td>
-    </tr>
-  </tbody>
-</table>
+Esta clase representa una entity que define los roles disponibles en el sistema. Contiene atributos como id y name.
 
-<h3>Class Task</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the task</td>
-    </tr>
-    <tr>
-      <td>assistant</td>
-      <td>Mechanic</td>
-      <td>Mechanic assigned to assist with the task</td>
-    </tr>
-    <tr>
-      <td>intervention</td>
-      <td>Intervention</td>
-      <td>Intervention to which the task is related</td>
-    </tr>
-    <tr>
-      <td>requestList</td>
-      <td>List&lt;ItemRequest&gt;</td>
-      <td>List of inventory requests related to the task</td>
-    </tr>
-    <tr>
-      <td>state</td>
-      <td>TaskState</td>
-      <td>Status of the task (pending, done, etc.)</td>
-    </tr>
-  </tbody>
-</table>
+| Attribute | Type   | Description                    |
+|-----------|--------|--------------------------------|
+| id        | Long   | Unique identifier for the role |
+| name      | String | Name of the role               |
 
-<h3>Class ItemRequest</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the item request</td>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td>string</td>
-      <td>Name of the requested item</td>
-    </tr>
-    <tr>
-      <td>amount</td>
-      <td>int</td>
-      <td>Amount of the requested item</td>
-    </tr>
-    <tr>
-      <td>requester</td>
-      <td>Mechanic</td>
-      <td>Mechanic who made the request</td>
-    </tr>
-  </tbody>
-</table>
+`Profile Management`
 
-<h3>Class InventoryItem</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the inventory item</td>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td>string</td>
-      <td>Name of the inventory item</td>
-    </tr>
-    <tr>
-      <td>amount</td>
-      <td>int</td>
-      <td>Available amount of the item</td>
-    </tr>
-    <tr>
-      <td>updateStock</td>
-      <td>quantity</td>
-      <td>Update the stock of the inventory item</td>
-    </tr>
-  </tbody>
-</table>
+**Class Profile**
 
-<h3>Class Scan</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the scan</td>
-    </tr>
-    <tr>
-      <td>scanDate</td>
-      <td>datetime</td>
-      <td>Date when the scan was performed</td>
-    </tr>
-    <tr>
-      <td>codeList</td>
-      <td>List&lt;Code&gt;</td>
-      <td>List of error codes found in the scan</td>
-    </tr>
-  </tbody>
-</table>
+Esta clase representa un aggregate root que encapsula la información de un perfil de usuario. Contiene atributos como id, firstName, lastName, dni, email, age, location y userId.
 
-<h3>Class Code</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the code</td>
-    </tr>
-    <tr>
-      <td>code</td>
-      <td>string</td>
-      <td>Error code detected in the scan</td>
-    </tr>
-    <tr>
-      <td>description</td>
-      <td>string</td>
-      <td>Description of the error code</td>
-    </tr>
-  </tbody>
-</table>
+| Attribute | Type    | Description                       |
+|-----------|---------|-----------------------------------|
+| id        | Long    | Unique identifier for the profile |
+| firstName | string  | First name of the user            |
+| lastName  | string  | Last name of the user             |
+| dni       | Number  | Identification number of the user |
+| email     | string  | Email address of the user         |
+| age       | Integer | Age of the user                   |
+| location  | String  | Location of the user              |
+| userId    | Long    | Identifier of the associated user |
+
+`Service Management`
+
+**Class Workshop**
+
+Esta clase representa un aggregate root que encapsula la información de un taller. Contiene atributos como id y name.
+
+| Attribute | Type   | Description                        |
+|-----------|--------|------------------------------------|
+| id        | Long   | Unique identifier for the workshop |
+| name      | String | Name of the workshop               |
+
+**Class Vehicle**
+
+Esta clase reprensenta un aggregate root que encapsula la información de un vehículo. Contiene atributos como id, licensePlate, brand, model, image, userId y iotDeviceId.
+
+| Attribute    | Type   | Description                                               |
+|--------------|--------|-----------------------------------------------------------|
+| id           | Long   | Unique identifier for the vehicle                         |
+| licensePlate | String | License plate of the vehicle                              |
+| brand        | String | Brand of the vehicle                                      |
+| model        | String | Model of the vehicle                                      |
+| image        | String | Image URL of the vehicle                                  |
+| userId       | long   | Identifier of the user who owns the vehicle               |
+| iotDeviceId  | Long   | Identifier for the IoT device associated with the vehicle |
+
+**Class Intervention**
+
+Esta clase representa un aggregate root que encapsula la información de una intervención. Contiene atributos como id, workshopId, mechanicLeaderId, vehicleId, scheduledAt, startedAt, completedAt, type, status, taskList y description.
+
+| Attribute        | Type                 | Description                                                 |
+|------------------|----------------------|-------------------------------------------------------------|
+| id               | Long                 | Unique identifier for the intervention                      |
+| workshopId       | Long                 | Identifier of the workshop associated with the intervention |
+| mechanicLeaderId | Long                 | Identifier of the mechanic leader for the intervention      |
+| vehicleId        | Long                 | Identifier of the vehicle for the intervention              |
+| scheduledAt      | LocalDateTime        | Scheduled date and time for the intervention                |
+| startedAt        | LocalDateTime        | Start date and time of the intervention                     |
+| completedAt      | LocalDateTime        | Completion date and time of the intervention                |
+| type             | InterventionType     | Type of intervention (e.g., reparation, maintenance)        |
+| status           | InterventionStatuses | Current status of the intervention                          |
+| taskList         | List<Task>           | List of tasks associated with the intervention              |
+| description      | String               | Description of the intervention                             |
+
+**Class Task**
+
+Esta clase representa una entity que encapsula la información de una tarea. Contiene atributos como id, mechanicAssignedId, intervention, tracking, state y description.
+
+| Attribute          | Type             | Description                                                  |
+|--------------------|------------------|--------------------------------------------------------------|
+| id                 | Long             | Unique identifier for the task                               |
+| mechanicAssignedId | Long             | Identifier of the mechanic assigned to the task              |
+| intervention       | Intervention     | Intervention associated with the task                        |
+| tracking           | List<Checkpoint> | List of checkpoints tracking the task                        |
+| state              | TaskState        | Current state of the task (e.g., pending, in progress, done) |
+| description        | String           | Description of the task                                      |
+
+**Class Checkpoint**
+
+Esta clase representa una entity que encapsula la información de un checkpoint. Contiene atributos como id, name y task.
+
+| Attribute | Type   | Description                          |
+|-----------|--------|--------------------------------------|
+| id        | Long   | Unique identifier for the checkpoint |
+| name      | String | Name of the checkpoint               |
+| task      | Task   | Task associated with the checkpoint  |
+
+`Inventory Management`
+
+**Class Product**
+
+Esta clase representa un aggregate root que encapsula la información de un producto en el inventario. Contiene atributos como id, name, description, stockQuantity, lowStockThreshold y workshopId.
+
+| Attribute         | Type    | Description                                      |
+|-------------------|---------|--------------------------------------------------|
+| id                | Long    | Unique identifier for the product                |
+| name              | String  | Name of the product                              |
+| description       | String  | Description of the product                       |
+| stockQuantity     | Integer | Current stock quantity of the product            |
+| lowStockThreshold | Integer | Threshold quantity to trigger low stock alerts   |
+| workshopId        | Long    | Identifier of the workshop that owns the product |
+
+**Class ProductRequest**
+
+Esta clase representa un aggregate root que encapsula la información de una solicitud de producto. Contiene atributos como id, requestedQuantity, taskId, productId, workshopId y status.
+
+| Attribute         | Type                   | Description                                                       |
+|-------------------|------------------------|-------------------------------------------------------------------|
+| id                | Long                   | Unique identifier for the product request                         |
+| requestedQuantity | Integer                | Quantity of the product requested                                 |
+| taskId            | Long                   | Identifier of the task associated with the product request        |
+| productId         | Long                   | Identifier of the requested product                               |
+| workshopId        | Long                   | Identifier of the workshop making the request                     |
+| status            | ProductRequestStatuses | Status of the product request (e.g., pending, accepted, rejected) |
+
+`Device Management`
+
+**Class IoTDevice**
+
+Esta clase representa un aggregate root que encapsula la información de un dispositivo IoT. Contiene atributos como id, codeList, vehicleId.
+
+| Attribute | Type       | Description                                        |
+|-----------|------------|----------------------------------------------------|
+| id        | Long       | Unique identifier for the IoT device               |
+| codeList  | List<Code> | List of codes associated with the IoT device       |
+| vehicleId | Long       | Identifier of the vehicle linked to the IoT device |
+
+**Class Code**
+
+Esta clase representa una entity que encapsula la información de un código generado por un dispositivo IoT. Contiene atributos como id, component, errorCode, description, lastUpdated, iot, state.
+
+| Attribute   | Type      | Description                             |
+|-------------|-----------|-----------------------------------------|
+| id          | int       | Unique identifier for the code          |
+| component   | string    | Component name associated with the code |
+| errorCode   | string    | Error code generated by the IoT device  |
+| description | string    | Description of the error or code        |
+| lastUpdated | Date      | Date when the code was last updated     |
+| iot         | IoT       | IoT device associated with the code     |
+| state       | CodeState | State of the code (e.g., failed, good)  |
+
+`Communication Management`
+
+**Class Notification**
+
+Esta clase representa un aggregate root que encapsula la información de una notificación. Contiene atributos como id, date, content, userId, state, endpoint.
+
+| Attribute | Type              | Description                                             |
+|-----------|-------------------|---------------------------------------------------------|
+| id        | int               | Unique identifier for the notification                  |
+| date      | datetime          | Date and time when the notification was created         |
+| content   | string            | Content of the notification                             |
+| userId    | Long              | Identifier of the user associated with the notification |
+| state     | NotificationState | State of the notification (e.g., read, unread)          |
+| endpoint  | string            | Endpoint URL related to the notification                |
+
+
+`Subscription Management`
+
+**Class SubscriptionItem**
+
+Esta clase representa un aggregate root que encapsula la información de un ítem de suscripción. Contiene atributos como id, workshopId, userId, planId, status, startedAt, endedAt, cancelledAt, isTrial, trialEndsAt.
+
+| Attribute   | Type               | Description                                                                               |
+|-------------|--------------------|-------------------------------------------------------------------------------------------|
+| id          | Long               | Unique identifier for the subscription item                                               |
+| workshopId  | Long               | Identifier of the workshop associated with the subscription                               |
+| userId      | Long               | Identifier of the user who owns the subscription                                          |
+| planId      | Long               | Identifier of the associated plan                                                         |
+| status      | SubscriptionStatus | Current status of the subscription (e.g., pending activation, active, cancelled, expired) |
+| startedAt   | LocalDateTime      | Date and time when the subscription started                                               |
+| endedAt     | LocalDateTime      | Date and time when the subscription ended                                                 |
+| cancelledAt | LocalDateTime      | Date and time when the subscription was cancelled                                         |
+| isTrial     | Boolean            | Indicates if the subscription is a trial                                                  |
+| trialEndsAt | LocalDateTime      | Date and time when the trial period ends                                                  |
+
+**Class Plan**
+
+Esta clase representa una entity que encapsula la información de un plan de suscripción. Contiene atributos como id, price, durationInMonths, type, cycle, maxMechanics, maxClients, maxActiveInterventions, maxItems, metricsAvailable.
+
+| Attribute              | Type         | Description                                       |
+|------------------------|--------------|---------------------------------------------------|
+| id                     | Long         | Unique identifier for the plan                    |
+| price                  | Decimal      | Price of the plan                                 |
+| durationInMonths       | Integer      | Duration of the plan in months                    |
+| type                   | PlanType     | Type of the plan (e.g., basic, standard, premium) |
+| cycle                  | BillingCycle | Billing cycle of the plan (e.g., monthly, annual) |
+| maxMechanics           | Integer      | Maximum number of mechanics allowed               |
+| maxClients             | Integer      | Maximum number of clients allowed                 |
+| maxActiveInterventions | Integer      | Maximum number of active interventions allowed    |
+| maxItems               | Integer      | Maximum number of items allowed in inventory      |
+| metricsAvailable       | Boolean      | Indicates if metrics are available with the plan  |
+
+
+`Billing Management`
+
+**Class Invoice**
+
+Esta clase representa un aggregate root que encapsula la información de una factura. Contiene atributos como id, subscriptionId, workshopId, planId, amount, status, issueDate, dueDate, paymentDate.
+
+| Attribute      | Type          | Description                                                   |
+|----------------|---------------|---------------------------------------------------------------|
+| id             | Long          | Unique identifier for the invoice                             |
+| subscriptionId | Long          | Identifier of the associated subscription                     |
+| workshopId     | Long          | Identifier of the workshop linked to the invoice              |
+| planId         | Long          | Identifier of the plan related to the invoice                 |
+| amount         | Integer       | Amount to be paid in the invoice                              |
+| status         | InvoiceStatus | Current status of the invoice (e.g., pending, paid, rejected) |
+| issueDate      | LocalDateTime | Date and time when the invoice was issued                     |
+| dueDate        | LocalDateTime | Date and time when the invoice is due                         |
+| paymentDate    | LocalDateTime | Date and time when the invoice was paid                       |
+
 
 ## 4.8. Database Design
 
@@ -4107,7 +4075,7 @@ Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos My
 ### 4.8.1. Database Diagram
 
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/databaseDiagram/databaseDiagram.png" width="1000px">
+  <img src="img/4/databaseDiagram/database-diagram.png" width="1000px">
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
