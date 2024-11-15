@@ -1161,397 +1161,784 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <th scope="row" rowspan="4">US-01</td>
         <td rowspan="4">Formulario de registro</td>
         <td rowspan="4">Como dueño de taller quiero registrar una cuenta de usuario para empezar a utilizar la aplicación para gestionar mi taller</td>
-        <td>Scenario: Registro exitoso<br>Given el dueño de taller está en la página de registro<br>And ha completado todos los campos requeridos con datos válidos<br>When hace clic en el botón "Registrar"<br>Then se debe enviar un correo de confirmación a la dirección de correo electrónico especificada<br>And se debe ser redirigido a la página de confirmación de registro</td>
+        <td>Scenario: Registro exitoso
+Given el dueño de taller está en la página de registro
+And ha completado todos los campos requeridos con datos válidos
+When el dueño de taller ordena "Registrar"
+Then envía un correo de confirmación a la dirección de correo electrónico especificada
+And se debe ser redirigido a la página de confirmación de registro</td>
         <td rowspan="4">EP-06</td>
     </tr>
     <tr>
-        <td>Scenario: Datos inválidos en el registro<br>Given el dueño de taller está en la página de registro<br>And ha completado todos los campos requeridos con datos inválidos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los datos son inválidos<br>And debe permanecer en la página de registro</td>
+        <td>Scenario: Datos inválidos en el registro
+Given el dueño de taller está en la página de registro
+And ha completado todos los campos requeridos con datos inválidos
+When el dueño de taller ordena "Registrar"
+Then se muestra un mensaje de error indicando que los datos son inválidos
+And el dueño de taller permanece en la página de registro</td>
     </tr>
     <tr>
-        <td>Scenario: Campos requeridos incompletos en el registro<br>Given el dueño de taller está en la página de registro<br>And no ha completado todos los campos requeridos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los campos requeridos están incompletos<br>And se debe permanecer en la página de registro</td>
+        <td>Scenario: Campos requeridos incompletos en el registro
+Given el dueño de taller está en la página de registro
+And no ha completado todos los campos requeridos
+When el dueño de taller ordena "Registrar"
+Then se debe mostrar un mensaje de error indicando que los campos requeridos están incompletos
+And el dueño de taller permanece en la página de registro
+</td>
     </tr>
     <tr>
-        <td>Given el dueño de taller está en la página de registro<br>And introduce &ltdato inválido&gt en el campo &ltcampo&gt<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error "&ltmensaje de error&gt"<br>And se debe permanecer en la página de registro</td>
+        <td> Scenario Outline: Validación de datos inválidos en el registro Given el dueño de taller está en la página de registro
+And introduce &ldatoinvalido&gt en el campo &ltcampo&gt
+When el dueño de taller ordena "Registrar"
+Then se debe mostrar un mensaje de error "&ltmensaje de error&gt"
+And el dueño de taller permanece en la página de registro</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="4">US-02</td>
         <td rowspan="4">Pantalla de login</td>
         <td rowspan="4">Como usuario quiero acceder a mi cuenta para usar las funcionalidades de la aplicación</td>
-        <td>Scenario: Inicio de sesión exitoso<br>Given que el usuario está en la pagina de login<br>And ha completado los campos requeridos con datos asociados a una cuenta<br>When hace clic en el botón de "Entrar"<br>Then se debe cargar la información de su cuenta y acceder a la pantalla principal</td>
+        <td>Scenario: Inicio de sesión exitoso
+Given que el usuario está en la pagina de login
+And ha completado los campos requeridos con datos asociados a una cuenta
+When el usuario ordena "Entrar"
+Then el sistema carga la información de su cuenta y accede a la pantalla principal</td>
         <td rowspan="4">EP-06</td>
     </tr>
     <tr>
-        <td>Scenario: Datos inválidos en el login<br>Given que el usuario está en la pagina de login<br>And ha completado los campos requeridos con datos que no están asociados a una cuenta<br>When hace clic en el botón de "Entrar"<br>Then el sistema debe mostrar un mensaje de error indicando que los datos son inválidos<br>And el usuario debe permanecer en la pantalla de login</td>
+        <td>Scenario: Datos inválidos en el login
+Given que el usuario está en la pagina de login
+And ha completado los campos requeridos con datos que no están asociados a una cuenta
+When el usuario ordena  "Entrar"
+Then el sistema muestra un mensaje de error indicando que los datos son inválidos
+And el usuario permanece en la pantalla de login
+</td>
     </tr>
     <tr>
-        <td>Scenario: Datos incompletos en el login<br>Given que el usuario está en la pagina de login<br>And no ha completado todos los campos requeridos<br>When hace clic en el botón de "Entrar"<br>Then el sistema debe mostrar un mensaje de error indicando que los datos son inválidos<br>And el usuario debe permanecer en la pantalla de login</td>
+        <td>Scenario: Datos incompletos en el login
+Given que el usuario está en la pagina de login
+And no ha completado todos los campos requeridos
+When el usuario ordena "Entrar"
+Then el sistema muestra un mensaje de error indicando que los datos son inválidos
+And el usuario permanece en la pantalla de login
+</td>
     </tr>
     <tr>
-        <td>Given que el usuario está en la página de login<br>And completa el campo &ltcampo&gt con &ltdato&gt<br>When hace clic en el botón de "Entrar"<br>Then se debe mostrar el mensaje de error "&ltmensaje de error&gt"<br>And se debe permanecer en la pantalla de login</td>
+        <td>
+Scenario Outline: Validación de datos en el login
+Given que el usuario está en la página de login
+And completa el campo <campo> con <dato>
+When el usuario ordena  "Entrar"
+Then el sistema muestra el mensaje de error "<mensaje de error>"
+And el usuario permanece en la pantalla de login</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="4">US-03</td>
         <td rowspan="4">Creación de cuentas de taller</td>
         <td rowspan="4">Como dueño de taller quiero registrar a mis clientes y personal en el sistema para gestionar la información de las intervenciones y tareas en el taller</td>
-        <td>Given el dueño de taller está en la página de &ltpágina&gt<br>And ha completado todos los campos requeridos con datos válidos<br>When hace clic en el botón "Registrar"<br>Then se debe enviar un correo de confirmación a la dirección de correo electrónico especificada</td>
+        <td>Scenario Outline: Registro exitoso
+Given el dueño de taller se encuentra en la página de <página>
+And ha completado todos los campos requeridos con datos válidos
+When ordena "Registrar"
+Then el sistema envía un correo de confirmación a la dirección de correo electrónico especificada</td>
         <td rowspan="4">EP-06</td>
     </tr>
     <tr>
-        <td>Given el dueño de taller está en la página de &ltpágina&gt<br>And ha completado todos los campos requeridos con datos inválidos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los datos son inválidos</td>
+        <td>Scenario Outline: Datos inválidos en el registro
+Given el dueño de taller está en la página de <página>
+And ha completado todos los campos requeridos con datos inválidos
+When ordena "Registrar"
+Then el sistema muestra un mensaje de error indicando que los datos son inválidos</td>
     </tr>
     <tr>
-        <td>Given el dueño de taller está en la página de &ltpágina&gt<br>And no ha completado todos los campos requeridos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los campos requeridos están incompletos<br>And se debe permanecer en la página de registro</td>
+        <td>Scenario Outline: Campos requeridos incompletos en el registro
+Given el dueño de taller está en la página de <página>
+And no ha completado todos los campos requeridos
+When ordena "Registrar"
+Then el sistema muestra un mensaje de error indicando que los campos requeridos están incompletos
+And el dueño de taller permanece en la página de registro
+</td>
     </tr>
     <tr>
-        <td>Given el dueño de taller está en la página de registro<br>And introduce &ltdato inválido&gt en el campo &ltcampo&gt<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error "&ltmensaje de error&gt"<br>And se debe permanecer en la página de registro</td>
+        <td> Scenario Outline: Validación de datos inválidos en el registro
+Given el dueño de taller está en la página de registro
+And introduce <dato inválido> en el campo <campo>
+When hace clic en el botón "Registrar"
+Then el sistema muestra un mensaje de error "<mensaje de error>"
+And el dueño de taller permanece en la página de registro
+</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="4">US-04</td>
         <td rowspan="4">Personal</td>
         <td rowspan="4">Como dueño de taller quiero visualizar mi lista de empleados saber qué empleados están registrados en el sistema</td>
-        <td>Scenario: Sin empleados<br>Given el dueño de taller no tiene personal registrado<br>When se carga la interfaz de personal<br>Then se debe mostrar un mensaje indicando que no hay ningún personal registrado<br>And mostrar la opción de registrar personal al centro de la interfaz</td>
+        <td>Scenario: Sin empleados
+Given el dueño de taller no tiene personal registrado
+When se carga la lista de empleados
+Then el sistema muestra un mensaje indicando que no hay ningún personal registrado
+And el sistema muestra la opción de registrar personal al centro de la interfaz</td>
         <td rowspan="4">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Lista de empleados<br>Given el dueño de taller tiene al menos un empleado<br>When se carga la interfaz de personal<br>Then se debe mostrar la información básica de los empleados</td>
+        <td>Scenario: Lista de empleados
+Given el dueño de taller tiene al menos un empleado
+When se carga la lista de empleados
+Then el sistema muestra la información básica de los empleados</td>
     </tr>
     <tr>
-        <td>Scenario: Filtrado de empleados por nombre<br>Given el dueño de taller tiene al menos un empleado<br>And se encuentra en la interfaz de personal<br>When ingresa texto de filtrado<br>Then se debe mostrar la información básica de los empleados que presenten coincidencias con el texto de filtrado</td>
+        <td>Scenario: Filtrado de empleados por nombre
+Given el dueño de taller tiene al menos un empleado
+And se encuentra en la lista de empleados
+When el dueño de taller ingresa texto de búsqueda
+Then el sistema muestra la información básica de los empleados que presenten coincidencias con el texto de filtrado
+</td>
     </tr>
     <tr>
-        <td>Scenario: Filtrado de empleados por estado<br>Given el dueño de taller tiene al menos un empleado<br>And se encuentra en la interfaz de personal<br>When hace clic en una de las categorías de estado de empleado<br>Then se debe mostrar la información básica de los empleados que presenten coincidencias con el estado seleccionado</td>
+        <td>Scenario: Filtrado de empleados por estado
+Given el dueño de taller tiene al menos un empleado
+And se encuentra en la lista de empleados
+When el usuario ordena una de las categorías de estado de empleado
+Then el sistema muestra la información básica de los empleados que presenten coincidencias con el estado seleccionado</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="5">US-05</td>
         <td rowspan="5">Detalles de empleado</td>
         <td rowspan="5">Como dueño de taller quiero manejar la información de mis empleados para gestionar sus cuentas</td>
-        <td>Scenario: Detalles de empleado<br>Given el dueño de taller tiene al menos un empleado<br>And se encuentra en la interfaz de personal<br>When hace clic en un empleado con estado activo<br>Then se debe mostrar la información completa de dicho empleado</td>
+        <td>Scenario: Detalles de empleado
+Given el dueño de taller tiene al menos un empleado
+And se encuentra en la lista de empleados
+When se dirige a un empleado con estado activo
+Then el sistema muestra la información completa de dicho empleado</td>
         <td rowspan="5">EP-05</td>
     </tr>
     <tr>
-        <td>Scenario: Actualizar datos de empleado<br>Given el dueño de taller se encuentra en la interfaz de detalles de empleado<br>And ha cambiado datos del empleado<br>When hace clic en actualizar<br>Then se debe cambiar los datos correspondientes del empleado</td>
+        <td>Scenario: Actualizar datos de empleado
+Given el dueño de taller se encuentra en los detalles de un empleado
+And ha cambiado datos del empleado
+When ordena "Actualizar"
+Then el sistema actualiza los datos correspondientes del empleado</td>
     </tr>
     <tr>
-        <td>Scenario: Actualizar correo de empleado<br>Given el dueño de taller se encuentra en la interfaz de detalles de empleado<br>And ha cambiado datos del empleado<br>When hace clic en actualizar<br>Then se debe enviar una confirmación de cambio de correo a la nueva dirección de correo</td>
+        <td>Scenario: Actualizar correo de empleado
+Given el dueño de taller se encuentra en los detalles de un empleado
+And ha cambiado datos del empleado
+When ordena "Actualizar"
+Then el sistema envía una confirmación de cambio de correo a la nueva dirección de correo
+</td>
     </tr>
     <tr>
-        <td>Scenario: Eliminación de empleado<br>Given el dueño de taller se encuentra en la interfaz de detalles de empleado<br>When hace clic en eliminar<br>Then se debe cambiar el estado del empleado a inactivo</td>
+        <td>Scenario: Eliminación de empleado
+Given el dueño de taller se encuentra en los detalles de un empleado
+When ordena "Eliminar"
+Then el sistema cambia el estado del empleado a inactivo</td>
     </tr>
     <tr>
-        <td>Scenario: Restaurar empleado<br>Given el dueño de taller tiene al menos un empleado<br>And se encuentra en la interfaz de personal<br>When hace clic en un empleado con estado inactivo<br>Then se debe mostrar la información completa de dicho empleado</td>
+        <td>Scenario: Restaurar empleado
+Given el dueño de taller tiene al menos un empleado
+And se encuentra en lista de empleados
+When se dirige a un empleado con estado inactivo
+Then el sistema muestra la información completa de dicho empleado</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="3">US-06</td>
         <td rowspan="3">Clientes</td>
         <td rowspan="3">Como dueño de taller quiero visualizar mi lista de clientes para saber quiénes son mis clientes</td>
-        <td>Scenario: Lista de clientes<br>Given el dueño de taller cuenta con al menos un empleado<br>When ingresa a la interfaz de clientes<br>Then se debe mostrar la información básica de los clientes</td>
+        <td>Scenario: Lista de clientes
+Given el dueño de taller cuenta con al menos un empleado
+When ingresa a la lista de clientes
+Then el sistema muestra la información básica de los clientes</td>
         <td rowspan="3">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Filtrado de clientes por nombre<br>Given el dueño de taller tiene al menos un cliente<br>And se encuentra en la interfaz de clientes<br>When ingresa texto de filtrado<br>Then se debe mostrar la información básica de los clientes que presenten coincidencias con el texto de filtrado</td>
+        <td>Scenario: Filtrado de clientes por nombre
+Given el dueño de taller tiene al menos un cliente
+And se encuentra en la lista de clientes
+When ingresa texto de búsqueda
+Then el sistema muestra la información básica de los clientes que presenten coincidencias con el texto de búsqueda
+</td>
     </tr>
     <tr>
-        <td>Scenario: Filtrado de clientes por estado<br>Given el dueño de taller tiene al menos un cliente<br>And se encuentra en la interfaz de clientes<br>When hace clic en una de las categorías de estado de cliente<br>Then se debe mostrar la información básica de los clientes que presenten coincidencias con el estado seleccionado</td>
+        <td>Scenario: Filtrado de clientes por estado
+Given el dueño de taller tiene al menos un cliente
+And se encuentra en la lista de clientes
+When ordena una de las categorías de estado de cliente
+Then el sistema muestra la información básica de los clientes que presenten coincidencias con el estado seleccionado</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="5">US-07</td>
         <td rowspan="5">Detalles de clientes</td>
         <td rowspan="5">Como dueño de taller quiero manejar información de mis clientes para mantener sus datos actualizados y aprovecharlos</td>
-        <td>Scenario: Detalles de cliente<br>Given el dueño de taller tiene al menos un cliente<br>And se encuentra en la interfaz de clientes<br>When hace clic en un cliente con estado activo<br>Then se debe mostrar la información completa de dicho cliente<br>And sus vehículos registrados</td>
+        <td>Scenario: Detalles de cliente
+Given el dueño de taller tiene al menos un cliente
+And se encuentra en la lista de clientes
+When se dirige a un cliente con estado activo
+Then el sistema muestra la información completa de dicho cliente
+And sus vehículos registrados</td>
         <td rowspan="5">EP-05</td>
     </tr>
     <tr>
-        <td>Scenario: Actualizar datos de cliente<br>Given el dueño de taller se encuentra en la interfaz de detalles de cliente<br>And ha cambiado datos del cliente<br>When hace clic en actualizar<br>Then se debe cambiar los datos correspondientes del cliente</td>
+        <td>Scenario: Actualizar datos de cliente
+Given el dueño de taller se encuentra en los detalles de un cliente
+And ha cambiado datos del cliente
+When ordena "Actualizar"
+Then el sistema actualiza los datos correspondientes del cliente</td>
     </tr>
     <tr>
-        <td>Scenario: Actualizar correo de cliente<br>Given el dueño de taller se encuentra en la interfaz de detalles de cliente<br>And ha cambiado datos del cliente<br>When hace clic en actualizar<br>Then se debe enviar una confirmación de cambio de correo a la nueva dirección de correo</td>
+        <td>Scenario: Actualizar correo de cliente
+Given el dueño de taller se encuentra en los detalles de un cliente
+And ha cambiado datos del cliente
+When ordena "Actualizar"
+Then el sistema envía una confirmación de cambio de correo a la nueva dirección de correo</td>
     </tr>
     <tr>
-        <td>Scenario: Eliminación de cliente<br>Given el dueño de taller se encuentra en la interfaz de detalles de cliente<br>When hace clic en eliminar<br>Then se debe cambiar el estado del cliente a inactivo</td>
+        <td>Scenario: Eliminación de cliente
+Given el dueño de taller se encuentra en los detalles de un cliente
+When ordena "Eliminar"
+Then el sistema cambia el estado del cliente a inactivo</td>
     </tr>
     <tr>
-        <td>Scenario: Restaurar cliente<br>Given el dueño de taller tiene al menos un cliente<br>And se encuentra en la interfaz de clientes<br>When hace clic en un cliente con estado inactivo<br>Then se debe mostrar la información completa de dicho cliente</td>
+        <td>Scenario: Restaurar cliente
+Given el dueño de taller tiene al menos un cliente
+And se encuentra en la lista de clientes
+When se dirige a un cliente con estado inactivo
+Then el sistema muestra la información completa de dicho cliente</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="4">US-08</td>
         <td rowspan="4">Intervenciones</td>
         <td rowspan="4">Como dueño de taller quiero visualizar las intervenciones para controlar los servicios realizados y pendientes en el taller</td>
-        <td>Scenario: Lista de intervenciones<br>Given el dueño de taller tiene al menos una intervención registrada<br>When se carga la interfaz de Intervenciones<br>Then se debe mostrar todas las intervenciones y su información más relevante</td>
+        <td>Scenario: Lista de intervenciones
+Given el dueño de taller tiene al menos una intervención registrada
+When se carga la lista de intervenciones
+Then el sistema muestra todas las intervenciones y su información más relevante</td>
         <td rowspan="4">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Filtrado de intervenciones por texto<br>Given el dueño de taller tiene al menos una intervención registrada<br>And se encuentra en la interfaz de intervenciones<br>When ingresa texto de filtrado<br>Then se debe mostrar las intervenciones que coincidan con el texto de filtrado</td>
+        <td>Scenario: Filtrado de intervenciones por texto
+Given el dueño de taller tiene al menos una intervención registrada
+And se encuentra en la lista de intervenciones
+When ingresa texto de búsqueda
+Then el sistema muestra las intervenciones que coincidan con el texto de búsqueda</td>
     </tr>
     <tr>
-        <td>Scenario: Filtrado de intervenciones por estado<br>Given el dueño de taller tiene al menos una intervención registrada<br>And se encuentra en la interfaz de intervenciones<br>When hace clic en un estado de filtrado<br>Then se debe mostrar las intervenciones que coincidan con el estado de filtrado</td>
+        <td>Scenario: Filtrado de intervenciones por estado
+Given el dueño de taller tiene al menos una intervención registrada
+And se encuentra en la lista de intervenciones
+When ordena un estado de búsqueda
+Then el sistema muestra las intervenciones que coincidan con el estado de búsqueda</td>
     </tr>
     <tr>
-        <td>Scenario: Ordenamiento por campos<br>Given el dueño de taller tiene al menos una intervención registrada<br>And se encuentra en la interfaz de intervenciones<br>When hace clic en uno de los campos<br>Then se deben ordenar las intervenciones según el criterio seleccionado</td>
+        <td>Scenario: Ordenamiento por campos
+Given el dueño de taller tiene al menos una intervención registrada
+And se encuentra en la lista de intervenciones
+When ordena uno de los campos
+Then el sistema ordena y muestra las intervenciones según el campo seleccionado</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="4">US-09</td>
         <td rowspan="4">Creación de intervenciones</td>
         <td rowspan="4">Como dueño de taller quiero poder gestionar las intervenciones de mi taller para organizar eficientemente a mis mecánicos</td>
-        <td>Scenario: Crear intervención desde mis intervenciones<br>Given el dueño de taller se encuentra en la interfaz de mis intervenciones<br>When hace clic en Realizar intervención<br>Then debe mostrarse un formulario de creación de intervención</td>
+        <td>Scenario: Crear intervención desde mis intervenciones
+Given el dueño de taller se encuentra en la lista de intervenciones
+When ordena "Realizar intervención"
+Then el sistema muestra un formulario de creación de intervención</td>
         <td rowspan="4">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Crear intervención desde vehículos de cliente<br>Given el dueño de taller se encuentra observando una falla de un vehículo<br>When hace clic en Realizar intervención<br>Then debe mostrarse un formulario de creación de intervención</td>
+        <td>Scenario: Crear intervención desde vehículos de cliente
+Given el dueño de taller se encuentra observando una falla de un vehículo
+When ordena "Realizar intervención"
+Then el sistema muestra un formulario de creación de intervención
+</td>
     </tr>
     <tr>
-        <td>Scenario: Registro de intervención exitoso<br>Given el dueño de taller se encuentra en el formulario de creación de intervención<br>And ha llenado correctamente todos los campos solicitados<br>When hace clic en crear<br>Then se debe registrar una nueva intervención<br>And asignarle el estado pendiente de forma automática</td>
+        <td>Scenario: Registro de intervención exitoso
+Given el dueño de taller se encuentra en el formulario de creación de intervención
+And ha llenado correctamente todos los campos solicitados
+When ordena "Crear"
+Then el sistema registra una nueva intervención
+And le asigna el estado pendiente</td>
     </tr>
     <tr>
-        <td>Scenario: Registro de intervención fallido<br>Given el dueño de taller se encuentra en el formulario de creación de intervención<br>And no ha llenado correctamente todos los campos solicitados o ha cometido un error en la entrada<br>When hace clic en crear<br>Then el sistema debe mostrar un mensaje de error indicando los campos que requieren corrección o son inválidos</td>
+        <td>Scenario: Registro de intervención fallido
+Given el dueño de taller se encuentra en el formulario de creación de intervención
+And no ha llenado correctamente todos los campos solicitados o ha cometido un error en la entrada
+When ordena "Crear"
+Then el sistema muestra un mensaje de error indicando los campos que requieren corrección o son inválidos</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="5">US-10</td>
         <td rowspan="5">Detalles de intervención</td>
         <td rowspan="5">Como dueño de taller quiero visualizar los detalles asociados a una intervención para tener un control claro y detallado del trabajo realizado y gestionar los cambios de los clientes</td>
-        <td>Scenario: Detalles de generales de intervención<br>Given el dueño de taller tiene al menos una intervención registrada<br>And se encuentra en la interfaz de intervenciones<br>When hace clic en una intervención<br>Then se debe mostrar los detalles generales de la intervención como la placa del vehículo, cliente y personal a cargo</td>
+        <td>Scenario: Detalles de generales de intervención
+Given el dueño de taller tiene al menos una intervención registrada
+And se encuentra en la lista de intervenciones
+When se dirige a una intervención
+Then el sistema muestra los detalles generales de la intervención como la placa del vehículo, cliente y personal a cargo</td>
         <td rowspan="5">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Resumen de intervención<br>Given el dueño de taller se encuentra en los detalles generales de intervención<br>When hace clic en resumen de intervención<br>Then se debe cargar la información específica de las tareas y observaciones realizadas en la intervención</td>
+        <td>Scenario: Resumen de intervención
+Given el dueño de taller se encuentra en los detalles generales de intervención
+When se dirige a resumen de intervención
+Then el sistema muestra la información específica de las tareas y observaciones realizadas en la intervención</td>
     </tr>
     <tr>
-        <td>Scenario: Modificar intervención<br>Given el dueño de taller se encuentra en los detalles generales de intervención<br>And la intervención se encuentra en estado pendiente<br>When hace clic en uno de los campos de datos<br>Then se debe permitir modificar los valores registrados</td>
+        <td>Scenario: Modificar intervención
+Given el dueño de taller se encuentra en los detalles generales de intervención
+And la intervención se encuentra en estado pendiente
+When se ordena un campo de la intervención
+Then se debe permitir modificar los valores registrados</td>
     </tr>
     <tr>
-        <td>Scenario: Guardar cambios<br>Given el dueño de taller se encuentra en los detalles generales de intervención<br>And ha modificado los valores en algún campo<br>When hace clic en guardar<br>Then se deben guardar los cambios realizados</td>
+        <td>Scenario: Guardar cambios
+Given el dueño de taller se encuentra en los detalles generales de intervención
+And ha modificado los valores en algún campo
+When ordena "Guardar"
+Then el sistema actualiza los cambios realizados</td>
     </tr>
     <tr>
-        <td>Scenario: Cancelar intervención<br>Given el dueño de taller se encuentra en los detalles generales de intervención o en resumen de intervención<br>And la intervención se encuentra en estado pendiente<br>When hace clic en cancelar intervención<br>Then debe eliminarse la intervención del sistema</td>
+        <td>Scenario: Cancelar intervención
+Given el dueño de taller se encuentra en los detalles generales de intervención o en resumen de intervención
+And la intervención se encuentra en estado pendiente
+When ordena "Cancelar intervención"
+Then el sistema elimina la intervención</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="6">US-11</td>
         <td rowspan="6">Existencias de inventario</td>
         <td rowspan="6">Como dueño de taller quiero poder manejar existencias en mi inventario para asegurar que siempre haya disponibilidad de piezas y materiales necesarios para las intervenciones eficientemente</td>
-        <td>Scenario: Visualización de existencias<br>Given el dueño de taller cuenta con registros de inventario<br>When se carga la interfaz de inventario<br>Then deberá mostrarse las existencias en el inventario, considerando el nombre, cantidad, límite y descripción</td>
+        <td>Scenario: Visualización de existencias
+Given el dueño de taller cuenta con registros de inventario
+When se carga el inventario del taller
+Then el sistema muestra las existencias en el inventario, considerando el nombre, cantidad, límite y descripción</td>
         <td rowspan="6">EP-04</td>
     </tr>
     <tr>
-        <td>Scenario: Añadir entrada<br>Given el dueño de taller se encuentra en la interfaz de inventario<br>When hace clic en añadir entrada<br>Then debe crearse una nueva entrada que reciba valores por teclado</td>
+        <td>Scenario: Añadir entrada
+Given el dueño de taller se encuentra en el inventario del taller
+When ordena "Añadir entrada"
+Then el sistema crea una nueva entrada que reciba valores por teclado</td>
     </tr>
     <tr>
-        <td>Scenario: Modificar entrada<br>Given el dueño de taller se encuentra en la interfaz de inventario<br>When hace clic en modificar entrada<br>Then debe permitir modificarse los valores de entradas de inventario<br>And mostrar la opción de guardar o descartar cambios</td>
+        <td>Scenario: Modificar entrada
+Given el dueño de taller se encuentra en el inventario del taller
+When ordena "Modificar entrada"
+Then el sistema permite modificar los valores de entradas de inventario
+And muestra la opción de guardar o descartar cambios</td>
     </tr>
     <tr>
-        <td>Scenario: Guardar cambios<br>Given el dueño de taller se encuentra en la interfaz de inventario<br>And ha realizado cambios en alguna entrada<br>When hace clic en guardar cambios<br>Then los cambios realizados deberán ser registrados en el sistema</td>
+        <td>Scenario: Guardar cambios
+Given el dueño de taller se encuentra en el inventario del taller
+And ha realizado cambios en alguna entrada
+When ordena "Guardar cambios"
+Then el sistema guarda los cambios correspondientes</td>
     </tr>
     <tr>
-        <td>Scenario: Deshacer cambio<br>Given el dueño de taller se encuentra en la interfaz de inventario<br>And ha realizado cambios en alguna entrada<br>When hace clic en deshacer<br>Then los cambios realizados deberán dejar de realizarse<br>And devolver al estado previo antes de realizar modificaciones</td>
+        <td>Scenario: Deshacer cambio
+Given el dueño de taller se encuentra en el inventario del taller
+And ha realizado cambios en alguna entrada
+When ordena "Deshacer"
+Then el sistema redirige al dueño de taller a la pantalla anterior
+And devuelve al estado previo antes de realizar modificaciones
+</td>
     </tr>
     <tr>
-        <td>Scenario: Ordenamiento por campos<br>Given el dueño de taller cuenta con al menos una entrada de inventario<br>And se encuentra en la interfaz de inventario<br>When hace clic en uno de los campos<br>Then se deben ordenar las entradas de inventario según el criterio seleccionado</td>
+        <td>Scenario: Ordenamiento por campos
+Given el dueño de taller cuenta con al menos una entrada de inventario
+And se encuentra en el inventario del taller
+When se dirige a uno de los campos
+Then el sistema ordena las entradas de inventario según el campo seleccionado</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="4">US-12</td>
         <td rowspan="4">Solicitudes de inventario</td>
         <td rowspan="4">Como dueño de taller quiero manejar solicitudes de inventario realizadas por los mecánicos para conocer los materiales y repuestos necesarios para las intervenciones pendientes</td>
-        <td>Scenario: Visualización de solicitudes de inventario<br>Given el dueño de taller cuenta con solicitudes de inventario pendientes<br>When se carga la interfaz de solicitudes de inventario<br>Then deben mostrarse la lista de solicitudes pendientes, incluyendo campos como mecánico solicitante, pieza y cantidad solicitada y fecha de solicitud</td>
+        <td>Scenario: Visualización de solicitudes de inventario
+Given el dueño de taller cuenta con solicitudes de inventario pendientes
+When se cargan las solicitudes de inventario
+Then el sistema muestra la lista de solicitudes pendientes, incluyendo campos como mecánico solicitante, pieza y cantidad solicitada y fecha de solicitud</td>
         <td rowspan="4">EP-04</td>
     </tr>
     <tr>
-        <td>Scenario: Guardar cambios<br>Given el dueño de taller se encuentra en la interfaz de solicitudes de inventario<br>And ha seleccionado una o más solicitudes<br>When hace clic en guardar cambios<br>Then se deben eliminar las solicitudes de la lista seleccionadas<br>And notificar a los mecánicos correspondientes que se consiguió lo solicitado</td>
+        <td>Scenario: Guardar cambios
+Given el dueño de taller se encuentra en las solicitudes de inventario
+And ha seleccionado una o más solicitudes
+When ordena "Guardar cambios"
+Then el sistema elimina las solicitudes de la lista seleccionadas
+And notifica a los mecánicos correspondientes que se consiguió lo solicitado</td>
     </tr>
     <tr>
-        <td>Scenario: Deshacer cambio<br>Given el dueño de taller se encuentra en la interfaz de solicitudes de inventario<br>And ha seleccionado una o más solicitudes<br>When hace clic en deshacer<br>Then los cambios realizados deberán dejar de realizarse<br>And devolver al estado previo antes de realizar modificaciones</td>
+        <td>Scenario: Deshacer cambio
+Given el dueño de taller se encuentra en las solicitudes de inventario
+And ha seleccionado una o más solicitudes
+When ordena "Deshacer"
+Then el sistema deshace los cambios
+And restaura al estado previo antes de realizar modificaciones</td>
     </tr>
     <tr>
-        <td>Scenario: Ordenamiento por campos<br>Given el dueño de taller cuenta con al menos una solicitud de inventario<br>And se encuentra en la interfaz de solicitud de inventario<br>When hace clic en uno de los campos<br>Then se deben ordenar las solicitudes de inventario según el criterio seleccionado</td>
+        <td>Scenario: Ordenamiento por campos
+Given el dueño de taller cuenta con al menos una solicitud de inventario
+And se encuentra en las solicitudes de inventario
+When se dirige a uno de los campos
+Then el sistema ordena y muestra las solicitudes de inventario según el campo seleccionado</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="4">US-13</td>
         <td rowspan="4">Métricas</td>
         <td rowspan="4">Como dueño de taller quiero contar con métricas de rendimiento de mi negocio y características de clientes para conocer el rendimiento y tomar mejores decisiones que mejoren la eficiencia</td>
-        <td>Scenario: Total de intervenciones por día<br>Given el dueño de taller se encuentra en métricas<br>When hace clic en la opción de intervenciones - día<br>Then se debe cargar un histograma que resuma la cantidad de intervenciones realizadas por día</td>
+        <td>Scenario: Total de intervenciones por día
+Given el dueño de taller se encuentra en métricas
+When ordena "intervenciones - día"
+Then el sistema muestra un histograma que resume la cantidad de intervenciones realizadas por día</td>
         <td rowspan="4">EP-05</td>
     </tr>
     <tr>
-        <td>Scenario: Total de intervenciones por mes<br>Given el dueño de taller se encuentra en métricas<br>When hace clic en la opción de intervenciones - mes<br>Then se debe cargar un histograma que resuma la cantidad de intervenciones realizadas por mes</td>
+        <td>Scenario: Total de intervenciones por mes
+Given el dueño de taller se encuentra en métricas
+When ordena "intervenciones - mes"
+Then el sistema muestra un histograma que resuma la cantidad de intervenciones realizadas por mes</td>
     </tr>
     <tr>
-        <td>Scenario: Vehículos de cliente por marca<br>Given el dueño de taller se encuentra en métricas<br>When hace clic en la opción de marcas de vehículo<br>Then se debe cargar un gráfico de torta que indique la distribución porcentual de las marcas de vehículo</td>
+        <td>Scenario: Vehículos de cliente por marca
+Given el dueño de taller se encuentra en métricas
+When ordena "marcas de vehículo"
+Then el sistema muestra un gráfico de torta que indique la distribución porcentual de las marcas de vehículo</td>
     </tr>
     <tr>
-        <td>Scenario: Intervenciones según tipo de intervención<br>Given el dueño de taller se encuentra en métricas<br>When hace clic en la opción de tipo de intervención<br>Then se debe cargar un gráfico de barras que indique la distribución porcentual de los tipos de intervención realizados en total</td>
+        <td>Scenario: Intervenciones según tipo de intervención
+Given el dueño de taller se encuentra en métricas
+When ordena "tipo de intervención"
+Then el sistema muestra un gráfico de barras que indique la distribución porcentual de los tipos de intervención realizados en total</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="2">US-14</td>
         <td rowspan="2">Notificaciones</td>
         <td rowspan="2">Como usuario quiero recibir notificaciones para estar al tanto y llevar un registro de eventos importantes de la aplicación</td>
-        <td>Scenario: Visualización de notificaciones<br>Given el usuario cuenta con al menos una notificación<br>When se carga la interfaz de notificaciones<br>Then deben mostrarse las notificaciones del usuario, incluyendo datos como fecha y hora, nombre y vínculo relacionado</td>
+        <td>Scenario: Visualización de notificaciones
+Given el usuario cuenta con al menos una notificación
+When se cargan las notificaciones
+Then el sistema muestra las notificaciones del usuario, incluyendo datos como fecha y hora, nombre y vínculo relacionado</td>
         <td rowspan="2">EP-05</td>
     </tr>
     <tr>
-        <td>Scenario: Vínculos relacionados<br>Given el usuario cuenta con al menos una notificación<br>And se encuentra en la interfaz de notificaciones<br>When hace clic en el vínculo relacionado<br>Then se debe redirigir a la interfaz correspondiente con la notificación</td>
+        <td>Scenario: Vínculos relacionados
+Given el usuario cuenta con al menos una notificación
+And se encuentra en la interfaz de notificaciones
+When se dirige al vinculo asociado de la notificación
+Then el sistema redirige al vinculo asociado</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="2">US-15</td>
         <td rowspan="2">US-15 Mis tareas (líder)</td>
-        <td rowspan="2">Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.</td>
-        <td>Scenario: Visualización de tareas<br>Given el mecánico es líder de una intervención pendiente<br>When se carga la interfaz de mis tareas<br>Then deben visualizarse las intervenciones correspondientes considerando campos como cliente, fecha y modalidad<br>And mostrar una etiqueta que indique que el usuario es líder de intervención</td>
+        <td rowspan="2">Como mecánico quiero poder visualizar las intervenciones donde funjo como líder para asignar tareas a mis compañeros</td>
+        <td>Scenario: Visualización de tareas
+Given el mecánico es líder de una intervención pendiente
+When se cargan las tareas
+Then el sistema muestra las intervenciones correspondientes considerando campos como cliente, fecha y modalidad
+And muestra una etiqueta que indique que el usuario es líder de intervención</td>
         <td rowspan="2">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Más información<br>Given el mecánico es líder de una intervención pendiente<br>When hace clic en más información<br>Then se debe mostrar detalles de la intervención con secciones información, diagnóstico y preparación y supervisión</td>
+        <td>Scenario: Más información
+Given el mecánico es líder de una intervención pendiente
+When ordena "Más información"
+Then el sistema muestra detalles de la intervención con secciones información, diagnóstico y preparación y supervisión</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="2">US-16</td>
-        <td rowspan="2">US-15 Mis tareas (asistente)</td>
+        <td rowspan="2">US-16 Mis tareas (asistente)</td>
         <td rowspan="2">Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.</td>
-        <td>Scenario: Visualización de tareas<br>Given el mecánico es responsable de una tarea en una intervención pendiente<br>When se carga la interfaz de mis tareas<br>Then deben visualizarse las intervenciones correspondientes considerando campos como cliente, fecha y modalidad<br>And mostrar una etiqueta que indique que el usuario es asistente</td>
+        <td>Scenario: Visualización de tareas
+Given el mecánico es responsable de una tarea en una intervención pendiente
+When se carga las tareas
+Then el sistema muestra las intervenciones correspondientes considerando campos como cliente, fecha y modalidad
+And muestra una etiqueta que indique que el usuario es asistente</td>
         <td rowspan="2">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Más información<br>Given el mecánico es responsable de una tarea en una intervención pendiente<br>When hace clic en más información<br>Then se debe mostrar detalles de la intervención con secciones información y ejecución</td>
+        <td>Scenario: Más información
+Given el mecánico es responsable de una tarea en una intervención pendiente
+When ordena "Más información"
+Then el sistema muestra detalles de la intervención con secciones información y ejecución</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="4">US-17</td>
         <td rowspan="4">Información de intervención</td>
         <td rowspan="4">Como mecánico quiero consultar información relevante de la intervención para realizar un mejor diagnóstico</td>
-        <td>Scenario: Información IoT<br>Given el mecánico se encuentra en la interfaz de más información de una intervención<br>When se carga el contenido de la interfaz<br>Then se debe mostrar un resumen de la información más reciente obtenida por análisis OBD-IoT del vehículo considerando componente, estado y código de error</td>
+        <td>Scenario: Información IoT
+Given el mecánico se encuentra en los detalles de una intervención
+When se carga el contenido del IoT
+Then el sistema muestra un resumen de la información más reciente obtenida por análisis OBD-IoT del vehículo considerando componente, estado y código de error</td>
         <td rowspan="4">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Información general<br>Given el mecánico se encuentra en la interfaz de más información de una intervención<br>When se carga el contenido de la interfaz<br>Then se debe mostrar la información general de la intervención como cliente, vehículo, modalidad, fecha, entre otros.</td>
+        <td>Scenario: Información general
+Given el mecánico se encuentra en los detalles de una intervención
+When se se carga el contenido de la intervención
+Then el sistema muestra la información general de la intervención como cliente, vehículo, modalidad, fecha, entre otros.</td>
     </tr>
     <tr>
-        <td>Scenario: Registro de intervenciones<br>Given el mecánico se encuentra en la interfaz de más información de una intervención<br>When se carga el contenido de la interfaz<br>Then se debe mostrar la lista de intervenciones anteriores</td>
+        <td>Scenario: Registro de intervenciones
+Given el mecánico se encuentra en los detalles de una intervención
+When se carga el contenido de la intervención
+Then el sistema muestra la lista de intervenciones anteriores</td>
     </tr>
     <tr>
-        <td>Scenario: Acceso a detalles de intervenciones<br>Given el mecánico se encuentra en la interfaz de más información de una intervención<br>And hay al menos un registro de intervención anterior<br>When hace clic en leer más<br>Then se debe mostrar los detalles de la intervención seleccionada</td>
+        <td>Scenario: Acceso a detalles de intervenciones
+Given el mecánico se encuentra en los detalles de una intervención
+And hay al menos un registro de intervención anterior
+When ordena "Leer más"
+Then el sistema muestra los detalles de la intervención seleccionada</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="5">US-18</td>
         <td rowspan="5">Diagnóstico de intervención</td>
         <td rowspan="5">Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo</td>
-        <td>Scenario: Distribución de tareas<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And se tiene al menos una tarea<br>When se carga el contenido de la interfaz<br>Then se debe mostrar la lista de tareas correspondientes a la intervención</td>
+        <td>Scenario: Distribución de tareas
+Given el mecánico se encuentra en diagnóstico y preparación de una intervención
+And es líder de la intervención
+And se tiene al menos una tarea
+When se carga la información de la intervención
+Then el sistema muestra la lista de tareas correspondientes a la intervención</td>
         <td rowspan="5">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Añadir tarea<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha redactado una tarea<br>And ha escogido un mecánico<br>When hace clic en el botón agregar<br>Then se debe añadir una nueva tarea<br>And reiniciar el estado de la casilla de texto</td>
+        <td>Scenario: Añadir tarea
+Given el mecánico se encuentra en diagnóstico y preparación de una intervención
+And es líder de la intervención
+And ha redactado una tarea
+And ha escogido un mecánico
+When ordena "Agregar"
+Then el sistema añade una nueva tarea
+And reinicia el estado de la casilla de texto</td>
     </tr>
     <tr>
-        <td>Scenario: Eliminar tarea<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And la intervención tiene al menos una tarea<br>When hace clic en el botón de eliminar<br>Then se debe eliminar la tarea correspondiente</td>
+        <td>Scenario: Eliminar tarea
+Given el mecánico se encuentra en diagnóstico y preparación de una intervención
+And es líder de la intervención
+And la intervención tiene al menos una tarea
+When ordena "Eliminar"
+Then el sistema elimina la tarea correspondiente</td>
     </tr>
     <tr>
-        <td>Scenario: Guardar cambios<br>Given el dueño de taller se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha realizado cambios en alguna entrada<br>When hace clic en guardar cambios<br>Then los cambios realizados deberán ser registrados en el sistema</td>
+        <td>Scenario: Guardar cambios
+Given el dueño de taller se encuentra en diagnóstico y preparación de una intervención
+And es líder de la intervención
+And ha realizado cambios en alguna entrada
+When ordena "Guardar cambios"
+Then el sistema actualiza los datos cambiados</td>
     </tr>
     <tr>
-        <td>Scenario: Deshacer cambios<br>Given el dueño de taller se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha realizado cambios en alguna entrada<br>When hace clic en deshacer<br>Then los cambios realizados realizados deberán revertirse<br>And regresar al estado previo del último guardado</td>
+        <td> Scenario: Deshacer cambios
+Given el dueño de taller se encuentra en diagnóstico y preparación de una intervención
+And es líder de la intervención
+And ha realizado cambios en alguna entrada
+When ordena "Deshacer"
+Then el sistema revierte los cambios realizados
+And regresa al estado previo del último guardado</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="5">US-19</td>
-        <td rowspan="5">Ejecución de intervención</td>
-        <td rowspan="5">Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo</td>
-        <td>Scenario: Distribución de tareas<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And se tiene al menos una tarea<br>When se carga el contenido de la interfaz<br>Then se debe mostrar la lista de tareas correspondientes a la intervención</td>
-        <td rowspan="5">EP-03</td>
+        <th scope="row" rowspan="4">US-19</td>
+        <td rowspan="4">Ejecución de intervención</td>
+        <td rowspan="4">Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo</td>
+        <td>Scenario: Visualización de solicitudes de inventario
+Given el mecánico se encuentra ejecutando una intervención
+When se carga las solicitudes de inventario
+Then el sistema muestra la lista de solicitudes pendientes de la intervención, incluyendo campos como mecánico solicitante, pieza y cantidad solicitada y fecha de solicitud</td>
+        <td rowspan="4">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Añadir tarea<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha redactado una tarea<br>And ha escogido un mecánico<br>When hace clic en el botón agregar<br>Then se debe añadir una nueva tarea<br>And reiniciar el estado de la casilla de texto</td>
+        <td>Scenario: Guardar cambios
+Given el mecánico se encuentra en las solicitudes de inventario
+And ha seleccionado una o más solicitudes
+When ordena "Guardar cambios"
+Then el sistema elimina las solicitudes de la lista seleccionadas
+And notifica a los mecánicos correspondientes que se consiguió lo solicitado</td>
     </tr>
     <tr>
-        <td>Scenario: Eliminar tarea<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And la intervención tiene al menos una tarea<br>When hace clic en el botón de eliminar<br>Then se debe eliminar la tarea correspondiente</td>
+        <td>Scenario: Deshacer cambio
+Given el mecánico se encuentra en las solicitudes de inventario
+And ha seleccionado una o más solicitudes
+When ordena "Deshacer"
+Then el sistema deshace los cambios
+And devuelve al estado previo antes de realizar modificaciones</td>
     </tr>
     <tr>
-        <td>Scenario: Guardar cambios<br>Given el dueño de taller se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha realizado cambios en alguna entrada<br>When hace clic en guardar cambios<br>Then los cambios realizados deberán ser registrados en el sistema</td>
-    </tr>
-    <tr>
-        <td>Scenario: Deshacer cambios<br>Given el dueño de taller se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha realizado cambios en alguna entrada<br>When hace clic en deshacer<br>Then los cambios realizados realizados deberán revertirse<br>And regresar al estado previo del último guardado</td>
+        <td>Scenario: Seguimiento de solicitudes de inventario
+Given el mecánico se encuentra ejecutando una intervención
+When se carga el seguimiento de la intervención
+Then se muestra el registro de las tareas completadas </td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="3">US-20</td>
         <td rowspan="3">Supervisión de intervención</td>
         <td rowspan="3">Como mecánico quiero poder verificar el cumplimiento de todas las tareas de intervención para poder registrar el trabajo como terminado</td>
-        <td>Scenario: Visualización de estado de tareas<br>Given el mecánico se encuentra en la interfaz de supervisión de una intervención<br>And es líder de la intervención<br>When se carga el contenido de la interfaz<br>Then se debe mostrar toda la lista de tareas y su estado correspondiente</td>
+        <td>Scenario: Visualización de estado de tareas
+Given el mecánico se encuentra en  supervisión de una intervención
+And es líder de la intervención
+When se carga el contenido de la interfaz
+Then el sistema muestra toda la lista de tareas y su estado correspondiente</td>
         <td rowspan="3">EP-03</td>
     </tr>
     <tr>
-        <td>Scenario: Tareas completadas<br>Given el mecánico se encuentra en la interfaz de supervisión de una intervención<br>And es líder de la intervención<br>And todas las tareas se encuentran en estado finalizado<br>When se carga el contenido de la interfaz<br>Then se debe mostrar el botón de finalizar</td>
+        <td>Scenario: Tareas completadas
+Given el mecánico se encuentra en  supervisión de una intervención
+And es líder de la intervención
+And todas las tareas se encuentran en estado finalizado
+When se carga el contenido de la intervención
+Then el sistema muestra la opción de finalizar tarea</td>
     </tr>
     <tr>
-        <td>Scenario: Finalizar intervención<br>Given el mecánico se encuentra en la interfaz de supervisión de una intervención<br>And es líder de la intervención<br>And todas las tareas tienen estado terminado<br>When hace clic en finalizar<br>Then se debe cambiar el estado de la intervención a finalizado<br>And mostrar un mensaje de intervención terminada exitosamente</td>
+        <td>Scenario: Finalizar intervención
+Given el mecánico se encuentra en supervisión de una intervención
+And es líder de la intervención
+And todas las tareas tienen estado terminado
+When ordena "Finalizar"
+Then el sistema cambia el estado de la intervención a finalizado
+And muestra un mensaje de intervención terminada exitosamente</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="6">US-21</td>
         <td rowspan="6">Registro de vehículos</td>
         <td rowspan="6">Como usuario quiero poder registrar vehículos para poder asociar y monitorear su información mediante la aplicación</td>
-        <td>Scenario: Visualización de vehículos<br>Given el usuario tiene al menos un vehículo registrado<br>When se carga la interfaz de mis vehículos<br>Then se debe mostrar todas los vehículos y su información más relevante</td>
+        <td>Scenario: Visualización de vehículos
+Given el usuario tiene al menos un vehículo registrado
+When se cargan los vehículos
+Then el sistema muestra todos los vehículos y su información más relevante</td>
         <td rowspan="6">EP-05</td>
     </tr>
     <tr>
-        <td>Scenario: Agregar vehículos<br>Given el usuario se encuentra en la interfaz de mis vehículos<br>When se hace clic en agregar vehículo<br>Then se debe mostrar un formulario para registrar vehículo</td>
+        <td>Scenario: Agregar vehículos
+Given el usuario se encuentra en los vehículos
+When se ordena "Agregar vehículo"
+Then el sistema muestra un formulario para registrar vehículo</td>
     </tr>
     <tr>
-        <td>Scenario: Agregar vehículo con éxito<br>Given el usuario está en el formulario de agregar vehículo<br>And ha completado todos los campos requeridos con datos válidos<br>When hace clic en el botón "Registrar"<br>Then se debe agregar el vehículo a la lista de mis vehículos<br>And cerrar el formulario</td>
+        <td>Scenario: Agregar vehículo con éxito
+Given el usuario está en el formulario de agregar vehículo
+And ha completado todos los campos requeridos con datos válidos
+When ordena "Registrar"
+Then el sistema agrega el vehículo a la lista de mis vehículos</td>
     </tr>
     <tr>
-        <td>Scenario: Datos inválidos en el registro<br>Given el usuario está en el formulario de agregar vehículo<br>And ha completado todos los campos requeridos con datos inválidos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los datos son inválidos</td>
+        <td>Scenario: Datos inválidos en el registro
+Given el usuario está en el formulario de agregar vehículo
+And ha completado todos los campos requeridos con datos inválidos
+When ordena "Registrar"
+Then el sistema muestra un mensaje de error indicando que los datos son inválidos</td>
     </tr>
     <tr>
-        <td>Scenario: Campos requeridos incompletos<br>Given el usuario está en el formulario de agregar vehículo<br>And no ha completado todos los campos requeridos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los campos requeridos están incompletos</td>
+        <td>Scenario: Campos requeridos incompletos
+Given el usuario está en el formulario de agregar vehículo
+And no ha completado todos los campos requeridos
+When ordena "Registrar"
+Then el sistema muestra un mensaje de error indicando que los campos requeridos están incompletos</td>
     </tr>
     <tr>
-        <td>Scenario: Eliminar vehículo<br>Given el usuario se encuentra en los detalles de un vehículo<br>When hace clic en eliminar vehículo<br>Then se debe eliminar el vehículo correspondiente de su lista de vehículos</td>
+        <td>Scenario: Eliminar vehículo
+Given el usuario se encuentra en los detalles de un vehículo
+When ordena "Eliminar vehículo"
+Then el sistema elimina el vehículo correspondiente de su lista de vehículos</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="2">US-22</td>
-        <td rowspan="2">Registro de intervenciones</td>
+        <td rowspan="2">Linea de tiempo de registro de intervenciones</td>
         <td rowspan="2">Como usuario quiero acceder al registro de intervenciones de un vehículo para utilizar la información para tomar mejores decisiones</td>
-        <td>Scenario: Línea de tiempo de historial de intervenciones<br>Given el usuario se encuentra en la interfaz detalles de vehículo o información de intervención<br>And hay al menos una intervención registrada<br>When hace clic en registro de intervenciones<br>Then se debe mostrar la lista ordenada cronológicamente de intervenciones realizadas al vehículo correspondiente</td>
+        <td>Scenario: Línea de tiempo de historial de intervenciones
+Given el usuario se encuentra en los detalles de un vehículo o información de intervención
+And hay al menos una intervención registrada
+When se dirige a registro de intervenciones
+Then el sistema muestra la lista ordenada cronológicamente de intervenciones realizadas al vehículo correspondiente</td>
         <td rowspan="2">EP-05</td>
     </tr>
     <tr>
-        <td>Scenario: Detalles de intervención<br>Given el usuario se encuentra en la interfaz detalles de vehículo o información de intervención<br>And hay al menos una intervención registrada<br>When hace clic en más detalles de intervención<br>Then se debe mostrar la información completa correspondiente a dicha intervención</td>
+        <td>Scenario: Detalles de intervención
+Given el usuario se encuentra en los detalles de vehículo o información de intervención
+And hay al menos una intervención registrada
+When se dirige a detalles de intervención
+Then el sistema muestra la información completa correspondiente a dicha intervención</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="2">US-23</td>
         <td rowspan="2">Información IoT de vehículo</td>
         <td rowspan="2">Como usuario quiero acceder a la información generada por el dispositivo IoT del vehículo para conocer el estado actual del vehículo más rápidamente</td>
-        <td>Scenario: Mostrar información IoT<br>Given el usuario se encuentra en detalles de vehículo<br>When hace clic en información IoT<br>Then se debe mostrar la información generada por el dispositivo, incluyendo campos como componente, estado y código de error</td>
+        <td>Scenario: Mostrar información IoT
+Given el usuario se encuentra en detalles de un vehículo
+When se dirige a información IoT
+Then el sistema muestra la información generada por el dispositivo, incluyendo campos como componente, estado y código de error</td>
         <td rowspan="2">EP-05</td>
     </tr>
     <tr>
-        <td>Scenario: Detalles de código de error<br>Given el usuario se encuentra en información IoT de un vehículo<br>And al menos un componente genera un código de error<br>When hace clic en uno de los códigos<br>Then se debe mostrar una ventana emergente que explique el significado del código de error</td>
+        <td>Scenario: Detalles de código de error
+Given el usuario se encuentra en información IoT de un vehículo
+And al menos un componente genera un código de error
+When se dirige a uno de los códigos de error
+Then el sistema muestra un mensaje con el significado del código de error</td>
     </tr>
     <!---->
     <tr>
         <th scope="row" rowspan="3">US-24</td>
         <td rowspan="3">Agendar cita de intervención</td>
         <td rowspan="3">Como usuario quiero agendar citas de intervención para ahorrarme tiempo</td>
-        <td>Scenario: Registro exitoso<br>Given el usuario se encuentra en Agendar cita<br>And ha completado todos los campos requeridos con datos válidos<br>When hace clic en el botón "Agendar"<br>Then se debe enviar una notificación al taller correspondiente<br>And se debe ser redirigido a la página de información de vehículo</td>
+        <td>Scenario: Registro exitoso
+Given el usuario se encuentra agendando una cita
+And ha completado todos los campos requeridos con datos válidos
+When ordena "Agendar"
+Then el sistema envía una notificación al taller correspondiente
+And es redirigido a la página de información de vehículo</td>
         <td rowspan="3">EP-05</td>
     </tr>
     <tr>
-        <td>Scenario: Fecha inválida en el registro<br>Given el usuario se encuentra en Agendar cita<br>And ha selecciona una fecha inválida<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que la fecha es inválida<br>And debe permanecer en la página de registro</td>
+        <td>Scenario: Fecha inválida en el registro
+Given el usuario se encuentra agendando una cita
+And ha selecciona una fecha inválida
+When ordena "Agendar"
+Then el sistema muestra un mensaje de error indicando que la fecha es inválida
+And permanece en la página de registro</td>
     </tr>
     <tr>
-        <td>Scenario: Modalidad incompleta<br>Given el usuario se encuentra en Agendar cita<br>And ha no ha seleccionado una modalidad<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que es necesario seleccionar una modalidad<br>And debe permanecer en la página de registro</td>
+        <td>Scenario: Modalidad incompleta
+Given el usuario se encuentra agendando una cita
+And ha no ha seleccionado una modalidad
+When ordena "Agendar"
+Then el sistema muestra un mensaje de error indicando que es necesario seleccionar una modalidad
+And permanece en la página de registro</td>
     </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="1">US-25</td>
+        <td rowspan="1">Agendar cita de intervención</td>
+        <td rowspan="1">Como usuario quiero agendar citas de intervención para ahorrarme tiempo</td>
+        <td>Scenario: Redirección a rol
+Given el usuario se encuentra en la pantalla de login
+And ha completado todos los campos requeridos con datos válidos
+When el usuario ordena "Agendar"
+And el sistema valida su <rol>
+Then el sistema carga la información de su cuenta
+And carga las <secciones> correspondientes a su cuenta en la pantalla principal</td>
+        <td rowspan="1">EP-05</td>
     <!---->
     <tr>
         <th scope="row" rowspan="2">TS-01</td>
