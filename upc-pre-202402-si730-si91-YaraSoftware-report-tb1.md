@@ -333,13 +333,11 @@ Yara Software es una startup conformada por jóvenes estudiantes de la carrera d
 
 ### 1.1.2. Perfiles de los integrantes del equipo 
 
-| Foto del participante | Nombres y apellidos | Código de estudiante | Carrera | Conocimientos técnicos y habilidades |
-| - | - | - | - | - |
-| <img src = "img/1/1/2/Jhosepmyr.jpeg"> </img> | Jhosepmyr Orlando Gutiérrez Soto | 202317638 | Ingeniería de Software | Experiencia en desarrollo frontend y backend. Conocimiento alto en BlockChain. Determinación y seguridad en los trabajos en equipo |
-| <img src = "img/1/1/2/Eric.jpeg"> </img> | Eric Ernesto Hernández Tuiro | 20221C857 | Ingeniería de Software | Programación en C++ y Python. Resolución de problemas y resiliencia ante situaciones de presión. | 
-| <img src = "img/1/1/2/Alvaro.jpeg"> </img> | Álvaro Joaquín Orozco Torres | 202220783 | Ingeniería de Software | Diseño inclusivo, lineamientos de accesibilidad y programación en JavaScript y Python. Capacidad de análisis y resolución de problemas. | 
-| <img src = "img/1/1/2/Henry.jpeg"> </img> | Henry Paolo Reaño Delgadillo | 20221e247 | Ingeniería de Software | Programación en C++ y Javascript. Conocimiento intermedio sobre patrones de software. Capacidad alta para trabajar en equipo. | 
-| <img src = "img/1/1/2/Elmer.jpeg"> </img> | Elmer Augusto Riva Rodríguez | 202220829 | Ingeniería de Software | Diseño de experiencias de usuario y programación con C++ y Python. Competente en la gestión de proyectos grupales. | 
+| Foto del participante                         | Nombres y apellidos              | Código de estudiante | Carrera                | Conocimientos técnicos y habilidades                                                                                                                                                                                     |
+|-----------------------------------------------|----------------------------------|----------------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src = "img/1/1/2/Jhosepmyr.jpeg"> </img> | Jhosepmyr Orlando Gutiérrez Soto | 202317638            | Ingeniería de Software | Experiencia en desarrollo frontend con tecnologias como javascript y python y manejo de frameworks de estilos como SASS y Tailwind. Conocimiento alto en BlockChain. Determinación y seguridad en los trabajos en equipo |
+| <img src = "img/1/1/2/Eric.jpeg"> </img>      | Eric Ernesto Hernández Tuiro     | 20221C857            | Ingeniería de Software | Programación en C++ y Python. Resolución de problemas y resiliencia ante situaciones de presión.                                                                                                                         | 
+| <img src = "img/1/1/2/Elmer.jpeg"> </img>     | Elmer Augusto Riva Rodríguez     | 202220829            | Ingeniería de Software | Diseño de experiencias de usuario y programación con C++ y Python. Competente en la gestión de proyectos grupales.                                                                                                       | 
 
 ## 1.2. Solution Profile
 
@@ -461,6 +459,10 @@ Obstáculos:
 + Creemos que lograremos el 20% de nuestros clientes use la suscripción premium si clientes de taller logran sentirse más satisfechos con el servicio mediante sistema de aforo del taller
 
 #### 1.2.2.4. Lean UX Canvas
+
+El Lean UX Canvas es una herramienta utilizada para alinear a los equipos en torno a un objetivo común y proporcionar una visión general de la solución propuesta. A continuación, se presenta el Lean UX Canvas de Yara Software.
+
+![Lean UX Canvas](img/1/1/3/lean-ux-canvas.png)
 
 ## 1.3. Segmentos objetivo
 
