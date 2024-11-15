@@ -4075,7 +4075,7 @@ Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos My
 ### 4.8.1. Database Diagram
 
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/databaseDiagram/databaseDiagram.png" width="1000px">
+  <img src="img/4/databaseDiagram/database-diagram.png" width="1000px">
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
