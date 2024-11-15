@@ -4695,48 +4695,18 @@ Enlace para acceder a la landing page: [https://web-workshop-n-gine-landing-page
 
 #### 5.2.2.1. Sprint Planning 2
 
-<table>
-    <tr>
-        <th scope="row"><strong>Sprint #</strong></th>
-        <td>Sprint 2</td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Planning Background</strong></td>
-        <td>Para la elaboración de este sprint contamos con un integrante menos en el equipo. El tiempo de desarrollo es corto y hay muchas funcionalidades por implementar</td>
-    </tr>
-    <tr>
-        <th scope="row">Date</th>
-        <td>2024/09/18</td>
-    </tr>
-    <tr>
-        <th scope="row">Time</th>
-        <td>20:00</td>
-    </tr>
-    <tr>
-        <th scope="row">Location</th>
-        <td>Videollamada grupal mediante la plataforma Discord</td>
-    </tr>
-    <tr>
-        <th scope="row">Prepared By</th>
-        <td>Jhosephmyr Gutierrez Soto</td>
-    </tr>
-    <tr>
-        <th scope="row">Attendees (to planning meeting)</th>
-        <td>Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
-        <td>Desarrollo de la US-01, US-02, US-03, US-04, US-05, US-06, US-08, US-09, US-13, US-14, US-25</td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 2 Goal</th>
-        <td>Nuestro foco se centra en la implementación de las primeras historias de usuario relacionadas a la página web. Creemos que entregaremos mayor confiabilidad y eficiencia a los talleres mecanicos. Confirmaremos nuestra hipótesis cuando la primera versión de la pagina web se encuentre disponible para ser utilizada por los clientes.</td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 2 Velocity</th>
-        <td>20</td>
-    </tr>
-</table>
+| **Sprint #**                    | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Date                            | 2024/09/18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Time                            | 20:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint 1 Goal                   | Nuestro enfoque está en implementar las funcionalidades principales del frontend para gestionar clientes, personal, intervenciones, inventario y notificaciones, asegurando que la navegación se adapte a los roles específicos de los usuarios. <br> Creemos que esto entregará una experiencia de usuario fluida y mejorará la eficiencia operativa al permitir que los mecánicos y administradores gestionen fácilmente información clave y procesos dentro de la plataforma. <br> Esto se confirmará cuando los usuarios puedan navegar por la aplicación según su rol, ver y gestionar clientes, personal, intervenciones y existencias de inventario sin errores, y recibir notificaciones relevantes. |
+| Sprint 1 Velocity               | 35                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sum of Story Points             | 35                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 #### 5.2.2.2. Sprint Backlog 2
 
