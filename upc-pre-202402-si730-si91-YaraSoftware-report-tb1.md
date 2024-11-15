@@ -4668,7 +4668,7 @@ Para este primer sprint no fue contemplada la evidencia de documentación de los
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Para la entrega del Sprint número 1, se desplego al completo landing page, salvo la Internacionalización que quedo incompleta, la cual se pasará a detallar a continuación: 
+Para la entrega del Sprint número 1, se desplegó por completo landing page, la cual se pasará a detallar a continuación: 
 
 <img src="img/5/2/1/7/1.png">
 <img src="img/5/2/1/7/2.png">
@@ -4677,19 +4677,19 @@ Para la entrega del Sprint número 1, se desplego al completo landing page, salv
 <img src="img/5/2/1/7/5.png">
 <img src="img/5/2/1/7/6.png">
 
-Enlace para acceder a la landing page: https://workshop-n-gine-landing-page.netlify.app/#home 
+Enlace para acceder a la landing page: [https://web-workshop-n-gine-landing-page.netlify.app/](https://web-workshop-n-gine-landing-page.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-| Alumno | Actividad |
-| ----------- | ----------- | 
+| Alumno                   | Actividad                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------| 
 | Jhosepmyr Gutiérrez Soto | Implementación de Hero Section, About the Product, Testimonios e Internacionalización |
-| Eric Hernandez Tuiro | Implementación del Footer |
-| Álvaro Orozco Torres | Implementación del Formulario de Contacto |
-| Henry Reaño Delgadillo | Implementación de Planes |
-| Elmer Riva Rodriguez | Implementación de Beneficios y About Us |
+| Eric Hernandez Tuiro     | Implementación del Footer y Formulario de Contacto                                    |
+| Elmer Riva Rodriguez     | Implementación de Beneficios, About Us y Planes                                       |
 
-<img src="img/5/2/1/8/insights.png">
+![insights-1](img/5/2/1/8/insights-1.png)
+![insights-2](img/5/2/1/8/insights-2.png)
+![insights-3](img/5/2/1/8/insights-3.png)
 
 ### 5.2.2 Sprint 2
 
