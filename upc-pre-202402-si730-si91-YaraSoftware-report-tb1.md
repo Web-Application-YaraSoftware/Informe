@@ -3743,14 +3743,19 @@ En el caso de que no existan notificaciones, el usuario verá un mensaje que ind
 </div>
 
 ## 4.5. Web Applications Prototyping
-El propósito de esta sección es describir los posibles User Flows que se han diseñado para la aplicación web en navegador para desktop y mobile. A través de prototipos interactivos, se busca representar los flujos de interacción del usuario, mostrando cómo cada usuario, ya sea dueño del taller, mecánico o cliente, navega por la plataforma para completar sus tareas.
+Para poder elaborar los prototipos de la interfaz de usuario destinados a Desktop y Mobile Web Browser, se siguieron una serie de criterios fundamentales, entre ellos:
 
-A continuación, se presentan los enlaces a los videos explicativos que detallan los flujos de usuario relacionados:
-<br>
-<br>
-Enlace para acceder al video de explicación del [Web Application Prototyping en Desktop](https://upcedupe-my.sharepoint.com/personal/u20221e247_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221e247%5Fupc%5Fedu%5Fpe%2FDocuments%2Fweb%201%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5f2ff1c2%2D5b7d%2D4a92%2D893a%2Dfe2d9b135c82)
+- **Diseño centrado en el usuario**: Se consideró la experiencia del usuario como el eje central del diseño, asegurando que la interfaz sea intuitiva y fácil de usar.
+- **Consistencia visual**: Se mantuvo una coherencia visual en todos los elementos de la interfaz, incluyendo colores, tipografías y estilos.
+- **Facilidad de navegación**: Se diseñó una estructura de navegación clara y sencilla, permitiendo al usuario acceder a las diferentes secciones de la aplicación de forma rápida y eficiente.
 
-Enlace para acceder al video de explicación del [Web Application Prototyping en Mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ef_ZB2PJR8dAunoOhdG1MFcBPzJ9J79mlDk0-jS6bgmBsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DQQg0b)
+A continuación, se presentan los prototipos de la interfaz de usuario para Desktop y Mobile Web Browser, incluyendo las vistas clave de la aplicación WorkShop N-GINE.
+
+![Prototipo de interfaz de usuario para Desktop](img/4/prototyping/desktop.png)
+Enlace para acceder al video de explicación del [Web Application Prototyping en Desktop](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/EaMLk0L_CipDivuBrwlyAnoBTAbSdbFPOs2c30OsSXKGnw?e=n18tVm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+![Prototipo de interfaz de usuario para Mobile](img/4/prototyping/mobile.png)
+Enlace para acceder al video de explicación del [Web Application Prototyping en Mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/Eb3KrJ1ly5hHjDMNTTdZ5cIB8UWopmtJDMUmJE3oEC8MWw?e=D3dgE3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Asimismo, a continuación se presentan los enlaces que llevan a los flujos por cada user persona:
 Enlace para acceder al [Web Application prototype para Dueño de taller en Desktop](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=646-15803&node-type=FRAME&t=bjZZ32OEbZOtQ8Kq-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=646%3A15803&show-proto-sidebar=1)
