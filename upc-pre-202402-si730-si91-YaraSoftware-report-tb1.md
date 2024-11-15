@@ -3889,7 +3889,7 @@ Esta clase representa un aggregate root que encapsula la información de un tall
 
 **Class Vehicle**
 
-Esta clase reprensenta un aggregate root que encapsula la información de un vehículo. Contiene atributos como id, licensePlate, brand, model, image, userId y iotDeviceId.
+Esta clase representa un aggregate root que encapsula la información de un vehículo. Contiene atributos como id, licensePlate, brand, model, image, userId y iotDeviceId.
 
 | Attribute    | Type   | Description                                               |
 |--------------|--------|-----------------------------------------------------------|
@@ -4079,25 +4079,64 @@ Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos My
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
+
+En este capítulo se detallan las actividades de implementación, validación y despliegue del producto Workshop N-GINE. Se presentan los procesos de desarrollo, pruebas y configuración de software, así como la implementación de la landing page, servicios y aplicaciones. Además, se describen los resultados de la implementación y validación, y se detallan los planes de despliegue y mantenimiento del producto.
+
 ## 5.1. Software Configuration Management
+
+En esta sección se describen las actividades de configuración de software, incluyendo el entorno de desarrollo, la gestión de código fuente, las convenciones de estilo y la configuración de despliegue.
 
 ### 5.1.1. Software Development Environment Configuration
 
-A continuación, se presenta las herramientas y productos de software para el desarrollo del producto. 
+A continuación, se presentan las herramientas y tecnologías utilizadas en el entorno de desarrollo del proyecto.
 
-| Nombre | Propósito | Ruta de referencia / Descarga |
-| ----------- | ----------- | ----------- |
-| Uxpresia | Elaboración de user personas, empathy maps, journey maps, impact maps | https://uxpressia.com/w/k4lMq |
-| Miro | As-Is To-Be Scenarios maps | https://miro.com/es/ | 
-| Figma | Elaboración de wireframes, mockups y prototipes | https://www.figma.com/ |
-| LucidChart | Elaboración de wireflows, user flows | https://www.lucidchart.com/ | 
-| Structurizer | Elaboracion de diagrama C4 | https://www.structurizr.com/ |
-| Draw.io | Elaboración de diagrama UML | https://app.diagrams.net/ |
-| Vertabelo | Diseño de bases de datos | https://vertabelo.com/ | 
-| SASS | Estilos en la landing page | https://sass-lang.com/ |
-| PrimeVue | Biblioteca de componentes de interfaz de usuario | https://primevue.org/ |
-| Pivotal Tracker | Control de proyectos | https://www.pivotaltracker.com/ |
-| Git | Control de versiones | https://git-scm.com/ | 
+**Requirements Management**
+1. Trello: Herramienta de gestión de proyectos que permite organizar tareas y colaborar en equipo. Se utilizará para definir y priorizar los requisitos del proyecto. [Trello](https://trello.com/)
+2. Pivotal Tracker: Herramienta de gestión de proyectos ágiles que facilita la planificación y seguimiento de las tareas. Se utilizará para gestionar las historias de usuario y las tareas del proyecto. [Pivotal Tracker](https://www.pivotaltracker.com/)
+
+**Design & Prototyping**
+1. Uxpressia: Herramienta de diseño centrada en el usuario que permite crear user personas, empathy maps, journey maps y otros artefactos de diseño. Se utilizará para elaborar los perfiles de usuario y los mapas de empatía. [Uxpressia](https://uxpressia.com/w/k4lMq)
+2. Figma: Herramienta de diseño de interfaces de usuario que permite crear wireframes, mockups y prototipos interactivos. Se utilizará para diseñar la interfaz de usuario del producto. [Figma](https://www.figma.com/)
+3. LucidChart: Herramienta de diagramación que permite crear wireflows y user flows. Se utilizará para diseñar los flujos de usuario del producto. [LucidChart](https://www.lucidchart.com/)
+4. Miro: Herramienta de colaboración en línea que permite crear mapas de escenarios y mapas de impacto. Se utilizará para diseñar los escenarios de uso del producto. [Miro](https://miro.com/es/)
+
+**Software Architecture**
+1. Structurizr: Herramienta de modelado de arquitectura que permite crear diagramas C4. Se utilizará para diseñar la arquitectura del sistema. [Structurizr](https://www.structurizr.com/)
+2. Draw.io: Herramienta de diagramación que permite crear diagramas UML. Se utilizará para diseñar los diagramas de clases y componentes. [Draw.io](https://app.diagrams.net/)
+3. Vertabelo: Herramienta de diseño de bases de datos que permite crear modelos de datos. Se utilizará para diseñar la base de datos del sistema. [Vertabelo](https://vertabelo.com/)
+
+**Software Development**
+1. Git: Sistema de control de versiones distribuido que permite gestionar el código fuente de forma colaborativa. Se utilizará para controlar las versiones del código del proyecto. [Git](https://git-scm.com/)
+
+**Software Documentation and Collaboration**
+1. GitHub: Plataforma de desarrollo colaborativo que permite alojar proyectos, revisar código y gestionar versiones. Se utilizará para alojar el código fuente y colaborar en el desarrollo del proyecto. [GitHub](
+
+**IDE & Tools**
+1. WebStorm: Entorno de desarrollo integrado (IDE) para JavaScript y TypeScript. Se utilizará para desarrollar la aplicación web. [WebStorm](https://www.jetbrains.com/webstorm/)
+2. Rider: Entorno de desarrollo integrado (IDE) para .NET y C#. Se utilizará para desarrollar la API RESTful. [Rider](https://www.jetbrains.com/rider/)
+3. MySQL Workbench: Herramienta de diseño y administración de bases de datos MySQL. Se utilizará para diseñar y administrar la base de datos del sistema. [MySQL Workbench](https://www.mysql.com/products/workbench/)
+
+**Landing Page Development**
+1. HTML5: Lenguaje de marcado para la estructura de páginas web. Se utilizará para definir la estructura de la landing page. [HTML5](https://developer.mozilla.org/es/docs/Web/HTML)
+2. SASS: Preprocesador de CSS que permite escribir estilos de forma más eficiente. Se utilizará para definir los estilos de la landing page. [SASS](https://sass-lang.com/)
+3. JavaScript: Lenguaje de programación para la interactividad en páginas web. Se utilizará para implementar la lógica de la landing page. [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+**Frontend Development**
+1. Vue.js: Framework de JavaScript para la creación de interfaces de usuario. Se utilizará para desarrollar la aplicación web. [Vue.js](https://vuejs.org/)
+
+**Backend Development**
+1. C#: Lenguaje de programación para el desarrollo de aplicaciones en el entorno .NET. Se utilizará para desarrollar la API RESTful. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+2. ASP.NET Core: Framework de desarrollo de aplicaciones web de código abierto. Se utilizará para desarrollar la API RESTful. [ASP.NET Core](https://dotnet.microsoft.com/apps/aspnet)
+
+**Database Development**
+1. MySQL: Sistema de gestión de bases de datos relacional de código abierto. Se utilizará para diseñar y administrar la base de datos del sistema. [MySQL](https://www.mysql.com/)
+
+**Testing & Quality Assurance**
+1. Postman: Herramienta de colaboración para el desarrollo de APIs. Se utilizará para probar y documentar la API RESTful. [Postman](https://www.postman.com/)
+
+**Deployment & Continuous Integration**
+1. Netlify: Plataforma de alojamiento web y despliegue continuo. Se utilizará para desplegar la landing page y la aplicación web. [Netlify](https://www.netlify.com/)
+2. Railway: Plataforma de alojamiento web y despliegue continuo. Se utilizará para desplegar la API RESTful. [Railway](https://railway.app/)
 
 ### 5.1.2. Source Code Management
 
