@@ -3889,7 +3889,7 @@ Esta clase representa un aggregate root que encapsula la información de un tall
 
 **Class Vehicle**
 
-Esta clase reprensenta un aggregate root que encapsula la información de un vehículo. Contiene atributos como id, licensePlate, brand, model, image, userId y iotDeviceId.
+Esta clase representa un aggregate root que encapsula la información de un vehículo. Contiene atributos como id, licensePlate, brand, model, image, userId y iotDeviceId.
 
 | Attribute    | Type   | Description                                               |
 |--------------|--------|-----------------------------------------------------------|
@@ -4079,119 +4079,264 @@ Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos My
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
+
+En este capítulo se detallan las actividades de implementación, validación y despliegue del producto Workshop N-GINE. Se presentan los procesos de desarrollo, pruebas y configuración de software, así como la implementación de la landing page, servicios y aplicaciones. Además, se describen los resultados de la implementación y validación, y se detallan los planes de despliegue y mantenimiento del producto.
+
 ## 5.1. Software Configuration Management
+
+En esta sección se describen las actividades de configuración de software, incluyendo el entorno de desarrollo, la gestión de código fuente, las convenciones de estilo y la configuración de despliegue.
 
 ### 5.1.1. Software Development Environment Configuration
 
-A continuación, se presenta las herramientas y productos de software para el desarrollo del producto. 
+A continuación, se presentan las herramientas y tecnologías utilizadas en el entorno de desarrollo del proyecto.
 
-| Nombre | Propósito | Ruta de referencia / Descarga |
-| ----------- | ----------- | ----------- |
-| Uxpresia | Elaboración de user personas, empathy maps, journey maps, impact maps | https://uxpressia.com/w/k4lMq |
-| Miro | As-Is To-Be Scenarios maps | https://miro.com/es/ | 
-| Figma | Elaboración de wireframes, mockups y prototipes | https://www.figma.com/ |
-| LucidChart | Elaboración de wireflows, user flows | https://www.lucidchart.com/ | 
-| Structurizer | Elaboracion de diagrama C4 | https://www.structurizr.com/ |
-| Draw.io | Elaboración de diagrama UML | https://app.diagrams.net/ |
-| Vertabelo | Diseño de bases de datos | https://vertabelo.com/ | 
-| SASS | Estilos en la landing page | https://sass-lang.com/ |
-| PrimeVue | Biblioteca de componentes de interfaz de usuario | https://primevue.org/ |
-| Pivotal Tracker | Control de proyectos | https://www.pivotaltracker.com/ |
-| Git | Control de versiones | https://git-scm.com/ | 
+**Requirements Management**
+
+1. Trello: Herramienta de gestión de proyectos que permite organizar tareas y colaborar en equipo. Se utilizará para definir y priorizar los requisitos del proyecto. [Trello](https://trello.com/)
+2. Pivotal Tracker: Herramienta de gestión de proyectos ágiles que facilita la planificación y seguimiento de las tareas. Se utilizará para gestionar las historias de usuario y las tareas del proyecto. [Pivotal Tracker](https://www.pivotaltracker.com/)
+
+**Design & Prototyping**
+
+1. Uxpressia: Herramienta de diseño centrada en el usuario que permite crear user personas, empathy maps, journey maps y otros artefactos de diseño. Se utilizará para elaborar los perfiles de usuario y los mapas de empatía. [Uxpressia](https://uxpressia.com/w/k4lMq)
+2. Figma: Herramienta de diseño de interfaces de usuario que permite crear wireframes, mockups y prototipos interactivos. Se utilizará para diseñar la interfaz de usuario del producto. [Figma](https://www.figma.com/)
+3. LucidChart: Herramienta de diagramación que permite crear wireflows y user flows. Se utilizará para diseñar los flujos de usuario del producto. [LucidChart](https://www.lucidchart.com/)
+4. Miro: Herramienta de colaboración en línea que permite crear mapas de escenarios y mapas de impacto. Se utilizará para diseñar los escenarios de uso del producto. [Miro](https://miro.com/es/)
+
+**Software Architecture**
+
+1. Structurizr: Herramienta de modelado de arquitectura que permite crear diagramas C4. Se utilizará para diseñar la arquitectura del sistema. [Structurizr](https://www.structurizr.com/)
+2. Draw.io: Herramienta de diagramación que permite crear diagramas UML. Se utilizará para diseñar los diagramas de clases y componentes. [Draw.io](https://app.diagrams.net/)
+3. Vertabelo: Herramienta de diseño de bases de datos que permite crear modelos de datos. Se utilizará para diseñar la base de datos del sistema. [Vertabelo](https://vertabelo.com/)
+
+**Software Development**
+
+1. Git: Sistema de control de versiones distribuido que permite gestionar el código fuente de forma colaborativa. Se utilizará para controlar las versiones del código del proyecto. [Git](https://git-scm.com/)
+
+**Software Documentation and Collaboration**
+
+1. GitHub: Plataforma de desarrollo colaborativo que permite alojar proyectos, revisar código y gestionar versiones. Se utilizará para alojar el código fuente y colaborar en el desarrollo del proyecto. [GitHub](
+
+**IDE & Tools**
+
+1. WebStorm: Entorno de desarrollo integrado (IDE) para JavaScript y TypeScript. Se utilizará para desarrollar la aplicación web. [WebStorm](https://www.jetbrains.com/webstorm/)
+2. Rider: Entorno de desarrollo integrado (IDE) para .NET y C#. Se utilizará para desarrollar la API RESTful. [Rider](https://www.jetbrains.com/rider/)
+3. MySQL Workbench: Herramienta de diseño y administración de bases de datos MySQL. Se utilizará para diseñar y administrar la base de datos del sistema. [MySQL Workbench](https://www.mysql.com/products/workbench/)
+
+**Landing Page Development**
+
+1. HTML5: Lenguaje de marcado para la estructura de páginas web. Se utilizará para definir la estructura de la landing page. [HTML5](https://developer.mozilla.org/es/docs/Web/HTML)
+2. SASS: Preprocesador de CSS que permite escribir estilos de forma más eficiente. Se utilizará para definir los estilos de la landing page. [SASS](https://sass-lang.com/)
+3. JavaScript: Lenguaje de programación para la interactividad en páginas web. Se utilizará para implementar la lógica de la landing page. [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+**Frontend Development**
+
+1. Vue.js: Framework de JavaScript para la creación de interfaces de usuario. Se utilizará para desarrollar la aplicación web. [Vue.js](https://vuejs.org/)
+
+**Backend Development**
+
+1. C#: Lenguaje de programación para el desarrollo de aplicaciones en el entorno .NET. Se utilizará para desarrollar la API RESTful. [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+2. ASP.NET Core: Framework de desarrollo de aplicaciones web de código abierto. Se utilizará para desarrollar la API RESTful. [ASP.NET Core](https://dotnet.microsoft.com/apps/aspnet)
+
+**Database Development**
+
+1. MySQL: Sistema de gestión de bases de datos relacional de código abierto. Se utilizará para diseñar y administrar la base de datos del sistema. [MySQL](https://www.mysql.com/)
+
+**Testing & Quality Assurance**
+
+1. Postman: Herramienta de colaboración para el desarrollo de APIs. Se utilizará para probar y documentar la API RESTful. [Postman](https://www.postman.com/)
+
+**Deployment & Continuous Integration**
+
+1. Netlify: Plataforma de alojamiento web y despliegue continuo. Se utilizará para desplegar la landing page y la aplicación web. [Netlify](https://www.netlify.com/)
+2. Railway: Plataforma de alojamiento web y despliegue continuo. Se utilizará para desplegar la API RESTful. [Railway](https://railway.app/)
 
 ### 5.1.2. Source Code Management
 
-A fecha de hoy, finalizando el sprint 1, consideramos necesario tener dos repositorios en el proyecto. A continuación lo detallo:
+En esta sección se detallan las prácticas y herramientas utilizadas para la gestión del código fuente del proyecto.
+De ese modo, se seguirá la metodología GitFlow, que establece una serie de reglas y buenas prácticas para el control de versiones en proyectos de software. 
+A continuación, se presenta como se estructurará el repositorio del proyecto y las convenciones que se seguirán para la nomenclatura de ramas y commits.
 
-| Repositorio | Link | 
-| ----------- | ----------- |
-| Informe | https://github.com/Web-Application-YaraSoftware/Informe |
-| Landing page | https://github.com/Web-Application-YaraSoftware/Landing-page |
+**Repositorio del Proyecto**
 
-Vamos a implementar Conventional Commits, Semantic Versioning y una nomenclatura estandarizada para las ramas. Sin embargo, en el repositorio del informe, las ramas seguirán el formato "chapter" seguido del número correspondiente.
+Se muestran los repositorios que forman parte del proyecto Workshop
+
+| Repositorio              | Link                                                                     | 
+|--------------------------|--------------------------------------------------------------------------|
+| Organización             | https://github.com/Web-Application-YaraSoftware                          |
+| Landing page             | https://github.com/Web-Application-YaraSoftware/Landing-page             |
+| FrontEnd Web Application | https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd |
+| Web Services             | https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform |
+
+**Flujo de Trabajo GitFlow**
+
+El flujo de trabajo a seguir será el GitFlow, que establece una serie de reglas y buenas prácticas para el control de versiones en proyectos de software desarrollado por Vincent Driessen. 
+Se basa en dos ramas principales: main y develop, y en ramas de soporte para la corrección de errores y nuevas características.
+
+![GitFlow](img/5/1/2/git-flow.png)
+
+**Estructura de Ramas**
+
+1. Main: Rama principal del proyecto que contiene la versión estable y lista para producción.
+2. Develop: Rama de desarrollo que contiene la última versión en desarrollo.
+3. Feature: Ramas de soporte para el desarrollo de nuevas características.
+4. Hotfix: Ramas de soporte para la corrección de errores en producción.
+5. Release: Ramas de soporte para la preparación de una nueva versión.
+
+**Versionado Semántico**
+
+Se seguirá el versionado semántico para la numeración de versiones del proyecto(Semantic Versioning 2.0.0).
+
+El formato de versionado es el siguiente: MAJOR.MINOR.PATCH
+
+1. MAJOR: Incrementa cuando se realizan cambios incompatibles con versiones anteriores.
+2. MINOR: Incrementa cuando se agregan funcionalidades compatibles con versiones anteriores.
+3. PATCH: Incrementa cuando se corrigen errores compatibles con versiones anteriores.
+
+**Convenciones de Commits**
+
+Se utilizarán las siguientes convenciones para los mensajes de commit basado en el formato de Angular Commit Guidelines:
+
+`git commit -m "<type>[optional scope]:<title>" -m"<description">`
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-El Lenguaje de Marcado de Hipertexto (HTML) es esencial para estructurar y presentar contenido en páginas web, siendo común nombrar la página principal como index.html. Algunas convenciones clave que incluiremos en nuestro código:
-Usar elementos en minúsculas y cerrar todos los elementos para asegurar compatibilidad y legibilidad.
-Escribir comentarios breves y evitar líneas de código largas.
-Incluir el atributo lang y especificar detalles como alt, ancho y altura en imágenes para accesibilidad.
-CSS es el lenguaje para dar estilo a las páginas web. Convenciones que utilizaremos:
-Mantener una nomenclatura coherente para clases e identificadores, con una indentación consistente y agrupación de propiedades relacionadas.
-Evitar selectores excesivamente específicos y duplicación de reglas.
-Probar el código en varios navegadores y dispositivos.
-JavaScript agrega interactividad a las páginas web. Las prácticas que utilizaremos son:
-Nomenclatura coherente para variables y funciones, evitando variables globales.
-Manejar errores con bloques try-catch, optimizar el código para rendimiento, y probar en diversos navegadores.
-Gherkin es un lenguaje usado para describir escenarios de prueba de forma legible. Recomendaciones clave:
-Usar un lenguaje claro con una estructura coherente basada en palabras clave como Feature, Scenario, Given, When, y Then.
-Evitar la duplicación de pasos y colaborar con el equipo para mejorar los escenarios.
+En esta sección se detallan las convenciones de estilo y buenas prácticas que se seguirán en el código fuente del proyecto.
+
+**HTML**: Es un lenguaje de marcado que se utiliza para definir la estructura de las páginas web. Se seguirán las siguientes convenciones de estilo:
+
+1. Se utilizarán etiquetas semánticas como header, footer, section, article, nav, aside, main, etc.
+2. Se utilizará la indentación de 2 espacios para mejorar la legibilidad del código.
+3. Se utilizarán atributos alt en las imágenes para mejorar la accesibilidad.
+4. Se utilizarán comentarios para documentar el código y facilitar su mantenimiento.
+5. Se utilizarán nombres descriptivos para las clases y los ids.
+6. Se utilizarán las mejores prácticas de SEO para mejorar la visibilidad del sitio web.
+7. Se utilizarán las mejores prácticas de accesibilidad para garantizar que el sitio sea accesible para todos los usuarios.
+
+**CSS**: Es un lenguaje de estilos que se utiliza para definir la apariencia de las páginas web. Se seguirán las siguientes convenciones de estilo:
+1. Se utilizará la metodología BEM (Block Element Modifier) para nombrar las clases de CSS.
+2. Se utilizarán variables CSS para definir colores, fuentes y tamaños.
+3. Se evitará el uso de estilos en línea y se fomentará el uso de hojas de estilo externas.
+4. Se utilizará la indentación de 2 espacios para mejorar la legibilidad del código.
+5. Se utilizarán comentarios para documentar el código y facilitar su mantenimiento.
+
+**JavaScript**: Es un lenguaje de programación que se utiliza para agregar interactividad a las páginas web. Se seguirán las siguientes convenciones de estilo:
+1. Se utilizará el estándar ECMAScript 6 (ES6) para escribir código JavaScript.
+2. Se utilizarán nombres descriptivos para las variables y las funciones.
+3. Se evitará el uso de variables globales y se fomentará el uso de módulos.
+4. Se utilizará la indentación de 2 espacios para mejorar la legibilidad del código.
+5. Se utilizarán comentarios para documentar el código y facilitar su mantenimiento.
+
+**C#**: Es un lenguaje de programación que se utiliza para desarrollar aplicaciones en el entorno .NET. Se seguirán las siguientes convenciones de estilo:
+1. Se utilizará el estándar de codificación de C# para escribir código C#.
+2. Se utilizará la indentación de 4 espacios para mejorar la legibilidad del código.
+3. Se utilizarán comentarios para documentar el código y facilitar su mantenimiento.
+4. Se seguirán las convenciones de nomenclatura de C# para los nombres de clases, métodos y propiedades.
+5. Se utilizarán las mejores prácticas de programación orientada a objetos en C#.
+
+**Gherkin**: Es un lenguaje de especificación que se utiliza para escribir escenarios de prueba en lenguaje natural. Se seguirán las siguientes convenciones de estilo:
+1. Se utilizará el lenguaje natural para escribir escenarios de prueba en Gherkin.
+2. Se utilizarán las palabras clave Given, When, Then y And para estructurar los escenarios.
 
 ### 5.1.4. Software Deployment Configuration
 
-Netlify es una plataforma de alojamiento web y despliegue continuo que simplifica el lanzamiento de sitios web y aplicaciones estáticas. Funciona de la siguiente manera:
-Integración con repositorios Git: Se sincroniza con plataformas como GitHub, GitLab y Bitbucket. Cada vez que se actualiza el código en el repositorio, Netlify inicia automáticamente el proceso de construcción y despliegue.
-Proceso de construcción: Convierte el código (HTML, CSS, JavaScript) en un sitio estático, realizando tareas como la compilación de archivos y optimización de imágenes.
-Red CDN: Una vez construida, la aplicación es desplegada a través de su red de distribución de contenido (CDN) global, garantizando un rendimiento rápido y accesible.
-Vistas previas automáticas: Para cada rama de tu repositorio, genera vistas previas automáticas, facilitando la revisión de cambios antes de fusionarlos con la rama principal.
-Publicaciones automáticas: Configura despliegues automáticos para cada pull request o fusión, lo que garantiza que el sitio esté siempre actualizado con la última versión del código.
+En esta sección se detallan las actividades de configuración del despliegue del software, incluyendo los productos de la landing page, servicios y aplicaciones.
+
+**Landing Page Deployment**
+
+La landing page se desplegará en Netlify, una plataforma de alojamiento web y despliegue continuo. 
+Se seguirán los siguientes pasos para el despliegue de la landing page:
+
+1. Crear una cuenta en Netlify con GitHub.
+![Step1-landing-page](img/5/1/4/landing-page/step1.png)
+2. Importar el repositorio de la landing page en Netlify.
+![Step2-landing-page](img/5/1/4/landing-page/step2.png)
+3. Conectar el repositorio de la landing page en GitHub a Netlify.
+![Step3-landing-page](img/5/1/4/landing-page/step3.png)
+4. Configurar las opciones de despliegue, como el directorio de construcción y las variables de entorno.
+![Step4-landing-page](img/5/1/4/landing-page/step4.png)
+5. Desplegar la landing page en Netlify.
+![Step5-landing-page](img/5/1/4/landing-page/step5.png)
+
+Enlace para acceder a la landing page desplegada:
+
+[https://web-landing-page-workshop-n-gine.netlify.app/](https://web-landing-page-workshop-n-gine.netlify.app/)
+
+**Frontend Web Application Deployment**
+
+La aplicación web se desplegará en Netlify, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la aplicación web, considerando que se ha realizado la configuración de la landing page:
+
+1. Conectar el repositorio de la aplicación web en GitHub a Netlify.
+![Step1-frontend-web-application](img/5/1/4/frontend/step1.png)
+2. Configurar las opciones de despliegue, como el directorio de construcción y las variables de entorno.
+![Step2-frontend-web-application](img/5/1/4/frontend/step2.png)
+![Step3-frontend-web-application](img/5/1/4/frontend/step3.png)
+3. Desplegar la aplicación web en Netlify.
+![Step4-frontend-web-application](img/5/1/4/frontend/step4.png)
+
+Enlace para acceder a la aplicación web desplegada:
+
+[https://web-workshop-n-gine.netlify.app/](https://web-workshop-n-gine.netlify.app/)
+
+**Web Services Deployment**
+
+La API RESTful se desplegará en Railway, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la API RESTful:
+
+1. Acceder a Railway con una cuenta de GitHub.
+![Step1-web-services](img/5/1/4/backend/ingresarRailway.png)
+2. Crear un nuevo proyecto en Railway y configurar la base de datos.
+![Step2-web-services](img/5/1/4/backend/newProject.png)
+3. Obtener las credenciales de la base de datos y configurar la conexión en el proyecto de la API.
+![Step3-web-services](img/5/1/4/backend/getUrl.png)
+4. Preparar el archivo Dockerfile en el proyecto de la API.
+![Step4-web-services](img/5/1/4/backend/addDocker.png)
+5. Agregar el proyecto desde GitHub a Railway y configurar el despliegue.
+![Step5-web-services](img/5/1/4/backend/newService.png)
+6. Cargar y configurar el proyecto en Railway.
+![Step6-web-services](img/5/1/4/backend/docker.png)
+
+Enlace para acceder a la documentación Swagger de la API RESTful desplegada:
+
+[https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html](https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html)
 
 ## 5.2. Landing Page, Services & Applications Implementation
+
+En esta sección se detallan las actividades de implementación de la landing page, los servicios y las aplicaciones del producto Workshop N-GINE. Se presentan los procesos de desarrollo, pruebas y configuración de software, así como los resultados de la implementación y validación.
 
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
 
-<table>
-    <tr>
-        <th scope="row"><strong>Sprint #</strong></th>
-        <td>Sprint 1</td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Planning Background</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Date</th>
-        <td>2024/09/03</td>
-    </tr>
-    <tr>
-        <th scope="row">Time</th>
-        <td>21:00</td>
-    </tr>
-    <tr>
-        <th scope="row">Location</th>
-        <td>Videollamada grupal mediante la plataforma Discord</td>
-    </tr>
-    <tr>
-        <th scope="row">Prepared By</th>
-        <td>Álvaro Orozco Torres</td>
-    </tr>
-    <tr>
-        <th scope="row">Attendees (to planning meeting)</th>
-        <td> Álvaro Orozco Torres, Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 1 Goal</th>
-        <td>Nuestro foco se encuentra en crear e implementar una landing page atractiva para el producto. Creemos que entrega mayor visibilidad y facilidad de acceso a la información clave a potenciales clientes. Confirmaremos nuestra hipótesis cuando la landing page esté publica y los usuarios puedan interactuar con ella.</td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 1 Velocity</th>
-        <td>20</td>
-    </tr>
-</table>
+| **Sprint #**                    | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                            | 2024/09/03                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Time                            | 21:00                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                 |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 1 Goal                   | Nuestro enfoque está en crear una landing page inicial que presente claramente nuestro producto y a nuestro equipo a los visitantes. <br> Creemos que esto entregará una primera impresión sólida y generará interés en los visitantes potenciales de nuestro sitio web. <br> Esto se confirmará cuando la landing page esté en línea y comencemos a recibir visitas y suscripciones a través de un formulario básico de contacto. |
+| Sprint 1 Velocity               | 20                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points             | 20                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
 
 #### 5.2.1.2. Sprint Backlog 1
 
-El objetivo del sprint es crear una landing page atractiva e interactiva que permita al usuario familiarizarse con los valores que ofrece el producto. Además, busca principalmente incentivar al usuario a adquirir un plan de suscripción para aprovechar al máximo las funcionalidades disponibles.
 
-Durante todo el sprint 1 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+En el primer sprint backlog, el equipo se centrará en la creación de la landing page inicial del producto Workshop.
 
-<img src="img/5/2/1/2/trello_board.png">
+La herramienta de gestión de proyectos Trello se utilizará para organizar y priorizar las tareas del sprint.
 
-A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+Esta herramienta permite a los miembros del equipo colaborar en la definición de las tareas, asignarlas a los miembros del equipo y realizar un seguimiento del progreso.
+
+![trello_board_sprint_1](img/5/2/1/2/trello_board_sprint_1.png)
+
+Enlace al tablero de Trello del Sprint 1:
+[https://trello.com/b/PvVqjtgB/sprint-1](https://trello.com/b/PvVqjtgB/sprint-1)
+
+A continuación, se procede a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
@@ -4349,7 +4494,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Diseño de planes</td>
     <td>Diseño visual de la sección de planes, presentando las opciones de suscripción o compra del producto.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -4359,7 +4504,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Implementación de cards</td>
     <td>Desarrollo e implementación de las cards en la sección de planes, asegurando interactividad y responsividad.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -4369,7 +4514,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Diseño de formulario de contacto</td>
     <td>Creación del diseño visual para el formulario de contacto, asegurando que sea claro y fácil de usar.</td>
     <td>2</td>
-    <td>Álvaro Orozco Torres</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -4379,7 +4524,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Implementación de formulario</td>
     <td>Desarrollo e integración del formulario de contacto, incluyendo validación y envío de datos.</td>
     <td>2</td>
-    <td>Álvaro Orozco Torres</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -4389,7 +4534,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Diseño de footer</td>
     <td>Diseño visual del pie de página (footer), incluyendo enlaces a secciones relevantes y redes sociales.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Hernández Tuiro, Eric Ernesto</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -4399,38 +4544,123 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Implementación de footer</td>
     <td>Desarrollo del pie de página, asegurando que sea responsive y accesible.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Hernández Tuiro, Eric Ernesto</td>
     <td>Done</td>
   </tr>
 </table>
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
-| Branch | Id Commit | Cabecera | Cuerpo |
-| ----------- | ----------- | ----------- | ----------- | 
-| feature/about-us | 128a66acba46cbac4c3aa11ed9568f212cd685d3  | feat: add styles for about us section with responsive layout and flip card animation | Added responsive layout for "About Us" section Implemented flip card animation for mission, vision, and values Styled text and image alignment, ensuring responsiveness across devices |
-| feature/benefits | fe52f40f297a8783b9fa82ee24aa699aaa18ece0 |  feat: add responsive styles for our-benefits section | Style benefits section with a flexbox layout and responsive grid for medium screens. Extend styles from know-more section for titles and subtitles. Apply responsive behavior to benefit cards, images, and descriptions. Ensure proper alignment and spacing across different screen sizes.|
-| feature/footer | ... | ... | ... |
-| feature/home | 9826c22dd9928e1a07f5ebd7c7e1e886c6cba05c | feat: add resize handler for resetting navbar position and rename menu click functionality  | ... |
-| feature/know-more | 3c7cbddb5bc93546e1a3ae2a52838a77f38ef144 | feat: add responsive styles for know-more section | Apply flexbox layout for smaller screens and grid layout for medium screens and above. Style know-more header, title, subtitle, image, and content. Adjust alignment, gaps, and text alignment for responsiveness. Ensure proper sizing and positioning of elements across breakpoints |
-| feature/plans | 5cf0c538f9338bc35b0e434764c593278ba2f2d8 | ... | ... |
-| feature/testimonials | 0044b6c2d2439339974479a2781ae1f9f91b6d2b | feat: add automatic movement functionality for testimonials carousel | ... |
-| feature/contact-form | 49e3bf92baa6bf089ae2d7bc0caadf20d47cfe83 | feat: add styles for contact form section | Added responsive styles for the contact form section.Included layout adjustments for title, subtitle, input fields, and submit button.Applied background color, padding, and form styling for better user experience. |
+Los principales avances del sprint 1 fueron la creación de la landing page inicial del producto Workshop, que incluye las secciones de hero, about the product, beneficios, testimonios, about us, planes, formulario y footer.
+De ese modo, se presentan las evidencias de desarrollo de las tareas realizadas en el sprint 1.
+
+| Repository                                                   | Branch                       | Commit Id                                | Commit Message                                                                                                                | Commit Message Body                                                                                                                                                                                                                                                                                                                                                       | Commited on(Date)        |
+|--------------------------------------------------------------|------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | c3ccf0f3710be8e0eccb0135817e0eedc213e93c | chore: init commit                                                                                                            | chore: init commit                                                                                                                                                                                                                                                                                                                                                        | Fri Sep 6 17:16:11 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | d9bb70b72a9748e80b4fd262879b3f6f5e33bffd | feat: integrate SASS styles into main.js                                                                                      | feat: integrate SASS styles into main.js                                                                                                                                                                                                                                                                                                                                  | Fri Sep 6 17:26:58 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 494df051125baac706c730d2970eb53a2ca4302e | chore: create structure for sass styles                                                                                       | chore: create structure for sass styles                                                                                                                                                                                                                                                                                                                                   | Fri Sep 6 17:44:20 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | e3e7bf644e5b20c85caf0322a84ef358b453e146 | style: add normalize.css to standardize styles across browsers                                                                | style: add normalize.css to standardize styles across browsers                                                                                                                                                                                                                                                                                                            | Fri Sep 6 17:52:43 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | fb3faf9e2f68421c69b04ace2ac8fcf8c5e57f1c | style: add Roboto font globally and apply in base styles                                                                      | style: add Roboto font globally and apply in base styles                                                                                                                                                                                                                                                                                                                  | Fri Sep 6 17:57:05 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 670d1670c0f20b67adda1d31c6e73912c77d1839 | style: add global SASS variables for colors, spacing, fonts, and breakpoints                                                  | - Define global SASS variables for background and text colors - Add variables for padding and font sizes - Create responsive breakpoints for different screen sizes - Apply these variables in the base styles                                                                                                                                                            | Fri Sep 6 18:48:32 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 5ffeb5bfaa9cf3e70a7b1f32087db6adbfd9d2e5 | style: add responsive mixin for media queries                                                                                 | style: add responsive mixin for media queries                                                                                                                                                                                                                                                                                                                             | Fri Sep 6 18:55:20 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 5852b3d75ab70add52fe1fa097e58ed22aca36a4 | style: add global SASS mixins for flexbox, typography, transitions, and layout                                                | - Add flexbox mixin for flexible layouts - Add mixins for heading (h1-h6), body, and button typography with responsive behavior - Add max-width mixin for layout constraints - Add mixins for transitions on color and transform properties - Apply responsive breakpoints in typography using the `respond-to` mixin                                                     | Fri Sep 6 18:56:19 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | d764b9fca7298758e043e76749bea503dfa380b4 | chore: add hero image, logo and menu icon                                                                                     | chore: add hero image, logo and menu icon                                                                                                                                                                                                                                                                                                                                 | Fri Sep 6 19:20:36 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | de135555788061832fd7dce72d404e3ebaee7941 | chore: change menu icon SVG color to white                                                                                    | chore: change menu icon SVG color to white                                                                                                                                                                                                                                                                                                                                | Fri Sep 6 19:52:05 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 62b9386f4080d6736b6fa137925e68b5ebe1d946 | feat: add static HTML for home section                                                                                        | - Add HTML structure for header with navbar and logo - Include navigation links and buttons for "Registrarse" and "Iniciar Sesion" - Add banner with title and call-to-action button                                                                                                                                                                                      | Fri Sep 6 20:14:07 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | b3b039b139bdadf74441363dea430231dbead68f | fix: adjust font sizes for buttons in SASS mixins                                                                             | fix: adjust font sizes for buttons in SASS mixins                                                                                                                                                                                                                                                                                                                         | Fri Sep 6 20:15:24 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | c93e8596e3507b402131b3d56b8a1462b2d34d7d | chore: add imports for button-action, navbar, and banner components                                                           | chore: add imports for button-action, navbar, and banner components                                                                                                                                                                                                                                                                                                       | Fri Sep 6 20:16:52 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | fadfb649ccdaf693d1df5f132e2a0b9f422d6830 | feat: add styles for buttonAction component                                                                                   | - Apply m-button-1 mixin for base button styles - Add padding, color, and background-color for buttonAction - Set hover effect with scale transformation and smooth transition - Ensure full width and height for anchor tags inside buttons                                                                                                                              | Fri Sep 6 20:17:52 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 1920107ea6597696dec479451dacd8c253503f80 | feat: add styles for header with background image and overlay                                                                 | - Set full-screen layout for the header with flexbox alignment - Add background image with cover, no-repeat, and centered positioning - Apply a semi-transparent overlay using ::before pseudo-element - Ensure proper layering with z-index for header elements                                                                                                          | Fri Sep 6 20:19:13 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 8f873e56bdda6a6ba20899d5ad6b2265714c7a4d | feat: add styles for navbar with responsive layout and transitions                                                            | - Add fixed position and flexbox layout for navbar - Implement dark background modifier class for navbar with responsive adjustments - Style navbar buttons and logo, including responsive behaviors and hover effects - Add responsive navigation list with toggle functionality for medium and larger screens - Apply color transitions using the transitionColor mixin | Fri Sep 6 20:20:11 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | ce442f363487527c50cf551b48f3c4e0a33c8f8b | fix: remove duplicate margin declarations in navbar list                                                                      | fix: remove duplicate margin declarations in navbar list                                                                                                                                                                                                                                                                                                                  | Fri Sep 6 20:30:25 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 660016760911beb508f1c71c64874d65f2b8949b | feat: add responsive styles for banner section                                                                                | - Apply max-WIDTH mixin and flexbox layout for banner content - Add responsive behavior for banner image and content with flex-direction adjustment - Style banner title and button with appropriate typography and layout - Ensure banner button adapts to different screen sizes using responsive padding and width                                                     | Fri Sep 6 20:30:55 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 04831c4840b09be395b501b3ae1909c60b5dbed1 | fix: correct flex-direction for navbar buttons in mobile view                                                                 | fix: correct flex-direction for navbar buttons in mobile view                                                                                                                                                                                                                                                                                                             | Fri Sep 6 20:57:14 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 0cd2c653f5067637ff8dee484b2af97bb390721e | feat: add toggle functionality for mobile menu visibility                                                                     | feat: add toggle functionality for mobile menu visibility                                                                                                                                                                                                                                                                                                                 | Fri Sep 6 20:58:36 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 813e422dfbd768cc5c7f52a3be0586d8410822e8 | fix: remove padding from navbar buttons in desktop view                                                                       | fix: remove padding from navbar buttons in desktop view                                                                                                                                                                                                                                                                                                                   | Fri Sep 6 21:10:28 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/home                 | 9826c22dd9928e1a07f5ebd7c7e1e886c6cba05c | feat: add resize handler for resetting navbar position and rename menu click functionality                                    | feat: add resize handler for resetting navbar position and rename menu click functionality                                                                                                                                                                                                                                                                                | Fri Sep 6 21:14:02 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/know-more            | 2186b94c762dd4091c10ddd136534b498e5fb0d1 | chore: import know-more component into main SCSS file                                                                         | chore: import know-more component into main SCSS file                                                                                                                                                                                                                                                                                                                     | Fri Sep 6 22:46:36 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/know-more            | b26762ee10db65bd802c7752f2c9ef16282287e6 | feat: add HTML structure for know-more section                                                                                | - Add main section with know-more header, image, and content - Include title, subtitle, informative text, and call-to-action button                                                                                                                                                                                                                                       | Fri Sep 6 22:47:26 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/know-more            | 86695860f8c505993e3534e141d0d32f2f3b41ed | feat: add styles for main section layout and responsiveness                                                                   | - Set flexbox layout for the main section with column direction and centered content - Apply padding adjustments and background color - Add responsive gap for medium screens and above                                                                                                                                                                                   | Fri Sep 6 22:48:12 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/know-more            | 3c7cbddb5bc93546e1a3ae2a52838a77f38ef144 | feat: add responsive styles for know-more section                                                                             | - Apply flexbox layout for smaller screens and grid layout for medium screens and above - Style know-more header, title, subtitle, image, and content - Adjust alignment, gaps, and text alignment for responsiveness - Ensure proper sizing and positioning of elements across breakpoints                                                                               | Fri Sep 6 22:49:20 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | 6efac667503d48ccd0f4e7619c90c1f0943ca514 | Merge pull request #1 from Web-Application-YaraSoftware/development                                                           | chore: merge development into main with know-more feature                                                                                                                                                                                                                                                                                                                 | Fri Sep 6 22:56:27 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/benefits             | 0006e981e3cf148f3e944bfe6f592355371fa717 | chore: add benefit images for our-benefits section                                                                            | - Add images illustrating each benefit in the our-benefits section                                                                                                                                                                                                                                                                                                        | Sat Sep 7 00:14:16 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/benefits             | c00f4260d5453dde5a4916b801c56882133a678c | Merge branch 'feature/benefits' of https://github.com/Web-Application-YaraSoftware/Landing-page into feature/benefits         | Merge branch 'feature/benefits' of https://github.com/Web-Application-YaraSoftware/Landing-page into feature/benefits                                                                                                                                                                                                                                                     | Sat Sep 7 00:26:04 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/benefits             | 0c5002010a3e9047d848d9913c2d473a5e5445f1 | chore: import benefits component into main SCSS file                                                                          | chore: import benefits component into main SCSS file                                                                                                                                                                                                                                                                                                                      | Sat Sep 7 00:35:41 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/benefits             | a1f00c207c7ae209587d7172d5c338915bef0182 | feat: add html structure for our-benefits section                                                                             | - Add section for showcasing the benefits of using Workshop N-GINE - Include titles, subtitles, and cards with images and descriptions for each benefit                                                                                                                                                                                                                   | Sat Sep 7 00:36:30 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/benefits             | fe52f40f297a8783b9fa82ee24aa699aaa18ece0 | feat: add responsive styles for our-benefits section                                                                          | - Style benefits section with a flexbox layout and responsive grid for medium screens - Extend styles from know-more section for titles and subtitles - Apply responsive behavior to benefit cards, images, and descriptions - Ensure proper alignment and spacing across different screen sizes                                                                          | Sat Sep 7 00:36:53 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | f69bd3385b27385f10abc280a84b33e9bb4726fd | Merge pull request #2 from Web-Application-YaraSoftware/development                                                           | chore: merge development into main with benefits feature                                                                                                                                                                                                                                                                                                                  | Sat Sep 7 00:42:23 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/testimonials         | 69ce1fff689fc174db02c5bdde1159e4f0e22031 | feat: consume user API and JSON to generate and insert testimonials                                                           | - Consume user API to retrieve user data - Combine user data with JSON testimonials - Generate testimonial cards dynamically - Insert generated testimonials into the "testimonials" section                                                                                                                                                                              | Sat Sep 7 03:21:58 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/testimonials         | 0044b6c2d2439339974479a2781ae1f9f91b6d2b | feat: add automatic movement functionality for testimonials carousel                                                          | feat: add automatic movement functionality for testimonials carousel                                                                                                                                                                                                                                                                                                      | Sat Sep 7 04:04:53 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | e260bb4cea5dc4e183fd8af4a4a86a02cfeacde1 | Merge pull request #3 from Web-Application-YaraSoftware/feature/testimonials                                                  | chore: merge development into main with testimonials feature                                                                                                                                                                                                                                                                                                              | Sat Sep 7 04:10:30 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/about-us             | 5de8bed0ad6e61b44725a548661da44a3f8ecf26 | chore: import about us component into main SCSS file                                                                          | chore: import about us component into main SCSS file                                                                                                                                                                                                                                                                                                                      | Sat Sep 7 04:50:46 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/about-us             | c3c7d2a6c7d88794b32303b6992dc91ddfcc215c | feat: add about us section in HTML with mission, vision, and values                                                           | - Added "About Us" section structure in HTML - Included mission, vision, and values content using card layout - Added placeholder for image and text content                                                                                                                                                                                                              | Sat Sep 7 04:54:08 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/about-us             | 128a66acba46cbac4c3aa11ed9568f212cd685d3 | feat: add styles for about us section with responsive layout and flip card animation                                          | - Added responsive layout for "About Us" section - Implemented flip card animation for mission, vision, and values - Styled text and image alignment, ensuring responsiveness across devices                                                                                                                                                                              | Sat Sep 7 04:54:34 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | f69bd3385b27385f10abc280a84b33e9bb4726fd | Merge pull request #4 from Web-Application-YaraSoftware/development                                                           | chore: merge development into main with about us section                                                                                                                                                                                                                                                                                                                  | Sat Sep 7 04:59:20 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/plans                | e7422754026c50e24faf80b192f1caa4de4f420b | chore: add check icon for plan section and add new variable                                                                   | chore: add check icon for plan section and add new variable                                                                                                                                                                                                                                                                                                               | Sat Sep 7 05:58:55 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/plans                | 010af05524d08159fec7a3dd592dff49f97c1dad | chore: import plan component into main SCSS file                                                                              | chore: import plan component into main SCSS file                                                                                                                                                                                                                                                                                                                          | Sat Sep 7 06:01:46 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/plans                | d858ce527f06f28abfb68065533fd76ccf514300 | feat: add html structure for plans section with free, basic, and premium options                                              | feat: add html structure for plans section with free, basic, and premium options                                                                                                                                                                                                                                                                                          | Sat Sep 7 06:04:23 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/plans                | 5cf0c538f9338bc35b0e434764c593278ba2f2d8 | feat: add styles for plans section and plan-card components with responsive design                                            | feat: add styles for plans section and plan-card components with responsive design                                                                                                                                                                                                                                                                                        | Sat Sep 7 06:07:33 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | fcce1c8f71b1f7ee5b66920aacf2050cdada2e82 | Merge pull request #5 from Web-Application-YaraSoftware/development                                                           | chore: merge feature/plans into main with plans feature                                                                                                                                                                                                                                                                                                                   | Sat Sep 7 06:11:35 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/contact-form         | 7445dcfa8c394a5da4e428b926376710d5e6e33e | chore: add contact icon for contact form section                                                                              | chore: add contact icon for contact form section                                                                                                                                                                                                                                                                                                                          | Sat Sep 7 06:27:16 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/contact-form         | 301c152c49519954544cb4977bebe49fd438e595 | Merge branch 'feature/contact-form' of https://github.com/Web-Application-YaraSoftware/Landing-page into feature/contact-form | Merge branch 'feature/contact-form' of https://github.com/Web-Application-YaraSoftware/Landing-page into feature/contact-form                                                                                                                                                                                                                                             | Sat Sep 7 06:40:19 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/contact-form         | 90b64892cb0016f1e2d55551d60bba3da7fd5a5f | chore: import contact form component into main SCSS file                                                                      | chore: import contact form component into main SCSS file                                                                                                                                                                                                                                                                                                                  | Sat Sep 7 06:45:09 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/contact-form         | 4e7d29fe41ebf9a33d1edb145ffeee5b9e964bbe | feat: add contact form section to main                                                                                        | - Added contact form HTML structure including input fields and submit button - Included title, subtitle, and labels for the contact form section                                                                                                                                                                                                                          | Sat Sep 7 06:48:39 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/contact-form         | 49e3bf92baa6bf089ae2d7bc0caadf20d47cfe83 | feat: add styles for contact form section                                                                                     | - Added responsive styles for the contact form section - Included layout adjustments for title, subtitle, input fields, and submit button - Applied background color, padding, and form styling for better user experience                                                                                                                                                | Sat Sep 7 06:51:08 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | ma                           | d2c991ae1b06eff0d03c9879d53d6915eecf2168 | Merge pull request #6 from Web-Application-YaraSoftware/development                                                           | chore: merge development into main with contact form feature                                                                                                                                                                                                                                                                                                              | Sat Sep 7 06:55:53 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/footer               | 7498ed28173a458831fcf78ad005d72e7b49a26c | chore: add icons for footer                                                                                                   | chore: add icons for footer                                                                                                                                                                                                                                                                                                                                               | Sat Sep 7 07:09:13 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/footer               | 8163dd7018ae96a0c8e197bd053c74fa8931355d | chore: add icons for footer                                                                                                   | chore: add icons for footer                                                                                                                                                                                                                                                                                                                                               | Sat Sep 7 07:47:48 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/footer               | 98d5a553c4f035303f689b61a1cacd2a05eb55f9 | chore: import contact, footer, legal, sign up and useful links components into main scss file                                 | chore: import contact, footer, legal, sign up and useful links components into main scss file                                                                                                                                                                                                                                                                             | Sat Sep 7 07:54:32 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/footer               | f961418e15eacf61c39d8ff1d3535087eab69fbd | feat: add footer section with contact info, useful links, and social media icons                                              | feat: add footer section with contact info, useful links, and social media icons                                                                                                                                                                                                                                                                                          | Sat Sep 7 07:56:22 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/footer               | 82c094fd9e4754d0acbbe1ced592c0ac23a592f9 | feat: add styles for useful links section with title, list,and items                                                          | feat: add styles for useful links section with title, list,and items                                                                                                                                                                                                                                                                                                      | Sat Sep 7 08:10:03 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/footer               | c1c11e56bc2fc29b1caef6a6e41be766fdb7130e | feat: add styles for contact section including title, info, items, and map                                                    | feat: add styles for contact section including title, info, items, and map                                                                                                                                                                                                                                                                                                | Sat Sep 7 08:11:22 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/footer               | 0af81fdbaa762814905bc373fe3dcaef0028c0d2 | feat: add styles for legal section including title, links, and individual link styling                                        | feat: add styles for legal section including title, links, and individual link styling                                                                                                                                                                                                                                                                                    | Sat Sep 7 08:12:04 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/footer               | b3e2bc8795899e8d273c311d23b1ee6c106c97f3 | feat: add responsive styles for footer including content layout and copyright text                                            | feat: add responsive styles for footer including content layout and copyright text                                                                                                                                                                                                                                                                                        | Sat Sep 7 08:13:34 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/footer               | 03ad656ef9b1e9b584250bf6b07a384fe6db6cef | feat: add styles for sign-up section with button and social media icons                                                       | feat: add styles for sign-up section with button and social media icons                                                                                                                                                                                                                                                                                                   | Sat Sep 7 08:15:24 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | 76949a5a899c7694b063a5992358ee7578e2defa | Merge pull request #7 from Web-Application-YaraSoftware/development                                                           | chore: merge development into main with contact feature                                                                                                                                                                                                                                                                                                                   | Sat Sep 7 08:19:41 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | 67dc811450653d8ed69fee671014edea7f7bc07d | build: add i18next dependency                                                                                                 | - Installed i18next package for internationalization support.                                                                                                                                                                                                                                                                                                             | Sat Sep 7 08:39:00 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | d73fcdc79c1e0e8f6083aaf3ca38edcc6e968dcb | feat: add language selection with dynamic text change using i18next                                                           | - Created HTML select dropdown for language selection - Implemented i18next library to dynamically change text based on selected language - Added functionality to switch languages onChange event                                                                                                                                                                        | Sat Sep 7 10:07:57 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/internationalization | 84a62ce95805820797e5e8df50bfdf9015789282 | feat: add translation JSON files and update translation function                                                              | - Added JSON files for managing translations in English and Spanish - Implemented constants for utilizing the translation library effectively - Enhanced the `update` function to dynamically alter text elements based on the current language setting                                                                                                                   | Sun Sep 8 02:34:15 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | 5e9417ffcd02aec895663e91e6768fb1cce1358c | Merge pull request #8 from Web-Application-YaraSoftware/development                                                           | chore: merge in main from development with internationalization features                                                                                                                                                                                                                                                                                                  | Sun Sep 8 02:39:16 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | develop                      | e24372f5b7004839589f081d992860c5531ba7a0 | fix: improve navbar contrast when scrolling past home section                                                                 | - Fixed an issue where the navbar lacked proper contrast during scrolling - Added functionality to change the navbar color dynamically when scrolling past the home section for better visibility                                                                                                                                                                         | Sun Sep 8 03:28:41 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | hotfix/home                  | c9cd0bcec4383a6c586a1c4e2f718743c01231e1 | refactor: replace <p> with <span> inside label and update anchor references                                                   | - Replaced the <p> tag with a <span> inside the label for better semantic structure - Updated anchor tag references to ensure proper re-positioning and navigation                                                                                                                                                                                                        | Sun Sep 8 03:47:23 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | hotfix/internationalization  | dd7363fa3b6942b4aa245573d2b6242f26c564ef | refactor: update DOM element constants and add missing footer elements for internationalization                               | - Modified existing DOM element constants for consistency - Added missing footer elements to support internationalization across all sections                                                                                                                                                                                                                             | Sun Sep 8 03:50:45 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | 556e4bd753d10c0715ab41eddbf0cde19bb60ea6 | Merge pull request #9 from Web-Application-YaraSoftware/development                                                           | chore: merge in main from development with repaired errors                                                                                                                                                                                                                                                                                                                | Sun Sep 8 03:58:10 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | hotfix/testimonials          | c5faa67a670d17e432f663ce16ecf9bad02be42d | fix: improve testimonial carousel navigation and stop movement when not in view                                               | - Fixed the carousel to reverse direction when reaching the end and vice versa - Added functionality to pause carousel movement when not in view for better performance                                                                                                                                                                                                   | Sun Sep 8 04:27:22 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | main                         | 666e46e90c7cd53a292d3aba525e4c1f1e832dd9 | Merge pull request #10 from Web-Application-YaraSoftware/development                                                          | chore: merge in main from development with repaired testimonials errors                                                                                                                                                                                                                                                                                                   | Sun Sep 8 04:30:06 2024  |
+| https://github.com/Web-Application-YaraSoftware/Landing-page | feature/videos               | 58188592fe1f7f1a8a1554fda528fbe8be7dddff | chore: add link to the web site in navbar and button call to action                                                           | chore: add link to the web site in navbar and button call to action                                                                                                                                                                                                                                                                                                       | Wed Sep 25 07:20:38 2024 |
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
-En el desarrollo del sprint 1 se logró desplegar las funcionalidades descritas para la landing page al inicio del sprint,salvo la Internacionalización, la cual quedo incompleta. A continuación, algunas evidencias:
+Para el Sprint 1, se realizó una serie de pruebas en relación con los user stories implementados de la landing page de Workshop N-Gine.
+A continuación, se presentan las evidencias de las pruebas realizadas:
 
-El desarrollo de la Hero Section con una imagen imponente y llamativa para el usuario.
-<img src="img/5/2/1/4/hero.png">
-
-La sección About Us que describe nuestra empresa, nuestros valores y visión.
-<img src="img/5/2/1/4/about_us.png">
-
-La sección de planes, centrada en ser atractiva para el usuario.
-<img src="img/5/2/1/4/plans.png">
+| Repository                                                       | Branch  | Commit Id                                | Commit Message                                                                           | Commit Message Body                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Commited on(Date)        |
+|------------------------------------------------------------------|---------|------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | main    | eb378bb661d9eeeea0f6549850b6f9137ad77f9d | chore: initial commit                                                                    | chore: initial commit                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Fri Nov 15 16:44:51 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | develop | e770b9c0b906cb4462d535f8e4a9a48f1274698a | feat(hero-section): define behavior-driven development (BDD) scenarios for landing page  | - Added a Gherkin feature file for the Hero Section of the landing page. - Defined scenarios to ensure visibility and clarity of the Hero Section message. - Included conditions for the presence of a visually appealing image and a prominent call-to-action button. - Created a scenario outline for responsiveness across mobile, tablet, and desktop devices.                                                                                                                                                                                                                                                                                                                                                                                                                             | Fri Nov 15 16:47:51 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | develop | 1ea5d41f5371f11e84fc8f75fcc2289bc90d4948 | feat(about-product-section): define BDD scenarios for the landing page section           | - Added a Gherkin feature file for the "About the Product" section of the landing page. - Defined scenarios to ensure clear and understandable product descriptions for workshop owners. - Specified conditions for highlighting product benefits in a relevant manner. - Included a scenario for embedding a playable product video and ensuring easy navigation within the section. - Created a scenario to confirm the responsiveness of the content, especially on mobile devices.                                                                                                                                                                                                                                                                                                         | Fri Nov 15 16:48:17 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | develop | 5feb7559008c2a9a53bd111e4111ee62fd913d13 | feat(benefits-section): add BDD scenarios for benefits section on landing page           | - Defined feature and scenarios for the Benefits section on the landing page. - Ensured a clear and organized presentation format for the benefits list. - Emphasized relevance and clarity of each benefit for workshop owners. - Included visual elements alongside benefits for improved comprehension and engagement. - Created a scenario outline for verifying specific benefits with accompanying descriptions and icons. - Added a scenario to validate the responsiveness of the Benefits section on mobile devices.                                                                                                                                                                                                                                                                  | Fri Nov 15 16:48:41 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | develop | 5a8d0fed0f4d1814b43bd3ad839c1d42b4d8cf4b | feat(testimonials-section): add BDD scenarios for testimonials section on landing page   | - Defined feature and scenarios for showcasing customer testimonials on the landing page. - Ensured the display of at least three genuine testimonials with client names and detailed feedback. - Included requirements for visually attractive presentation using styled text quotes and consistent design. - Added a scenario to validate responsiveness and proper layout on mobile devices. - Created a scenario outline for verifying specific testimonials, including client role and accompanying photo.                                                                                                                                                                                                                                                                                | Fri Nov 15 16:48:57 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | develop | 2e22208951bf5657a07bd8568db6f5b465e0dd13 | feat(about-us-section): add BDD scenarios for "About Us" section on landing page         | - Added feature definition and scenarios for the "About Us" section. - Included details for displaying the company's history, mission, and vision clearly and concisely. - Described requirements for visually appealing and easy-to-read design consistent with the overall landing page. - Ensured the section is responsive on mobile devices, with well-organized content and no horizontal scrolling needed. - Provided an example table outlining specific content, such as the mission, vision, and values.                                                                                                                                                                                                                                                                             | Fri Nov 15 16:49:23 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | develop | 582a83c7c1cb4f2a0bb540c1e849d6776b596dde | feat(pricing-section): add BDD scenarios for "Plans and Pricing" section on landing page | - Added feature definition and detailed scenarios for displaying the "Plans and Pricing" section. - Specified requirements for listing three plans: "Free Plan," "Basic Plan," and "Premium Plan," with corresponding prices. - Described expectations for clearly presenting features, ensuring transparent pricing, and including a call-to-action for each plan. - Outlined the need for a user-friendly comparison design, using columns or tables, and highlighted visual distinction for the "Premium Plan." - Provided scenario outline with examples to verify specific features for each plan and their respective values.                                                                                                                                                            | Fri Nov 15 16:49:42 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | develop | 963e2771d45c0228a057c54e0c66f355752905b2 | feat(contact-form): add BDD scenarios for "Contact Form" section on landing page         | - Defined feature requirements for the "Contact Form" section, emphasizing accessibility and usability. - Detailed scenarios for the visibility and accessibility of the form, including a clear "CONTACT US" title and guiding message. - Outlined required form fields: "Name," "Email," "Phone," and "Message." - Added a scenario outline for field validation with examples for different cases, specifying error handling and acceptance criteria. - Included expectations for a successful form submission with a confirmation message. - Described the need for a responsive design, ensuring usability across various device dimensions. - Highlighted aesthetic requirements, ensuring a clean and organized layout with clearly labeled fields and a clickable "CONTACT US" button. | Fri Nov 15 16:50:07 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | develop | 7c749f0adb00f67a2dcf0dd509e89ddbbf330b26 | feat(i18n-landing-page): add BDD scenarios for internationalization of the landing page  | - Introduced support for both Spanish and English to provide a multilingual experience. - Described a scenario for default language setting and an accessible language switcher. - Included scenarios for a visible language selector with "ES" and "EN" options and the ability to switch languages seamlessly. - Added outline scenarios for content translation, ensuring all sections and text elements are accurately localized. - Addressed language handling in URLs, ensuring proper redirection to localized versions of sections. - Emphasized language persistence, maintaining the selected language.                                                                                                                                                                              | Fri Nov 15 16:50:59 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | main    | 80629aeffc37b4c2ff55583c9be8078e0b2a3c1f | Merge pull request #1 from Web-Application-YaraSoftware/develop                          | Develop                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Fri Nov 15 16:51:54 2024 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
+En el sprint 1 se alcanzó el objetivo de implementar la primera versión de la landing page de Workshop N-Gine. 
+
+A continuación, se presentan las evidencias de las secciones donde el usuario puede encontrar información relevante sobre la empresa y los servicios que ofrece:
+
+1. Hero Section: Sección principal de la landing page con una imagen atractiva y un llamado a la acción.
+<img src="img/5/2/1/4/hero.png">
+
+2. About the Us: Sección que muestra información sobre la empresa y sus valores.
+<img src="img/5/2/1/4/about_us.png">
+
+3. Plans: Sección que presenta los planes y precios de los servicios ofrecidos.
+<img src="img/5/2/1/4/plans.png">
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -4438,7 +4668,7 @@ Para este primer sprint no fue contemplada la evidencia de documentación de los
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Para la entrega del Sprint número 1, se desplego al completo landing page, salvo la Internacionalización que quedo incompleta, la cual se pasará a detallar a continuación: 
+Para la entrega del Sprint número 1, se desplegó por completo landing page, la cual se pasará a detallar a continuación: 
 
 <img src="img/5/2/1/7/1.png">
 <img src="img/5/2/1/7/2.png">
@@ -4447,19 +4677,19 @@ Para la entrega del Sprint número 1, se desplego al completo landing page, salv
 <img src="img/5/2/1/7/5.png">
 <img src="img/5/2/1/7/6.png">
 
-Enlace para acceder a la landing page: https://workshop-n-gine-landing-page.netlify.app/#home 
+Enlace para acceder a la landing page: [https://web-workshop-n-gine-landing-page.netlify.app/](https://web-workshop-n-gine-landing-page.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-| Alumno | Actividad |
-| ----------- | ----------- | 
+| Alumno                   | Actividad                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------| 
 | Jhosepmyr Gutiérrez Soto | Implementación de Hero Section, About the Product, Testimonios e Internacionalización |
-| Eric Hernandez Tuiro | Implementación del Footer |
-| Álvaro Orozco Torres | Implementación del Formulario de Contacto |
-| Henry Reaño Delgadillo | Implementación de Planes |
-| Elmer Riva Rodriguez | Implementación de Beneficios y About Us |
+| Eric Hernandez Tuiro     | Implementación del Footer y Formulario de Contacto                                    |
+| Elmer Riva Rodriguez     | Implementación de Beneficios, About Us y Planes                                       |
 
-<img src="img/5/2/1/8/insights.png">
+![insights-1](img/5/2/1/8/insights-1.png)
+![insights-2](img/5/2/1/8/insights-2.png)
+![insights-3](img/5/2/1/8/insights-3.png)
 
 ### 5.2.2 Sprint 2
 
@@ -5630,44 +5860,6 @@ A continuación evidencia en imágen de tres recursos de nuestro Backend.
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Posterior al desarrollo completo del sprint 3, se procedió a utilizar Railway para el despliegue total del backend en la web.
-
-### LINK DEL BACKEND DEPLOYADO: 
-[Documentación Swagger - Workshop N-GINE](https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html)
-
-#### Acceso a Railway: 
-Inicia sesión en Railway preferiblemente utilizando una cuenta de GitHub para facilitar la integración continua. Si aún no tienes cuenta, créala y luego inicia sesión.
-<img src="img/5/2/3/railway/ingresarRailway.png">
-
-#### Creación del Proyecto y Configuración de la Base de Datos
-Crea un nuevo proyecto en Railway. Como primer paso, configura la base de datos seleccionando MySQL. Esto creará automáticamente una instancia de MySQL para tu proyecto.
-<img src="img/5/2/3/railway/newProject.png">\
-
-#### Obtención de Credenciales de la Base de Datos
-Una vez creada la base de datos, accede a los detalles de la instancia para obtener las credenciales necesarias, incluyendo la URL del host, puerto, nombre de usuario y contraseña. Estos datos serán esenciales para configurar la conexión desde tu API.
-<img src="img/5/2/3/railway/getUrl.png">
-
-#### Configuración de la Conexión en el Proyecto Web API
-En el proyecto de la web API, configura la cadena de conexión DefaultConnection con las credenciales de la base de datos que obtuviste en el paso anterior. Asegúrate de que esta configuración esté correcta para evitar problemas de conexión en el despliegue.
-<img src="img/5/2/3/railway/addValues.png">
-
-#### Preparación del Archivo Dockerfile
-En la raíz del proyecto, agrega un archivo Dockerfile. Define las configuraciones necesarias en este archivo para construir y ejecutar la imagen de tu proyecto. Este paso es clave, ya que Railway utilizará el Dockerfile para empaquetar y desplegar tu aplicación.
-<img src="img/5/2/3/railway/addDocker.png">
-
-#### Agregar el Proyecto desde GitHub a Railway
-En Railway, dentro del proyecto, agrega un nuevo servicio. Selecciona la opción para vincular un repositorio de GitHub y elige el repositorio de tu proyecto de la web API.
-<img src="img/5/2/3/railway/newService.png">
-
-#### Selección del Repositorio de la Web API
-Una vez que hayas vinculado GitHub, selecciona el repositorio específico de la web API. Railway comenzará a construir el proyecto usando la imagen de Docker configurada.
-<img src="img/5/2/3/railway/repositorie.png">
-
-#### Cargar y Configurar el Proyecto en Railway
-Espera a que Railway complete la carga y construcción del proyecto con la imagen de Docker. Una vez finalizado, habilita el puerto de acceso público y establece un dominio personalizado o acorde a las configuraciones de inicio para tu API.
-<img src="img/5/2/3/railway/docker.png">
-
-
-Al finalizar estos pasos, la URL de la web API estará lista para su uso y conexión con el frontend del proyecto. Es importante destacar que cualquier cambio que realices en la rama principal del repositorio de GitHub se reflejará automáticamente en el despliegue de la web API, lo cual permite mantener el proyecto actualizado sin necesidad de redeployar manualmente.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint. 
 
