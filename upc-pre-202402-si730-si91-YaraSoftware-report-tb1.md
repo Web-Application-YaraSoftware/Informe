@@ -4239,12 +4239,66 @@ En esta sección se detallan las convenciones de estilo y buenas prácticas que 
 
 ### 5.1.4. Software Deployment Configuration
 
-Netlify es una plataforma de alojamiento web y despliegue continuo que simplifica el lanzamiento de sitios web y aplicaciones estáticas. Funciona de la siguiente manera:
-Integración con repositorios Git: Se sincroniza con plataformas como GitHub, GitLab y Bitbucket. Cada vez que se actualiza el código en el repositorio, Netlify inicia automáticamente el proceso de construcción y despliegue.
-Proceso de construcción: Convierte el código (HTML, CSS, JavaScript) en un sitio estático, realizando tareas como la compilación de archivos y optimización de imágenes.
-Red CDN: Una vez construida, la aplicación es desplegada a través de su red de distribución de contenido (CDN) global, garantizando un rendimiento rápido y accesible.
-Vistas previas automáticas: Para cada rama de tu repositorio, genera vistas previas automáticas, facilitando la revisión de cambios antes de fusionarlos con la rama principal.
-Publicaciones automáticas: Configura despliegues automáticos para cada pull request o fusión, lo que garantiza que el sitio esté siempre actualizado con la última versión del código.
+En esta sección se detallan las actividades de configuración del despliegue del software, incluyendo los productos de la landing page, servicios y aplicaciones.
+
+**Landing Page Deployment**
+
+La landing page se desplegará en Netlify, una plataforma de alojamiento web y despliegue continuo. 
+Se seguirán los siguientes pasos para el despliegue de la landing page:
+
+1. Crear una cuenta en Netlify con GitHub.
+![Step1-landing-page](img/5/1/4/landing-page/step1.png)
+2. Importar el repositorio de la landing page en Netlify.
+![Step2-landing-page](img/5/1/4/landing-page/step2.png)
+3. Conectar el repositorio de la landing page en GitHub a Netlify.
+![Step3-landing-page](img/5/1/4/landing-page/step3.png)
+4. Configurar las opciones de despliegue, como el directorio de construcción y las variables de entorno.
+![Step4-landing-page](img/5/1/4/landing-page/step4.png)
+5. Desplegar la landing page en Netlify.
+![Step5-landing-page](img/5/1/4/landing-page/step5.png)
+
+Enlace para acceder a la landing page desplegada:
+
+[https://web-landing-page-workshop-n-gine.netlify.app/](https://web-landing-page-workshop-n-gine.netlify.app/)
+
+**Frontend Web Application Deployment**
+
+La aplicación web se desplegará en Netlify, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la aplicación web, considerando que se ha realizado la configuración de la landing page:
+
+1. Conectar el repositorio de la aplicación web en GitHub a Netlify.
+![Step1-frontend-web-application](img/5/1/4/frontend/step1.png)
+2. Configurar las opciones de despliegue, como el directorio de construcción y las variables de entorno.
+![Step2-frontend-web-application](img/5/1/4/frontend/step2.png)
+![Step3-frontend-web-application](img/5/1/4/frontend/step3.png)
+3. Desplegar la aplicación web en Netlify.
+![Step4-frontend-web-application](img/5/1/4/frontend/step4.png)
+
+Enlace para acceder a la aplicación web desplegada:
+
+[https://web-workshop-n-gine.netlify.app/](https://web-workshop-n-gine.netlify.app/)
+
+**Web Services Deployment**
+
+La API RESTful se desplegará en Railway, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la API RESTful:
+
+1. Acceder a Railway con una cuenta de GitHub.
+![Step1-web-services](img/5/1/4/backend/ingresarRailway.png)
+2. Crear un nuevo proyecto en Railway y configurar la base de datos.
+![Step2-web-services](img/5/1/4/backend/newProject.png)
+3. Obtener las credenciales de la base de datos y configurar la conexión en el proyecto de la API.
+![Step3-web-services](img/5/1/4/backend/getUrl.png)
+4. Preparar el archivo Dockerfile en el proyecto de la API.
+![Step4-web-services](img/5/1/4/backend/addDocker.png)
+5. Agregar el proyecto desde GitHub a Railway y configurar el despliegue.
+![Step5-web-services](img/5/1/4/backend/newService.png)
+6. Cargar y configurar el proyecto en Railway.
+![Step6-web-services](img/5/1/4/backend/docker.png)
+
+Enlace para acceder a la documentación Swagger de la API RESTful desplegada:
+
+[https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html](https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html)
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -5740,44 +5794,6 @@ A continuación evidencia en imágen de tres recursos de nuestro Backend.
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Posterior al desarrollo completo del sprint 3, se procedió a utilizar Railway para el despliegue total del backend en la web.
-
-### LINK DEL BACKEND DEPLOYADO: 
-[Documentación Swagger - Workshop N-GINE](https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html)
-
-#### Acceso a Railway: 
-Inicia sesión en Railway preferiblemente utilizando una cuenta de GitHub para facilitar la integración continua. Si aún no tienes cuenta, créala y luego inicia sesión.
-<img src="img/5/2/3/railway/ingresarRailway.png">
-
-#### Creación del Proyecto y Configuración de la Base de Datos
-Crea un nuevo proyecto en Railway. Como primer paso, configura la base de datos seleccionando MySQL. Esto creará automáticamente una instancia de MySQL para tu proyecto.
-<img src="img/5/2/3/railway/newProject.png">\
-
-#### Obtención de Credenciales de la Base de Datos
-Una vez creada la base de datos, accede a los detalles de la instancia para obtener las credenciales necesarias, incluyendo la URL del host, puerto, nombre de usuario y contraseña. Estos datos serán esenciales para configurar la conexión desde tu API.
-<img src="img/5/2/3/railway/getUrl.png">
-
-#### Configuración de la Conexión en el Proyecto Web API
-En el proyecto de la web API, configura la cadena de conexión DefaultConnection con las credenciales de la base de datos que obtuviste en el paso anterior. Asegúrate de que esta configuración esté correcta para evitar problemas de conexión en el despliegue.
-<img src="img/5/2/3/railway/addValues.png">
-
-#### Preparación del Archivo Dockerfile
-En la raíz del proyecto, agrega un archivo Dockerfile. Define las configuraciones necesarias en este archivo para construir y ejecutar la imagen de tu proyecto. Este paso es clave, ya que Railway utilizará el Dockerfile para empaquetar y desplegar tu aplicación.
-<img src="img/5/2/3/railway/addDocker.png">
-
-#### Agregar el Proyecto desde GitHub a Railway
-En Railway, dentro del proyecto, agrega un nuevo servicio. Selecciona la opción para vincular un repositorio de GitHub y elige el repositorio de tu proyecto de la web API.
-<img src="img/5/2/3/railway/newService.png">
-
-#### Selección del Repositorio de la Web API
-Una vez que hayas vinculado GitHub, selecciona el repositorio específico de la web API. Railway comenzará a construir el proyecto usando la imagen de Docker configurada.
-<img src="img/5/2/3/railway/repositorie.png">
-
-#### Cargar y Configurar el Proyecto en Railway
-Espera a que Railway complete la carga y construcción del proyecto con la imagen de Docker. Una vez finalizado, habilita el puerto de acceso público y establece un dominio personalizado o acorde a las configuraciones de inicio para tu API.
-<img src="img/5/2/3/railway/docker.png">
-
-
-Al finalizar estos pasos, la URL de la web API estará lista para su uso y conexión con el frontend del proyecto. Es importante destacar que cualquier cambio que realices en la rama principal del repositorio de GitHub se reflejará automáticamente en el despliegue de la web API, lo cual permite mantener el proyecto actualizado sin necesidad de redeployar manualmente.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint. 
 
