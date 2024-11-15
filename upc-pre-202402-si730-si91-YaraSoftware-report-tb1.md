@@ -3830,425 +3830,243 @@ En esta sección se describen los Diagramas de Clases, que representan la estruc
 
 ### 4.7.1. Class Diagrams
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/classDiagram/classDiagram.png" width="1000px">
+  <img src="img/4/classDiagram/class-diagram.png" width="1000px">
 </div>
 
 ### 4.7.2. Class Dictionary
-<h3>Class User</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique code for a user</td>
-    </tr>
-    <tr>
-      <td>firstName</td>
-      <td>string</td>
-      <td>First name of a user</td>
-    </tr>
-    <tr>
-      <td>lastName</td>
-      <td>string</td>
-      <td>Last name of a user</td>
-    </tr>
-    <tr>
-      <td>dni</td>
-      <td>string</td>
-      <td>Identification number of a user</td>
-    </tr>
-    <tr>
-      <td>email</td>
-      <td>string</td>
-      <td>Email address of the user</td>
-    </tr>
-    <tr>
-      <td>state</td>
-      <td>AccountState</td>
-      <td>Status of the user account (active, inactive, hidden)</td>
-    </tr>
-  </tbody>
-</table>
 
-<h3>Class Mechanic</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>assignTask</td>
-      <td>Task, Mechanic</td>
-      <td>Assign a task to the mechanic</td>
-    </tr>
-    <tr>
-      <td>completeTask</td>
-      <td>Task</td>
-      <td>Complete the assigned task</td>
-    </tr>
-    <tr>
-      <td>requestItem</td>
-      <td>InventoryItem, quantity</td>
-      <td>Request an item from the inventory</td>
-    </tr>
-  </tbody>
-</table>
+`Identity and Access Management`
 
-<h3>Class WorkshopOwner</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>viewInventory</td>
-      <td>List&lt;InventoryItem&gt;</td>
-      <td>View the workshop's inventory</td>
-    </tr>
-  </tbody>
-</table>
+**Class User**
 
-<h3>Class WorkshopClient</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>vehicles</td>
-      <td>List&lt;Vehicle&gt;</td>
-      <td>List of vehicles registered by the client</td>
-    </tr>
-    <tr>
-      <td>registerVehicle</td>
-      <td>Vehicle</td>
-      <td>Register a new vehicle</td>
-    </tr>
-    <tr>
-      <td>viewInterventionStatus</td>
-      <td>Intervention</td>
-      <td>View status of a specific intervention</td>
-    </tr>
-  </tbody>
-</table>
+Esta clase representa un aggregate root que encapsula la información de un usuario en el sistema. Contiene atributos como id, username, password, state, role y workshopId.
 
-<h3>Class Vehicle</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique code for the vehicle</td>
-    </tr>
-    <tr>
-      <td>licensePlate</td>
-      <td>string</td>
-      <td>License plate of the vehicle</td>
-    </tr>
-    <tr>
-      <td>brand</td>
-      <td>string</td>
-      <td>Brand of the vehicle</td>
-    </tr>
-    <tr>
-      <td>model</td>
-      <td>string</td>
-      <td>Model of the vehicle</td>
-    </tr>
-    <tr>
-      <td>scanList</td>
-      <td>List&lt;Scan&gt;</td>
-      <td>List of scans performed on the vehicle</td>
-    </tr>
-  </tbody>
-</table>
+| Attribute  | Type          | Description                                                 |
+|------------|---------------|-------------------------------------------------------------|
+| id         | int           | Unique identifier for the user                              |
+| username   | string        | Username for the user account                               |
+| password   | string        | Password for the user account                               |
+| state      | AccountStatus | Status of the user account (e.g., active, inactive, hidden) |
+| role       | Role          | Role assigned to the user                                   |
+| workshopId | Long          | Identifier for the workshop associated with the user        |
 
-<h3>Class Workshop</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the workshop</td>
-    </tr>
-    <tr>
-      <td>owner</td>
-      <td>WorkshopOwner</td>
-      <td>Owner of the workshop</td>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td>string</td>
-      <td>Name of the workshop</td>
-    </tr>
-    <tr>
-      <td>inventory</td>
-      <td>List&lt;InventoryItem&gt;</td>
-      <td>List of items in the workshop's inventory</td>
-    </tr>
-    <tr>
-      <td>inventoryRequests</td>
-      <td>List&lt;ItemRequest&gt;</td>
-      <td>List of inventory requests made to the workshop</td>
-    </tr>
-    <tr>
-      <td>interventionList</td>
-      <td>List&lt;Intervention&gt;</td>
-      <td>List of interventions registered in the workshop</td>
-    </tr>
-  </tbody>
-</table>
+**Class Role**
 
-<h3>Class Intervention</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the intervention</td>
-    </tr>
-    <tr>
-      <td>workshop</td>
-      <td>Workshop</td>
-      <td>Workshop where the intervention is performed</td>
-    </tr>
-    <tr>
-      <td>leader</td>
-      <td>Mechanic</td>
-      <td>Mechanic in charge of the intervention</td>
-    </tr>
-    <tr>
-      <td>vehicle</td>
-      <td>Vehicle</td>
-      <td>Vehicle involved in the intervention</td>
-    </tr>
-    <tr>
-      <td>client</td>
-      <td>WorkshopClient</td>
-      <td>Client who owns the vehicle</td>
-    </tr>
-    <tr>
-      <td>state</td>
-      <td>InterventionState</td>
-      <td>Current status of the intervention</td>
-    </tr>
-    <tr>
-      <td>registrationDate</td>
-      <td>datetime</td>
-      <td>Date of registration for the intervention</td>
-    </tr>
-    <tr>
-      <td>completionDate</td>
-      <td>datetime</td>
-      <td>Date of completion for the intervention</td>
-    </tr>
-    <tr>
-      <td>taskList</td>
-      <td>List&lt;Task&gt;</td>
-      <td>List of tasks associated with the intervention</td>
-    </tr>
-  </tbody>
-</table>
+Esta clase representa una entity que define los roles disponibles en el sistema. Contiene atributos como id y name.
 
-<h3>Class Task</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the task</td>
-    </tr>
-    <tr>
-      <td>assistant</td>
-      <td>Mechanic</td>
-      <td>Mechanic assigned to assist with the task</td>
-    </tr>
-    <tr>
-      <td>intervention</td>
-      <td>Intervention</td>
-      <td>Intervention to which the task is related</td>
-    </tr>
-    <tr>
-      <td>requestList</td>
-      <td>List&lt;ItemRequest&gt;</td>
-      <td>List of inventory requests related to the task</td>
-    </tr>
-    <tr>
-      <td>state</td>
-      <td>TaskState</td>
-      <td>Status of the task (pending, done, etc.)</td>
-    </tr>
-  </tbody>
-</table>
+| Attribute | Type   | Description                    |
+|-----------|--------|--------------------------------|
+| id        | Long   | Unique identifier for the role |
+| name      | String | Name of the role               |
 
-<h3>Class ItemRequest</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the item request</td>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td>string</td>
-      <td>Name of the requested item</td>
-    </tr>
-    <tr>
-      <td>amount</td>
-      <td>int</td>
-      <td>Amount of the requested item</td>
-    </tr>
-    <tr>
-      <td>requester</td>
-      <td>Mechanic</td>
-      <td>Mechanic who made the request</td>
-    </tr>
-  </tbody>
-</table>
+`Profile Management`
 
-<h3>Class InventoryItem</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the inventory item</td>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td>string</td>
-      <td>Name of the inventory item</td>
-    </tr>
-    <tr>
-      <td>amount</td>
-      <td>int</td>
-      <td>Available amount of the item</td>
-    </tr>
-    <tr>
-      <td>updateStock</td>
-      <td>quantity</td>
-      <td>Update the stock of the inventory item</td>
-    </tr>
-  </tbody>
-</table>
+**Class Profile**
 
-<h3>Class Scan</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the scan</td>
-    </tr>
-    <tr>
-      <td>scanDate</td>
-      <td>datetime</td>
-      <td>Date when the scan was performed</td>
-    </tr>
-    <tr>
-      <td>codeList</td>
-      <td>List&lt;Code&gt;</td>
-      <td>List of error codes found in the scan</td>
-    </tr>
-  </tbody>
-</table>
+Esta clase representa un aggregate root que encapsula la información de un perfil de usuario. Contiene atributos como id, firstName, lastName, dni, email, age, location y userId.
 
-<h3>Class Code</h3>
-<table border="1" cellpadding="10" cellspacing="0" style="width:100%;">
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>int</td>
-      <td>Unique identifier for the code</td>
-    </tr>
-    <tr>
-      <td>code</td>
-      <td>string</td>
-      <td>Error code detected in the scan</td>
-    </tr>
-    <tr>
-      <td>description</td>
-      <td>string</td>
-      <td>Description of the error code</td>
-    </tr>
-  </tbody>
-</table>
+| Attribute | Type    | Description                       |
+|-----------|---------|-----------------------------------|
+| id        | Long    | Unique identifier for the profile |
+| firstName | string  | First name of the user            |
+| lastName  | string  | Last name of the user             |
+| dni       | Number  | Identification number of the user |
+| email     | string  | Email address of the user         |
+| age       | Integer | Age of the user                   |
+| location  | String  | Location of the user              |
+| userId    | Long    | Identifier of the associated user |
+
+`Service Management`
+
+**Class Workshop**
+
+Esta clase representa un aggregate root que encapsula la información de un taller. Contiene atributos como id y name.
+
+| Attribute | Type   | Description                        |
+|-----------|--------|------------------------------------|
+| id        | Long   | Unique identifier for the workshop |
+| name      | String | Name of the workshop               |
+
+**Class Vehicle**
+
+Esta clase reprensenta un aggregate root que encapsula la información de un vehículo. Contiene atributos como id, licensePlate, brand, model, image, userId y iotDeviceId.
+
+| Attribute    | Type   | Description                                               |
+|--------------|--------|-----------------------------------------------------------|
+| id           | Long   | Unique identifier for the vehicle                         |
+| licensePlate | String | License plate of the vehicle                              |
+| brand        | String | Brand of the vehicle                                      |
+| model        | String | Model of the vehicle                                      |
+| image        | String | Image URL of the vehicle                                  |
+| userId       | long   | Identifier of the user who owns the vehicle               |
+| iotDeviceId  | Long   | Identifier for the IoT device associated with the vehicle |
+
+**Class Intervention**
+
+Esta clase representa un aggregate root que encapsula la información de una intervención. Contiene atributos como id, workshopId, mechanicLeaderId, vehicleId, scheduledAt, startedAt, completedAt, type, status, taskList y description.
+
+| Attribute        | Type                 | Description                                                 |
+|------------------|----------------------|-------------------------------------------------------------|
+| id               | Long                 | Unique identifier for the intervention                      |
+| workshopId       | Long                 | Identifier of the workshop associated with the intervention |
+| mechanicLeaderId | Long                 | Identifier of the mechanic leader for the intervention      |
+| vehicleId        | Long                 | Identifier of the vehicle for the intervention              |
+| scheduledAt      | LocalDateTime        | Scheduled date and time for the intervention                |
+| startedAt        | LocalDateTime        | Start date and time of the intervention                     |
+| completedAt      | LocalDateTime        | Completion date and time of the intervention                |
+| type             | InterventionType     | Type of intervention (e.g., reparation, maintenance)        |
+| status           | InterventionStatuses | Current status of the intervention                          |
+| taskList         | List<Task>           | List of tasks associated with the intervention              |
+| description      | String               | Description of the intervention                             |
+
+**Class Task**
+
+Esta clase representa una entity que encapsula la información de una tarea. Contiene atributos como id, mechanicAssignedId, intervention, tracking, state y description.
+
+| Attribute          | Type             | Description                                                  |
+|--------------------|------------------|--------------------------------------------------------------|
+| id                 | Long             | Unique identifier for the task                               |
+| mechanicAssignedId | Long             | Identifier of the mechanic assigned to the task              |
+| intervention       | Intervention     | Intervention associated with the task                        |
+| tracking           | List<Checkpoint> | List of checkpoints tracking the task                        |
+| state              | TaskState        | Current state of the task (e.g., pending, in progress, done) |
+| description        | String           | Description of the task                                      |
+
+**Class Checkpoint**
+
+Esta clase representa una entity que encapsula la información de un checkpoint. Contiene atributos como id, name y task.
+
+| Attribute | Type   | Description                          |
+|-----------|--------|--------------------------------------|
+| id        | Long   | Unique identifier for the checkpoint |
+| name      | String | Name of the checkpoint               |
+| task      | Task   | Task associated with the checkpoint  |
+
+`Inventory Management`
+
+**Class Product**
+
+Esta clase representa un aggregate root que encapsula la información de un producto en el inventario. Contiene atributos como id, name, description, stockQuantity, lowStockThreshold y workshopId.
+
+| Attribute         | Type    | Description                                      |
+|-------------------|---------|--------------------------------------------------|
+| id                | Long    | Unique identifier for the product                |
+| name              | String  | Name of the product                              |
+| description       | String  | Description of the product                       |
+| stockQuantity     | Integer | Current stock quantity of the product            |
+| lowStockThreshold | Integer | Threshold quantity to trigger low stock alerts   |
+| workshopId        | Long    | Identifier of the workshop that owns the product |
+
+**Class ProductRequest**
+
+Esta clase representa un aggregate root que encapsula la información de una solicitud de producto. Contiene atributos como id, requestedQuantity, taskId, productId, workshopId y status.
+
+| Attribute         | Type                   | Description                                                       |
+|-------------------|------------------------|-------------------------------------------------------------------|
+| id                | Long                   | Unique identifier for the product request                         |
+| requestedQuantity | Integer                | Quantity of the product requested                                 |
+| taskId            | Long                   | Identifier of the task associated with the product request        |
+| productId         | Long                   | Identifier of the requested product                               |
+| workshopId        | Long                   | Identifier of the workshop making the request                     |
+| status            | ProductRequestStatuses | Status of the product request (e.g., pending, accepted, rejected) |
+
+`Device Management`
+
+**Class IoTDevice**
+
+Esta clase representa un aggregate root que encapsula la información de un dispositivo IoT. Contiene atributos como id, codeList, vehicleId.
+
+| Attribute | Type       | Description                                        |
+|-----------|------------|----------------------------------------------------|
+| id        | Long       | Unique identifier for the IoT device               |
+| codeList  | List<Code> | List of codes associated with the IoT device       |
+| vehicleId | Long       | Identifier of the vehicle linked to the IoT device |
+
+**Class Code**
+
+Esta clase representa una entity que encapsula la información de un código generado por un dispositivo IoT. Contiene atributos como id, component, errorCode, description, lastUpdated, iot, state.
+
+| Attribute   | Type      | Description                             |
+|-------------|-----------|-----------------------------------------|
+| id          | int       | Unique identifier for the code          |
+| component   | string    | Component name associated with the code |
+| errorCode   | string    | Error code generated by the IoT device  |
+| description | string    | Description of the error or code        |
+| lastUpdated | Date      | Date when the code was last updated     |
+| iot         | IoT       | IoT device associated with the code     |
+| state       | CodeState | State of the code (e.g., failed, good)  |
+
+`Communication Management`
+
+**Class Notification**
+
+Esta clase representa un aggregate root que encapsula la información de una notificación. Contiene atributos como id, date, content, userId, state, endpoint.
+
+| Attribute | Type              | Description                                             |
+|-----------|-------------------|---------------------------------------------------------|
+| id        | int               | Unique identifier for the notification                  |
+| date      | datetime          | Date and time when the notification was created         |
+| content   | string            | Content of the notification                             |
+| userId    | Long              | Identifier of the user associated with the notification |
+| state     | NotificationState | State of the notification (e.g., read, unread)          |
+| endpoint  | string            | Endpoint URL related to the notification                |
+
+
+`Subscription Management`
+
+**Class SubscriptionItem**
+
+Esta clase representa un aggregate root que encapsula la información de un ítem de suscripción. Contiene atributos como id, workshopId, userId, planId, status, startedAt, endedAt, cancelledAt, isTrial, trialEndsAt.
+
+| Attribute   | Type               | Description                                                                               |
+|-------------|--------------------|-------------------------------------------------------------------------------------------|
+| id          | Long               | Unique identifier for the subscription item                                               |
+| workshopId  | Long               | Identifier of the workshop associated with the subscription                               |
+| userId      | Long               | Identifier of the user who owns the subscription                                          |
+| planId      | Long               | Identifier of the associated plan                                                         |
+| status      | SubscriptionStatus | Current status of the subscription (e.g., pending activation, active, cancelled, expired) |
+| startedAt   | LocalDateTime      | Date and time when the subscription started                                               |
+| endedAt     | LocalDateTime      | Date and time when the subscription ended                                                 |
+| cancelledAt | LocalDateTime      | Date and time when the subscription was cancelled                                         |
+| isTrial     | Boolean            | Indicates if the subscription is a trial                                                  |
+| trialEndsAt | LocalDateTime      | Date and time when the trial period ends                                                  |
+
+**Class Plan**
+
+Esta clase representa una entity que encapsula la información de un plan de suscripción. Contiene atributos como id, price, durationInMonths, type, cycle, maxMechanics, maxClients, maxActiveInterventions, maxItems, metricsAvailable.
+
+| Attribute              | Type         | Description                                       |
+|------------------------|--------------|---------------------------------------------------|
+| id                     | Long         | Unique identifier for the plan                    |
+| price                  | Decimal      | Price of the plan                                 |
+| durationInMonths       | Integer      | Duration of the plan in months                    |
+| type                   | PlanType     | Type of the plan (e.g., basic, standard, premium) |
+| cycle                  | BillingCycle | Billing cycle of the plan (e.g., monthly, annual) |
+| maxMechanics           | Integer      | Maximum number of mechanics allowed               |
+| maxClients             | Integer      | Maximum number of clients allowed                 |
+| maxActiveInterventions | Integer      | Maximum number of active interventions allowed    |
+| maxItems               | Integer      | Maximum number of items allowed in inventory      |
+| metricsAvailable       | Boolean      | Indicates if metrics are available with the plan  |
+
+
+`Billing Management`
+
+**Class Invoice**
+
+Esta clase representa un aggregate root que encapsula la información de una factura. Contiene atributos como id, subscriptionId, workshopId, planId, amount, status, issueDate, dueDate, paymentDate.
+
+| Attribute      | Type          | Description                                                   |
+|----------------|---------------|---------------------------------------------------------------|
+| id             | Long          | Unique identifier for the invoice                             |
+| subscriptionId | Long          | Identifier of the associated subscription                     |
+| workshopId     | Long          | Identifier of the workshop linked to the invoice              |
+| planId         | Long          | Identifier of the plan related to the invoice                 |
+| amount         | Integer       | Amount to be paid in the invoice                              |
+| status         | InvoiceStatus | Current status of the invoice (e.g., pending, paid, rejected) |
+| issueDate      | LocalDateTime | Date and time when the invoice was issued                     |
+| dueDate        | LocalDateTime | Date and time when the invoice is due                         |
+| paymentDate    | LocalDateTime | Date and time when the invoice was paid                       |
+
 
 ## 4.8. Database Design
 
