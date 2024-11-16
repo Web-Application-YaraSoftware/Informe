@@ -4966,10 +4966,19 @@ Enlace para acceder al servicio de backend falso: [JSON Server](https://my-json-
 |-----------------------------------------------------------------|--------|------------------------------------------|-----------------------|-----------------------|--------------------------|
 | https://github.com/Web-Application-YaraSoftware/Json-Server-Api | main   | 93ba6766244194dff2ef7691d5ebc07b09681fd0 | chore: update db.json | chore: update db.json | Fri Nov 15 22:58:49 2024 |
 
-
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Posterior al desarrollo completo del sprint 2, se procedió a utilizar Netlify para el despliegue total de la página a internet. 
+Para la entrega del 2 sprint, se desplegó el frontend web application.
+
+Ante lo mencionado, se certifica que el frontend de la aplicación web se encuentra desplegado correctamente en Netlify, usando la rama principal del repositorio(`main`).
+De ese modo, se incluyen las configuraciones necesarias para el despliegue de la aplicación:
+* Command: `npm run build`
+* Publish directory: `dist`
+* Production branch: `main`
+
+![Certificado de despliegue](img/5/2/2/7/certificate-frontend-netlify.png)
+
+- Captura de pantalla del frontend web application:
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint. 
 
