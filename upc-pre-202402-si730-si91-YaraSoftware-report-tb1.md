@@ -5300,18 +5300,22 @@ De ese modo, se incluyen las configuraciones necesarias para el despliegue de la
 | Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Sprint 3 Goal                   | Nuestro enfoque está en ofrecer mayor informacion del producto y del equipo,brindar soporte completo al proceso de ejecución de intervenciones y generar métricas, y permitir incrementar las posibilidades de nuevas características. <br> Creemos que esto facilitará la elección del producto y generará confianza a los visitantes, aumentará la eficiencia operativa de las intervenciones y mejorará la toma de decisiones para mecánicos y dueños de talleres, y permitirá implementar nuevas funcionalidades para los desarrolladores. <br> Esto se confirmará cuando los usuarios se suscriban y se vuelvan clientes, cuando los mecánicos registren todo el ciclo de vida de una intervencion y los dueños del taller revisen los reportes, y cuando se desarrollen los endpoints relacionados a los talleres, vehiculos, aparatos IoTs, intervenciones, notificaciones, perfiles y usuarios. |
-| Sprint 3 Velocity               | 75                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Sum of Story Points             | 75                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 3 Velocity               | 65                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sum of Story Points             | 65                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 #### 5.2.3.2. Sprint Backlog 3
 
-El objetivo del sprint 3 es mejorar la landing page agregando videos del equipo y del producto en la sección "About Us", enriquecer el flujo de ejecución de intervenciones y generar métricas, y permitir incrementar las posibilidades de nuevas características
+En el sprint 3, el equipo completo en gran medida el frontend y el backend de la web application. 
+Asimismo, se agregó los videos de presentación del equipo y del producto en la sección "About Us".
 
-Durante todo el sprint 3 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+La herramienta de gestión de proyectos utilizada para el sprint 3 fue Trello, donde se registraron las tareas a realizar y su estado.
 
-<img src="img/5/2/3/trello_board.png">
+![Trello Sprint 3](img/5/2/3/2/trello_board_3.png)
 
-A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+Enlace al tablero de Trello: 
+[https://trello.com/b/O8R426lO/sprint-3](https://trello.com/b/O8R426lO/sprint-3)
+
+A continuación, se procede a detallar en una tabla las user story y technical stories vinculadas a sus tareas, con una breve descripción, estimación en horas y qué miembro del equipo la llevo a cabo.
 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
@@ -5333,511 +5337,21 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <th>Status (To-do / In-Process / To-Review / Done)</th>
   </tr>
   <tr>  
-    <td>US-07</td>
-    <td>Detalles de cliente</td>
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
     <td>TK-01</td>
-    <td>Crear interfaz de detalles de cliente </td>
-    <td>Diseñar la pantalla para mostrar información detallada del cliente y sus vehículos.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-07</td>
-    <td>Detalles de cliente</td>
-    <td>TK-02</td>
-    <td>Editar y actualizar datos</td>
-    <td>Permitir la edición de los datos del cliente y enviar cambios al backend.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-07</td>
-    <td>Detalles de cliente</td>
-    <td>TK-03</td>
-    <td>Eliminar cliente</td>
-    <td>Implementar funcionalidad para cambiar el estado del cliente a inactivo.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-07</td>
-    <td>Detalles de cliente</td>
-    <td>TK-04</td>
-    <td>Restaurar cliente</td>
-    <td>Permitir restaurar clientes inactivos desde la interfaz de clientes.</td>
-    <td>3</td>
-    <td>Elmer Riva</td>
-    <td>Not done</td>
-  </tr>
-  <tr>  
-    <td>US-10</td>
-    <td>Detalles de intervención</td>
-    <td>TK-05</td>
-    <td>Crear detalles de intervención</td>
-    <td>Diseñar la interfaz para mostrar la información completa de una intervención</td>
-    <td>3</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-10</td>
-    <td>Detalles de intervención</td>
-    <td>TK-06</td>
-    <td>Modificar intervención</td>
-    <td>Permitir la edición de la intervención si está en estado pendiente.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-10</td>
-    <td>Detalles de intervención</td>
-    <td>TK-07</td>
-    <td>Guardar cambios</td>
-    <td>Implementar funcionalidad para guardar los cambios realizados.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-10</td>
-    <td>Detalles de intervención</td>
-    <td>TK-08</td>
-    <td>Cancelar intervención </td>
-    <td>Permitir la cancelación de la intervención si está en estado pendiente.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-09</td>
-    <td>Crear la interfaz de inventario</td>
-    <td>Mostrar las existencias del inventario, incluyendo el nombre, cantidad, límite, y descripción.</td>
-    <td>3</td>
-    <td>Eric Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-10</td>
-    <td>Añadir entrada de inventario </td>
-    <td>Implementar un formulario para añadir una nueva entrada de inventario.</td>
-    <td>2</td>
-    <td>Eric Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-11</td>
-    <td>Modificar entrada de inventario:</td>
-    <td>Permitir la modificación de las entradas existentes desde la misma interfaz.</td>
-    <td>2</td>
-    <td>Eric Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-12</td>
-    <td>Guardar cambios de inventario</td>
-    <td>Implementar funcionalidad para guardar los cambios realizados en las entradas de inventario.</td>
-    <td>2</td>
-    <td>Eric Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-13</td>
-    <td>Ordenar por campos</td>
-    <td>Agregar funcionalidad para ordenar el inventario según los campos seleccionados</td>
-    <td>1</td>
-    <td>Eric Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-12</td>
-    <td>Solicitudes de inventario</td>
-    <td>TK-14</td>
-    <td>Crear interfaz de solicitudes de inventario</td>
-    <td>Mostrar las solicitudes pendientes de los mecánicos, incluyendo el mecánico solicitante, la pieza, la cantidad solicitada y la fecha de solicitud.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-12</td>
-    <td>Solicitudes de inventario</td>
-    <td>TK-15</td>
-    <td>Guardar cambios en solicitudes</td>
-    <td>Permitir la selección de solicitudes y su posterior eliminación de la lista tras guardar cambios</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-12</td>
-    <td>Solicitudes de inventario</td>
-    <td>TK-16</td>
-    <td>Deshacer cambios</td>
-    <td>Implementar funcionalidad para revertir las acciones si se decide no realizar los cambios.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-12</td>
-    <td>Solicitudes de inventario</td>
-    <td>TK-17</td>
-    <td>Ordenar solicitudes por campos</td>
-    <td>Agregar funcionalidad para ordenar las solicitudes según los campos seleccionados</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-15</td>
-    <td>Mis tareas - líder</td>
-    <td>TK-18</td>
-    <td>Mostrar lista de tareas</td>
-    <td>Mostrar las tareas correspondientes a las intervenciones en las que el usuario es líder, con campos como cliente, fecha, y modalidad</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-15</td>
-    <td>Mis tareas - líder</td>
-    <td>TK-19</td>
-    <td>Mostrar etiqueta de líder</td>
-    <td>Incluir una etiqueta en cada tarea que indique que el usuario es el líder de la intervención.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-15</td>
-    <td>Mis tareas - líder</td>
-    <td>TK-20</td>
-    <td>Acceso a más información</td>
-    <td>Permitir que el líder pueda hacer clic en las tareas para ver más información, como diagnóstico y preparación.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-16</td>
-    <td>Mis tareas - asistente</td>
-    <td>TK-21</td>
-    <td>Mostrar lista de tareas del asistente</td>
-    <td>Mostrar las tareas correspondientes a las intervenciones en las que el usuario es asistente, con los campos correspondientes</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-16</td>
-    <td>Mis tareas - asistente</td>
-    <td>TK-22</td>
-    <td>Mostrar etiqueta de asistente</td>
-    <td>Incluir una etiqueta en cada tarea que indique que el usuario es el asistente en la intervención</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-16</td>
-    <td>Mis tareas - asistente</td>
-    <td>TK-23</td>
-    <td>Acceso a más información</td>
-    <td>Permitir al asistente hacer clic en las tareas para ver más detalles de la intervención.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-17</td>
-    <td>Información de intervención</td>
-    <td>TK-24</td>
-    <td>Mostrar resumen IoT</td>
-    <td>Mostrar un resumen de la información obtenida por el análisis OBD-IoT, con campos como componente, estado y código de error.</td>
-    <td>3</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-17</td>
-    <td>Información de intervención</td>
-    <td>TK-25</td>
-    <td>Mostrar información general</td>
-    <td>Mostrar información general de la intervención, como cliente, vehículo, fecha, entre otros</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-17</td>
-    <td>Información de intervención</td>
-    <td>TK-26</td>
-    <td>Mostrar registro de intervenciones anteriores</td>
-    <td>Permitir ver un registro de intervenciones anteriores asociadas al vehículo</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-17</td>
-    <td>Información de intervención</td>
-    <td>TK-27</td>
-    <td>Acceso a detalles de intervenciones anteriores</td>
-    <td>Implementar la funcionalidad para hacer clic en intervenciones anteriores y mostrar sus detalles completos.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-28</td>
-    <td>Mostrar lista de tareas de diagnóstico</td>
-    <td>Mostrar las tareas asociadas a la intervención</td>
-    <td>1</td>
-    <td>Jhosepmy Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-29</td>
-    <td>Añadir tarea</td>
-    <td>Implementar funcionalidad para que el líder de la intervención añada nuevas tareas a la lista</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-30</td>
-    <td>Eliminar tarea</td>
-    <td>Permitir al líder eliminar tareas de la lista</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-31</td>
-    <td>Guardar cambios en el diagnóstico</td>
-    <td>Implementar funcionalidad para guardar los cambios realizados en las tareas.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-32</td>
-    <td>Deshacer cambios</td>
-    <td>Permitir deshacer los cambios y regresar al estado previo</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-33</td>
-    <td>Mostrar tareas asignadas</td>
-    <td>Mostrar la lista de tareas asignadas para la intervención</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-34</td>
-    <td>Añadir tarea</td>
-    <td>Permitir que el líder de la intervención añada tareas adicionales durante la ejecución.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-35</td>
-    <td>Eliminar tarea</td>
-    <td>Implementar funcionalidad para que el líder elimine tareas en ejecución si es necesario.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-36</td>
-    <td>Guardar cambios</td>
-    <td>Permitir guardar los cambios realizados en la intervención.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-37</td>
-    <td>Deshacer cambios</td>
-    <td>Implementar funcionalidad para revertir los cambios si es necesario.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-20</td>
-    <td>Supervisión de intervención</td>
-    <td>TK-38</td>
-    <td>Mostrar estado de las tareas</td>
-    <td>Mostrar la lista de tareas con su estado (completado, pendiente)</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-20</td>
-    <td>Supervisión de intervención</td>
-    <td>TK-39</td>
-    <td>Finalizar intervención</td>
-    <td>Implementar funcionalidad para finalizar la intervención una vez todas las tareas estén completadas.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-40</td>
-    <td>Mostrar lista de vehículos</td>
-    <td>Mostrar todos los vehículos registrados del usuario, con la información relevante (modelo, marca, año).</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-41</td>
-    <td>Agregar vehículo</td>
-    <td>Implementar un formulario para añadir un nuevo vehículo, incluyendo los campos requeridos (marca, modelo, año, placa).</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-42</td>
-    <td>Validar datos del vehículo</td>
-    <td>Validar que los datos ingresados en el formulario sean correctos y completos.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-43</td>
-    <td>Mostrar mensaje de éxito</td>
-    <td>Mostrar una confirmación cuando el vehículo se haya registrado correctamente.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-44</td>
-    <td>Eliminar vehículo</td>
-    <td>Implementar funcionalidad para eliminar un vehículo de la lista registrada.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-22</td>
-    <td>Registro de intervenciones</td>
-    <td>TK-45</td>
-    <td>Mostrar historial de intervenciones</td>
-    <td>Mostrar una línea de tiempo con todas las intervenciones realizadas en un vehículo, ordenadas cronológicamente.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-22</td>
-    <td>Registro de intervenciones</td>
-    <td>TK-46</td>
-    <td>Acceso a detalles de intervención</td>
-    <td>Permitir que el usuario haga clic en una intervención y vea los detalles completos de esa intervención.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-22</td>
-    <td>Registro de intervenciones</td>
-    <td>TK-47</td>
-    <td>Mostrar detalles de intervención</td>
-    <td>Mostrar información detallada de cada intervención, como la fecha, servicios realizados, y costo.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-23</td>
-    <td>Información IoT de vehículo</td>
-    <td>TK-48</td>
-    <td>Mostrar información IoT</td>
-    <td>Implementar una interfaz que muestre la información generada por el dispositivo IoT, como el estado de los componentes y códigos de error.</td>
-    <td>2</td>
-    <td>Erick Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-23</td>
-    <td>Información IoT de vehículo</td>
-    <td>TK-49</td>
-    <td>Mostrar detalles de códigos de error</td>
-    <td>Permitir que el usuario haga clic en un código de error para obtener una explicación detallada de su significado.</td>
-    <td>2</td>
-    <td>Erick Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-23</td>
-    <td>Información IoT de vehículo</td>
-    <td>TK-50</td>
-    <td>Actualizar información en tiempo real</td>
-    <td>Implementar la actualización automática de la información IoT cada cierto intervalo de tiempo para reflejar el estado actual del vehículo.</td>
-    <td>2</td>
-    <td>Erick Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-24</td>
-    <td>Agendar cita de intervención</td>
-    <td>TK-51</td>
     <td>Crear formulario de agendar cita</td>
-    <td>Diseñar un formulario donde el usuario pueda seleccionar una fecha y modalidad para agendar la cita.</td>
+    <td>Diseñar y crear un formulario que permita a los usuarios ingresar los detalles de la cita, como fecha, modalidad y notas opcionales.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-02</td>
+    <td>Agregar validación de fecha de cita</td>
+    <td>Implementar validaciones para asegurar que las fechas ingresadas no sean en el pasado o días no laborables.</td>
     <td>2</td>
     <td>Erick Hernandez</td>
     <td>Done</td>
@@ -5845,115 +5359,736 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
   <tr>  
     <td>US-24</td>
     <td>Agendar cita de intervención</td>
-    <td>TK-52</td>
-    <td>Validar datos de la cita</td>
-    <td>Validar que los datos ingresados (fecha, modalidad) sean correctos y válidos</td>
+    <td>TK-03</td>
+    <td>Agregar mensaje de confirmación de cita</td>
+    <td>Mostrar un mensaje de confirmación amigable cuando la cita se haya registrado correctamente, y redirigir a la página de información del vehículo.</td>
     <td>2</td>
     <td>Erick Hernandez</td>
     <td>Done</td>
   </tr>
   <tr>  
-    <td>US-24</td>
-    <td>Agendar cita de intervención</td>
-    <td>TK-53</td>
-    <td>Mostrar confirmación de cita</td>
-    <td>Mostrar una notificación cuando la cita se haya agendado correctamente y enviar una confirmación al taller.</td>
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-04</td>
+    <td>Crear formulario de registro de clientes y personal</td>
+    <td>Diseñar un formulario que permita al dueño del taller ingresar los datos básicos de los clientes y personal, como nombre, correo electrónico y teléfono.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-05</td>
+    <td>Agregar validaciones a los campos del formulario</td>
+    <td>Implementar validaciones para los campos obligatorios, asegurando que los datos se ingresen en el formato correcto.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-06</td>
+    <td>Mostrar mensajes de error en el registro</td>
+    <td>Agregar mensajes claros y descriptivos cuando los datos ingresados sean inválidos o falten campos obligatorios.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-07</td>
+    <td>Crear página de registro de usuario</td>
+    <td>Diseñar la interfaz para la página de registro que permita al dueño del taller ingresar datos como nombre, correo electrónico y contraseña.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-08</td>
+    <td>Implementar validación de campos requeridos</td>
+    <td>Agregar validaciones para asegurarse de que todos los campos necesarios estén completos antes de enviar el formulario.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-09</td>
+    <td>Agregar mensaje de confirmación de registro</td>
+    <td>Mostrar un mensaje al usuario indicando que el registro fue exitoso y que se ha enviado un correo de confirmación.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-10</td>
+    <td>Crear interfaz para mostrar detalles de intervención</td>
+    <td>Diseñar una interfaz que muestre información importante de la intervención, como cliente, vehículo, y modalidad.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-11</td>
+    <td>Mostrar información de IoT</td>
+    <td>Agregar una sección en la pantalla de detalles de la intervención que muestre un resumen de la información más reciente del análisis OBD-IoT.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-12</td>
+    <td>Implementar botón para acceso a intervenciones anteriores</td>
+    <td>Incluir un botón que permita a los usuarios acceder al historial de intervenciones realizadas.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-13</td>
+    <td>Crear lista de tareas dentro del diagnóstico</td>
+    <td>Diseñar una lista que muestre las tareas asignadas para la intervención, con opciones para añadir y eliminar tareas.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-14</td>
+    <td>Agregar funcionalidad para añadir nuevas tareas</td>
+    <td>Permitir al usuario líder redactar una tarea y seleccionar un mecánico para asignarla.</td>
     <td>2</td>
     <td>Erick Hernandez</td>
     <td>Done</td>
   </tr>
   <tr>  
-    <td>US-24</td>
-    <td>Agendar cita de intervención</td>
-    <td>TK-54</td>
-    <td>Manejo de errores de fecha</td>
-    <td>Implementar mensajes de error si la fecha seleccionada no es válida o está incompleta.</td>
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-15</td>
+    <td>Implementar botón de guardar y deshacer cambios</td>
+    <td>Agregar botones para guardar las tareas asignadas o deshacer cambios realizados, con mensajes de confirmación.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-16</td>
+    <td>Crear lista de solicitudes de inventario</td>
+    <td>Diseñar una sección que muestre las solicitudes de inventario pendientes, indicando el mecánico solicitante y la cantidad solicitada.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-17</td>
+    <td>Agregar funcionalidad de seguimiento de tareas</td>
+    <td>Implementar un sistema para registrar y mostrar el progreso de las tareas completadas en una intervención.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-18</td>
+    <td>Mostrar opciones de guardar y deshacer cambios</td>
+    <td>Permitir que el usuario guarde cambios realizados o deshaga modificaciones con un solo clic.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-19</td>
+    <td>Crear interfaz de supervisión de tareas</td>
+    <td>Diseñar una pantalla que muestre el estado de cada tarea asignada en la intervención y permita verificar su finalización.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-20</td>
+    <td>Implementar botón de finalizar intervención</td>
+    <td>Agregar un botón que permita marcar la intervención como finalizada cuando todas las tareas estén completas.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-21</td>
+    <td>Mostrar mensaje de éxito al finalizar intervención</td>
+    <td>Desplegar un mensaje de éxito cuando la intervención se haya finalizado correctamente.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-22</td>
+    <td>Crear sección de información IoT en los detalles del vehículo</td>
+    <td>Diseñar una interfaz que muestre información relevante del dispositivo IoT, como componentes y códigos de error.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-23</td>
+    <td>Agregar funcionalidad para ver detalles de códigos de error</td>
+    <td>Permitir que el usuario haga clic en un código de error para ver su significado y posibles soluciones.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Línea de tiempo de registro de intervenciones</td>
+    <td>TK-24</td>
+    <td>Crear línea de tiempo de intervenciones</td>
+    <td>Diseñar una visualización que muestre las intervenciones de un vehículo en orden cronológico.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Línea de tiempo de registro de intervenciones</td>
+    <td>TK-25</td>
+    <td>Implementar botón para acceder a detalles de intervención</td>
+    <td>Agregar un botón que permita a los usuarios ver la información completa de una intervención específica.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-13</td>
+    <td>Métricas</td>
+    <td>TK-26</td>
+    <td>Crear histograma para intervenciones por día</td>
+    <td>Diseñar un gráfico que muestre el número de intervenciones realizadas por día de manera visualmente atractiva.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-13</td>
+    <td>Métricas</td>
+    <td>TK-27</td>
+    <td>Implementar gráfico de torta para marcas de vehículos</td>
+    <td>Agregar un gráfico de torta que muestre la distribución de las marcas de vehículos atendidos en el taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-13</td>
+    <td>Métricas</td>
+    <td>TK-28</td>
+    <td>Agregar gráfico de barras para tipos de intervención</td>
+    <td>Diseñar un gráfico de barras que indique la distribución porcentual de los diferentes tipos de intervenciones.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-29</td>
+    <td>Diseñar pantalla de login de usuario</td>
+    <td>Crear la interfaz de login que permita a los usuarios ingresar su nombre de usuario y contraseña.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-30</td>
+    <td>Agregar validaciones de entrada de datos</td>
+    <td>Implementar validaciones para asegurar que los campos de usuario y contraseña no estén vacíos y cumplan con los requisitos mínimos.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-31</td>
+    <td>Mostrar mensajes de error para datos inválidos</td>
+    <td>Desplegar mensajes de error descriptivos si las credenciales ingresadas no son válidas.</td>
     <td>2</td>
     <td>Erick Hernandez</td>
     <td>Done</td>
   </tr>
   <tr>  
     <td>TS-01</td>
-    <td>Registro de Usuario</td>
-    <td>TK-55</td>
-    <td>Implementar endpoint de registro</td>
-    <td>Configurar el endpoint /api/v1/authentication/sign-up para permitir que los usuarios se registren con sus datos.</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-32</td>
+    <td>Crear endpoint para obtener todas las intervenciones</td>
+    <td>Implementar un endpoint GET /api/v1/interventions que devuelva una lista de todas las intervenciones registradas.</td>
     <td>3</td>
     <td>Jhosepmyr Orlando</td>
     <td>Done</td>
-</tr>
-<tr>  
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-33</td>
+    <td>Crear endpoint para registrar una nueva intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions que permita registrar una intervención con datos como workshopId, mechanicLeaderId, vehicleId, y descripción.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-34</td>
+    <td>Crear endpoint para obtener detalles de una intervención específica</td>
+    <td>Implementar un endpoint GET /api/v1/interventions/{interventionId} que devuelva los detalles de una intervención específica.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-35</td>
+    <td>Crear endpoint para actualizar una intervención existente</td>
+    <td>Implementar un endpoint PUT /api/v1/interventions/{interventionId} que permita actualizar los datos de una intervención con un interventionId válido.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
     <td>TS-02</td>
-    <td>Inicio de Sesión de Usuario</td>
-    <td>TK-56</td>
-    <td>Implementar endpoint de inicio de sesión</td>
-    <td>Configurar el endpoint /api/v1/authentication/sign-in para permitir que los usuarios inicien sesión y reciban un token de autenticación.</td>
-    <td>2</td>
-    <td>Jhosepmyr Orlando</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-03</td>
-    <td>Consulta de Perfil por ID</td>
-    <td>TK-57</td>
-    <td>Implementar consulta de perfil</td>
-    <td>Configurar el endpoint /api/v1/profiles/profile/{profileId} para obtener detalles del perfil.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-04</td>
-    <td>Consulta de Perfil por DNI</td>
-    <td>TK-58</td>
-    <td>Implementar consulta de perfil por DNI</td>
-    <td>Configurar el endpoint /api/v1/profiles/dni/{dni} para obtener el perfil utilizando el DNI.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-05</td>
-    <td>Consulta de Perfil por ID de Usuario</td>
-    <td>TK-59</td>
-    <td>Implementar consulta de perfil por ID de usuario</td>
-    <td>Configurar el endpoint /api/v1/profiles/user-id/{userId} para obtener el perfil basado en el ID de usuario.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-06</td>
-    <td>Actualización de Perfil</td>
-    <td>TK-60</td>
-    <td>Implementar actualización de perfil</td>
-    <td>Configurar el endpoint /api/v1/profiles/{profileId} para permitir la actualización de los detalles del perfil.</td>
-    <td>3</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-07</td>
-    <td>Creación de Perfil</td>
-    <td>TK-61</td>
-    <td>Implementar creación de perfil</td>
-    <td>Configurar el endpoint /api/v1/profiles para permitir la creación de nuevos perfiles.</td>
-    <td>3</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-08</td>
-    <td>Consulta de Notificaciones de Usuario</td>
-    <td>TK-62</td>
-    <td>Implementar consulta de notificaciones</td>
-    <td>Configurar el endpoint /api/v1/notifications/{userId} para obtener todas las notificaciones de un usuario específico.</td>
+    <td>Manage Intervention Status through RESTful API</td>
+    <td>TK-36</td>
+    <td>Crear endpoint para marcar intervención como en progreso</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/in-progresses que actualice el estado de una intervención a IN_PROGRESS.</td>
     <td>2</td>
     <td>Erick Hernandez</td>
     <td>Done</td>
-</tr>
-
+  </tr>
+  <tr>  
+    <td>TS-02</td>
+    <td>Manage Intervention Status through RESTful API</td>
+    <td>TK-37</td>
+    <td>Crear endpoint para confirmar una intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/confirmations que actualice el estado de una intervención a COMPLETED.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-02</td>
+    <td>Manage Intervention Status through RESTful API</td>
+    <td>TK-38</td>
+    <td>Crear endpoint para cancelar una intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/cancellations que actualice el estado de una intervención a CANCELED.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-39</td>
+    <td>Crear endpoint para obtener todas las tareas de una intervención</td>
+    <td>Implementar un endpoint GET /api/v1/interventions/{interventionId}/tasks que devuelva todas las tareas asociadas a una intervención.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-40</td>
+    <td>Crear endpoint para registrar una nueva tarea en una intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks que permita crear una nueva tarea con datos como mechanicAssignedId y descripción.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-41</td>
+    <td>Crear endpoint para actualizar una tarea específica</td>
+    <td>Implementar un endpoint PUT /api/v1/interventions/{interventionId}/tasks/{taskId} que permita actualizar los detalles de una tarea.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-42</td>
+    <td>Crear endpoint para eliminar una tarea de una intervención</td>
+    <td>Implementar un endpoint DELETE /api/v1/interventions/{interventionId}/tasks/{taskId} que elimine una tarea específica de una intervención.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-04</td>
+    <td>Manage Task State Transitions through RESTful API</td>
+    <td>TK-43</td>
+    <td>Crear endpoint para marcar una tarea como en progreso</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/in-progresses que actualice el estado de una tarea a IN_PROGRESS.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-04</td>
+    <td>Manage Task State Transitions through RESTful API</td>
+    <td>TK-44</td>
+    <td>Crear endpoint para confirmar una tarea</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/confirmations que actualice el estado de una tarea a DONE.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-45</td>
+    <td>Crear endpoint para obtener todos los checkpoints de una tarea</td>
+    <td>Implementar un endpoint GET /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints que devuelva una lista de todos los checkpoints asociados a una tarea.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-46</td>
+    <td>Crear endpoint para añadir un nuevo checkpoint a una tarea</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints que permita crear un nuevo checkpoint.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-47</td>
+    <td>Crear endpoint para actualizar un checkpoint</td>
+    <td>Implementar un endpoint PUT /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId} que permita actualizar un checkpoint existente.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-48</td>
+    <td>Crear endpoint para eliminar un checkpoint</td>
+    <td>Implementar un endpoint DELETE /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId} que elimine un checkpoint.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-06</td>
+    <td>Manage Workshops through RESTful API</td>
+    <td>TK-49</td>
+    <td>Crear endpoint para obtener detalles de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId} que devuelva los detalles de un taller específico.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-06</td>
+    <td>Manage Workshops through RESTful API</td>
+    <td>TK-50</td>
+    <td>Crear endpoint para actualizar un taller existente</td>
+    <td>Implementar un endpoint PUT /api/v1/workshops/{workshopId} que permita actualizar los datos de un taller.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-06</td>
+    <td>Manage Workshops through RESTful API</td>
+    <td>TK-51</td>
+    <td>Crear endpoint para registrar un nuevo taller</td>
+    <td>Implementar un endpoint POST /api/v1/workshops que permita crear un nuevo taller con un nombre y detalles.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-07</td>
+    <td>Retrieve Workshop Interventions through RESTful API</td>
+    <td>TK-52</td>
+    <td>Crear endpoint para obtener todas las intervenciones de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId}/interventions que devuelva una lista de todas las intervenciones asociadas a un taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-08</td>
+    <td>Manage Clients within a Workshop through RESTful API</td>
+    <td>TK-53</td>
+    <td>Crear endpoint para obtener todos los clientes de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId}/clients que devuelva una lista de todos los clientes asociados a un taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-08</td>
+    <td>Manage Clients within a Workshop through RESTful API</td>
+    <td>TK-54</td>
+    <td>Crear endpoint para añadir un nuevo cliente a un taller</td>
+    <td>Implementar un endpoint POST /api/v1/workshops/{workshopId}/clients que permita registrar un nuevo cliente.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-09</td>
+    <td>Manage Mechanics within a Workshop through RESTful API</td>
+    <td>TK-55</td>
+    <td>Crear endpoint para obtener todos los mecánicos de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId}/mechanics que devuelva una lista de todos los mecánicos asociados a un taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-09</td>
+    <td>Manage Mechanics within a Workshop through RESTful API</td>
+    <td>TK-56</td>
+    <td>Crear endpoint para añadir un nuevo mecánico a un taller</td>
+    <td>Implementar un endpoint POST /api/v1/workshops/{workshopId}/mechanics que permita registrar un nuevo mecánico.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-57</td>
+    <td>Crear endpoint para obtener todos los productos</td>
+    <td>Implementar un endpoint GET /api/v1/products que devuelva una lista de todos los productos registrados.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-58</td>
+    <td>Crear endpoint para registrar un nuevo producto</td>
+    <td>Implementar un endpoint POST /api/v1/products que permita crear un nuevo producto con datos como nombre y cantidad en inventario.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-59</td>
+    <td>Crear endpoint para actualizar un producto existente</td>
+    <td>Implementar un endpoint PUT /api/v1/products/{productId} que permita actualizar los detalles de un producto.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-60</td>
+    <td>Crear endpoint para eliminar un producto</td>
+    <td>Implementar un endpoint DELETE /api/v1/products/{productId} que elimine un producto del sistema.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-61</td>
+    <td>Crear endpoint para obtener todas las solicitudes de productos</td>
+    <td>Implementar un endpoint GET /api/v1/product-requests que devuelva una lista de todas las solicitudes de productos.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-62</td>
+    <td>Crear endpoint para registrar una nueva solicitud de producto</td>
+    <td>Implementar un endpoint POST /api/v1/product-requests que permita crear una nueva solicitud con detalles como cantidad y estado.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-63</td>
+    <td>Crear endpoint para actualizar una solicitud de producto</td>
+    <td>Implementar un endpoint PUT /api/v1/product-requests/{productRequestId} que permita actualizar los detalles de una solicitud.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-64</td>
+    <td>Crear endpoint para aceptar una solicitud de producto</td>
+    <td>Implementar un endpoint POST /api/v1/product-requests/{productRequestId}/accept que actualice el estado de la solicitud a ACCEPTED.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-65</td>
+    <td>Crear endpoint para rechazar una solicitud de producto</td>
+    <td>Implementar un endpoint POST /api/v1/product-requests/{productRequestId}/reject que actualice el estado de la solicitud a REJECTED.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-66</td>
+    <td>Crear endpoint para obtener todos los vehículos</td>
+    <td>Implementar un endpoint GET /api/v1/vehicles que devuelva una lista de todos los vehículos registrados.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-67</td>
+    <td>Crear endpoint para registrar un nuevo vehículo</td>
+    <td>Implementar un endpoint POST /api/v1/vehicles que permita crear un nuevo vehículo con datos como placa y marca.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-68</td>
+    <td>Crear endpoint para obtener detalles de un vehículo específico</td>
+    <td>Implementar un endpoint GET /api/v1/vehicles/{vehicleId} que devuelva los detalles de un vehículo.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-69</td>
+    <td>Crear endpoint para actualizar un vehículo existente</td>
+    <td>Implementar un endpoint PUT /api/v1/vehicles/{vehicleId} que permita actualizar los datos de un vehículo.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-70</td>
+    <td>Crear endpoint para eliminar un vehículo</td>
+    <td>Implementar un endpoint DELETE /api/v1/vehicles/{vehicleId} que elimine un vehículo del sistema.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-13</td>
+    <td>Manage IoT Devices through RESTful API</td>
+    <td>TK-71</td>
+    <td>Crear endpoint para obtener dispositivos IoT de un vehículo</td>
+    <td>Implementar un endpoint GET /api/v1/iot-devices que devuelva una lista de dispositivos IoT asociados a un vehículo mediante el vehicleId.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-14</td>
+    <td>Manage Profiles through RESTful API</td>
+    <td>TK-72</td>
+    <td>Crear endpoint para obtener todos los perfiles</td>
+    <td>Implementar un endpoint GET /api/v1/profiles que devuelva una lista de todos los perfiles registrados.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-14</td>
+    <td>Manage Profiles through RESTful API</td>
+    <td>TK-73</td>
+    <td>Crear endpoint para obtener detalles de un perfil específico</td>
+    <td>Implementar un endpoint GET /api/v1/profiles/{profileId} que devuelva los detalles de un perfil específico.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-14</td>
+    <td>Manage Profiles through RESTful API</td>
+    <td>TK-74</td>
+    <td>Crear endpoint para actualizar un perfil existente</td>
+    <td>Implementar un endpoint PUT /api/v1/profiles/{profileId} que permita actualizar los datos de un perfil.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-16</td>
+    <td>Manage Notifications through RESTful API</td>
+    <td>TK-77</td>
+    <td>Crear endpoint para obtener notificaciones de un usuario</td>
+    <td>Implementar un endpoint GET /api/v1/notifications que devuelva una lista de notificaciones para un usuario con detalles como fecha y contenido.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
 </table>
+
+
 
 #### 5.2.3.3. Development Evidence for Sprint Review
 | Rama                         | Hash                                       | Mensaje de Commit                                                                                          |
