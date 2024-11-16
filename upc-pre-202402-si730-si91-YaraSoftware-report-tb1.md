@@ -4710,18 +4710,22 @@ Enlace para acceder a la landing page: [https://web-workshop-n-gine-landing-page
 
 #### 5.2.2.2. Sprint Backlog 2
 
-El objetivo del sprint 2 es diseñar e implementar la primera versión de la página web de WorkShop N-Gine. 
+En el segundo sprint, el equipo se enfocará en implementar las funcionalidades principales del frontend para gestionar clientes, personal, intervenciones, inventario y notificaciones, asegurando que la navegación se adapte a los roles específicos de los usuarios. Creemos que esto entregará una experiencia de usuario fluida y mejorará la eficiencia operativa al permitir que los mecánicos y administradores gestionen fácilmente información clave y procesos dentro de la plataforma. Esto se confirmará cuando los usuarios puedan navegar por la aplicación según su rol, ver y gestionar clientes, personal, intervenciones y existencias de inventario sin errores, y recibir notificaciones relevantes.
+Esto con el enfoque de la entrega del MVP de la aplicación.
+Asimismo, la herramienta de organización Trello se utilizó para dividir las tareas en user stories y work items, y se asignaron a los miembros del equipo para su implementación.
+De ese modo, el objetivo principal del sprint es construir la aplicación web con su respectivo fake api, logrando que sea atrayente y funcional para los usuarios.
 
-Durante todo el sprint 2 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+![sprint-backlog-2](img/5/2/2/2/trello_board_sprint_2.png)
 
-<img src="img/5/2/2/trello_board.png">
+Enlace al tablero de Trello: 
+[https://trello.com/b/u6jq9evy/sprint-2](https://trello.com/b/u6jq9evy/sprint-2)
 
-A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+A continuación, se procede a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y qué miembro del equipo la llevo a cabo.
 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
     <th colspan="2">Sprint #</th>
-    <th colspan="5">Sprint 2</th>
+    <th colspan="5">Sprint 1</th>
   </tr>
   <tr>
     <th colspan="2">User Story</th>
@@ -4737,74 +4741,122 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <th>Assigned To</th>
     <th>Status (To-do / In-Process / To-Review / Done)</th>
   </tr>
-  </tr>  
-    <td>US-03</td>
-    <td>Creación de cuentas de taller</td>
+
+  <!-- US-06: Clientes -->
+  <tr>
+    <td>US-06</td>
+    <td>Clientes</td>
     <td>TK-01</td>
-    <td>Lista de empleados</td>
-    <td>Desarrollar la pantalla para mostrar la lista de empleados</td>
+    <td>Crear interfaz de lista de clientes</td>
+    <td>Desarrollar la pantalla para mostrar la lista de clientes</td>
     <td>3</td>
-    <td>---</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
-    </tr>  
-    <td>US-03</td>
-    <td>Creación de cuentas de taller</td>
+  <tr>
+    <td>US-06</td>
+    <td>Clientes</td>
     <td>TK-02</td>
-    <td>Registro de personal</td>
-    <td>Diseño e implementación del formulario de registro de personal</td>
-    <td>3</td>
-    <td>---</td>
-    <td>Done</td>
-  </tr>
-     </tr>  
-    <td>US-03</td>
-    <td>Creación de cuentas de taller</td>
-    <td>TK-03</td>
-    <td>Formulario</td>
-    <td>Validación de los formularios</td>
-    <td>1</td>
-    <td>---</td>
-    <td>Done</td>
-  </tr>
-       </tr>  
-    <td>US-03</td>
-    <td>Creación de cuentas de taller</td>
-    <td>TK-04</td>
-    <td>Llamada a API</td>
-    <td>Realizar llamadas a la API para enviar los datos de registro</td>
+    <td>Implementar filtrado</td>
+    <td>Agregar funcionalidad de filtrado a la lista de clientes</td>
     <td>2</td>
-    <td>---</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
-   </tr>  
-    <td>US-03</td>
-    <td>Creación de cuentas de taller</td>
+
+  <!-- US-07: Detalles de cliente -->
+  <tr>
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
     <td>TK-05</td>
-    <td>Confirmación de registro</td>
-    <td>Popup de confirmación de registro</td>
-    <td>2</td>
-    <td>---</td>
+    <td>Crear interfaz de detalles de cliente</td>
+    <td>Diseñar e implementar la interfaz para detalles del cliente</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
-     </tr>  
+
+  <!-- US-15: Mis tareas (líder) -->
+  <tr>
+    <td>US-15</td>
+    <td>Mis tareas (líder)</td>
+    <td>TK-37</td>
+    <td>Mostrar lista de tareas</td>
+    <td>Desarrollar la vista para mostrar tareas del líder</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US-16: Mis tareas (asistente) -->
+  <tr>
+    <td>US-16</td>
+    <td>Mis tareas (asistente)</td>
+    <td>TK-40</td>
+    <td>Mostrar lista de tareas del asistente</td>
+    <td>Crear pantalla para mostrar tareas asignadas al asistente</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US-25: Navegación dinámica por rol -->
+  <tr>
+    <td>US-25</td>
+    <td>Navegación dinámica por rol</td>
+    <td>TK-51</td>
+    <td>Crear barra de navegación dinámica</td>
+    <td>Implementar barra de navegación que muestre opciones según el rol</td>
+    <td>4</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US-04: Personal -->
+  <tr>
     <td>US-04</td>
     <td>Personal</td>
-    <td>TK-06</td>
-    <td>Gestion de personal</td>
-    <td>Implementr pantalla de Gestión de Personal</td>
-    <td>2</td>
-    <td>Gestión de personal</td>
+    <td>TK-10</td>
+    <td>Crear interfaz de lista de personal</td>
+    <td>Implementar la lista de personal con opciones de búsqueda</td>
+    <td>3</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
     <td>Done</td>
   </tr>
-       </tr>  
-    <td>US-02</td>
-    <td>Pantalla de login</td>
-    <td>TK-07</td>
-    <td>Validar datos del login</td>
-    <td> Implementar validaciones para datos incompletos o incorrectos.</td>
-    <td>1</td>
-    <td>Gestiona</td>
+
+  <!-- US-21: Registro de vehículos -->
+  <tr>
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-43</td>
+    <td>Mostrar lista de vehículos</td>
+    <td>Crear la vista para listar vehículos registrados</td>
+    <td>2</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US-11: Existencias de inventario -->
+  <tr>
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-26</td>
+    <td>Crear la interfaz de inventario</td>
+    <td>Desarrollar pantalla para visualizar existencias de inventario</td>
+    <td>3</td>
+    <td>Hernández Tuiro, Eric Ernesto</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US-14: Notificaciones -->
+  <tr>
+    <td>US-14</td>
+    <td>Notificaciones</td>
+    <td>TK-35</td>
+    <td>Crear la interfaz de notificaciones</td>
+    <td>Diseñar e implementar la vista para gestionar notificaciones</td>
+    <td>3</td>
+    <td>Hernández Tuiro, Eric Ernesto</td>
     <td>Done</td>
   </tr>
 </table>
