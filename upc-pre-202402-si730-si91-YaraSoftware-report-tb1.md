@@ -4982,12 +4982,19 @@ De ese modo, se incluyen las configuraciones necesarias para el despliegue de la
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint. 
 
-| Alumno | Actividad |
-| Jhosepmyr Gutiérrez Soto	 |  |
-| Eric Hernandez Tuiro	 |  |
-| Henry Reaño Delgadillo	 |  |
-| Elmer Riva Rodriguez	 |  |
-<img src="img/Insight/TP.png">
+| Alumno                   | Actividad                                                                                                                                                                                                                     |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| Jhosepmyr Gutiérrez Soto | Desarrollo del routing entre pages, elaboración del json-server, componente table de clientes, componente de barra de navegación lateral y header, componente table de las actividades de los mecánicos asistentes y lideres. |
+| Eric Hernandez Tuiro     | Elaboración de los componentes table de los productos de inventario y las solicitudes y, componente card de las notificaciones.                                                                                               |
+| Elmer Riva Rodriguez     | Desarrollo de los componentes table de mecánicos, table de intervenciones y desplegable de informacion de intervencion                                                                                                        |
+
+![Insight_sprint_2_1](img/5/2/2/8/pulse.png)
+
+![Insight_sprint_2_2](img/5/2/2/8/contributor_1.png)
+
+![Insight_sprint_2_3](img/5/2/2/8/contributor_2.png)
+
+![Insight_sprint_2_4](img/5/2/2/8/contributor_3.png)
 
 ### 5.2.3 Sprint 3
 
