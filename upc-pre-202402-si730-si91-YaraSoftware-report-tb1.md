@@ -4930,6 +4930,9 @@ A continuación algunas evidencias en imágen de las historias de usuario más r
 * US07
 ![US07](img/5/2/2/5/us-07.png)
 
+* US08
+![US08](img/5/2/2/5/us-08.png)
+
 * US10
 ![US10](img/5/2/2/5/us-10.png)
 
@@ -4943,10 +4946,26 @@ Link del video de navegación del sprint 2: ...
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Para el diseño, desarrollo y despliegue del sprint 2 se ha utilizado una Fake API creada por el equipo para simular el backend. 
+Para el sprint 2, únicamente se planificó el desarrollo del frontend y para no verse limitados por la falta de servicios, se decidió utilizar un servicio de backend falso para simular las respuestas de la API.
 
-A continuación algunas evidencias en imágen de la fake API:
-...
+En este caso se utilizó JSON Server, una herramienta que permite crear una API RESTful en cuestión de segundos, a partir de un archivo JSON.
+
+Sin embargo, por las limitaciones de la herramienta, no se pudo implementar todas las funcionalidades de la API, por lo que se decidió implementar las operaciones CRUD y por atributos para las intervenciones, tareas, productos, solicitudes de productos y perfiles.
+
+Enlace para acceder al servicio de backend falso: [JSON Server](https://my-json-server.typicode.com/Web-Application-YaraSoftware/Json-Server-Api)
+
+| Endpoint             | Descripción                                                                          |
+|----------------------|--------------------------------------------------------------------------------------|
+| **/interventions**   | Se implemento las operaciones CRUD y por atributos para las intervenciones           |
+| **/tasks**           | Se implemento las operaciones CRUD y por atributos para las tareas                   |
+| **/products**        | Se implemento las operaciones CRUD y por atributos para los productos                |
+| **/productRequests** | Se implemento las operaciones CRUD y por atributos para las solicitudes de productos |
+| **/profiles**        | Se implemento las operaciones CRUD y por atributos para los perfiles                 |
+
+| Repository                                                      | Branch | Commit Id                                | Commit Message        | Commit Message Body   | Commited on(Date)        |
+|-----------------------------------------------------------------|--------|------------------------------------------|-----------------------|-----------------------|--------------------------|
+| https://github.com/Web-Application-YaraSoftware/Json-Server-Api | main   | 93ba6766244194dff2ef7691d5ebc07b09681fd0 | chore: update db.json | chore: update db.json | Fri Nov 15 22:58:49 2024 |
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
