@@ -4725,7 +4725,7 @@ A continuación, se procede a detallar en una tabla las user story vinculadas a 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
     <th colspan="2">Sprint #</th>
-    <th colspan="5">Sprint 1</th>
+    <th colspan="5">Sprint 2</th>
   </tr>
   <tr>
     <th colspan="2">User Story</th>
@@ -4739,126 +4739,60 @@ A continuación, se procede a detallar en una tabla las user story vinculadas a 
     <th>Description</th>
     <th>Estimation (Hours)</th>
     <th>Assigned To</th>
-    <th>Status (To-do / In-Process / To-Review / Done)</th>
+    <th>Status</th>
   </tr>
-
-  <!-- US-06: Clientes -->
-  <tr>
-    <td>US-06</td>
-    <td>Clientes</td>
-    <td>TK-01</td>
-    <td>Crear interfaz de lista de clientes</td>
-    <td>Desarrollar la pantalla para mostrar la lista de clientes</td>
-    <td>3</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-06</td>
-    <td>Clientes</td>
-    <td>TK-02</td>
-    <td>Implementar filtrado</td>
-    <td>Agregar funcionalidad de filtrado a la lista de clientes</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- US-07: Detalles de cliente -->
-  <tr>
-    <td>US-07</td>
-    <td>Detalles de cliente</td>
-    <td>TK-05</td>
-    <td>Crear interfaz de detalles de cliente</td>
-    <td>Diseñar e implementar la interfaz para detalles del cliente</td>
-    <td>3</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- US-15: Mis tareas (líder) -->
-  <tr>
-    <td>US-15</td>
-    <td>Mis tareas (líder)</td>
-    <td>TK-37</td>
-    <td>Mostrar lista de tareas</td>
-    <td>Desarrollar la vista para mostrar tareas del líder</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- US-16: Mis tareas (asistente) -->
-  <tr>
-    <td>US-16</td>
-    <td>Mis tareas (asistente)</td>
-    <td>TK-40</td>
-    <td>Mostrar lista de tareas del asistente</td>
-    <td>Crear pantalla para mostrar tareas asignadas al asistente</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- US-25: Navegación dinámica por rol -->
-  <tr>
-    <td>US-25</td>
-    <td>Navegación dinámica por rol</td>
-    <td>TK-51</td>
-    <td>Crear barra de navegación dinámica</td>
-    <td>Implementar barra de navegación que muestre opciones según el rol</td>
-    <td>4</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- US-04: Personal -->
-  <tr>
-    <td>US-04</td>
-    <td>Personal</td>
-    <td>TK-10</td>
-    <td>Crear interfaz de lista de personal</td>
-    <td>Implementar la lista de personal con opciones de búsqueda</td>
-    <td>3</td>
-    <td>Elmer Augusto Riva Rodriguez</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- US-21: Registro de vehículos -->
-  <tr>
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-43</td>
-    <td>Mostrar lista de vehículos</td>
-    <td>Crear la vista para listar vehículos registrados</td>
-    <td>2</td>
-    <td>Elmer Augusto Riva Rodriguez</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- US-11: Existencias de inventario -->
-  <tr>
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-26</td>
-    <td>Crear la interfaz de inventario</td>
-    <td>Desarrollar pantalla para visualizar existencias de inventario</td>
-    <td>3</td>
-    <td>Hernández Tuiro, Eric Ernesto</td>
-    <td>Done</td>
-  </tr>
-
-  <!-- US-14: Notificaciones -->
-  <tr>
-    <td>US-14</td>
-    <td>Notificaciones</td>
-    <td>TK-35</td>
-    <td>Crear la interfaz de notificaciones</td>
-    <td>Diseñar e implementar la vista para gestionar notificaciones</td>
-    <td>3</td>
-    <td>Hernández Tuiro, Eric Ernesto</td>
-    <td>Done</td>
-  </tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-01</td><td>Crear interfaz de lista de clientes</td><td>Desarrollar pantalla para lista de clientes</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-02</td><td>Implementar filtrado</td><td>Agregar funcionalidad de filtrado en lista</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-03</td><td>Visualización básica de clientes</td><td>Implementar vista preliminar de clientes</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-04</td><td>Acceso a registrar nuevo cliente</td><td>Permitir registro de nuevos clientes</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-05</td><td>Crear interfaz de detalles de cliente</td><td>Crear pantalla para detalles del cliente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-06</td><td>Editar y actualizar datos</td><td>Habilitar edición y actualización de cliente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-07</td><td>Confirmación de cambio de correo</td><td>Mostrar confirmación al actualizar correo</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-08</td><td>Eliminar cliente</td><td>Implementar eliminación de cliente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-09</td><td>Restaurar cliente</td><td>Habilitar restauración de cliente eliminado</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-04</td><td>Personal</td><td>TK-10</td><td>Crear interfaz de lista de personal</td><td>Desarrollar pantalla para lista de personal</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-04</td><td>Personal</td><td>TK-11</td><td>Visualización básica de personal en ventana flotante</td><td>Implementar vista básica en ventana flotante</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-05</td><td>Detalles de empleado</td><td>TK-12</td><td>Crear interfaz de detalles de personal</td><td>Implementar vista de detalles para el personal</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-05</td><td>Detalles de empleado</td><td>TK-13</td><td>Editar y actualizar datos</td><td>Habilitar edición de detalles de personal</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-05</td><td>Detalles de empleado</td><td>TK-14</td><td>Confirmación de cambio de correo</td><td>Mostrar confirmación al cambiar correo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-08</td><td>Intervenciones</td><td>TK-15</td><td>Eliminar personal</td><td>Implementar funcionalidad de eliminación</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-08</td><td>Intervenciones</td><td>TK-16</td><td>Implementar filtrado por texto y estado</td><td>Filtrar lista de intervenciones</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-08</td><td>Intervenciones</td><td>TK-17</td><td>Ordenamiento por campos</td><td>Ordenar intervenciones por campos específicos</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-18</td><td>Crear detalles de intervención</td><td>Implementar detalles de intervención</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-19</td><td>Modificar intervención</td><td>Habilitar modificación de detalles</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-20</td><td>Guardar cambios</td><td>Implementar guardado de cambios en intervención</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-21</td><td>Cancelar intervención</td><td>Funcionalidad para cancelar intervención</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-22</td><td>Crear formulario de intervención</td><td>Implementar formulario para crear intervención</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-23</td><td>Validar datos del formulario</td><td>Validar datos antes de enviar formulario</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-24</td><td>Enviar datos al backend</td><td>Enviar datos del formulario al backend</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-25</td><td>Mostrar mensaje de éxito o error</td><td>Implementar mensajes al completar acción</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-26</td><td>Crear la interfaz de inventario</td><td>Implementar interfaz de existencias de inventario</td><td>3</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-27</td><td>Añadir entrada de inventario</td><td>Agregar funcionalidad para añadir existencias</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-28</td><td>Modificar entrada de inventario</td><td>Habilitar modificación de existencias</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-29</td><td>Guardar cambios de inventario</td><td>Guardar cambios realizados en inventario</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-30</td><td>Ordenar por campos</td><td>Ordenar solicitudes por campos específicos</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-31</td><td>Crear interfaz de solicitudes de inventario</td><td>Implementar interfaz para solicitudes de inventario</td><td>3</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-32</td><td>Guardar cambios en solicitudes</td><td>Guardar modificaciones en solicitudes</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-33</td><td>Deshacer cambios</td><td>Habilitar opción para deshacer cambios</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-34</td><td>Ordenar solicitudes por campos</td><td>Ordenar solicitudes por criterios definidos</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-14</td><td>Notificaciones</td><td>TK-35</td><td>Crear la interfaz de notificaciones</td><td>Implementar pantalla para ver notificaciones</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-14</td><td>Notificaciones</td><td>TK-36</td><td>Vincular notificaciones a eventos</td><td>Asociar eventos con notificaciones</td><td>3</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-15</td><td>Mis tareas (líder)</td><td>TK-37</td><td>Mostrar lista de tareas</td><td>Listar tareas asignadas al líder</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-15</td><td>Mis tareas (líder)</td><td>TK-38</td><td>Mostrar etiqueta de líder</td><td>Mostrar rol líder en las tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-15</td><td>Mis tareas (líder)</td><td>TK-39</td><td>Acceso a más información</td><td>Proveer acceso detallado a tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-16</td><td>Mis tareas (asistente)</td><td>TK-40</td><td>Mostrar lista de tareas del asistente</td><td>Listar tareas asignadas al asistente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-16</td><td>Mis tareas (asistente)</td><td>TK-41</td><td>Mostrar etiqueta de asistente</td><td>Mostrar rol asistente en tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-16</td><td>Mis tareas (asistente)</td><td>TK-42</td><td>Acceso a más información</td><td>Proveer detalles de las tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-43</td><td>Mostrar lista de vehículos</td><td>Implementar listado de vehículos</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-44</td><td>Agregar vehículo</td><td>Funcionalidad para agregar vehículo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-45</td><td>Validar datos del vehículo</td><td>Validar la información del vehículo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-46</td><td>Mostrar mensaje de éxito</td><td>Mostrar mensaje al registrar vehículo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-24</td><td>Validaciones de citas</td><td>TK-47</td><td>Validar datos de la cita</td><td>Comprobar validez de los datos ingresados</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-24</td><td>Validaciones de citas</td><td>TK-48</td><td>Mostrar confirmación de cita</td><td>Mostrar confirmación tras agendar cita</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-24</td><td>Validaciones de citas</td><td>TK-49</td><td>Manejo de errores de fecha</td><td>Gestionar errores en selección de fecha</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-25</td><td>Navegación dinámica por rol</td><td>TK-50</td><td>Manejo de roles y permisos</td><td>Gestionar roles y permisos de usuario</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-25</td><td>Navegación dinámica por rol</td><td>TK-51</td><td>Crear barra de navegación dinámica</td><td>Desarrollar barra de navegación por rol</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-25</td><td>Navegación dinámica por rol</td><td>TK-52</td><td>Añadir guardias de ruta</td><td>Implementar guardias de acceso a rutas</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
 </table>
 
 #### 5.2.2.3. Development Evidence for Sprint Review
