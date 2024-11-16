@@ -4915,9 +4915,29 @@ A continuación, se presentan las evidencias de las pruebas realizadas:
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-Para este sprint se ha logrado completar distintas historias de usuario, entre las cuales destacan las historias de usuario relacionadas al registro y autentificación de cuentas, pantallas principales de la página web, flujo intervención de mecánico, notificaciones de usuarios y demás. 
+En el sprint 2 se alcanzó un desarrollo parcial de la aplicación web, que permite al usuario navegar por ciertas funcionalidades de la aplicación.
+A continuación algunas evidencias en imágen de las historias de usuario más relevantes:
 
-A continuación algunas evidencias en imágen de las historias de usuario más relevantes: ...
+* US04
+![US04](img/5/2/2/5/us-04.png)
+
+* US05
+![US05](img/5/2/2/5/us-05.png)
+
+* US06
+![US06](img/5/2/2/5/us-06.png)
+
+* US07
+![US07](img/5/2/2/5/us-07.png)
+
+* US10
+![US10](img/5/2/2/5/us-10.png)
+
+* US14
+![US14](img/5/2/2/5/us-14.png)
+
+* US15
+![US15](img/5/2/2/5/us-15.png)
 
 Link del video de navegación del sprint 2: ...
 
