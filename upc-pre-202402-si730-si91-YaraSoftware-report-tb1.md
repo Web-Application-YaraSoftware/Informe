@@ -6469,61 +6469,60 @@ A continuación, se presentan las evidencias de las pruebas realizadas:
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-Para este sprint se ha logrado completar distintas historias de usuario, entre las cuales destacan las historias de usuario relacionadas a la informacion de vehiculos, intervenciones, pantallas principales de la página web, flujo intervención de mecánico, activity log de los vehiculos, y las tecnical stories asociadas a los recursos Profiles, Authenthication y Notifications.
+En el sprint 3 se alcanzó un desarrollo parcial del frontend y backend de la aplicación web, que permite al usuario navegar por ciertas funcionalidades de la aplicación.
 
-A continuación algunas evidencias en imágen de las historias de usuario más relevantes: ...
+En el frontend se contempló el desarrollo los flujos de la ejecucion de una intervencion donde se 
 
-#### FrontEnd
+A continuación algunas evidencias en imágen de las historias de usuario más relevantes:
 
-#### US-06	Clientes
+- US03
 
-<img src="img/5/2/3/clients.png">
+![creation-mechanic](img/5/2/3/5/US03-1.png)
 
-#### US-07 	Detalles de clientes
+![creation-client](img/5/2/3/5/US03-2.png)
 
-<img src="img/5/2/3/personal_information.png">
+- US17  
 
-#### US-08 	Intervenciones
+![info-intervention](img/5/2/3/5/US17.png)
 
-<img src="img/5/2/3/activity_log.png">
+- US18
 
-#### US-10 Detalles de intervención
+![diagnostic-intervention](img/5/2/3/5/US18.png)
 
-<img src="img/5/2/3/general_information.png">
+- US19
 
-<img src="img/5/2/3/intervention_summary.png">
+![execution-intervention](img/5/2/3/5/US19.png)
 
-#### US-11 Existencias de inventario
+- US20
 
-<img src="img/5/2/3/inventory_stock.png">
+![supervision-intervention](img/5/2/3/5/US20.png)
 
-#### US-12 Solicitudes de inventario
+- US23
 
-<img src="img/5/2/3/inventory_request.png">
+![iot-information](img/5/2/3/5/US23.png)
 
-#### US-15 Mis tareas (líder)
+- US22
 
-<img src="img/5/2/3/activities_assistant.png">
+![timeline-interventions](img/5/2/3/5/US22.png)
 
-#### US-17 Información de intervención
+- TS01, TS02, TS03, , TS04, TS05, TS06, TS07, TS08, TS09, TS10, TS11, TS12, TS13, TS14, TS16
 
-<img src="img/5/2/3/activities_information.png">
+![swagger-header](img/5/2/3/5/header-swagger.png)
+![swagger-2](img/5/2/3/5/swagger-2.png)
+![swagger-3](img/5/2/3/5/swagger-3.png)
+![swagger-4](img/5/2/3/5/swagger-4.png)
+![swagger-5](img/5/2/3/5/swagger-5.png)
 
-#### US-18	Diagnóstico de intervención
+- SWR02
 
-<img src="img/5/2/3/diagnostic.png">
+![landing-video-product](img/5/2/3/5/landing-page-video-about-product.png)
 
-#### US-19	Ejecución de intervención
+- SWR05
 
-<img src="img/5/2/3/execution.png">
+![landing-video-team](img/5/2/3/5/landing-page-video-team.png)
 
-#### US-20	Supervisión de intervención
-
-<img src="img/5/2/3/supervision.png">
-
-#### US-22	Registro de intervenciones
-
-<img src="img/5/2/3/interventions_list.png">
+Enlace para visualizar el video de explication de los logros del sprint:
+[enlace](enlace)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
