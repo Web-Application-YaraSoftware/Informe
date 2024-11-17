@@ -6895,15 +6895,138 @@ Enlace del repositorio:
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Posterior al desarrollo completo del sprint 3, se procedió a utilizar Railway para el despliegue total del backend en la web.
+Para la entrega del 3 sprint, se desplegó la nueva versión del frontend web application, también de la landing page y primera versión del backend web services. 
+
+**Landing page**
+
+El despliegue de la landing page en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la landing page se actualice automáticamente en la URL [https://web-workshop-n-gine-landing-page.netlify.app/](https://web-workshop-n-gine-landing-page.netlify.app/)
+
+![deploy-landing-page](img/5/2/3/7/landing-page/deploy.png)
+
+- Capturas de pantalla landing page:
+
+![landing-page-screenshot1](img/5/2/3/7/landing-page/1.png)
+
+![landing-page-screenshot2](img/5/2/3/7/landing-page/2.png)
+
+![landing-page-screenshot3](img/5/2/3/7/landing-page/3.png)
+
+![landing-page-screenshot4](img/5/2/3/7/landing-page/4.png)
+
+![landing-page-screenshot5](img/5/2/3/7/landing-page/5.png)
+
+**Frontend web application**
+
+El despliegue del frontend web application en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la web application se actualice automáticamente en la URL [https://web-workshop-n-gine.netlify.app/](https://web-workshop-n-gine.netlify.app/)
+
+![deploy-frontend-web-application](img/5/2/3/7/frontend/deploy.png)
+
+- Capturas de pantalla frontend web application:
+
+![frontend-web-application-screenshot1](img/5/2/3/7/frontend/screenshot-1.png)
+
+![frontend-web-application-screenshot2](img/5/2/3/7/frontend/screenshot-2.png)
+
+![frontend-web-application-screenshot3](img/5/2/3/7/frontend/screenshot-3.png)
+
+![frontend-web-application-screenshot4](img/5/2/3/7/frontend/screenshot-4.png)
+
+![frontend-web-application-screenshot5](img/5/2/3/7/frontend/screenshot-5.png)
+
+![frontend-web-application-screenshot6](img/5/2/3/7/frontend/screenshot-6.png)
+
+![frontend-web-application-screenshot7](img/5/2/3/7/frontend/screenshot-7.png)
+
+![frontend-web-application-screenshot8](img/5/2/3/7/frontend/screenshot-8.png)
+
+![frontend-web-application-screenshot9](img/5/2/3/7/frontend/screenshot-9.png)
+
+![frontend-web-application-screenshot10](img/5/2/3/7/frontend/screenshot-10.png)
+
+![frontend-web-application-screenshot11](img/5/2/3/7/frontend/screenshot-11.png)
+
+![frontend-web-application-screenshot12](img/5/2/3/7/frontend/screenshot-12.png)
+
+![frontend-web-application-screenshot13](img/5/2/3/7/frontend/screenshot-13.png)
+
+![frontend-web-application-screenshot14](img/5/2/3/7/frontend/screenshot-14.png)
+
+![frontend-web-application-screenshot15](img/5/2/3/7/frontend/screenshot-15.png)
+
+![frontend-web-application-screenshot16](img/5/2/3/7/frontend/screenshot-16.png)
+
+![frontend-web-application-screenshot17](img/5/2/3/7/frontend/screenshot-17.png)
+
+![frontend-web-application-screenshot18](img/5/2/3/7/frontend/screenshot-18.png)
+
+![frontend-web-application-screenshot19](img/5/2/3/7/frontend/screenshot-19.png)
+
+![frontend-web-application-screenshot20](img/5/2/3/7/frontend/screenshot-20.png)
+
+![frontend-web-application-screenshot21](img/5/2/3/7/frontend/screenshot-21.png)
+
+![frontend-web-application-screenshot22](img/5/2/3/7/frontend/screenshot-22.png)
+
+![frontend-web-application-screenshot23](img/5/2/3/7/frontend/screenshot-23.png)
+
+![frontend-web-application-screenshot24](img/5/2/3/7/frontend/screenshot-24.png)
+
+* Backend web services
+
+El despliegue del backend web services en Railway se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que el backend web services se actualice automáticamente en la URL [https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html](https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html)
+
+![deploy-backend-web-services](img/5/2/3/7/backend/deploy.png)
+
+- Capturas de pantalla backend web services:
+
+![backend-web-services-screenshot1](img/5/2/3/7/backend/screenshot-1.png)
+
+![backend-web-services-screenshot2](img/5/2/3/7/backend/screenshot-2.png)
+
+![backend-web-services-screenshot3](img/5/2/3/7/backend/screenshot-3.png)
+
+![backend-web-services-screenshot4](img/5/2/3/7/backend/screenshot-4.png)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint. 
 
-#### Front End Insights
-<img src="img/Insight/TB2_FrontEnd.png">
+| Alumno                            | Actividad                                                                         |
+|-----------------------------------|-----------------------------------------------------------------------------------|
+| Gutiérrez Soto, Jhosepmyr Orlando | Desarrollo del back end, y mejora y reestructuración de componentes del front end |
+| Hernández Tuiro, Eric Ernesto     | Desarrollo del back end, y mejora de componentes del front end                    |
+| Riva Rodríguez, Elmer Augusto     | Desarrollo del back end, y mejora y reestructuración de componentes del front end |
 
-#### Back End Insights
-<img src="img/Insight/TB2_BackendEnd.png">
+* Repositorio de la landing page
+
+![landing-page-repository-1](img/5/2/3/8/landing-page-1.png)
+
+![landing-page-repository-2](img/5/2/3/8/landing-page-2.png)
+
+![landing-page-repository-3](img/5/2/3/8/landing-page-3.png)
+
+![landing-page-repository-4](img/5/2/3/8/landing-page-4.png)
+
+* Repositorio del front end
+
+![front-end-repository-1](img/5/2/3/8/frontend-1.png)
+
+![front-end-repository-2](img/5/2/3/8/frontend-2.png)
+
+![front-end-repository-3](img/5/2/3/8/frontend-3.png)
+
+![front-end-repository-4](img/5/2/3/8/frontend-4.png)
+
+* Repositorio del back end
+
+![back-end-repository-1](img/5/2/3/8/backend-1.png)
+
+![back-end-repository-2](img/5/2/3/8/backend-2.png)
+
+![back-end-repository-3](img/5/2/3/8/backend-3.png)
+
+![back-end-repository-4](img/5/2/3/8/backend-4.png)
 
 ## 5.3. Validation Interviews
 
