@@ -33,32 +33,84 @@
 </body>
 
 # Registro de Versiones del Informe
-| Versión | Fecha | Autor | Descripción de la modificación |
-| ----------- | ----------- | ----------- | ----------- |
-| 0.0.0 | 20/08/2024 | Álvaro Orozco Torres | Se agrega la carátula y la tabla de control de versiones |
-| 1.0.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega la primera sección del Capítulo I: Introducción |
-| 1.1.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía |
-| 2.0.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la primera y segunda sección del Capitulo II: Requirements Elicitation & Analysis |
-| 2.1.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis |
-| 2.2.0 | 02/09/2024 | Álvaro Orozco Torres | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis |
-| 2.2.1 | 02/09/2024 | Álvaro Orozco Torres | Se corrige el formato de presentación de el As-Is Scenario Mapping |
-| 2.2.2 | 02/09/2024 | Álvaro Orozco Torres | Se añade descripción de proceso para As-Is Scenario Mapping |
-| 2.2.3 | 02/09/2024 | Henry Reaño Delgadillo | Se agrega el link de las entrevistas de Needfinding en la sección Anexos |
-| 2.2.4 | 02/09/2024 | Henry Reaño Delgadillo | Se corrige la visualización de los artefactos As-Is para todos los segmentos objetivo y se agrega la foto del dueño de taller Enrique Reaño|
-| 2.2.5 | 03/09/2024 | Henry Reaño Delgadillo | Se agrega tres nuevos conceptos en Ubiquitous Language |
-| 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
-| 3.1.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la primera sección del Capítulo III: Requirements Specification |
-| 3.2.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la segunda sección del Capítulo III: Requirements Specification |
-| 3.3.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la tercera sección del Capítulo III: Requirements Specification |
-| 3.4.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la última sección del Capítulo III: Requirements Specification |
-| 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
-| 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
-| 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
-| 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
-| 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
-| 5.5.0 | 25/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning y sprint backlog del sprint 2 |
-| 5.5.1 | 25/09/2024 | Henry Reaño Delgadillo | Se agrega el esquema de sprint 2 completo |
-| 5.5.2 | 25/09/2024 | Henry Reaño Delgadillo | Se completa las secciones de testing, execution, services, software deployment evidences parcialmente |
+| Versión | Fecha      | Autor                        | Descripción de la modificación                                                                                                              |
+|---------|------------|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| 0.0.0   | 20/08/2024 | Álvaro Orozco Torres         | Se agrega la carátula y la tabla de control de versiones                                                                                    |
+| 1.0.0   | 01/09/2024 | Henry Reaño Delgadillo       | Se agrega la primera sección del Capítulo I: Introducción                                                                                   |
+| 1.1.0   | 01/09/2024 | Álvaro Orozco Torres         | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía                                            |
+| 2.0.0   | 01/09/2024 | Álvaro Orozco Torres         | Se agrega la primera y segunda sección del Capitulo II: Requirements Elicitation & Analysis                                                 |
+| 2.1.0   | 01/09/2024 | Henry Reaño Delgadillo       | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis                                           |
+| 2.2.0   | 02/09/2024 | Álvaro Orozco Torres         | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis                                           |
+| 2.2.1   | 02/09/2024 | Álvaro Orozco Torres         | Se corrige el formato de presentación de el As-Is Scenario Mapping                                                                          |
+| 2.2.2   | 02/09/2024 | Álvaro Orozco Torres         | Se añade descripción de proceso para As-Is Scenario Mapping                                                                                 |
+| 2.2.3   | 02/09/2024 | Henry Reaño Delgadillo       | Se agrega el link de las entrevistas de Needfinding en la sección Anexos                                                                    |
+| 2.2.4   | 02/09/2024 | Henry Reaño Delgadillo       | Se corrige la visualización de los artefactos As-Is para todos los segmentos objetivo y se agrega la foto del dueño de taller Enrique Reaño |
+| 2.2.5   | 03/09/2024 | Henry Reaño Delgadillo       | Se agrega tres nuevos conceptos en Ubiquitous Language                                                                                      |
+| 3.0.0   | 05/09/2024 | Elmer Riva Rodriguez         | Se agrega la estructura completa del informe                                                                                                |
+| 3.1.0   | 06/09/2024 | Álvaro Orozco Torres         | Se agrega la primera sección del Capítulo III: Requirements Specification                                                                   |
+| 3.2.0   | 06/09/2024 | Álvaro Orozco Torres         | Se agrega la segunda sección del Capítulo III: Requirements Specification                                                                   |
+| 3.3.0   | 06/09/2024 | Henry Reaño Delgadillo       | Se agrega la tercera sección del Capítulo III: Requirements Specification                                                                   |
+| 3.4.0   | 06/09/2024 | Henry Reaño Delgadillo       | Se agrega la última sección del Capítulo III: Requirements Specification                                                                    |
+| 5.0.0   | 07/09/2024 | Henry Reaño Delgadillo       | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment                                                       |
+| 5.1.0   | 07/09/2024 | Henry Reaño Delgadillo       | Se agrega la sección correspondiente a gestión de código fuente                                                                             | 
+| 5.2.0   | 07/09/2024 | Henry Reaño Delgadillo       | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue                                        |
+| 5.3.0   | 07/09/2024 | Henry Reaño Delgadillo       | Se agrega la sección de sprint planning 1 y sprint backlog 1                                                                                | 
+| 5.4.0   | 07/09/2024 | Henry Reaño Delgadillo       | Se agrega las secciones de evidencias e insights del sprint 1                                                                               |
+| 5.5.0   | 25/09/2024 | Henry Reaño Delgadillo       | Se agrega la sección de sprint planning y sprint backlog del sprint 2                                                                       |
+| 5.5.1   | 25/09/2024 | Henry Reaño Delgadillo       | Se agrega el esquema de sprint 2 completo                                                                                                   |
+| 5.5.2   | 25/09/2024 | Henry Reaño Delgadillo       | Se completa las secciones de testing, execution, services, software deployment evidences parcialmente                                       |
+| 6.0.0   | 25/09/2024 | Elmer Augusto Riva Rodriguez | Se agrega resultado de estudiantes para presentación parcial                                                                                |
+| 6.1.0   | 25/09/2024 | Elmer Augusto Riva Rodriguez | Se agregan archivos y colaboraciones para insight de colaboración                                                                           |
+| 6.2.0   | 25/09/2024 | Elmer Augusto Riva Rodriguez | Se agrega enlace de exposición a Anexos                                                                                                     |
+| 6.3.0   | 31/10/2024 | Elmer Augusto Riva Rodriguez | Planificación de sprint y backlog del sprint 3                                                                                              |
+| 6.4.0   | 31/10/2024 | Eric Hernández               | Evidencia de desarrollo para revisión de sprint 2                                                                                           |
+| 6.5.0   | 31/10/2024 | Elmer Augusto Riva Rodriguez | Agrega tareas al sprint backlog 3                                                                                                           |
+| 6.6.0   | 31/10/2024 | Eric Hernández               | Evidencia de desarrollo para revisión de sprint                                                                                             |
+| 6.7.0   | 31/10/2024 | Elmer Augusto Riva Rodriguez | Documentación de servicios para revisión de sprint                                                                                          |
+| 6.8.0   | 31/10/2024 | Elmer Augusto Riva Rodriguez | Evidencia de despliegue de software para revisión de sprint                                                                                 |
+| 6.9.0   | 31/10/2024 | Elmer Augusto Riva Rodriguez | Se agregan videos de 'About The Product', 'About The Team', y exposición                                                                    |
+| 7.0.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizan los criterios de aceptación de las historias de usuario                                                                       |
+| 7.1.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregan wire flows faltantes                                                                                                             |
+| 7.2.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se añaden capturas de pantalla de videos de prototipos y se actualizan enlaces                                                              |
+| 7.3.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualiza la imagen del diagrama de clases y el diccionario de clases DDD                                                                |
+| 7.4.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualiza el diagrama de base de datos relacionado con DDD                                                                               |
+| 7.5.0   | 15/11/2024 | Eric Hernández               | Se agrega configuración adicional del entorno de desarrollo de software                                                                     |
+| 7.6.0   | 15/11/2024 | Eric Hernández               | Se mejora la sección de gestión de código fuente                                                                                            |
+| 7.7.0   | 15/11/2024 | Eric Hernández               | Se añaden más convenciones relacionadas con el estado                                                                                       |
+| 7.8.0   | 15/11/2024 | Eric Hernández               | Se agregan más detalles a la configuración de despliegue de software                                                                        |
+| 7.9.0   | 15/11/2024 | Eric Hernández               | Se mejora el objetivo del sprint, se actualiza la tabla de Trello y se agregan commits faltantes                                            |
+| 8.0.0   | 15/11/2024 | Eric Hernández               | Se agregan pruebas y evidencias de ejecución para revisión de sprint                                                                        |
+| 8.1.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se renombraron columnas en la tabla de evidencia de desarrollo para revisión de sprint                                                      |
+| 8.2.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregó evidencia de la suite de pruebas para revisión de sprint                                                                          |
+| 8.3.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizaron evidencias de ejecución para revisión de sprint                                                                             |
+| 8.4.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizó la documentación de servicios para revisión de sprint                                                                          |
+| 8.5.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregaron detalles previos a la evidencia de despliegue de software                                                                      |
+| 8.6.0   | 16/11/2024 | Eric Hernández               | Se agrega planificación de sprint y actualización de sprint backlog 2                                                                       |
+| 8.7.0   | 16/11/2024 | Eric Hernández               | Se agregan tareas faltantes a historias de usuario relacionadas                                                                             |
+| 8.8.0   | 16/11/2024 | Eric Hernández               | Se añaden evidencias de pruebas para revisión de sprint                                                                                     |
+| 8.9.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizan evidencias de ejecución para revisión de sprint                                                                               |
+| 9.0.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualiza la documentación de servicios para revisión de sprint                                                                          |
+| 9.1.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregan más evidencias para insights de colaboración en equipo durante el sprint                                                         |
+| 9.2.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se mejora el objetivo del sprint 3 y se actualiza la captura de pantalla de Trello                                                          |
+| 9.3.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregan más evidencias para la colaboración en equipo durante el sprint 3                                                                |
+| 9.4.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregan detalles adicionales a la evidencia de despliegue de software para revisión de sprint                                            |
+| 9.5.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se eliminan imágenes innecesarias                                                                                                           |
+| 9.6.0   | 16/11/2024 | Eric Hernández               | Se agregaron más evidencias de colaboración en equipo durante el sprint                                                                     |
+| 9.7.0   | 16/11/2024 | Eric Hernández               | Se actualizaron historias técnicas y el backlog del producto                                                                                |
+| 9.8.0   | 16/11/2024 | Eric Hernández               | Se planificó el sprint 3 con una mejor definición del objetivo                                                                              |
+| 9.9.0   | 16/11/2024 | Eric Hernández               | Se actualizó el sprint backlog 3 y se cambiaron capturas de pantalla de Trello                                                              |
+| 10.0.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se añadieron commits faltantes a la evidencia de desarrollo para revisión de sprint 3                                                       |
+| 10.1.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se añadieron commits faltantes a la suite de pruebas para revisión de sprint 3                                                              |
+| 10.2.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizaron evidencias de ejecución para revisión de sprint 3                                                                           |
+| 10.3.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizó la documentación de servicios para revisión de sprint 3                                                                        |
+| 10.4.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizaron evidencias de despliegue de software y colaboración en equipo para sprint 3                                                 |
+| 10.5.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se eliminaron imágenes innecesarias                                                                                                         |
+| 10.6.0  | 18/11/2024 | Elmer Augusto Riva Rodriguez | Se elimina una imagen repetida                                                                                                              |
+| 10.7.0  | 18/11/2024 | Elmer Augusto Riva Rodriguez | Se refactoriza el diagrama de componentes para cada contexto delimitado (C4 Modeling)                                                       |
+| 10.8.0  | 18/11/2024 | Elmer Augusto Riva Rodriguez | Se agregó reflexión de la asignación final (ABET)                                                                                           |
+| 10.9.0  | 18/11/2024 | Eric Hernández               | Se implementó la sección de validaciones, incluyendo entrevistas, imágenes y evaluación heurística                                          |
+| 11.0.0  | 18/11/2024 | Eric Hernández               | Se corrigió un error en las tablas de validaciones                                                                                          |
+| 11.1.0  | 18/11/2024 | Elmer Augusto Riva Rodriguez | Se actualizaron insights                                                                                                                    |
 
 <div style="page-break-after: always;"></div>
 
