@@ -7028,9 +7028,237 @@ Este proceso ha permitido que el backend web services se actualice automáticame
 
 ### 5.3.1. Diseño de Entrevistas
 
+En esta sección, se detalla los User Goals que orientan el flujo de nuestras entrevistas
+A continuación, se presentarán los User Goals definidos:
+
+#### User goal: Registro de cuenta
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo registro de cuenta en WorkShop N-GINE comienza con una pantalla de bienvenida en la que el dueño del taller puede iniciar sesión o registrarse si aún no tiene una cuenta. Al presionar el botón "Create account", el usuario es redirigido al formulario de registro donde ingresa su nombre, correo electrónico, contraseña y nombre del taller. Si se completa correctamente el formulario y se presiona "Crear", el sistema redirige al usuario nuevamente a la pantalla de inicio de sesión con un mensaje de confirmación. Tras iniciar sesión exitosamente, el usuario es dirigido al panel principal de la aplicación, donde puede acceder a secciones clave. La primera vista disponible es la sección de Personal vacía, con un botón para añadir personal.
+
+Si los campos del formulario de registro no se llenan correctamente o hay errores en los datos ingresados, el usuario verá un mensaje de error emergente que indica el problema específico (por ejemplo, "correo electrónico inválido" o "contraseña no coincide"). El usuario deberá corregir los errores antes de poder continuar con el proceso de registro.
+
+
+#### User goal: Acceder a la cuenta
+User persona: Dueño de taller, cliente de taller, mecánico
+
+Explicación del flujo: El proceso de inicio de sesión en WorkShop N-GINE arranca con una pantalla donde el dueño del taller debe ingresar su correo electrónico y contraseña. Una vez completados estos campos y presionado el botón "Iniciar Sesión", el sistema verifica las credenciales ingresadas. Si las credenciales son correctas, el usuario es redirigido directamente al panel principal de la aplicación. Desde ahí, puede navegar por las secciones clave como Personal, Clientes, Intervenciones, Inventario, Métricas y Notificaciones. En este caso, el sistema mostrará la vista de Personal con una lista de empleados registrados. En caso de que los datos sean incorrectos, el sistema desplegará un mensaje emergente de error, detallando cuál es el problema (por ejemplo, "Contraseña incorrecta"). Esto obligará al usuario a corregir los campos antes de poder continuar con el inicio de sesión.
+
+
+#### Registrar personal
+User persona: Dueño de taller
+
+Explicación del flujo: El proceso de gestión de personal en WorkShop N-GINE comienza cuando el dueño del taller accede a la sección de Personnel desde el panel principal. Si no hay empleados registrados, el sistema muestra un mensaje indicando "No registered personnel" y un botón para añadir nuevo personal. El usuario puede hacer clic en el botón New mechanic para iniciar el proceso de registro de un nuevo mecánico. Una vez que el usuario presiona el botón, aparece un formulario de registro donde se deben ingresar los datos del mecánico, como nombre, edad, ubicación, etc. Si los datos se completan correctamente, el usuario puede hacer clic en Save, y el sistema agregará el nuevo mecánico a la lista de personal, mostrando un mensaje de confirmación exitoso. Si el usuario no completa correctamente el formulario (por ejemplo, si falta algún dato obligatorio), se mostrará un mensaje de error emergente, indicando la necesidad de corregir los errores antes de poder continuar con el registro del nuevo mecánico.
+
+#### Manejar información de empleados
+User persona: Dueño de taller
+
+Explicación del flujo: En el proceso de edición de información del personal en WorkShop N-GINE, el usuario accede primero a la vista de Personnel, donde se muestran los perfiles de los mecánicos en formato de tarjetas. El usuario selecciona el perfil que desea editar, lo que abre una ventana modal con la información actual del empleado. El usuario puede modificar los datos del mecánico, como nombre, apellido, y otros campos. Al presionar el botón Update, el sistema despliega un cuadro de confirmación, pidiendo al usuario verificar la acción. Si el usuario confirma, los cambios se guardan y el sistema muestra un mensaje emergente indicando que la operación fue exitosa. Si el proceso es exitoso, el sistema actualiza la información del mecánico en la tabla principal de Personnel, reflejando los nuevos datos ingresados.
+
+
+#### Registrar cliente
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo de gestión de clientes en WorkShop N-GINE inicia cuando el usuario accede a la sección de Clients desde el menú principal. Al visualizar la tabla de clientes registrados, puede decidir añadir un nuevo cliente presionando el botón New Client. Al hacerlo, se despliega una ventana modal de registro donde se ingresan los datos del cliente, como nombre, documento de identidad, edad y correo electrónico. Si los datos ingresados son correctos y únicos, el sistema guarda el nuevo cliente y actualiza la tabla de clientes, mostrando un mensaje de éxito que confirma la acción. En caso de que la información ingresada ya exista en el sistema (por ejemplo, si el documento de identidad coincide con un cliente registrado previamente), el sistema despliega un mensaje de error indicando que el cliente ya está registrado. El usuario deberá corregir los datos antes de poder completar el proceso de registro del nuevo cliente.
+
+
+#### User Goal: Manejar información de clientes.
+User Persona: Dueño de taller.
+
+Explicación del flujo:El proceso de gestión de clientes en WorkShop N-GINE comienza cuando el usuario accede a la sección de Clients desde el panel principal, donde puede ver una tabla con la información de los clientes registrados. Al seleccionar un cliente, el sistema muestra una nueva pantalla con los datos personales del cliente, como nombre, edad, y ubicación, además de los vehículos registrados a nombre del cliente. El usuario tiene la opción de editar la información del cliente. Si se realizan cambios, al presionar Confirm, el sistema verifica la validez de los nuevos datos. Si los datos ingresados ya existen en el sistema (por ejemplo, un número de identificación duplicado), se muestra un mensaje emergente de error indicando que el cliente ya está registrado. Si los cambios son exitosos, el sistema guarda la nueva información y muestra un mensaje de confirmación, actualizando tanto los datos del cliente como la tabla en la vista de Clients.
+
+
+#### User Goal: Gestionar intervenciones
+User Persona: Dueño de taller.
+
+Explicación del flujo: el dueño de taller accede a la sección de Interventions, donde puede ver una tabla con las intervenciones de los vehículos en diferentes estados: pendiente, en progreso y completado. Para agendar una nueva intervención, el usuario presiona el botón Schedule intervention, lo que abre un formulario modal donde se ingresan detalles como el número de documento del cliente, matrícula del vehículo, modalidad, y descripción de la intervención. Después de completar el formulario, el usuario hace clic en Schedule. Si la disponibilidad de horario es adecuada, el sistema registra la nueva intervención y actualiza la tabla, mostrando un mensaje de éxito. Sin embargo, si el horario seleccionado ya está ocupado o no es válido, el sistema despliega un mensaje de error emergente que indica que el horario no está disponible. El usuario deberá corregir los datos para proceder con la programación de la intervención.
+
+
+#### User Goal: Visualizar detalles de intervención
+User Persona: Dueño de taller.
+Explicación del flujo: El flujo de actualización y gestión de una intervención en WorkShop N-GINE comienza con el usuario accediendo a la sección de Interventions. Aquí, el usuario selecciona una intervención específica de la lista, que lo redirige a una nueva vista donde se muestran los detalles de la intervención seleccionada. El usuario tiene la opción de actualizar el estado de la intervención, como pasarla a "En progreso" o "Completado". Si los datos ingresados son correctos y la intervención puede continuar según lo previsto, el sistema guarda los cambios y muestra un mensaje emergente de éxito. La intervención también se actualiza en la tabla principal, reflejando el nuevo estado. Si surge algún problema (por ejemplo, horarios de intervención en conflicto), el sistema desplegará un mensaje de error, pidiendo al usuario resolver el conflicto antes de continuar. El flujo asegura que los datos se gestionan de forma precisa y oportuna, permitiendo mantener control sobre el progreso de cada intervención en el taller.
+
+
+#### User Goal: Visualizar tareas pendientes como mecánico lider 
+User Persona: Mecánico.
+
+Explicación del flujo: En el flujo de visualización de tareas pendientes como mecánico líder, el usuario, que es un mecánico, accede a la sección "Mis Tareas" desde el menú lateral de la aplicación. Al ingresar, se carga una tabla con las tareas pendientes en las que el mecánico es líder, organizadas con campos como identificador de tarea, cliente, auto, fecha, modalidad, tipo de tarea y estado. Si el mecánico desea más información sobre alguna tarea específica, puede hacer clic en la tarea, lo que lo lleva a una pantalla detallada de la intervención. En esta pantalla, se despliegan las secciones clave como la información general del cliente y el vehículo, los detalles del diagnóstico y preparación, la ejecución de la intervención, y la supervisión de los procesos. Este flujo permite al mecánico tener una visión clara de sus responsabilidades, ayudando a gestionar de manera eficiente las intervenciones pendientes bajo su liderazgo.
+
+
+
+#### User goal: Consultar información de intervención
+User persona: Mecánico
+
+Explicación de flujo: En este flujo de consulta de información de intervención, el mecánico comienza en la interfaz de "Mis Tareas" donde se despliega una lista de intervenciones asignadas. Al seleccionar una intervención específica, el mecánico es redirigido a una pantalla con la información detallada de la intervención. Esta pantalla contiene varias secciones clave. En primer lugar, la "Información General", que incluye detalles del cliente, el vehículo, la modalidad del servicio, las fechas de registro, inicio y finalización, y una descripción del servicio. A continuación, el mecánico puede acceder a la sección de "Información IoT", donde se muestra un resumen del análisis OBD-IoT del vehículo, indicando el estado de los componentes y los códigos de error detectados. Adicionalmente, se presenta una lista de "Intervenciones Anteriores", lo que permite al mecánico revisar registros históricos relacionados con el vehículo. Si desea ver más detalles sobre alguna intervención previa, el mecánico puede hacer clic en "Leer más", accediendo a una vista detallada de esa intervención específica. Cuando el mecánico selecciona "Leer más" en la lista de intervenciones anteriores, accede a una vista detallada de la intervención específica. Esta vista está diseñada para proporcionar información clave que permita comprender en profundidad lo ocurrido durante la intervención pasada. En la parte superior de la pantalla, se muestran los detalles generales como el tipo de intervención (por ejemplo, reparación o mantenimiento), la fecha en que se realizó y el mecánico responsable de dicha intervención. En la sección de detalles técnicos, el mecánico puede ver un desglose de las tareas realizadas durante esa intervención, con información sobre los componentes del vehículo que fueron diagnosticados o reemplazados, junto con el estado final de esos componentes (por ejemplo, "reparado", "reemplazado", "sin cambios"). Si durante la intervención se detectaron códigos de error específicos mediante el sistema OBD-IoT, también se muestran estos códigos junto con su descripción, ayudando al mecánico a entender el problema que se atendió. Adicionalmente, se proporciona un campo de observaciones, donde el mecánico anterior pudo haber registrado notas importantes o recomendaciones para intervenciones futuras. Esto es especialmente útil para dar seguimiento a posibles problemas recurrentes o recomendaciones de mantenimiento preventivo.
+
+#### User goal: Modelar diagnóstico de intervención.
+User Persona: Mecánico.
+
+Explicación de flujo: En la interfaz de diagnóstico y preparación de una intervención, el mecánico líder tiene la capacidad de modelar el diagnóstico de la intervención. Este flujo comienza con la visualización de las tareas asignadas para la intervención. El sistema carga la lista de tareas que se deben realizar, cada una de ellas asociada a un mecánico asignado. Si el mecánico desea añadir una nueva tarea, puede hacerlo completando un campo de texto con la descripción de la tarea, seleccionando un mecánico responsable y haciendo clic en el botón "Agregar". Esto añadirá la tarea a la lista y restablecerá el campo de texto para que pueda añadir otra tarea de manera inmediata. El flujo también incluye opciones para guardar los cambios realizados en las tareas. Al hacer clic en el icono de "Guardar cambios", el sistema registrará las modificaciones realizadas y mostrará un mensaje de éxito ("Cambios guardados"), confirmando que las tareas actualizadas han sido guardadas correctamente en el sistema.
+
+
+#### User goal: Controlar ejecución de tareas
+User persona: Mecánico
+
+Explicación de flujo: El flujo comienza en la pestaña "Solicitudes de repuesto" dentro de la interfaz de ejecución de la intervención. Al ingresar, el mecánico tiene acceso a una lista de solicitudes de repuestos necesarios para completar las tareas asignadas a la intervención. Cada solicitud incluye detalles como el nombre del mecánico solicitante, el repuesto requerido, la cantidad solicitada y el estado actual de la solicitud.
+
+En esta etapa, el mecánico puede agregar nuevas solicitudes de repuestos mediante un formulario que permite seleccionar el repuesto necesario, verificar la cantidad disponible en el inventario, y definir la cantidad requerida. Una vez completada la información, el mecánico puede hacer clic en "Agregar" para incluir la nueva solicitud a la lista.
+
+Además, el mecánico tiene la opción de actualizar el estado de las solicitudes ya existentes. Puede seleccionar una o varias solicitudes, y luego hacer clic en "Guardar cambios" para confirmar que los repuestos solicitados han sido gestionados. Esto también notifica a los mecánicos correspondientes que las piezas solicitadas están disponibles, permitiendo continuar con las tareas asignadas.
+
+Si el mecánico realiza cambios pero decide revertirlos antes de guardarlos, puede hacer clic en "Deshacer", lo que restaurará la lista de solicitudes al estado previo antes de las modificaciones. Una vez que todas las solicitudes de repuestos hayan sido atendidas, el mecánico puede proceder al seguimiento del avance de la intervención o continuar con la ejecución de las tareas pendientes.
+
+
+#### User goal: Verificar cumplimiento de tareas
+User persona: Mecánico
+
+Explicación del flujo: El flujo de "Verificar cumplimiento de tareas" comienza en la pestaña de Ejecución dentro de una intervención. En esta etapa, el mecánico líder accede al seguimiento de las tareas asignadas y revisa su estado. A medida que las tareas son completadas por los mecánicos asignados, el estado de cada tarea se actualiza en tiempo real, mostrando si están en progreso, pendientes o finalizadas. Una vez que todas las tareas en la pestaña de Ejecución han sido completadas, el mecánico líder puede pasar a la pestaña de Supervisión, que ofrece una visión más detallada del progreso total de la intervención. En esta pestaña, se muestra un resumen de todas las tareas realizadas, los tiempos registrados y el estado final de cada una. Si todas las tareas han sido completadas con éxito, el sistema habilita el botón "Finalizar" en la parte superior. Al hacer clic en este botón, el mecánico líder puede finalizar la intervención, lo que cambia su estado a "Finalizada" en todo el sistema. Finalmente, el sistema redirige al usuario a la ventana de tareas.
+
+
+#### User Goal: Registrar su propio vehículo.
+User Persona: cliente de taller.
+
+Explicación del flujo: El flujo inicia cuando el dueño del carro, como cliente del taller, accede a su perfil dentro de la aplicación y navega a la sección de Mis Vehículos. Si ya tiene vehículos registrados, se despliega una lista que muestra detalles de cada vehículo como marca, modelo, placa, estado de mantenimiento, entre otros.
+
+Si el dueño del carro desea agregar un nuevo vehículo, hace clic en el botón "Agregar vehículo", lo que abre un formulario para introducir la información del nuevo vehículo, como marca, modelo, número de placa, año de fabricación y otros detalles necesarios. Una vez que el cliente ha llenado todos los campos obligatorios correctamente, hace clic en "Registrar". El sistema valida la información ingresada, y si todo está en orden, el nuevo vehículo se agrega a la lista de vehículos registrados del cliente. El formulario se cierra automáticamente, y el cliente puede ver el nuevo vehículo registrado en su sección de Mis Vehículos, con la opción de monitorear su estado o programar futuras intervenciones en el taller.
+
+
+#### User goal: Acceder al registro de intervenciones de un carro.
+User persona: Cliente de taller
+
+Explicación de flujo: el usuario comienza desde la vista principal de sus vehículos registrados. Puede seleccionar uno de sus vehículos para visualizar su información detallada y el historial de intervenciones. Una vez seleccionado el vehículo, se despliega una nueva interfaz que muestra una línea de tiempo cronológica con todas las intervenciones asociadas al vehículo, permitiendo al usuario ver rápidamente un resumen de cada intervención, como la fecha y el tipo de servicio realizado.
+
+Al hacer clic en una intervención específica dentro de esta línea de tiempo, el usuario accede a los detalles completos de la intervención. En esta vista detallada, se muestra toda la información relevante de la intervención, como la modalidad, la fecha programada, el mecánico líder, las observaciones adicionales, y el estado de la intervención. Además, el usuario puede acceder a un resumen de las tareas ejecutadas durante la intervención, con un desglose de las tareas y su estado actual.
+
+
+
 ### 5.3.2. Registro de Entrevistas
 
+#### Primer segmento objetivo (Dueño de Taller):
+
+Entrevista de validación usuario dueño de taller 01:
+
+| **Entrevistado 01**                                          | Jhonny Riva                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![jhonnyEntrevista.png](img/validation/jhonnyEntrevista.png) | Durante la entrevista de validación, Johnny Michael Riva, dueño de un taller de mecánica automotriz, evaluó la aplicación Workshop N-GINE. Comentó que la landing page era interesante y útil para organizar las tareas en su taller. Al probar la creación de un nuevo mecánico, destacó la sencillez e intuitividad de la interfaz, mencionando que el proceso de registro de datos era fácil de seguir. En general, Johnny expresó satisfacción con la aplicación y elogió su simplicidad y funcionalidad, sin sugerir mejoras. |
+| Timing: 0:00 - 4:33                                          | URL: [ValidationInterviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EW3V3EShXuBNtFPqs1EdfnUBv73XexvQ9Dx3MxSkc1L87g?e=9BnYZP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MS4xM319)                                                                                                                      |
+
+
+Entrevista de validación usuario dueño de taller 02:
+
+| **Entrevistado 02**                                      | Jhonny Riva                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![paulEntrevista.png](img/validation/paulEntrevista.png) | Durante la entrevista de validación, Paul Sulca, un dueño de taller mecánico, evaluó la aplicación Workshop N-GINE. Opinó que la regla de negocio que permite a los dueños de talleres crear cuentas para sus mecánicos era lógica. Al probar el inicio de sesión, comentó que la pantalla era familiar y fácil de usar. También destacó la claridad de la información de las intervenciones y elogió la funcionalidad de “Previous Interventions”, apreciando la línea de tiempo visual. En general, Paul consideró los colores y el diseño de la interfaz agradables y funcionales. |
+| Timing: 4:34 - 9:34                                      | URL: [ValidationInterviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EW3V3EShXuBNtFPqs1EdfnUBv73XexvQ9Dx3MxSkc1L87g?e=8N0nyL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mjc0LjYzfX0%3D)                                                                                                                                                                   |
+
+#### Segundo segmento objetivo (Mecánico):
+
+Entrevista de validación usuario mecánico 01:
+
+| **Entrevistado 01**                                        | Mateo Sánchez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![mateoEntrevista.png](img/validation/mateoEntrevista.png) | Durante la entrevista de validación, Eric Hernández entrevistó a Mateo, un mecánico, para evaluar la aplicación Workshop N-GINE. Mateo destacó que la paleta de colores, especialmente el azul, le transmitía una sensación tecnológica y que el diseño simple era amigable y adecuado para usuarios acostumbrados al trabajo físico. Exploró la landing page, elogió la facilidad del proceso de inicio de sesión, y revisó las tareas de un mecánico líder, la asignación y ejecución de tareas, y la solicitud de productos del inventario. Mateo también apreció la organización de la información en la interfaz, describiéndola como compacta y relevante. Afirmó que la aplicación era útil y eficiente para gestionar y asignar tareas. |
+| Timing: 9:34 - 18:56                                       | URL: [ValidationInterviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EW3V3EShXuBNtFPqs1EdfnUBv73XexvQ9Dx3MxSkc1L87g?e=2Vui18&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTc0LjA3fX0%3D)                                                                                                                                                                                                                                                                                                                             |
+
+Entrevista de validación usuario mecánico 02:
+
+| **Entrevistado 02**                                                | Giancarlo Dávila                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![giancarloEntrevista.png](img/validation/giancarloEntrevista.png) | Durante la entrevista de validación, Giancarlo Dávila, un ingeniero mecánico, evaluó la aplicación Workshop N-GINE. Destacó la claridad y concisión de la landing page, afirmando que es útil para atraer clientes del segmento automotriz. Giancarlo probó la interfaz de gestión de tareas, observando que las intervenciones y los datos del cliente y vehículo se presentaban de manera intuitiva. También evaluó la creación y asignación de tareas y la solicitud de productos del inventario, resaltando la simplicidad y eficiencia del flujo. Sugerió que la interfaz podría ser más amplia, pero concluyó que la aplicación cumple con su propósito funcional y facilita la gestión en talleres mecánicos. |
+| Timing: 18:56 - 28:43                                              | URL: [ValidationInterviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EW3V3EShXuBNtFPqs1EdfnUBv73XexvQ9Dx3MxSkc1L87g?e=JxHSO1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTEzNi42OX19)|
+
+Entrevista de validación usuario mecánico 03:
+
+| **Entrevistado 03**                                        | Salim Ramírez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![salimEntrevista.png](img/validation/salimEntrevista.png) | Durante la entrevista de validación, Salim Ramírez, un mecánico de 21 años, evaluó la aplicación Workshop N-GINE. Salim destacó que la landing page tiene un diseño llamativo, es intuitiva y ofrece información relevante. Al probar la aplicación, confirmó la facilidad de uso al visualizar tareas pendientes y consultar detalles de intervenciones. Evaluó la creación y asignación de tareas, así como la ejecución y solicitud de productos del inventario, destacando la eficiencia e intuición del flujo. En general, elogió la accesibilidad y simplicidad de la aplicación. |
+| Timing: 28:44 - 38:22                                      | URL: [ValidationInterviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EW3V3EShXuBNtFPqs1EdfnUBv73XexvQ9Dx3MxSkc1L87g?e=4Khda5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTcyNC40OX19)                                                                                                                                                                       |
+
+
 ### 5.3.3. Evaluaciones según heurísticas
+
+#### SITE o APP A EVALUAR:
+##### Workshop N-GINE
+
+#### TAREAS A EVALUAR:
+##### Desktop landing page:
+1.	Información y descripción de la aplicación.
+2.	Realizar scroll para explorar todas las secciones de la landing page.
+3.	Botón de inicio de sesión.
+##### Web Application:
+1.	Registro de un nuevo usuario (dueño del taller)
+2.	Inicio de sesión con un usuario existente.
+3.	Creación de una cuenta de mecánico.
+4.	Ingreso de datos personales y validación en la interfaz de personal.
+5.	Confirmación de la creación de un nuevo mecánico en la sección de personal.
+6.	Visualización de tareas pendientes como mecánico líder.
+7.	Consulta de información detallada de una intervención.
+8.	Modelado y asignación de tareas dentro de una intervención.
+9.	Solicitud de productos del inventario.
+10.	Verificación del estado de las tareas en la sección de supervisión.
+________________________________________
+
+#### PROBLEMAS IDENTIFICADOS Y CUMPLIMIENTO DE HEURÍSTICAS:
+
+##### PROBLEMA #01: Ausencia de confirmación visual tras crear un mecánico
+
+Escala de severidad: 03
+
+Principio violado: Usability - Visibilidad del estado del sistema
+
+Descripción del problema: Después de crear un nuevo mecánico, no hay un mensaje de confirmación visual claro que indique que la acción se ha realizado correctamente, lo que puede generar dudas.
+
+![heuristic1.png](img/validation/heuristics/heuristic1.png)
+
+Recomendación: Agregar un mensaje de éxito que informe al usuario que el mecánico ha sido creado exitosamente, junto con una opción para ver los detalles.
+
+#### PROBLEMA #02: Diseño de formulario de creación de mecánicos sin validaciones en tiempo real
+
+Escala de severidad: 02
+
+Principio violado: Usability - Prevención de errores
+
+Descripción del problema: El formulario de creación de mecánicos no tiene validaciones en tiempo real, lo que puede permitir errores de entrada y llevar a problemas con la gestión de datos.
+
+![heuristic2.png](img/validation/heuristics/heuristic2.png)
+
+Recomendación: Implementar validaciones en tiempo real que muestren advertencias si los datos ingresados no cumplen con los requisitos, como formatos de correo electrónico incorrectos o campos obligatorios sin completar.
+
+#### PROBLEMA #03: Escasa información en la sección de personal para nuevos usuarios
+Escala de severidad: 02
+
+Principio violado: Usability - Coincidencia entre el sistema y el mundo real
+
+Descripción del problema: La sección de personal no proporciona suficiente contexto o ejemplos para ayudar a los nuevos usuarios a entender cómo registrar y gestionar mecánicos de manera eficiente.
+
+![heuristic3.png](img/validation/heuristics/heuristic3.png)
+
+Recomendación: Añadir descripciones o ejemplos breves sobre cómo se puede usar la sección de personal, o incluir sugerencias para el uso óptimo de la función.
+
+#### PROBLEMA #04: Interfaz de solicitud de productos sin validación previa
+
+Escala de severidad: 02
+
+Principio violado: Usability - Prevención de errores
+
+Descripción del problema: La interfaz permite que los mecánicos soliciten productos sin validaciones claras para prevenir errores, como pedir más productos de los disponibles en el inventario. Esto es debido a que la validación ocurre después de hacer la solicitud y no al seleccionar la cantidad.
+
+![heuristic4.png](img/validation/heuristics/heuristic4.png)
+
+Recomendación: Implementar validaciones que alerten a los usuarios si la cantidad solicitada no es posible debido a la falta de inventario en el momento de elegir la cantidad.
+
+#### PROBLEMA #05:  Diseño de interfaz de consulta de intervenciones sobrecargado
+
+Escala de severidad: 02
+
+Principio violado: Estética y diseño minimalista
+
+Descripción del problema: La interfaz que muestra los detalles de la intervención contiene muchos datos en un solo lugar, lo que puede hacer que el contenido se sienta abrumador y difícil de procesar rápidamente.
+
+![heuristic5.png](img/validation/heuristics/heuristic5.png)
+
+Recomendación: Simplificar la disposición de la información y dividirla en secciones bien definidas, destacando solo los datos esenciales.
+
 
 ## 5.4. Video About-the-Product
 
