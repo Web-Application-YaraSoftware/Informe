@@ -7096,6 +7096,359 @@ Este proceso ha permitido que el backend web services se actualice automáticame
 
 #### 5.2.4.2. Sprint Backlog 4
 
+En el sprint 4, el equipo completo satisfactoriamente la conexion entre el backend y frontend.
+Asimismo, se implementó la autorizacion y autenticacion en la base de datos con tokenizacion.
+
+De ese modo, la herramienta de gestión de proyectos utilizada para el sprint 3 fue Trello, donde se registraron las tareas a realizar y su estado.
+
+![Trello Sprint 4](img/5/2/4/2/trello_board_4.png)
+
+Enlace al tablero de Trello:
+[https://trello.com/b/JLzWDsTp/sprint-4](https://trello.com/b/JLzWDsTp/sprint-4)
+
+A continuación, se procede a detallar en una tabla las user story y technical stories vinculadas a sus tareas, con una breve descripción, estimación en horas y qué miembro del equipo la llevo a cabo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint 3</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td>TS-15</td>
+    <td>Manage User Authentication</td>
+    <td>TK-01</td>
+    <td>Crear endpoint para registrar nuevos usuarios</td>
+    <td>Implementar un endpoint POST que permita el registro de nuevos usuarios.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-15</td>
+    <td>Manage User Authentication</td>
+    <td>TK-02</td>
+    <td>Crear endpoint para iniciar sesión de usuarios</td>
+    <td>Implementar un endpoint POST para la autenticación de usuarios.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-17</td>
+    <td>Manage Plans</td>
+    <td>TK-03</td>
+    <td>Crear endpoint para obtener todos los planes disponibles</td>
+    <td>Implementar un endpoint GET que devuelva una lista de planes.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-04</td>
+    <td>Crear endpoint para obtener las suscripciones de un taller</td>
+    <td>Implementar un endpoint GET que devuelva las suscripciones asociadas a un taller.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-05</td>
+    <td>Crear endpoint para añadir una nueva suscripción</td>
+    <td>Implementar un endpoint POST para crear una suscripción.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-06</td>
+    <td>Crear endpoint para obtener la última suscripción activa</td>
+    <td>Implementar un endpoint GET que devuelva la última suscripción activa.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-07</td>
+    <td>Crear endpoint para cancelar una suscripción</td>
+    <td>Implementar un endpoint POST que actualice el estado de la suscripción a cancelada.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-19</td>
+    <td>Manage Invoices</td>
+    <td>TK-08</td>
+    <td>Crear endpoint para generar una factura</td>
+    <td>Implementar un endpoint POST que permita crear una factura basada en una suscripción.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-19</td>
+    <td>Manage Invoices</td>
+    <td>TK-09</td>
+    <td>Crear endpoint para obtener todas las facturas de un taller</td>
+    <td>Implementar un endpoint GET que devuelva todas las facturas de un taller.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-10</td>
+    <td>Actualizar el formulario de registro para que se conecte al backend</td>
+    <td>Conectar el formulario de registro con la API de backend.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-11</td>
+    <td>Adaptar la pantalla de login para que se conecte al backend</td>
+    <td>Implementar la conexión de la pantalla de login con la API de autenticación.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-12</td>
+    <td>Ajustar la creación de cuentas de taller para que se conecte al backend</td>
+    <td>Vincular la creación de cuentas de taller con el backend.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-04</td>
+    <td>Personal</td>
+    <td>TK-13</td>
+    <td>Revisar y conectar la vista de personal al backend</td>
+    <td>Conectar la vista de gestión de personal con la API del backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-05</td>
+    <td>Detalles de empleado</td>
+    <td>TK-14</td>
+    <td>Configurar la vista de detalles de empleado para que se conecte al backend</td>
+    <td>Vincular la vista de detalles del empleado con la API del backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-06</td>
+    <td>Clientes</td>
+    <td>TK-15</td>
+    <td>Enlazar la vista de clientes para que se conecte al backend</td>
+    <td>Conectar la gestión de clientes con el backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
+    <td>TK-16</td>
+    <td>Hacer que la vista de detalles de cliente se conecte al backend</td>
+    <td>Vincular la vista de detalles del cliente con la API.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-08</td>
+    <td>Intervenciones</td>
+    <td>TK-17</td>
+    <td>Conectar la vista de intervenciones al backend</td>
+    <td>Implementar la conexión de la vista de intervenciones con la API.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-09</td>
+    <td>Creación de intervenciones</td>
+    <td>TK-18</td>
+    <td>Ajustar la funcionalidad de creación de intervenciones para que se conecte al backend</td>
+    <td>Vincular la creación de intervenciones con el backend.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-19</td>
+    <td>Configurar la vista de detalles de intervención para que se conecte al backend</td>
+    <td>Conectar la vista de detalles de intervención con la API.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-20</td>
+    <td>Conectar la vista de existencias de inventario al backend</td>
+    <td>Enlazar la vista de existencias con la API de inventario.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-21</td>
+    <td>Ajustar la vista de solicitudes de inventario para que se conecte al backend</td>
+    <td>Conectar la gestión de solicitudes de inventario con el backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-14</td>
+    <td>Notificaciones</td>
+    <td>TK-22</td>
+    <td>Integrar el sistema de notificaciones para que se conecte al backend</td>
+    <td>Vincular la funcionalidad de notificaciones con la API.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-15</td>
+    <td>Mis tareas (líder)</td>
+    <td>TK-23</td>
+    <td>Sincronizar la vista de tareas del líder para que se conecte al backend</td>
+    <td>Conectar la vista de tareas del líder con la API del backend.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-16</td>
+    <td>Mis tareas (asistente)</td>
+    <td>TK-24</td>
+    <td>Hacer que la vista de tareas del asistente se conecte al backend</td>
+    <td>Enlazar la vista de tareas del asistente con la API.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-25</td>
+    <td>Conectar la vista de información de intervención al backend</td>
+    <td>Vincular la vista de información de intervención con el backend.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-26</td>
+    <td>Ajustar el diagnóstico de intervención para que se conecte al backend</td>
+    <td>Implementar la conexión del diagnóstico de intervención con el backend.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-27</td>
+    <td>Configurar la ejecución de intervención para que se conecte al backend</td>
+    <td>Vincular la ejecución de intervención con la API.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-28</td>
+    <td>Hacer que la supervisión de intervención se conecte al backend</td>
+    <td>Conectar la supervisión de intervención con la API del backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-29</td>
+    <td>Conectar el registro de vehículos al backend</td>
+    <td>Vincular el registro de vehículos con la API del backend.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-22</td>
+    <td>Registro de intervenciones</td>
+    <td>TK-30</td>
+    <td>Sincronizar el registro de intervenciones para que se conecte al backend</td>
+    <td>Conectar la gestión del registro de intervenciones con la API.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-31</td>
+    <td>Ajustar la vista de información IoT para que se conecte al backend</td>
+    <td>Implementar la conexión de la vista de información IoT con el backend.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-32</td>
+    <td>Integrar la funcionalidad de agendar citas para que se conecte al backend</td>
+    <td>Conectar la funcionalidad de agendar citas con la API del backend.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+</table>
+
 #### 5.2.4.3. Development Evidence for Sprint Review
 
 #### 5.2.4.4. Testing Suite Evidence for Sprint Review
