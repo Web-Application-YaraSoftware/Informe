@@ -4093,22 +4093,23 @@ El diagrama de gestión de comunicaciones muestra cómo una Single Page Applicat
 ![communication management.png](img%2F4%2Fc4model%2Fcommunication%20management.png)
 
 #### Subscription management bounded context
-El diagrama de gestión de suscripciones muestra cómo una Single Page Application (SPA) interactúa con controladores para manejar suscripciones y planes. Los controladores procesan solicitudes API para gestionar operaciones de suscripción y facturación. Los servicios de comando realizan acciones como la creación y actualización de suscripciones y planes, mientras que los servicios de consulta recuperan información relevante. Los datos se almacenan en repositorios conectados a una base de datos central, y el servicio de notificaciones envía correos electrónicos mediante Gmail para mantener a los usuarios informados sobre los cambios en sus suscripciones.![communication management.png](img%2F4%2Fc4model%2Fcommunication%20management.png)
+El diagrama de gestión de suscripciones muestra cómo una Single Page Application (SPA) interactúa con controladores para manejar suscripciones y planes. Los controladores procesan solicitudes API para gestionar operaciones de suscripción y facturación. Los servicios de comando realizan acciones como la creación y actualización de suscripciones y planes, mientras que los servicios de consulta recuperan información relevante. Los datos se almacenan en repositorios conectados a una base de datos central, y el servicio de notificaciones envía correos electrónicos mediante Gmail para mantener a los usuarios informados sobre los cambios en sus suscripciones.
 ![subscriptionManagement.png](img%2F4%2Fc4model%2FsubscriptionManagement.png)
 
 #### Billing management bounded context
 El diagrama de gestión de facturación muestra cómo una Single Page Application (SPA) se comunica con un controlador de facturación para gestionar la generación de facturas y el procesamiento de pagos. Los servicios de consulta y comando manejan la recuperación de datos y las actualizaciones para facturas y pagos. Los repositorios almacenan datos relacionados con facturas y pagos en una base de datos central. El servicio de notificaciones envía recordatorios y actualizaciones de facturación a los clientes a través de Gmail, mientras que un gateway de pago externo procesa los pagos de forma segura.## 4.7. Software Object-Oriented Design
+
 ![billingManagement.png](img%2F4%2Fc4model%2FbillingManagement.png)
+
 #### Device management bounded context
 El diagrama de gestión de dispositivos describe cómo una Single Page Application (SPA) interactúa con un controlador para gestionar dispositivos y diagnósticos. Los servicios de comando y consulta se encargan de las operaciones de escritura y lectura de datos de los dispositivos, que se almacenan en un repositorio conectado a una base de datos. La fachada de gestión de dispositivos expone datos relevantes a otros contextos, mientras que el servicio de gestión de códigos procesa códigos y datos diagnósticos obtenidos de dispositivos IoT OBD integrados en vehículos. Esto permite una gestión eficiente de los dispositivos y la interpretación de información de diagnóstico en tiempo real.
+<br>
 ![deviceManagement.png](img%2F4%2Fc4model%2FdeviceManagement.png)
 
 #### Identity and Access Management Bounded Context
 Este diagrama representa el contexto de Identity and Access Management (IAM) dentro de la aplicación Workshop N-GINE, encargado de la autenticación, gestión de usuarios y control de roles. Su propósito es garantizar un acceso seguro y controlado a los recursos del sistema mediante la gestión de usuarios y sus respectivas autorizaciones.
 <br>
-![structurizr-iam.png](img%2F4%2Fc4model%2Fstructurizr-iam.png)<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-iam.png" width="1000px">
-</div>
+![structurizr-iam.png](img%2F4%2Fc4model%2Fstructurizr-iam.png)
 
 
 ### 4.7.1. Class Diagrams
