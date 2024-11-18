@@ -7557,11 +7557,67 @@ A continuación, se presentan las evidencias de las pruebas realizadas:
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-..introduccion de lo que se logro
+En el sprint 4 se alcanzo conectar el frontend con el backend, implementar la totalidad de los recursos asocidos a los bounde context Identity and Access management, Billing management y Subscription management. Y implementacion completa de json web token en frontend y backend que permite al usuario navegar por ciertas funcionalidades de la aplicación.
 
-..capturas de los mas importante 
+En el frontend se contempló la ejecución de refactors para conectar el back con el front.
 
-.. video del flujo
+A continuación algunas evidencias en imágen del front end y back completos.
+
+**Login**
+![login.png](img%2F5%2F4%2Flogin.png)
+
+**Registration**
+![register.png](img%2F5%2F4%2Fregister.png)
+
+**Personnel view**
+![personnelView.png](img%2F5%2F4%2FpersonnelView.png)
+
+**Mechanic information**
+![personnelInformation.png](img%2F5%2F4%2FpersonnelInformation.png)
+
+**Mechanic creation**
+![mechanicCreation.png](img%2F5%2F4%2FmechanicCreation.png)
+
+**Clients view**
+![clientsView.png](img%2F5%2F4%2FclientsView.png)
+
+**New client form**
+![newClient.png](img%2F5%2F4%2FnewClient.png)
+
+**Client detail**
+![clientDetail.png](img%2F5%2F4%2FclientDetail.png)
+
+**Update client information**
+![updateClientInformation.png](img%2F5%2F4%2FupdateClientInformation.png)
+
+**New vehicle registration**
+![newVehicleRegistration.png](img%2F5%2F4%2FnewVehicleRegistration.png)
+
+**Activity log and Iot Information**
+![img_1.png](img%2F5%2F4%2Fimg_1.png)
+
+**Intervention detail**
+![img_2.png](img%2F5%2F4%2Fimg_2.png)
+
+**Intervention summary**
+![img_3.png](img%2F5%2F4%2Fimg_3.png)
+
+**Intervention list**
+![img.png](img%2F5%2F4%2Fimg.png)
+
+#### Resources and endpoints
+
+**Authentication**
+![img_4.png](img%2F5%2F4%2Fimg_4.png)
+
+**Invoices**
+![img_5.png](img%2F5%2F4%2Fimg_5.png)
+
+**Subscriptions**
+![img_6.png](img%2F5%2F4%2Fimg_6.png)
+
+Enlace para visualizar el video de explication de los logros del sprint:
+[enlace al video](enlace)
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
