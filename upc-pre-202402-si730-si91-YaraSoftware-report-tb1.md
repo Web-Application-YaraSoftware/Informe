@@ -6520,7 +6520,7 @@ A continuación, se presentan las evidencias de las pruebas realizadas:
 
 En el sprint 3 se alcanzó un desarrollo parcial del frontend y backend de la aplicación web, que permite al usuario navegar por ciertas funcionalidades de la aplicación.
 
-En el frontend se contempló el desarrollo los flujos de la ejecucion de una intervencion donde se 
+En el frontend se contempló el desarrollo los flujos de la ejecucion de una intervencion principalmente.
 
 A continuación algunas evidencias en imágen de las historias de usuario más relevantes:
 
@@ -7555,14 +7555,119 @@ A continuación, se presentan las evidencias de las pruebas realizadas:
 | https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | feature/testing-back-web-services | d01f40998c44c2b82873c88a507dce34e5296de8 | feat: add Gherkin scenarios for subscription management              | - Define scenarios for retrieving all subscriptions, including handling empty and non-existent cases. - Add scenarios for creating subscriptions with validation for missing or invalid values. - Include scenarios for retrieving the latest subscription and canceling subscriptions, with proper error handling. | Sat Nov 16 19:53:24 2024 |
 | https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | feature/testing-back-web-services | 434a27be4db499bf255552851c7fbb4399ceea8d | feat: add Gherkin scenarios for invoice management                   | - Define scenarios for creating invoices with validation for missing or invalid data. - Add scenarios for retrieving all invoices for a workshop, including handling empty results. - Include error handling for unexpected server issues when fetching invoices.                                                   | Sat Nov 16 19:53:41 2024 |
 
-
 #### 5.2.4.5. Execution Evidence for Sprint Review
+
+..introduccion de lo que se logro
+
+..capturas de los mas importante 
+
+.. video del flujo
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
+..introduccion de lo que se logro
+
+...endpoint en tablas
+
+...Capturas
+
+Enlace del repositorio:
+
+[https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform](https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform)
+
+* Backend web services commits details
+
+| Repository                                                               | Branch                             | Commit Id                                | Commit Message                                                                                                                                                | Commit Message Body                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Commited on(Date)        |
+|--------------------------------------------------------------------------|------------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | a22d28dabf40ffbd514ad2cb71476e321a028bd8 | feat(api-iam): add GetUserByIdQuery record for user queries                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:00:18 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | 85f86e648199c3b4e953812298346de7596e5abb | feat(jwt-token-service): implement TokenService with JWT generation and validation                                                                            | - Added `TokenSettings` class for JWT configuration, including the secret key. - Implemented `TokenService` class in `YARA.WorkshopNGine.API.IAM.Infrastructure.Tokens.JWT.Services` to handle JWT operations: `GenerateToken` and `ValidateToken`. - Registered `ITokenService` interface in `YARA.WorkshopNGine.API.IAM.Application.Internal.OutboundServices`. - Configured token validation parameters to enforce security and lifetime constraints.                                                                                                               | Mon Nov 18 06:01:33 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | c26f033ae200881eedb2260adeab82bd8be9cffd | feat(hashing-service): add HashingService with BCrypt implementation                                                                                          | - Implemented `HashingService` class using BCrypt for password hashing and verification. - `HashPassword`: Hashes a plain text password using BCrypt. - `VerifyPassword`: Verifies a plain text password against a hashed password. - Defined `IHashingService` interface to abstract hashing operations.                                                                                                                                                                                                                                                              | Mon Nov 18 06:02:35 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | 3873d104c1e080b66042b41a01617a919a7bcc62 | feat: update command and query services interfaces for user                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:03:00 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | abe410f31a1d1c60661bfccbcce52ae2da2ff0aa | feat(middleware): add RequestAuthorizationMiddleware for JWT-based authorization                                                                              | - Created `RequestAuthorizationMiddleware` to handle request authorization based on JWT tokens. - Checks if the endpoint allows anonymous access and skips authorization if so. - Extracts and validates the JWT token from the request headers using `ITokenService`. - Uses `IUserQueryService` to fetch and verify the user associated with the token. - Attaches the authorized user to the context for downstream access. - Added console logging for debugging and tracing middleware flow.                                                                      | Mon Nov 18 06:04:04 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | 8d37173225c60b1ee185576e1c92c4f6c2b10f26 | feat(security): implement custom Authorize attribute for request authorization                                                                                | - Developed `AuthorizeAttribute` to enforce authorization in controllers or methods. - Skips authorization if the endpoint is marked with `AllowAnonymousAttribute`. - Checks for the authenticated `User` in the HTTP context and returns a 401 Unauthorized result if the user is not authenticated. - Added debug logging to trace authorization decisions.                                                                                                                                                                                                         | Mon Nov 18 06:04:27 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | 6be3951bcea335e7e35f8dcc4e4420447153c72e | feat(middleware): add extension method for request authorization middleware                                                                                   | - Created `ApplicationBuilderExtensions` to simplify the integration of `RequestAuthorizationMiddleware`. - Added `UseRequestAuthorization` method to enable streamlined middleware setup in the application's pipeline.                                                                                                                                                                                                                                                                                                                                               | Mon Nov 18 06:04:48 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | 7ce3b5956bbcf8892614d3bc6abf93a20fd4cc76 | feat(middleware): add AllowAnonymous attribute for method-level authorization bypass                                                                          | - Introduced `AllowAnonymousAttribute` to enable skipping authorization for specific methods. - Simplified the management of anonymous access in the authorization middleware.                                                                                                                                                                                                                                                                                                                                                                                         | Mon Nov 18 06:05:06 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login    | d167a1716e994850924ab34f0bfc181a26b99ea5 | refactor: update resource and transform with the included token response and request                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:05:57 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login    | 86f00170b4be96b8e5351c32971842b0163e71bc | feat: hash password and get token                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:06:27 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login    | 74e11f88548bb96920170e3b7abbadee07009fd8 | feat: add new method for get by id user                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:06:45 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login    | f211b345d201b23c7b83021d7fd263b0667ec895 | feat: disable authorization for these endpoints related to sign in, sign up and create workshop                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:07:55 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login    | dde35bf1345fb7313a77fca2ed0159c5ee11618c | chore: add services to program                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:08:22 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | develop                            | c7b8da8086bd29e9638b02dd3d1af29b60c4624c | Merge pull request #33 from Web-Application-YaraSoftware/feature/user-registration-login                                                                      | Feature/user registration login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:09:27 2024 |
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+Para la entrega del cuarto sprint, se desplego la landing page completamente funcional. Cumpliendo los user stories correspondientes al entregable. De la misma forma se desplego la web application completa. Asimismo, se desplego el back-end completo.
+
+**Landing page**
+
+El despliegue de la landing page en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la landing page se actualice automáticamente en la URL [https://web-workshop-n-gine-landing-page.netlify.app/](https://web-workshop-n-gine-landing-page.netlify.app/)
+
+![deploy-landing-page](img/5/2/4/7/landing-page/deploy.png)
+
+- Capturas de pantalla landing page:
+
+.. agregar capturas
+
+**Frontend web application**
+
+El despliegue del frontend web application en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la web application se actualice automáticamente en la URL [https://web-workshop-n-gine.netlify.app/](https://web-workshop-n-gine.netlify.app/)
+
+![deploy-frontend-web-application](img/5/2/4/7/frontend/deploy.png)
+
+- Capturas de pantalla frontend web application:
+
+... agregar capturas
+
+* Backend web services
+
+El despliegue del backend web services en Railway se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que el backend web services se actualice automáticamente en la URL [https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html](https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html)
+
+![deploy-backend-web-services](img/5/2/4/7/backend/deploy.png)
+
+- Capturas de pantalla backend web services:
+
+.. agregar capturas
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+| Alumno                            | Actividad                                                                         |
+|-----------------------------------|-----------------------------------------------------------------------------------|
+| Gutiérrez Soto, Jhosepmyr Orlando | Desarrollo del back end, y mejora y reestructuración de componentes del front end |
+| Hernández Tuiro, Eric Ernesto     | Reestructuración y mejora de componentes del front end                            |
+| Riva Rodríguez, Elmer Augusto     | Reestructuración de componentes del front end                                     |
+
+* Repositorio de Landing page
+
+![landing-page-repository-1](img/5/2/4/8/landing-page/1.png)
+
+![landing-page-repository-2](img/5/2/4/8/landing-page/2.png)
+
+![landing-page-repository-3](img/5/2/4/8/landing-page/3.png)
+
+![landing-page-repository-4](img/5/2/4/8/landing-page/4.png)
+
+* Repositorio del Frontend Web Application
+
+![frontend-1](img/5/2/4/8/frontend/1.png)
+
+![frontend-2](img/5/2/4/8/frontend/2.png)
+
+![frontend-3](img/5/2/4/8/frontend/3.png)
+
+![frontend-4](img/5/2/4/8/frontend/4.png)
+
+* Repositorio del Backend Web Services
+
+![backend-1](img/5/2/4/8/backend/1.png)
+
+![backend-2](img/5/2/4/8/backend/2.png)
+
+![backend-3](img/5/2/4/8/backend/3.png)
+
+![backend-4](img/5/2/4/8/backend/4.png)
 
 ## 5.3. Validation Interviews
 
