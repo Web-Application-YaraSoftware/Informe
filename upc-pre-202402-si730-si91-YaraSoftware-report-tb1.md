@@ -7641,7 +7641,15 @@ Este proceso ha permitido que la landing page se actualice automáticamente en l
 
 - Capturas de pantalla landing page:
 
-.. agregar capturas
+![landing1](img/5/2/4/7/landing-page/1.png)
+
+![landing2](img/5/2/4/7/landing-page/2.png)
+
+![landing3](img/5/2/4/7/landing-page/3.png)
+
+![landing4](img/5/2/4/7/landing-page/4.png)
+
+![landing5](img/5/2/4/7/landing-page/5.png)
 
 **Frontend web application**
 
@@ -7652,7 +7660,15 @@ Este proceso ha permitido que la web application se actualice automáticamente e
 
 - Capturas de pantalla frontend web application:
 
-... agregar capturas
+![frontend1](img/5/2/4/7/frontend/1.png)
+
+![frontend2](img/5/2/4/7/frontend/2.png)
+
+![frontend3](img/5/2/4/7/frontend/3.png)
+
+![frontend4](img/5/2/4/7/frontend/4.png)
+
+![frontend5](img/5/2/4/7/frontend/5.png)
 
 * Backend web services
 
@@ -7663,7 +7679,15 @@ Este proceso ha permitido que el backend web services se actualice automáticame
 
 - Capturas de pantalla backend web services:
 
-.. agregar capturas
+![backend1](img/5/2/4/7/backend/1.png)
+
+![backend2](img/5/2/4/7/backend/2.png)
+
+![backend3](img/5/2/4/7/backend/3.png)
+
+![backend4](img/5/2/4/7/backend/4.png)
+
+![backend5](img/5/2/4/7/backend/5.png)
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
