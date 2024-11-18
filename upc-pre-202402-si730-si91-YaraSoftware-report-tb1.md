@@ -99,6 +99,17 @@ Para el desarrollo del informe perteneciente a la entrega del TB2, se dividio la
 | Elmer Riva Rodriguez     | Evaluación según heurísticas, análisis de entrevistas de validación. Testing Suite Evidence for Sprint Review, Execution Evidence for Sprint Review |
 | Jhosepmyr Gutierrez Soto | Correccion del diagrama de clases y base de datos, y desarrollo Sprint Planning 3, Development Evidence for Sprint Review                           |
 
+**TF**
+
+Para el desarrollo del informe perteneciente a la entrega del TF, se dividio la implementacion de secciones de la siguiente forma para cada integrante:
+
+| Integrantes              | Tareas Asignadas                                                                                      |
+|--------------------------|-------------------------------------------------------------------------------------------------------|
+| Eric Hernandez Tuiro     | Elaboración y grabación de entrevistas de validación, incluyendo evaluación de cumplimiento de heurísticas |
+| Elmer Riva Rodriguez     | Execution Evidence for Sprint Review, Evaluación de del informe en general, y sprint 4 organización.  |
+| Jhosepmyr Gutierrez Soto | Actualización del c4 modeling, sprint planning 3                                                      |
+
+
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Web-Application-YaraSoftware, donde cada integrante subió sus avances y se realizó una revisión constante de los mismos para asegurar la calidad del informe.
 
 **Github Collaboration Insights**
@@ -122,9 +133,6 @@ Se explicará el proceso de la division de las ramas más importantes:
 Los siguientes gráficos muestran la cantidad de commits y líneas de código agregadas por cada integrante del equipo en el proyecto.
 
 ![Commits_Graph](img/1/collaboration-insights/commits_over_time.png)
-![Commits_Graph_Individual_1](img/1/collaboration-insights/commit_graph_individual_1.png)
-![Commits_Graph_Individual_2](img/1/collaboration-insights/commit_graph_individual_2.png)
-![Commits_Graph_Individual_3](img/1/collaboration-insights/commit_graph_individual_3.png)
 
 El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
 
