@@ -286,6 +286,60 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
 
 [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
+[5.2.2. Sprint 2](#522-sprint-2)
+
+[5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+
+[5.2.2.2. Sprint Backlog 2](#5222-sprint-backlog-2)
+
+[5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
+
+[5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+
+[5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+
+[5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+
+[5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+
+[5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint-)
+
+[5.2.3. Sprint 3](#523-sprint-3)
+
+[5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+
+[5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-3)
+
+[5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
+
+[5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
+
+[5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+
+[5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+
+[5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+
+[5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint-)
+
+[5.2.4. Sprint 4](#524-sprint-4)
+
+[5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+
+[5.2.4.2. Sprint Backlog 4](#5242-sprint-backlog-4)
+
+[5.2.4.3. Development Evidence for Sprint Review](#5243-development-evidence-for-sprint-review)
+
+[5.2.4.4. Testing Suite Evidence for Sprint Review](#5244-testing-suite-evidence-for-sprint-review)
+
+[5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+
+[5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+
+[5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+
+[5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+
 [5.3. Validation Interviews](#53-validation-interviews)
 
 [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
@@ -4972,7 +5026,7 @@ Enlace para acceder a la landing page: [https://web-workshop-n-gine-landing-page
 ![insights-2](img/5/2/1/8/insights-2.png)
 ![insights-3](img/5/2/1/8/insights-3.png)
 
-### 5.2.2 Sprint 2
+### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
 
@@ -5265,7 +5319,7 @@ De ese modo, se incluyen las configuraciones necesarias para el despliegue de la
 
 - Captura de pantalla del frontend web application:
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint. 
+#### 5.2.2.8. Team Collaboration Insights during Sprint 
 
 | Alumno                   | Actividad                                                                                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
@@ -7023,6 +7077,37 @@ Este proceso ha permitido que el backend web services se actualice automáticame
 
 ![back-end-repository-4](img/5/2/3/8/backend-4.png)
 
+### 5.2.4 Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+| **Sprint #**                    | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                            | 2024/11/02                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Time                            | 20:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 3 Goal                   | Nuestro enfoque está en completar la integración del frontend con el backend real ,brindar soporte completo a  la autenticación y autorizacion para control de acceso con tokens, y asegurar que la landing page esté optimizada y lista para atraer nuevos visitantes. <br> Creemos que esto entregará una experiencia de usuario más segura y fluida, facilitará la gestión y autenticación de manera eficiente, y aumentará la confianza de los visitantes en el producto. <br> Esto se confirmará cuando los usuarios puedan registrarse, iniciar sesión e interactuar con la aplicacion web usando el backend real, y cuando la landing page esté completamente funcional para captar y convertir visitantes. |
+| Sprint 3 Velocity               | 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points             | 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+#### 5.2.4.2. Sprint Backlog 4
+
+#### 5.2.4.3. Development Evidence for Sprint Review
+
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -7037,7 +7122,6 @@ A continuación, la primera version del video About The Product
 <img src="img/5/2/videos/AboutTheProduct.png">
 <br>
 [Enlace Video About The Product](https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor)
-
 
 # Conclusiones
 
