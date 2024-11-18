@@ -185,6 +185,9 @@ Se explicará el proceso de la division de las ramas más importantes:
 Los siguientes gráficos muestran la cantidad de commits y líneas de código agregadas por cada integrante del equipo en el proyecto.
 
 ![Commits_Graph](img/1/collaboration-insights/commits_over_time.png)
+![Commits_Graph_Individual_1](img/1/collaboration-insights/commit_graph_individual_1.png)
+![Commits_Graph_Individual_2](img/1/collaboration-insights/commit_graph_individual_2.png)
+![Commits_Graph_Individual_3](img/1/collaboration-insights/commit_graph_individual_3.png)
 
 El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
 
@@ -345,6 +348,60 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
 [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
 
 [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+
+[5.2.2. Sprint 2](#522-sprint-2)
+
+[5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+
+[5.2.2.2. Sprint Backlog 2](#5222-sprint-backlog-2)
+
+[5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
+
+[5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+
+[5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+
+[5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+
+[5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+
+[5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint-)
+
+[5.2.3. Sprint 3](#523-sprint-3)
+
+[5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+
+[5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-3)
+
+[5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
+
+[5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
+
+[5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+
+[5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+
+[5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+
+[5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint-)
+
+[5.2.4. Sprint 4](#524-sprint-4)
+
+[5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+
+[5.2.4.2. Sprint Backlog 4](#5242-sprint-backlog-4)
+
+[5.2.4.3. Development Evidence for Sprint Review](#5243-development-evidence-for-sprint-review)
+
+[5.2.4.4. Testing Suite Evidence for Sprint Review](#5244-testing-suite-evidence-for-sprint-review)
+
+[5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+
+[5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+
+[5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+
+[5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
 
 [5.3. Validation Interviews](#53-validation-interviews)
 
@@ -7083,6 +7140,712 @@ Este proceso ha permitido que el backend web services se actualice automáticame
 ![back-end-repository-3](img/5/2/3/8/backend-3.png)
 
 ![back-end-repository-4](img/5/2/3/8/backend-4.png)
+
+### 5.2.4 Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+| **Sprint #**                    | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                            | 2024/11/02                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Time                            | 20:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 3 Goal                   | Nuestro enfoque está en completar la integración del frontend con el backend real ,brindar soporte completo a  la autenticación y autorizacion para control de acceso con tokens, y asegurar que la landing page esté optimizada y lista para atraer nuevos visitantes. <br> Creemos que esto entregará una experiencia de usuario más segura y fluida, facilitará la gestión y autenticación de manera eficiente, y aumentará la confianza de los visitantes en el producto. <br> Esto se confirmará cuando los usuarios puedan registrarse, iniciar sesión e interactuar con la aplicacion web usando el backend real, y cuando la landing page esté completamente funcional para captar y convertir visitantes. |
+| Sprint 3 Velocity               | 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points             | 11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+#### 5.2.4.2. Sprint Backlog 4
+
+En el sprint 4, el equipo completo satisfactoriamente la conexion entre el backend y frontend.
+Asimismo, se implementó la autorizacion y autenticacion en la base de datos con tokenizacion.
+
+De ese modo, la herramienta de gestión de proyectos utilizada para el sprint 3 fue Trello, donde se registraron las tareas a realizar y su estado.
+
+![Trello Sprint 4](img/5/2/4/2/trello_board_4.png)
+
+Enlace al tablero de Trello:
+[https://trello.com/b/JLzWDsTp/sprint-4](https://trello.com/b/JLzWDsTp/sprint-4)
+
+A continuación, se procede a detallar en una tabla las user story y technical stories vinculadas a sus tareas, con una breve descripción, estimación en horas y qué miembro del equipo la llevo a cabo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint 3</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td>TS-15</td>
+    <td>Manage User Authentication</td>
+    <td>TK-01</td>
+    <td>Crear endpoint para registrar nuevos usuarios</td>
+    <td>Implementar un endpoint POST que permita el registro de nuevos usuarios.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-15</td>
+    <td>Manage User Authentication</td>
+    <td>TK-02</td>
+    <td>Crear endpoint para iniciar sesión de usuarios</td>
+    <td>Implementar un endpoint POST para la autenticación de usuarios.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-17</td>
+    <td>Manage Plans</td>
+    <td>TK-03</td>
+    <td>Crear endpoint para obtener todos los planes disponibles</td>
+    <td>Implementar un endpoint GET que devuelva una lista de planes.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-04</td>
+    <td>Crear endpoint para obtener las suscripciones de un taller</td>
+    <td>Implementar un endpoint GET que devuelva las suscripciones asociadas a un taller.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-05</td>
+    <td>Crear endpoint para añadir una nueva suscripción</td>
+    <td>Implementar un endpoint POST para crear una suscripción.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-06</td>
+    <td>Crear endpoint para obtener la última suscripción activa</td>
+    <td>Implementar un endpoint GET que devuelva la última suscripción activa.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-07</td>
+    <td>Crear endpoint para cancelar una suscripción</td>
+    <td>Implementar un endpoint POST que actualice el estado de la suscripción a cancelada.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-19</td>
+    <td>Manage Invoices</td>
+    <td>TK-08</td>
+    <td>Crear endpoint para generar una factura</td>
+    <td>Implementar un endpoint POST que permita crear una factura basada en una suscripción.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS-19</td>
+    <td>Manage Invoices</td>
+    <td>TK-09</td>
+    <td>Crear endpoint para obtener todas las facturas de un taller</td>
+    <td>Implementar un endpoint GET que devuelva todas las facturas de un taller.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-10</td>
+    <td>Actualizar el formulario de registro para que se conecte al backend</td>
+    <td>Conectar el formulario de registro con la API de backend.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-11</td>
+    <td>Adaptar la pantalla de login para que se conecte al backend</td>
+    <td>Implementar la conexión de la pantalla de login con la API de autenticación.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-12</td>
+    <td>Ajustar la creación de cuentas de taller para que se conecte al backend</td>
+    <td>Vincular la creación de cuentas de taller con el backend.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-04</td>
+    <td>Personal</td>
+    <td>TK-13</td>
+    <td>Revisar y conectar la vista de personal al backend</td>
+    <td>Conectar la vista de gestión de personal con la API del backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-05</td>
+    <td>Detalles de empleado</td>
+    <td>TK-14</td>
+    <td>Configurar la vista de detalles de empleado para que se conecte al backend</td>
+    <td>Vincular la vista de detalles del empleado con la API del backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-06</td>
+    <td>Clientes</td>
+    <td>TK-15</td>
+    <td>Enlazar la vista de clientes para que se conecte al backend</td>
+    <td>Conectar la gestión de clientes con el backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-07</td>
+    <td>Detalles de cliente</td>
+    <td>TK-16</td>
+    <td>Hacer que la vista de detalles de cliente se conecte al backend</td>
+    <td>Vincular la vista de detalles del cliente con la API.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-08</td>
+    <td>Intervenciones</td>
+    <td>TK-17</td>
+    <td>Conectar la vista de intervenciones al backend</td>
+    <td>Implementar la conexión de la vista de intervenciones con la API.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-09</td>
+    <td>Creación de intervenciones</td>
+    <td>TK-18</td>
+    <td>Ajustar la funcionalidad de creación de intervenciones para que se conecte al backend</td>
+    <td>Vincular la creación de intervenciones con el backend.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-19</td>
+    <td>Configurar la vista de detalles de intervención para que se conecte al backend</td>
+    <td>Conectar la vista de detalles de intervención con la API.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-20</td>
+    <td>Conectar la vista de existencias de inventario al backend</td>
+    <td>Enlazar la vista de existencias con la API de inventario.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-21</td>
+    <td>Ajustar la vista de solicitudes de inventario para que se conecte al backend</td>
+    <td>Conectar la gestión de solicitudes de inventario con el backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-14</td>
+    <td>Notificaciones</td>
+    <td>TK-22</td>
+    <td>Integrar el sistema de notificaciones para que se conecte al backend</td>
+    <td>Vincular la funcionalidad de notificaciones con la API.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-15</td>
+    <td>Mis tareas (líder)</td>
+    <td>TK-23</td>
+    <td>Sincronizar la vista de tareas del líder para que se conecte al backend</td>
+    <td>Conectar la vista de tareas del líder con la API del backend.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-16</td>
+    <td>Mis tareas (asistente)</td>
+    <td>TK-24</td>
+    <td>Hacer que la vista de tareas del asistente se conecte al backend</td>
+    <td>Enlazar la vista de tareas del asistente con la API.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-25</td>
+    <td>Conectar la vista de información de intervención al backend</td>
+    <td>Vincular la vista de información de intervención con el backend.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-26</td>
+    <td>Ajustar el diagnóstico de intervención para que se conecte al backend</td>
+    <td>Implementar la conexión del diagnóstico de intervención con el backend.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-27</td>
+    <td>Configurar la ejecución de intervención para que se conecte al backend</td>
+    <td>Vincular la ejecución de intervención con la API.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-28</td>
+    <td>Hacer que la supervisión de intervención se conecte al backend</td>
+    <td>Conectar la supervisión de intervención con la API del backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-29</td>
+    <td>Conectar el registro de vehículos al backend</td>
+    <td>Vincular el registro de vehículos con la API del backend.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-22</td>
+    <td>Registro de intervenciones</td>
+    <td>TK-30</td>
+    <td>Sincronizar el registro de intervenciones para que se conecte al backend</td>
+    <td>Conectar la gestión del registro de intervenciones con la API.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-31</td>
+    <td>Ajustar la vista de información IoT para que se conecte al backend</td>
+    <td>Implementar la conexión de la vista de información IoT con el backend.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-32</td>
+    <td>Integrar la funcionalidad de agendar citas para que se conecte al backend</td>
+    <td>Conectar la funcionalidad de agendar citas con la API del backend.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.4.3. Development Evidence for Sprint Review
+
+Para el sprint 4, se refactorizo el uso de los endpoints en el frontend y adaptando los responses y requests.
+
+En cuento a la API REST, se crearon los endpoints para gestionar subscripciones, planes y billings. Asimismo, se agregó la autorizacion y autenticacion mediante tokenizacion.
+
+Asimismo, se cambiaron de posicion los videos sobre el product y el equipo a secciones más idoneas.
+
+De esa manera, se completaron todas las historias de usuario y tareas técnicas planificadas para el sprint 4.
+
+A continuación, se presenta la evidencia de desarrollo para la revisión del sprint 4:
+
+| Repository                                                               | Branch                             | Commit Id                                | Commit Message                                                                                                                                                | Commit Message Body                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Commited on(Date)        |
+|--------------------------------------------------------------------------|------------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | 098407ec3c1e1738f9363cd7a14a3918c69e5254 | Merge pull request #28 from Web-Application-YaraSoftware/develop                                                                                              | Develop                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Mon Nov 11 15:39:25 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/personnel                  | 9dd530b0eb0941f2bfa0ffa3ad790c59a1596906 | refactor(personnel-service): update endpoint url to retrieve all personnel                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Tue Nov 12 13:11:44 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/personnel                  | c660274f37042d63ee7e5ecaa310120f98776e4e | feat(workshop-service): add methods to get mechanics user id by workshop id, and post mechanic to an specific workshop                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Tue Nov 12 13:13:47 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/personnel                  | 9c0990afe41a17264b5c7195cdff0e469734a3bd | feat(personnel): add profile entity and profile service                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Tue Nov 12 13:16:16 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/personnel                  | 29e24bdb0041563e982285902eccff0ffcb4e1fe | refactor(mechanic-form-dialog): refactor form fields to properly utilize backend endpoint                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Tue Nov 12 13:18:36 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/personnel                  | cb6e5acadb4e014486d6fcd99e71e7572af6ad47 | style: add styles to enhance workshop engine color palette                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Tue Nov 12 13:24:52 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/personnel                  | 933d34f5f7eb1a6b1a4e65ced3ec4aa971bfb596 | refactor(personnel): refactor logic to fetch mechanic info                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Tue Nov 12 13:27:35 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/clients                    | da7436414dfa5cadc81d9b628b4b4dbe2e80640c | refactor(clients): refactor logic to fetch client info                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Wed Nov 13 00:26:16 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/clients                    | 4d8087548172e91a1c2bee510beb12df074a92e2 | refactor(clients): refactor form fields to properly utilize backend endpoint                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Wed Nov 13 00:25:25 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/clients                    | 7b94146a9aade95c370ad93126cf0cffa8de0d51 | feat(clients): add methods to manage client information and creation                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Wed Nov 13 00:22:04 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/clients-detail             | fe191f79e3eae942ee9d17e5e498ae4b3041fe67 | refactor(client-detail): refactor form fields to create a new vehicle                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Wed Nov 13 18:12:41 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/clients-detail             | 1cfc22f838f76ab2aa8efff811883ec91ab7f78a | refactor(client-detail): refactor profile entity attributes and profile entity getter method                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Wed Nov 13 18:14:06 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | 4dc42523ea76e7e9d31fd28379ddbdc4d08a9c56 | Merge pull request #38 from Web-Application-YaraSoftware/feature/inventory-stock                                                                              | Feature/inventory stock                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Thu Nov 14 01:25:25 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/inventory-stock            | 9939de20e63a2c4d282a1c39bdd1cb4905b6a226 | refactor(inventory): fix routes for header                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 01:28:01 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/inventory-stock            | 2ec9a6d0a0d77604fdc7e27041c64979a63632ce | Merge pull request #39 from Web-Application-YaraSoftware/feature/inventory-stock                                                                              | refactor(inventory): fix routes for header                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Thu Nov 14 01:28:57 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-assistant       | a700acf9fcc02ee12211e96bfe00a8410138e763 | refactor(access-service): update endpoint and methods for authentication                                                                                      | - Changed `resourceEndpoint` to '/authentication/'. - Replaced `getAccessByCredentials` method with `signIn` and `signUp` methods. - Updated HTTP methods to `POST` for authentication requests.                                                                                                                                                                                                                                                                                                                                                                       | Thu Nov 14 15:16:41 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | 7307979f73334b912bc9dc279e16be87705b796a | refactor(auth-store): enhance user state management and integration with workshop store                                                                       | - Added `user` state with `id`, `roleId`, and `workshopId` properties. - Updated `isAuthenticated` to validate user and token details. - Implemented `setUserId`, `setRoleId`, and `setWorkshopId` functions to manage user data and store them in localStorage. - Introduced `refresh` method to load authentication and user data from localStorage, integrating with the workshop store. - Created `refreshWorkshop` function to fetch workshop details using the user’s workshopId. - Modified `logout` function to clear all user-related data from localStorage. | Thu Nov 14 15:20:20 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | bf1b89054e6e13d4e719528933efb6579b5bc196 | chore: update routes for stores                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:22:35 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | 77ff1ce6078ba0b10547893107edef8690af76fe | feat: update how to show the workshop name and update route for stores and clear unused functions                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:24:36 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | e450778c62c3f5283b1e15a8c69200984753fee9 | feat: unhidden guard for navigation routes                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:25:27 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | 9f0107164f705dd19aa581ebd6b8bcb2e417b41f | chore: add images for new logo and sign in presentation                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:25:52 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | da445e3a1a778c4e42f121419f9784275916fff3 | chore: add prime vue core dependency                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:26:16 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/login-screen               | 97f068783169082dd3924c7706be21aed13984fc | refactor(login-component): improve user authentication and UI responsiveness                                                                                  | - Replaced email/password inputs with a single `username` field. - Updated access service calls to use `signIn` method with token handling. - Refined authentication logic to utilize `authStore` for managing user state. - Added `computed` properties and onMounted hook to refresh user state on load. - Enhanced UI with background animation and polished styles for a more engaging experience. - Integrated form validation to ensure credentials are not empty before submission.                                                                             | Thu Nov 14 15:26:55 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/sign-in                    | b852b506dd688611b7337ee628723a05624e279a | Merge pull request #40 from Web-Application-YaraSoftware/feature/sign-in                                                                                      | Feature/sign in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:28:53 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/sign-in                    | 0ffaa43f87fb1ef88dea99ab8d30c979f7d07871 | refactor(router): enhance navigation guards and authentication handling                                                                                       | - Added `authStore.refresh()` before route checks to ensure updated authentication state. - Redirect users to the home page if they are already authenticated and attempt to access login or register routes. - Simplified route guard logic to ensure smoother navigation transitions and user experience.                                                                                                                                                                                                                                                            | Thu Nov 14 15:55:50 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/sign-up                    | 802e04e34be6bd5fac1cb7639fdf7b88424be71d | feat(login-page): implement login form with animated background and sign-up section                                                                           | - Added `AccessService` for handling authentication requests. - Implemented computed `credentials` for reactive username and password binding. - Added `onSubmit` function to authenticate user and store credentials in `AuthStore`. - Enhanced UI with animated background spans and gradient design. - Updated styles for better layout, responsiveness, and visual appeal. - Integrated PrimeVue components (`pv-toast`, `pv-card`, `pv-inputtext`, `pv-password`, `pv-button`) for consistent UI elements.                                                        | Thu Nov 14 17:59:35 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/dynamic-navigation-by-role | 1b0002ef692273fdbd9e63f5212df634ca8b049e | feat(header): enhance header with sidebar toggle and improved styling                                                                                         | - Integrated `uiStore` to control sidebar visibility, adding a menu toggle icon in the toolbar. - Applied dynamic class and hover effects for the toggle icon and account section. - Enhanced the visual styling of the toolbar with new colors, shadows, and transitions for a modern look. - Adjusted the layout and styling for workshop name and navigation links.                                                                                                                                                                                                 | Thu Nov 14 21:19:05 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/intervention-information   | aa5436a3143ad126f640b5d092b02b368522ba3f | feat(intervention-information): add intervention summary and task detail components                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Fri Nov 15 05:47:35 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/intervention-information   | 1678bb17606b9321102b1a4d382bb65e22b620c1 | Merge pull request #50 from Web-Application-YaraSoftware/feature/intervention-information                                                                     | Feature/intervention information                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Fri Nov 15 05:48:16 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | eb9e714442d2e55793f8587aee921543b775847b | fix: solve linking to client detail component                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Fri Nov 15 20:30:31 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | bbdc00a01e31e98afe257b9221f661470c09c55c | chore: modify path references                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 02:34:02 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/interventions              | 38c185761ebcd14956e14d91f5530ba0d7300c66 | refactor(interventions): refactor service fetching                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 02:39:11 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/interventions              | 171bc3c20842507db0d38fd14d3eddeec97597ba | refactor(services): update intervention, product-request, and vehicles services                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 04:55:36 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | 5fb46af2b3ee5439f702fbd53c1019646c56d531 | refactor(entities): update client and mechanic entities and task-state and intervention-state enums to match the backend responses                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 04:58:38 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | b0e5344af17a72d8b1b5ff45bb7b92dd55261955 | refactor(authentication): update auth-store to retrieve id values as numbers                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 04:59:35 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | 17d65d8d95bd23ad72815d05ee2a86013aefb335 | refactor(pages): update intervention-leader and activity-view pages                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:02:06 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | 8e86aa022ef5731fd56fef9b85918a3dbb317114 | refactor(information): update activity information component                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:05:51 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | 009e906c4ef716a7780b8bcbbd66bb66c6c7aa86 | refactor(diagnostic): update activity diagnostic component and task distribution component                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:07:27 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | bcc81794b06f8155cd7d0af86954204d5a8f7d0f | refactor(execution): update activity execution and execution requests components                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:10:24 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | 8459193973ec7598b6db308a120a32d9ba0ec71e | refactor(monitoring): update activity monitoring component                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:11:26 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | 8331c74b7873a57ec26083453d1b079f6fce5a70 | refactor(information): update iot information component                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:12:01 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | 90d9d4359c4d74e9b12a0d7cdf4b8a9e585ea57b | refactor(vehicle-service): fix a name change of an endpoint in vehicle service                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:12:57 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-assistant       | b512f3ea867486fed325ebc8e5c0776890572306 | fix(pages): fix a bug in intervention-leader view that was related with intervention-assistant view                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 09:33:49 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/notifications              | 60f68e420ab246ac792629f658702257864f4572 | refactor(authentication): update notification list component to implement useAuthStore to use the userId of the current logged user to retrieve notifications |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 09:47:04 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/clients-detail             | 75158b05fa38a24e94e9d656630114dc754c8fac | feat(clientRoleView): implement vehicle list component for client role view                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 21:45:31 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/clients-detail             | 7dd025ed78b5e6a1aed336b1e29f536c3605c7d8 | Merge pull request #56 from Web-Application-YaraSoftware/feature/clients-detail                                                                               | feat(clientRoleView): implement vehicle list component for client role view                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Sat Nov 16 21:49:19 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | dacb85ed4070da44da2ea42be45221762496e0d9 | feat: add fullName method to entity Vehicle                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 04:13:14 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/interventions              | 3ac3128ffe9203ee3a7f2674ed06434a267d9602 | feat(profile-service): add endpoint to get by dni                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 04:13:44 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/interventions              | eef3a1cd3561b16fcd94a3702028f44ea7a26fde | refactor(intervention): update class attributes to match to database                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 04:14:36 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/interventions              | d3677e3743dda754248f09767655dd9b0ac0be32 | fix: change the use of the profile id to the profile user id and call get all clients when create one                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 04:16:04 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/interventions              | 6924bb3030a2a8657ce6a24f14015bac24aca578 | refactor(interventions): optimize intervention data handling and UI updates                                                                                   | - Simplified the data enrichment process by utilizing async/await and watchEffect. - Integrated toast notifications for better user feedback on intervention actions. - Enhanced UI for interventions with improved responsiveness and clear status indicators.                                                                                                                                                                                                                                                                                                        | Sun Nov 17 04:19:21 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/interventions              | 2f12877d9e18fb880dfcfe4a94ff9b83cf0d72fa | refactor(intervention-dialog): optimize data fetching and form handling                                                                                       | - Replaced legacy client fetching with efficient profile service integration. - Simplified vehicle data handling using a dedicated Vehicle entity class. - Enhanced mechanic options retrieval using user profiles and async promises.                                                                                                                                                                                                                                                                                                                                 | Sun Nov 17 04:20:03 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | 4330f03d695f5e540fb3dfae3cd7f7c04545ce61 | Merge pull request #58 from Web-Application-YaraSoftware/feature/interventions                                                                                | Feature/interventions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Sun Nov 17 04:28:37 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/interventions              | 609fe2629b717a5154ef06a6411ab47fafd6bd95 | refactor(generalInformation): fix errors in the services of the intervention general information                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 05:03:44 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | ea3d2951f84a12f6964d4e04f2d29b1cfe48a231 | Merge pull request #60 from Web-Application-YaraSoftware/feature/interventions                                                                                | refactor(generalInformation): fix errors in the services of the intervention general information                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Sun Nov 17 05:11:05 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | 28f718c53ea2c3de9712000c7133b4039fe33d05 | refactor: change scheduledAt field to scheduledDate                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 05:25:18 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | a483b28098fb1614fba8377a14b5a56f60a01d94 | refactor(intervention-assistants): improve data fetching and UI handling                                                                                      | - Replaced multiple synchronous API calls with efficient async/await and Promise.all. - Simplified the intervention and client data structure to improve readability and maintainability. - Integrated a new utility method for date formatting to enhance consistency.                                                                                                                                                                                                                                                                                                | Sun Nov 17 05:26:50 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/activities-leader          | 4e56115d8709de77bf4ed03c40daed710f67187a | refactor(intervention-data): optimize data fetching and improve performance                                                                                   | - Replaced sequential data fetching with parallel async/await using Promise.all for better performance. - Simplified computed properties to reduce redundancy and improve data clarity. - Enhanced loading feedback and error handling for a smoother user experience.                                                                                                                                                                                                                                                                                                 | Sun Nov 17 05:27:26 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/intervention-information   | 899fa3ecd5ddc5d34b4a70c424f692a855d41cb3 | fix: get the correct assigned mechanic to the intervention                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 06:28:02 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | 72435de1851067014fa638039b76d39af9a5de41 | Merge pull request #62 from Web-Application-YaraSoftware/feature/intervention-information                                                                     | fix: get the correct assigned mechanic to the intervention                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Sun Nov 17 06:28:55 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/intervention-diagnostic    | 87904d18f6df2b9500c90e0d421db0bdd51051b7 | refactor: adapt update intervention to related endpoint                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 08:06:13 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/intervention-execution     | 0bed9d5e84442daf83e658003828d3701b06b36d | refactor(product-requests): simplify product request form and enhance UI                                                                                      | - Refactored product request data model to align with new backend requirements, updating property names from 'productType' to 'productId' and 'quantity' to 'requestedQuantity'. - Enhanced user interface with improved feedback by adding product descriptions and a severity-based badge for request status.                                                                                                                                                                                                                                                        | Sun Nov 17 09:39:30 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | feature/intervention-monitoring    | d3ddabb4b401e217a9c934a798cd7ddfaa5afb76 | refactor(intervention-steps): enhance intervention handling logic and improve navigation                                                                      | - Refactored intervention finishing process to include status validation, ensuring that only in-progress interventions can be completed. - Modified `finishIntervention` to handle edge cases where the intervention is not in progress, with an appropriate error message. - Simplified step filtering and mapping functions (`isMechanicAssistant` and `isMechanicLeader`) to improve code readability and maintainability. - Added task check using `areThereTasks` before step changes to conditionally update steps for mechanic leaders and assistants.          | Sun Nov 17 10:08:44 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd | develop                            | 9ee15bc6d722d88adc85dbe375d12738762ba427 | Merge pull request #71 from Web-Application-YaraSoftware/feature/clients-detail                                                                               | refactor: remove unnecessary use of profile service and directly use the useAuthStore                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Mon Nov 18 06:40:36 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | a22d28dabf40ffbd514ad2cb71476e321a028bd8 | feat(api-iam): add GetUserByIdQuery record for user queries                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:00:18 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | 85f86e648199c3b4e953812298346de7596e5abb | feat(jwt-token-service): implement TokenService with JWT generation and validation                                                                            | - Added `TokenSettings` class for JWT configuration, including the secret key. - Implemented `TokenService` class in `YARA.WorkshopNGine.API.IAM.Infrastructure.Tokens.JWT.Services` to handle JWT operations: `GenerateToken` and `ValidateToken`. - Registered `ITokenService` interface in `YARA.WorkshopNGine.API.IAM.Application.Internal.OutboundServices`. - Configured token validation parameters to enforce security and lifetime constraints.                                                                                                               | Mon Nov 18 06:01:33 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | c26f033ae200881eedb2260adeab82bd8be9cffd | feat(hashing-service): add HashingService with BCrypt implementation                                                                                          | - Implemented `HashingService` class using BCrypt for password hashing and verification. - `HashPassword`: Hashes a plain text password using BCrypt. - `VerifyPassword`: Verifies a plain text password against a hashed password. - Defined `IHashingService` interface to abstract hashing operations.                                                                                                                                                                                                                                                              | Mon Nov 18 06:02:35 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | 3873d104c1e080b66042b41a01617a919a7bcc62 | feat: update command and query services interfaces for user                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:03:00 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | abe410f31a1d1c60661bfccbcce52ae2da2ff0aa | feat(middleware): add RequestAuthorizationMiddleware for JWT-based authorization                                                                              | - Created `RequestAuthorizationMiddleware` to handle request authorization based on JWT tokens. - Checks if the endpoint allows anonymous access and skips authorization if so. - Extracts and validates the JWT token from the request headers using `ITokenService`. - Uses `IUserQueryService` to fetch and verify the user associated with the token. - Attaches the authorized user to the context for downstream access. - Added console logging for debugging and tracing middleware flow.                                                                      | Mon Nov 18 06:04:04 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | 8d37173225c60b1ee185576e1c92c4f6c2b10f26 | feat(security): implement custom Authorize attribute for request authorization                                                                                | - Developed `AuthorizeAttribute` to enforce authorization in controllers or methods. - Skips authorization if the endpoint is marked with `AllowAnonymousAttribute`. - Checks for the authenticated `User` in the HTTP context and returns a 401 Unauthorized result if the user is not authenticated. - Added debug logging to trace authorization decisions.                                                                                                                                                                                                         | Mon Nov 18 06:04:27 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | 6be3951bcea335e7e35f8dcc4e4420447153c72e | feat(middleware): add extension method for request authorization middleware                                                                                   | - Created `ApplicationBuilderExtensions` to simplify the integration of `RequestAuthorizationMiddleware`. - Added `UseRequestAuthorization` method to enable streamlined middleware setup in the application's pipeline.                                                                                                                                                                                                                                                                                                                                               | Mon Nov 18 06:04:48 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/manage-profile             | 7ce3b5956bbcf8892614d3bc6abf93a20fd4cc76 | feat(middleware): add AllowAnonymous attribute for method-level authorization bypass                                                                          | - Introduced `AllowAnonymousAttribute` to enable skipping authorization for specific methods. - Simplified the management of anonymous access in the authorization middleware.                                                                                                                                                                                                                                                                                                                                                                                         | Mon Nov 18 06:05:06 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login    | d167a1716e994850924ab34f0bfc181a26b99ea5 | refactor: update resource and transform with the included token response and request                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:05:57 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login    | 86f00170b4be96b8e5351c32971842b0163e71bc | feat: hash password and get token                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:06:27 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login    | 74e11f88548bb96920170e3b7abbadee07009fd8 | feat: add new method for get by id user                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:06:45 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login    | f211b345d201b23c7b83021d7fd263b0667ec895 | feat: disable authorization for these endpoints related to sign in, sign up and create workshop                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:07:55 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login    | dde35bf1345fb7313a77fca2ed0159c5ee11618c | chore: add services to program                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:08:22 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | develop                            | c7b8da8086bd29e9638b02dd3d1af29b60c4624c | Merge pull request #33 from Web-Application-YaraSoftware/feature/user-registration-login                                                                      | Feature/user registration login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:09:27 2024 |
+
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review
+
+Para el sprint 4, se continúa utilizando los Acceptance Criteria de las tecnical stories para realizar las pruebas de aceptación.
+De ese modo Gherkin se ha utilizado para la creación de escenarios de prueba.
+A continuación, se presentan las evidencias de las pruebas realizadas:
+
+| Repository                                                       | Branch                            | Commit Id                                | Commit Message                                                       | Commit Message Body                                                                                                                                                                                                                                                                                                 | Commited on(Date)        |
+|------------------------------------------------------------------|-----------------------------------|------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | feature/testing-back-web-services | eae6e1150ae17fe9296ca06f9aa097069d836499 | feat: add Gherkin scenarios for user authentication and registration | - Define scenarios for user sign-up with validation for missing or invalid values. - Add scenarios for user sign-in with handling for incorrect credentials. - Ensure secure storage of user passwords and authentication tokens.                                                                                   | Sat Nov 16 19:52:48 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | feature/testing-back-web-services | 45fafff4f694b90e6c6179967093ffdc394a6ded | feat: add Gherkin scenarios for plan retrieval                       | - Define scenarios for retrieving all plans, including handling empty results. - Include error handling for unexpected server issues. - Ensure proper response structure for successful and error cases.                                                                                                            | Sat Nov 16 19:53:15 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | feature/testing-back-web-services | d01f40998c44c2b82873c88a507dce34e5296de8 | feat: add Gherkin scenarios for subscription management              | - Define scenarios for retrieving all subscriptions, including handling empty and non-existent cases. - Add scenarios for creating subscriptions with validation for missing or invalid values. - Include scenarios for retrieving the latest subscription and canceling subscriptions, with proper error handling. | Sat Nov 16 19:53:24 2024 |
+| https://github.com/Web-Application-YaraSoftware/Acceptance-Tests | feature/testing-back-web-services | 434a27be4db499bf255552851c7fbb4399ceea8d | feat: add Gherkin scenarios for invoice management                   | - Define scenarios for creating invoices with validation for missing or invalid data. - Add scenarios for retrieving all invoices for a workshop, including handling empty results. - Include error handling for unexpected server issues when fetching invoices.                                                   | Sat Nov 16 19:53:41 2024 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+En el sprint 4 se alcanzo conectar el frontend con el backend, implementar la totalidad de los recursos asocidos a los bounde context Identity and Access management, Billing management y Subscription management. Y implementacion completa de json web token en frontend y backend que permite al usuario navegar por ciertas funcionalidades de la aplicación.
+
+En el frontend se contempló la ejecución de refactors para conectar el back con el front.
+
+A continuación algunas evidencias en imágen del front end y back completos.
+
+**Login**
+![login.png](img%2F5%2F4%2Flogin.png)
+
+**Registration**
+![register.png](img%2F5%2F4%2Fregister.png)
+
+**Personnel view**
+![personnelView.png](img%2F5%2F4%2FpersonnelView.png)
+
+**Mechanic information**
+![personnelInformation.png](img%2F5%2F4%2FpersonnelInformation.png)
+
+**Mechanic creation**
+![mechanicCreation.png](img%2F5%2F4%2FmechanicCreation.png)
+
+**Clients view**
+![clientsView.png](img%2F5%2F4%2FclientsView.png)
+
+**New client form**
+![newClient.png](img%2F5%2F4%2FnewClient.png)
+
+**Client detail**
+![clientDetail.png](img%2F5%2F4%2FclientDetail.png)
+
+**Update client information**
+![updateClientInformation.png](img%2F5%2F4%2FupdateClientInformation.png)
+
+**New vehicle registration**
+![newVehicleRegistration.png](img%2F5%2F4%2FnewVehicleRegistration.png)
+
+**Activity log and Iot Information**
+![img_1.png](img%2F5%2F4%2Fimg_1.png)
+
+**Intervention detail**
+![img_2.png](img%2F5%2F4%2Fimg_2.png)
+
+**Intervention summary**
+![img_3.png](img%2F5%2F4%2Fimg_3.png)
+
+**Intervention list**
+![img.png](img%2F5%2F4%2Fimg.png)
+
+#### Resources and endpoints
+
+**Authentication**
+![img_4.png](img%2F5%2F4%2Fimg_4.png)
+
+**Invoices**
+![img_5.png](img%2F5%2F4%2Fimg_5.png)
+
+**Subscriptions**
+![img_6.png](img%2F5%2F4%2Fimg_6.png)
+
+Enlace para visualizar el video de explication de los logros del sprint:
+[enlace al video](enlace)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el desarrollo del sprint 3, los logros alcanzados en el backend fueron los siguientes:
+
+* Se implementó la funcionalidad de gestión de autentication
+* Se implementó la funcionalidad de gestión de planes
+* Se implementó la funcionalidad de gestión de subscriptions
+* Se implementó la funcionalidad de gestión de Invoices
+
+| Endpoint       | Operación | Parámetros            | Descripción                  | Ejemplo de Uso                                | Explicación del Response                                                                                                           | URL                                           |
+|----------------|-----------|-----------------------|------------------------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| Authentication | POST      | -                     | Sign up a new user           | /api/v1/authentication/sign-up                | 201: User created successfully                                                                                                     | /api/v1/authentication/sign-up                |
+| Authentication | POST      | -                     | Sign in an existing user     | /api/v1/authentication/sign-in                | 200: User authenticated successfully, returns user data                                                                            | /api/v1/authentication/sign-in                |
+| Invoices       | POST      | -                     | Create an invoice            | /api/invoices                                 | 201: The invoice was created, returns invoice data                                                                                 | /api/invoices                                 |
+| Invoices       | GET       | workshopId (query)    | Get all invoices             | /api/invoices?workshopId=123                  | 200: The invoices were found, returns list of invoices                                                                             | /api/invoices                                 |
+| Plans          | GET       | -                     | Gets all plans               | /api/v1/plans                                 | 200: The plans were found, returns list of plans <br> 404: The plans were not found                                                | /api/v1/plans                                 |
+| Subscriptions  | GET       | workshopId (query)    | Gets all subscription items  | /api/v1/subscriptions?workshopId=123          | 200: The subscription items were found, returns list of subscriptions <br> 404: The subscription items were not found              | /api/v1/subscriptions                         |
+| Subscriptions  | POST      | -                     | Creates a subscription item  | /api/v1/subscriptions                         | 201: The subscription item was created, returns subscription data <br> 400: The subscription item was not created                  | /api/v1/subscriptions                         |
+| Subscriptions  | GET       | workshopId (query)    | Gets the latest subscription | /api/v1/subscriptions/latest?workshopId=123   | 200: The latest subscription item was found, returns latest subscription data <br> 404: The latest subscription item was not found | /api/v1/subscriptions/latest                  |
+| Subscriptions  | POST      | subscriptionId (path) | Cancels a subscription item  | /api/v1/subscriptions/{subscriptionId}/cancel | 200: The subscription item was cancelled, returns updated subscription data <br> 400: The subscription item was not cancelled      | /api/v1/subscriptions/{subscriptionId}/cancel |
+
+
+Se prosigue con las imagenes de los endpoints en ejecución:
+
+![screenshot1](img/5/2/4/6/1.png)
+
+![screenshot2](img/5/2/4/6/2.png)
+
+![screenshot3](img/5/2/4/6/3.png)
+
+![screenshot4](img/5/2/4/6/4.png)
+
+![screenshot5](img/5/2/4/6/5.png)
+
+![screenshot6](img/5/2/4/6/6.png)
+
+![screenshot7](img/5/2/4/6/7.png)
+
+![screenshot8](img/5/2/4/6/8.png)
+
+![screenshot9](img/5/2/4/6/9.png)
+
+Enlace del repositorio:
+
+[https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform](https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform)
+
+* Backend web services commits details
+
+| Repository                                                               | Branch                           | Commit Id                                | Commit Message                                                                                                                                                | Commit Message Body                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Commited on(Date)        |
+|--------------------------------------------------------------------------|----------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | a22d28dabf40ffbd514ad2cb71476e321a028bd8 | feat(api-iam): add GetUserByIdQuery record for user queries                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:00:18 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 85f86e648199c3b4e953812298346de7596e5abb | feat(jwt-token-service): implement TokenService with JWT generation and validation                                                                            | - Added `TokenSettings` class for JWT configuration, including the secret key. - Implemented `TokenService` class in `YARA.WorkshopNGine.API.IAM.Infrastructure.Tokens.JWT.Services` to handle JWT operations: `GenerateToken` and `ValidateToken`. - Registered `ITokenService` interface in `YARA.WorkshopNGine.API.IAM.Application.Internal.OutboundServices`. - Configured token validation parameters to enforce security and lifetime constraints.                                                                                                               | Mon Nov 18 06:01:33 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | c26f033ae200881eedb2260adeab82bd8be9cffd | feat(hashing-service): add HashingService with BCrypt implementation                                                                                          | - Implemented `HashingService` class using BCrypt for password hashing and verification. - `HashPassword`: Hashes a plain text password using BCrypt. - `VerifyPassword`: Verifies a plain text password against a hashed password. - Defined `IHashingService` interface to abstract hashing operations.                                                                                                                                                                                                                                                              | Mon Nov 18 06:02:35 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 3873d104c1e080b66042b41a01617a919a7bcc62 | feat: update command and query services interfaces for user                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:03:00 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | abe410f31a1d1c60661bfccbcce52ae2da2ff0aa | feat(middleware): add RequestAuthorizationMiddleware for JWT-based authorization                                                                              | - Created `RequestAuthorizationMiddleware` to handle request authorization based on JWT tokens. - Checks if the endpoint allows anonymous access and skips authorization if so. - Extracts and validates the JWT token from the request headers using `ITokenService`. - Uses `IUserQueryService` to fetch and verify the user associated with the token. - Attaches the authorized user to the context for downstream access. - Added console logging for debugging and tracing middleware flow.                                                                      | Mon Nov 18 06:04:04 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 8d37173225c60b1ee185576e1c92c4f6c2b10f26 | feat(security): implement custom Authorize attribute for request authorization                                                                                | - Developed `AuthorizeAttribute` to enforce authorization in controllers or methods. - Skips authorization if the endpoint is marked with `AllowAnonymousAttribute`. - Checks for the authenticated `User` in the HTTP context and returns a 401 Unauthorized result if the user is not authenticated. - Added debug logging to trace authorization decisions.                                                                                                                                                                                                         | Mon Nov 18 06:04:27 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 6be3951bcea335e7e35f8dcc4e4420447153c72e | feat(middleware): add extension method for request authorization middleware                                                                                   | - Created `ApplicationBuilderExtensions` to simplify the integration of `RequestAuthorizationMiddleware`. - Added `UseRequestAuthorization` method to enable streamlined middleware setup in the application's pipeline.                                                                                                                                                                                                                                                                                                                                               | Mon Nov 18 06:04:48 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 7ce3b5956bbcf8892614d3bc6abf93a20fd4cc76 | feat(middleware): add AllowAnonymous attribute for method-level authorization bypass                                                                          | - Introduced `AllowAnonymousAttribute` to enable skipping authorization for specific methods. - Simplified the management of anonymous access in the authorization middleware.                                                                                                                                                                                                                                                                                                                                                                                         | Mon Nov 18 06:05:06 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | d167a1716e994850924ab34f0bfc181a26b99ea5 | refactor: update resource and transform with the included token response and request                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:05:57 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 86f00170b4be96b8e5351c32971842b0163e71bc | feat: hash password and get token                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:06:27 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 74e11f88548bb96920170e3b7abbadee07009fd8 | feat: add new method for get by id user                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:06:45 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | f211b345d201b23c7b83021d7fd263b0667ec895 | feat: disable authorization for these endpoints related to sign in, sign up and create workshop                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:07:55 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | dde35bf1345fb7313a77fca2ed0159c5ee11618c | chore: add services to program                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:08:22 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | develop                          | c7b8da8086bd29e9638b02dd3d1af29b60c4624c | Merge pull request #33 from Web-Application-YaraSoftware/feature/user-registration-login                                                                      | Feature/user registration login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:09:27 2024 |
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Para la entrega del cuarto sprint, se desplego la landing page completamente funcional. Cumpliendo los user stories correspondientes al entregable. De la misma forma se desplego la web application completa. Asimismo, se desplego el back-end completo.
+
+**Landing page**
+
+El despliegue de la landing page en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la landing page se actualice automáticamente en la URL [https://web-workshop-n-gine-landing-page.netlify.app/](https://web-workshop-n-gine-landing-page.netlify.app/)
+
+![deploy-landing-page](img/5/2/4/7/landing-page/deploy.png)
+
+- Capturas de pantalla landing page:
+
+![landing1](img/5/2/4/7/landing-page/1.png)
+
+![landing2](img/5/2/4/7/landing-page/2.png)
+
+![landing3](img/5/2/4/7/landing-page/3.png)
+
+![landing4](img/5/2/4/7/landing-page/4.png)
+
+![landing5](img/5/2/4/7/landing-page/5.png)
+
+**Frontend web application**
+
+El despliegue del frontend web application en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la web application se actualice automáticamente en la URL [https://web-workshop-n-gine.netlify.app/](https://web-workshop-n-gine.netlify.app/)
+
+![deploy-frontend-web-application](img/5/2/4/7/frontend/deploy.png)
+
+- Capturas de pantalla frontend web application:
+
+![frontend1](img/5/2/4/7/frontend/1.png)
+
+![frontend2](img/5/2/4/7/frontend/2.png)
+
+![frontend3](img/5/2/4/7/frontend/3.png)
+
+![frontend4](img/5/2/4/7/frontend/4.png)
+
+![frontend5](img/5/2/4/7/frontend/5.png)
+
+* Backend web services
+
+El despliegue del backend web services en Railway se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que el backend web services se actualice automáticamente en la URL [https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html](https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html)
+
+![deploy-backend-web-services](img/5/2/4/7/backend/deploy.png)
+
+- Capturas de pantalla backend web services:
+
+![backend1](img/5/2/4/7/backend/1.png)
+
+![backend2](img/5/2/4/7/backend/2.png)
+
+![backend3](img/5/2/4/7/backend/3.png)
+
+![backend4](img/5/2/4/7/backend/4.png)
+
+![backend5](img/5/2/4/7/backend/5.png)
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+| Alumno                            | Actividad                                                                         |
+|-----------------------------------|-----------------------------------------------------------------------------------|
+| Gutiérrez Soto, Jhosepmyr Orlando | Desarrollo del back end, y mejora y reestructuración de componentes del front end |
+| Hernández Tuiro, Eric Ernesto     | Reestructuración y mejora de componentes del front end                            |
+| Riva Rodríguez, Elmer Augusto     | Reestructuración de componentes del front end                                     |
+
+* Repositorio de Landing page
+
+![landing-page-repository-1](img/5/2/4/8/landing-page/1.png)
+
+![landing-page-repository-2](img/5/2/4/8/landing-page/2.png)
+
+![landing-page-repository-3](img/5/2/4/8/landing-page/3.png)
+
+![landing-page-repository-4](img/5/2/4/8/landing-page/4.png)
+
+* Repositorio del Frontend Web Application
+
+![frontend-1](img/5/2/4/8/frontend/1.png)
+
+![frontend-2](img/5/2/4/8/frontend/2.png)
+
+![frontend-3](img/5/2/4/8/frontend/3.png)
+
+![frontend-4](img/5/2/4/8/frontend/4.png)
+
+* Repositorio del Backend Web Services
+
+![backend-1](img/5/2/4/8/backend/1.png)
+
+![backend-2](img/5/2/4/8/backend/2.png)
+
+![backend-3](img/5/2/4/8/backend/3.png)
+
+![backend-4](img/5/2/4/8/backend/4.png)
 
 ## 5.3. Validation Interviews
 
