@@ -33,32 +33,84 @@
 </body>
 
 # Registro de Versiones del Informe
-| Versión | Fecha | Autor | Descripción de la modificación |
-| ----------- | ----------- | ----------- | ----------- |
-| 0.0.0 | 20/08/2024 | Álvaro Orozco Torres | Se agrega la carátula y la tabla de control de versiones |
-| 1.0.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega la primera sección del Capítulo I: Introducción |
-| 1.1.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía |
-| 2.0.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la primera y segunda sección del Capitulo II: Requirements Elicitation & Analysis |
-| 2.1.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis |
-| 2.2.0 | 02/09/2024 | Álvaro Orozco Torres | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis |
-| 2.2.1 | 02/09/2024 | Álvaro Orozco Torres | Se corrige el formato de presentación de el As-Is Scenario Mapping |
-| 2.2.2 | 02/09/2024 | Álvaro Orozco Torres | Se añade descripción de proceso para As-Is Scenario Mapping |
-| 2.2.3 | 02/09/2024 | Henry Reaño Delgadillo | Se agrega el link de las entrevistas de Needfinding en la sección Anexos |
-| 2.2.4 | 02/09/2024 | Henry Reaño Delgadillo | Se corrige la visualización de los artefactos As-Is para todos los segmentos objetivo y se agrega la foto del dueño de taller Enrique Reaño|
-| 2.2.5 | 03/09/2024 | Henry Reaño Delgadillo | Se agrega tres nuevos conceptos en Ubiquitous Language |
-| 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
-| 3.1.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la primera sección del Capítulo III: Requirements Specification |
-| 3.2.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la segunda sección del Capítulo III: Requirements Specification |
-| 3.3.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la tercera sección del Capítulo III: Requirements Specification |
-| 3.4.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la última sección del Capítulo III: Requirements Specification |
-| 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
-| 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
-| 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
-| 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
-| 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
-| 5.5.0 | 25/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning y sprint backlog del sprint 2 |
-| 5.5.1 | 25/09/2024 | Henry Reaño Delgadillo | Se agrega el esquema de sprint 2 completo |
-| 5.5.2 | 25/09/2024 | Henry Reaño Delgadillo | Se completa las secciones de testing, execution, services, software deployment evidences parcialmente |
+| Versión | Fecha      | Autor                        | Descripción de la modificación                                                                                                              |
+|---------|------------|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| 0.0.0   | 20/08/2024 | Álvaro Orozco Torres         | Se agrega la carátula y la tabla de control de versiones                                                                                    |
+| 1.0.0   | 01/09/2024 | Henry Reaño Delgadillo       | Se agrega la primera sección del Capítulo I: Introducción                                                                                   |
+| 1.1.0   | 01/09/2024 | Álvaro Orozco Torres         | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía                                            |
+| 2.0.0   | 01/09/2024 | Álvaro Orozco Torres         | Se agrega la primera y segunda sección del Capitulo II: Requirements Elicitation & Analysis                                                 |
+| 2.1.0   | 01/09/2024 | Henry Reaño Delgadillo       | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis                                           |
+| 2.2.0   | 02/09/2024 | Álvaro Orozco Torres         | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis                                           |
+| 2.2.1   | 02/09/2024 | Álvaro Orozco Torres         | Se corrige el formato de presentación de el As-Is Scenario Mapping                                                                          |
+| 2.2.2   | 02/09/2024 | Álvaro Orozco Torres         | Se añade descripción de proceso para As-Is Scenario Mapping                                                                                 |
+| 2.2.3   | 02/09/2024 | Henry Reaño Delgadillo       | Se agrega el link de las entrevistas de Needfinding en la sección Anexos                                                                    |
+| 2.2.4   | 02/09/2024 | Henry Reaño Delgadillo       | Se corrige la visualización de los artefactos As-Is para todos los segmentos objetivo y se agrega la foto del dueño de taller Enrique Reaño |
+| 2.2.5   | 03/09/2024 | Henry Reaño Delgadillo       | Se agrega tres nuevos conceptos en Ubiquitous Language                                                                                      |
+| 3.0.0   | 05/09/2024 | Elmer Riva Rodriguez         | Se agrega la estructura completa del informe                                                                                                |
+| 3.1.0   | 06/09/2024 | Álvaro Orozco Torres         | Se agrega la primera sección del Capítulo III: Requirements Specification                                                                   |
+| 3.2.0   | 06/09/2024 | Álvaro Orozco Torres         | Se agrega la segunda sección del Capítulo III: Requirements Specification                                                                   |
+| 3.3.0   | 06/09/2024 | Henry Reaño Delgadillo       | Se agrega la tercera sección del Capítulo III: Requirements Specification                                                                   |
+| 3.4.0   | 06/09/2024 | Henry Reaño Delgadillo       | Se agrega la última sección del Capítulo III: Requirements Specification                                                                    |
+| 5.0.0   | 07/09/2024 | Henry Reaño Delgadillo       | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment                                                       |
+| 5.1.0   | 07/09/2024 | Henry Reaño Delgadillo       | Se agrega la sección correspondiente a gestión de código fuente                                                                             | 
+| 5.2.0   | 07/09/2024 | Henry Reaño Delgadillo       | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue                                        |
+| 5.3.0   | 07/09/2024 | Henry Reaño Delgadillo       | Se agrega la sección de sprint planning 1 y sprint backlog 1                                                                                | 
+| 5.4.0   | 07/09/2024 | Henry Reaño Delgadillo       | Se agrega las secciones de evidencias e insights del sprint 1                                                                               |
+| 5.5.0   | 25/09/2024 | Henry Reaño Delgadillo       | Se agrega la sección de sprint planning y sprint backlog del sprint 2                                                                       |
+| 5.5.1   | 25/09/2024 | Henry Reaño Delgadillo       | Se agrega el esquema de sprint 2 completo                                                                                                   |
+| 5.5.2   | 25/09/2024 | Henry Reaño Delgadillo       | Se completa las secciones de testing, execution, services, software deployment evidences parcialmente                                       |
+| 6.0.0   | 25/09/2024 | Elmer Augusto Riva Rodriguez | Se agrega resultado de estudiantes para presentación parcial                                                                                |
+| 6.1.0   | 25/09/2024 | Elmer Augusto Riva Rodriguez | Se agregan archivos y colaboraciones para insight de colaboración                                                                           |
+| 6.2.0   | 25/09/2024 | Elmer Augusto Riva Rodriguez | Se agrega enlace de exposición a Anexos                                                                                                     |
+| 6.3.0   | 31/10/2024 | Elmer Augusto Riva Rodriguez | Planificación de sprint y backlog del sprint 3                                                                                              |
+| 6.4.0   | 31/10/2024 | Eric Hernández               | Evidencia de desarrollo para revisión de sprint 2                                                                                           |
+| 6.5.0   | 31/10/2024 | Elmer Augusto Riva Rodriguez | Agrega tareas al sprint backlog 3                                                                                                           |
+| 6.6.0   | 31/10/2024 | Eric Hernández               | Evidencia de desarrollo para revisión de sprint                                                                                             |
+| 6.7.0   | 31/10/2024 | Elmer Augusto Riva Rodriguez | Documentación de servicios para revisión de sprint                                                                                          |
+| 6.8.0   | 31/10/2024 | Elmer Augusto Riva Rodriguez | Evidencia de despliegue de software para revisión de sprint                                                                                 |
+| 6.9.0   | 31/10/2024 | Elmer Augusto Riva Rodriguez | Se agregan videos de 'About The Product', 'About The Team', y exposición                                                                    |
+| 7.0.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizan los criterios de aceptación de las historias de usuario                                                                       |
+| 7.1.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregan wire flows faltantes                                                                                                             |
+| 7.2.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se añaden capturas de pantalla de videos de prototipos y se actualizan enlaces                                                              |
+| 7.3.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualiza la imagen del diagrama de clases y el diccionario de clases DDD                                                                |
+| 7.4.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualiza el diagrama de base de datos relacionado con DDD                                                                               |
+| 7.5.0   | 15/11/2024 | Eric Hernández               | Se agrega configuración adicional del entorno de desarrollo de software                                                                     |
+| 7.6.0   | 15/11/2024 | Eric Hernández               | Se mejora la sección de gestión de código fuente                                                                                            |
+| 7.7.0   | 15/11/2024 | Eric Hernández               | Se añaden más convenciones relacionadas con el estado                                                                                       |
+| 7.8.0   | 15/11/2024 | Eric Hernández               | Se agregan más detalles a la configuración de despliegue de software                                                                        |
+| 7.9.0   | 15/11/2024 | Eric Hernández               | Se mejora el objetivo del sprint, se actualiza la tabla de Trello y se agregan commits faltantes                                            |
+| 8.0.0   | 15/11/2024 | Eric Hernández               | Se agregan pruebas y evidencias de ejecución para revisión de sprint                                                                        |
+| 8.1.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se renombraron columnas en la tabla de evidencia de desarrollo para revisión de sprint                                                      |
+| 8.2.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregó evidencia de la suite de pruebas para revisión de sprint                                                                          |
+| 8.3.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizaron evidencias de ejecución para revisión de sprint                                                                             |
+| 8.4.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizó la documentación de servicios para revisión de sprint                                                                          |
+| 8.5.0   | 15/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregaron detalles previos a la evidencia de despliegue de software                                                                      |
+| 8.6.0   | 16/11/2024 | Eric Hernández               | Se agrega planificación de sprint y actualización de sprint backlog 2                                                                       |
+| 8.7.0   | 16/11/2024 | Eric Hernández               | Se agregan tareas faltantes a historias de usuario relacionadas                                                                             |
+| 8.8.0   | 16/11/2024 | Eric Hernández               | Se añaden evidencias de pruebas para revisión de sprint                                                                                     |
+| 8.9.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizan evidencias de ejecución para revisión de sprint                                                                               |
+| 9.0.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualiza la documentación de servicios para revisión de sprint                                                                          |
+| 9.1.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregan más evidencias para insights de colaboración en equipo durante el sprint                                                         |
+| 9.2.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se mejora el objetivo del sprint 3 y se actualiza la captura de pantalla de Trello                                                          |
+| 9.3.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregan más evidencias para la colaboración en equipo durante el sprint 3                                                                |
+| 9.4.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se agregan detalles adicionales a la evidencia de despliegue de software para revisión de sprint                                            |
+| 9.5.0   | 16/11/2024 | Jhosepmyr Gutierrez Soto     | Se eliminan imágenes innecesarias                                                                                                           |
+| 9.6.0   | 16/11/2024 | Eric Hernández               | Se agregaron más evidencias de colaboración en equipo durante el sprint                                                                     |
+| 9.7.0   | 16/11/2024 | Eric Hernández               | Se actualizaron historias técnicas y el backlog del producto                                                                                |
+| 9.8.0   | 16/11/2024 | Eric Hernández               | Se planificó el sprint 3 con una mejor definición del objetivo                                                                              |
+| 9.9.0   | 16/11/2024 | Eric Hernández               | Se actualizó el sprint backlog 3 y se cambiaron capturas de pantalla de Trello                                                              |
+| 10.0.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se añadieron commits faltantes a la evidencia de desarrollo para revisión de sprint 3                                                       |
+| 10.1.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se añadieron commits faltantes a la suite de pruebas para revisión de sprint 3                                                              |
+| 10.2.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizaron evidencias de ejecución para revisión de sprint 3                                                                           |
+| 10.3.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizó la documentación de servicios para revisión de sprint 3                                                                        |
+| 10.4.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se actualizaron evidencias de despliegue de software y colaboración en equipo para sprint 3                                                 |
+| 10.5.0  | 17/11/2024 | Jhosepmyr Gutierrez Soto     | Se eliminaron imágenes innecesarias                                                                                                         |
+| 10.6.0  | 18/11/2024 | Elmer Augusto Riva Rodriguez | Se elimina una imagen repetida                                                                                                              |
+| 10.7.0  | 18/11/2024 | Elmer Augusto Riva Rodriguez | Se refactoriza el diagrama de componentes para cada contexto delimitado (C4 Modeling)                                                       |
+| 10.8.0  | 18/11/2024 | Elmer Augusto Riva Rodriguez | Se agregó reflexión de la asignación final (ABET)                                                                                           |
+| 10.9.0  | 18/11/2024 | Eric Hernández               | Se implementó la sección de validaciones, incluyendo entrevistas, imágenes y evaluación heurística                                          |
+| 11.0.0  | 18/11/2024 | Eric Hernández               | Se corrigió un error en las tablas de validaciones                                                                                          |
+| 11.1.0  | 18/11/2024 | Elmer Augusto Riva Rodriguez | Se actualizaron insights                                                                                                                    |
 
 <div style="page-break-after: always;"></div>
 
@@ -98,6 +150,17 @@ Para el desarrollo del informe perteneciente a la entrega del TB2, se dividio la
 | Eric Hernandez Tuiro     | Elaboración de video about the product. Elaboración de entrevistas de validación.                                                                   |
 | Elmer Riva Rodriguez     | Evaluación según heurísticas, análisis de entrevistas de validación. Testing Suite Evidence for Sprint Review, Execution Evidence for Sprint Review |
 | Jhosepmyr Gutierrez Soto | Correccion del diagrama de clases y base de datos, y desarrollo Sprint Planning 3, Development Evidence for Sprint Review                           |
+
+**TF**
+
+Para el desarrollo del informe perteneciente a la entrega del TF, se dividio la implementacion de secciones de la siguiente forma para cada integrante:
+
+| Integrantes              | Tareas Asignadas                                                                                      |
+|--------------------------|-------------------------------------------------------------------------------------------------------|
+| Eric Hernandez Tuiro     | Elaboración y grabación de entrevistas de validación, incluyendo evaluación de cumplimiento de heurísticas |
+| Elmer Riva Rodriguez     | Execution Evidence for Sprint Review, Evaluación de del informe en general, y sprint 4 organización.  |
+| Jhosepmyr Gutierrez Soto | Actualización del c4 modeling, sprint planning 3                                                      |
+
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Web-Application-YaraSoftware, donde cada integrante subió sus avances y se realizó una revisión constante de los mismos para asegurar la calidad del informe.
 
@@ -365,10 +428,10 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
 
 **ABET – EAC - Student Outcome 5:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-| Criterio Especifico                                                                             | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones |
-|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | Jhosepmyr:<br>TB1: Durante este entregable, enfrenté dificultades, mis compañeros estuvieron a mi lado, lo que fortaleció nuestra colaboración y nos permitió avanzar como un equipo unido. <br>TP: En esta entrega, corrigió los errores en la página de aterrizaje y completó las funcionalidades faltantes. Además, se encargó de documentar los commits hechos durante el sprint y de planificar el sprint correspondiente. También ajustó las historias de usuario relacionadas con la página de aterrizaje y las agregó en Trello. <br>TB2:  Contribuí a redactar las instrucciones para desplegar el backend de la aplicación elaborada, es to con el objetivo de que futuros developers puedan comprender y replicar el despliegue por su cuenta. <br> Eric: <br>TB1: En este primer entregable participé en todas las reuniones de trabajo y aporté ideas y participé en los debates importantes. Me sentí una pieza importante del equipo al mismo tiempo que consideré que todos los demás lo fueron por igual.  <br>TP: En la entrega TP, se detalla el desarrollo del informe en la sección de insights de colaboración. Esta información es relevante para que los stakeholders internos del proyecto comprendan cómo ha sido el desempeño del equipo en la creación de su documentación<br> TB2: Realicé avances en el back-end de la aplicación web. Los endpoints creados se encuentran debidamente documentados gracias al uso de la herramienta de swagger-ui.<br> Álvaro: <br>TB1: Considero que he aplicado el liderazgo conjunto a través del diálogo y la polémica. Discutir perspectivas y propuestas es importante para la toma de decisiones, que es una de las responsabilidades que asumen los líderes. <br> Henry: <br>TB1: En este entregable el trabajo en equipo me sentí una pieza clave del equipo, en momentos donde hay inconvenientes o problemas estuve ahí para apoyar a mis compañeros, así como ellos me apoyaron a mi a lo largo de estas semanas. <br>TP: Durante la entrega TP, Carlo realizó commits tanto para la página de aterrizaje como para la aplicación web, siguiendo las convenciones de comunicación escrita. También documentó y desplegó la aplicación para que los interesados pudieran observar el progreso y tener acceso al producto en desarrollo durante el sprint. <br> Elmer: <br>TB1: En este primer entregable, trabajé en equipo asumiendo un liderazgo conjunto con mis compañeros. Colaboramos activamente en la toma de decisiones clave, como los flujos de usuario y la arquitectura de la información. Además, distribuimos las responsabilidades de forma equitativa, lo que nos permitió compartir el liderazgo y aprovechar las fortalezas de cada uno para cumplir con los objetivos del proyecto de manera eficiente.<br> TP: Refinó los criterios de aceptación para facilitar la comprensión tanto del equipo como de las partes interesadas. Usó Trello para transcribir las historias de usuario y tareas que habían sido redactadas previamente, lo que permitió a los stakeholders y desarrolladores monitorear el progreso de las funcionalidades del proyecto. <br> TB2: Contribui con la elaboracion del back end y desarrollo del front end de manera que se pueda realizar un avance significativo y bajo los criterios establecidos, manteniendo en cuenta los deseos del cliente. <br> | [Redaccion]  |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Jhosepmyr:<br>TB1: Aunque el proceso no estuvo exento de desafíos, considero que logramos mantener un ambiente de cooperación y trabajo en equipo. Al principio, tuvimos algunos problemas para organizar nuestras tareas, pero estableciendo objetivos claros y dividiendo responsabilidades, pudimos mejorar nuestra coordinación y cumplir con nuestras metas de manera efectiva. <br>TP: En la presentación del proyecto, Jhosepmyr detalló el desarrollo del segundo sprint y organizó el código del proyecto. Además, incluyó el proceso de despliegue y los insights sobre la colaboración del equipo durante el sprint.<br> TB2: Se organizaron reuniones con el equipo de trabajo para conocer los avances constantes durante el sprint, además de realizar un video de presentación con lo realizado durante el sprint 2.<br> Eric: <br>TB1: Para ayudar a crear un entorno colaborativo saludable trabajé en un entorno colaborativo con los demás miembros del equipo al mismo tiempo que mantuve puntualidad en el cumplimiento de las tareas del trabajo.<br>TP: Se organizaron reuniones dentro del equipo para revisar los avances del sprint y se realizó un video donde se presentó lo trabajado durante el segundo sprint.<br> TB2: En la presentación del proyecto se explica a detalle el desarrollo del tercer sprint y la organización del código del proyecto. Se incluye el proceso de deployment y los insights de la colaboración del equipo durante el sprint. <br>Álvaro: <br>TB1: Hemos tenido un entorno de cooperación constante, en que todos hemos sido bienvenidos y hemos aportado nuestra cuota de contribución. Mediante estas aportaciones, hemos logrado desarrollar y cumplir una serie de actividades que planificamos previamente. <br> Henry: <br>TB1: A pesar de los problemas que pasamos en el transcurso de este entregable, siento que pudimos, como equipo, mantenernos unidos y cooperativos unos con otros. Al inicio nos costo mantener la constancia pero poco a poco mediante metas que nos propusimos en el equipo logramos el objetivo. <br>TP: Henry ajustó las historias de usuario correspondientes a la página de aterrizaje y las incluyó en Trello. También modificó el diseño de la landing page en Figma para alinearlo con las mejoras realizadas.<br> Elmer: <br>TB1: En este primer entregable, creé un entorno colaborativo e inclusivo, donde todos los miembros del equipo pudieron participar activamente. Establecimos metas claras desde el principio, como definir los flujos de usuario y la estructura de la UI. Planificamos las tareas de manera organizada, asignando responsabilidades específicas. Por ejemplo, coordinamos el desarrollo de los prototipos interactivos y la revisión conjunta de los User Flow Diagrams, lo que nos permitió cumplir con los objetivos en tiempo.<br>  TP: Organice diversas reuniones con el equipo para avanzar en conjunto en el proyecto, colaborar en la implementación de funcionalidades y comunicar las metas y objetivos alcanzados.<br> TB2: Realice el sprint backlog del sprint 3, ademas de organizar sprint en trello para la documentacion de avances y organizacion de entregables.<br>                                                                                                                                                         | [Redaccion]  |
+| Criterio Especifico                                                                             | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | Jhosepmyr:<br>TB1: Durante este entregable, enfrenté dificultades, mis compañeros estuvieron a mi lado, lo que fortaleció nuestra colaboración y nos permitió avanzar como un equipo unido. <br>TP: En esta entrega, corrigió los errores en la página de aterrizaje y completó las funcionalidades faltantes. Además, se encargó de documentar los commits hechos durante el sprint y de planificar el sprint correspondiente. También ajustó las historias de usuario relacionadas con la página de aterrizaje y las agregó en Trello. <br>TB2:  Contribuí a redactar las instrucciones para desplegar el backend de la aplicación elaborada, es to con el objetivo de que futuros developers puedan comprender y replicar el despliegue por su cuenta. <br> TF: Contribuí a la presentación de los logros y conclusiones del proyecto, colaborando en la documentación del contenido desarrollado. También participé en la identificación de puntos de mejora para apoyar futuras iteraciones.<br> Eric: <br>TB1: En este primer entregable participé en todas las reuniones de trabajo y aporté ideas y participé en los debates importantes. Me sentí una pieza importante del equipo al mismo tiempo que consideré que todos los demás lo fueron por igual.  <br>TP: En la entrega TP, se detalla el desarrollo del informe en la sección de insights de colaboración. Esta información es relevante para que los stakeholders internos del proyecto comprendan cómo ha sido el desempeño del equipo en la creación de su documentación<br> TB2: Realicé avances en el back-end de la aplicación web. Los endpoints creados se encuentran debidamente documentados gracias al uso de la herramienta de swagger-ui. <br> TF: Mantener comunicación activa con el público objetivo fue clave para cumplir sus expectativas. El equipo utilizó reuniones regulares y herramientas como GitHub, lo que facilitó una coordinación eficiente, liderazgo conjunto y alineación con los objetivos. <br> Elmer: <br>TB1: En este primer entregable, trabajé en equipo asumiendo un liderazgo conjunto con mis compañeros. Colaboramos activamente en la toma de decisiones clave, como los flujos de usuario y la arquitectura de la información. Además, distribuimos las responsabilidades de forma equitativa, lo que nos permitió compartir el liderazgo y aprovechar las fortalezas de cada uno para cumplir con los objetivos del proyecto de manera eficiente.<br> TP: Refinó los criterios de aceptación para facilitar la comprensión tanto del equipo como de las partes interesadas. Usó Trello para transcribir las historias de usuario y tareas que habían sido redactadas previamente, lo que permitió a los stakeholders y desarrolladores monitorear el progreso de las funcionalidades del proyecto. <br> TB2: Contribui con la elaboracion del back end y desarrollo del front end de manera que se pueda realizar un avance significativo y bajo los criterios establecidos, manteniendo en cuenta los deseos del cliente. <br> TF: Elaborar el documento destacó la importancia de la comunicación escrita efectiva. Usé herramientas como WhatsApp, Discord y GitHub para informar avances, compartir obstáculos y solicitar apoyo, fortaleciendo la colaboración y resolviendo problemas en conjunto.  | El proyecto se caracterizó por un liderazgo compartido, donde cada miembro asumió roles clave en distintas etapas. Desde superar desafíos hasta tomar decisiones importantes, se distribuyeron responsabilidades equitativamente, lo que permitió avanzar de manera coordinada. Entre las acciones destacadas, se encuentran: <br> - Documentación y planificación detallada en herramientas como Trello. <br> - Desarrollo y despliegue de funcionalidades clave en la aplicación. <br> - Identificación de puntos de mejora y aportes para futuras iteraciones. <br> Esta colaboración constante garantizó que el equipo se mantuviera alineado y eficiente, logrando cumplir los objetivos del proyecto.               |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Jhosepmyr:<br>TB1: Aunque el proceso no estuvo exento de desafíos, considero que logramos mantener un ambiente de cooperación y trabajo en equipo. Al principio, tuvimos algunos problemas para organizar nuestras tareas, pero estableciendo objetivos claros y dividiendo responsabilidades, pudimos mejorar nuestra coordinación y cumplir con nuestras metas de manera efectiva. <br>TP: En la presentación del proyecto, Jhosepmyr detalló el desarrollo del segundo sprint y organizó el código del proyecto. Además, incluyó el proceso de despliegue y los insights sobre la colaboración del equipo durante el sprint.<br> TB2: Se organizaron reuniones con el equipo de trabajo para conocer los avances constantes durante el sprint, además de realizar un video de presentación con lo realizado durante el sprint 2. <br> TF: En la presentación final, el equipo expuso los logros del proyecto oralmente al docente y compañeros, además de presentar un video del Sprint 4. Se mantuvo comunicación activa mediante reuniones, lo que facilitó cumplir las metas establecidas.<br> Eric: <br>TB1: Para ayudar a crear un entorno colaborativo saludable trabajé en un entorno colaborativo con los demás miembros del equipo al mismo tiempo que mantuve puntualidad en el cumplimiento de las tareas del trabajo.<br>TP: Se organizaron reuniones dentro del equipo para revisar los avances del sprint y se realizó un video donde se presentó lo trabajado durante el segundo sprint.<br> TB2: En la presentación del proyecto se explica a detalle el desarrollo del tercer sprint y la organización del código del proyecto. Se incluye el proceso de deployment y los insights de la colaboración del equipo durante el sprint. <br> TF: Se realizaron entrevistas de validación con los usuarios para evaluar su experiencia con la aplicación. Esto permitió comunicar el estado actual del proyecto, recibir retroalimentación valiosa y asegurar que las metas de satisfacción del cliente fueran cumplidas.<br> Elmer: <br>TB1: En este primer entregable, creé un entorno colaborativo e inclusivo, donde todos los miembros del equipo pudieron participar activamente. Establecimos metas claras desde el principio, como definir los flujos de usuario y la estructura de la UI. Planificamos las tareas de manera organizada, asignando responsabilidades específicas. Por ejemplo, coordinamos el desarrollo de los prototipos interactivos y la revisión conjunta de los User Flow Diagrams, lo que nos permitió cumplir con los objetivos en tiempo.<br>  TP: Organice diversas reuniones con el equipo para avanzar en conjunto en el proyecto, colaborar en la implementación de funcionalidades y comunicar las metas y objetivos alcanzados.<br> TB2: Realice el sprint backlog del sprint 3, ademas de organizar sprint en trello para la documentacion de avances y organizacion de entregables.<br> <br> TF: En el entregable final, el equipo trabajó de forma colaborativa, estableciendo metas claras para garantizar el correcto funcionamiento de la aplicación y una mejor experiencia de usuario. Se asignaron tareas, se corrigieron bugs y se mejoró la nomenclatura del código, asegurando un desarrollo futuro más organizado.                                      | El equipo trabajó en un entorno inclusivo y organizado, estableciendo metas claras desde el inicio. Se promovió la participación activa de todos los integrantes mediante reuniones regulares y el uso de herramientas colaborativas como GitHub, Trello y Discord. Las acciones realizadas incluyeron: <br> - Organización y seguimiento de tareas en cada sprint. <br> - Revisión y ajuste de funcionalidades según las necesidades del cliente. <br> - Presentaciones orales y grabadas para compartir avances y conclusiones. <br> Este enfoque permitió no solo cumplir los objetivos establecidos, sino también mantener una comunicación fluida y una planificación efectiva que aseguraron el éxito del proyecto. |
 
 <div style="page-break-after: always;"></div>
 
@@ -4147,22 +4210,23 @@ El diagrama de gestión de comunicaciones muestra cómo una Single Page Applicat
 ![communication management.png](img%2F4%2Fc4model%2Fcommunication%20management.png)
 
 #### Subscription management bounded context
-El diagrama de gestión de suscripciones muestra cómo una Single Page Application (SPA) interactúa con controladores para manejar suscripciones y planes. Los controladores procesan solicitudes API para gestionar operaciones de suscripción y facturación. Los servicios de comando realizan acciones como la creación y actualización de suscripciones y planes, mientras que los servicios de consulta recuperan información relevante. Los datos se almacenan en repositorios conectados a una base de datos central, y el servicio de notificaciones envía correos electrónicos mediante Gmail para mantener a los usuarios informados sobre los cambios en sus suscripciones.![communication management.png](img%2F4%2Fc4model%2Fcommunication%20management.png)
+El diagrama de gestión de suscripciones muestra cómo una Single Page Application (SPA) interactúa con controladores para manejar suscripciones y planes. Los controladores procesan solicitudes API para gestionar operaciones de suscripción y facturación. Los servicios de comando realizan acciones como la creación y actualización de suscripciones y planes, mientras que los servicios de consulta recuperan información relevante. Los datos se almacenan en repositorios conectados a una base de datos central, y el servicio de notificaciones envía correos electrónicos mediante Gmail para mantener a los usuarios informados sobre los cambios en sus suscripciones.
 ![subscriptionManagement.png](img%2F4%2Fc4model%2FsubscriptionManagement.png)
 
 #### Billing management bounded context
 El diagrama de gestión de facturación muestra cómo una Single Page Application (SPA) se comunica con un controlador de facturación para gestionar la generación de facturas y el procesamiento de pagos. Los servicios de consulta y comando manejan la recuperación de datos y las actualizaciones para facturas y pagos. Los repositorios almacenan datos relacionados con facturas y pagos en una base de datos central. El servicio de notificaciones envía recordatorios y actualizaciones de facturación a los clientes a través de Gmail, mientras que un gateway de pago externo procesa los pagos de forma segura.## 4.7. Software Object-Oriented Design
+
 ![billingManagement.png](img%2F4%2Fc4model%2FbillingManagement.png)
+
 #### Device management bounded context
 El diagrama de gestión de dispositivos describe cómo una Single Page Application (SPA) interactúa con un controlador para gestionar dispositivos y diagnósticos. Los servicios de comando y consulta se encargan de las operaciones de escritura y lectura de datos de los dispositivos, que se almacenan en un repositorio conectado a una base de datos. La fachada de gestión de dispositivos expone datos relevantes a otros contextos, mientras que el servicio de gestión de códigos procesa códigos y datos diagnósticos obtenidos de dispositivos IoT OBD integrados en vehículos. Esto permite una gestión eficiente de los dispositivos y la interpretación de información de diagnóstico en tiempo real.
+<br>
 ![deviceManagement.png](img%2F4%2Fc4model%2FdeviceManagement.png)
 
 #### Identity and Access Management Bounded Context
 Este diagrama representa el contexto de Identity and Access Management (IAM) dentro de la aplicación Workshop N-GINE, encargado de la autenticación, gestión de usuarios y control de roles. Su propósito es garantizar un acceso seguro y controlado a los recursos del sistema mediante la gestión de usuarios y sus respectivas autorizaciones.
 <br>
-![structurizr-iam.png](img%2F4%2Fc4model%2Fstructurizr-iam.png)<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-iam.png" width="1000px">
-</div>
+![structurizr-iam.png](img%2F4%2Fc4model%2Fstructurizr-iam.png)
 
 
 ### 4.7.1. Class Diagrams
@@ -5026,7 +5090,7 @@ Enlace para acceder a la landing page: [https://web-workshop-n-gine-landing-page
 ![insights-2](img/5/2/1/8/insights-2.png)
 ![insights-3](img/5/2/1/8/insights-3.png)
 
-### 5.2.2. Sprint 2
+### 5.2.2 Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
 
@@ -5319,7 +5383,7 @@ De ese modo, se incluyen las configuraciones necesarias para el despliegue de la
 
 - Captura de pantalla del frontend web application:
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint 
+#### 5.2.2.8. Team Collaboration Insights during Sprint. 
 
 | Alumno                   | Actividad                                                                                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
@@ -6139,7 +6203,7 @@ A continuación, se procede a detallar en una tabla las user story y technical s
 
 #### 5.2.3.3. Development Evidence for Sprint Review
 
-Para el sprint 3, se implementaron las funcionalidades restantes del frontend para la ejecución de tareas y la gestión de checkpoints en una intervention, así como la visualización de la línea de tiempo de intervenciones y la información de IoT de un vehículo.
+Para el sprint 2, se implementaron las funcionalidades restantes del frontend para la ejecución de tareas y la gestión de checkpoints en una intervention, así como la visualización de la línea de tiempo de intervenciones y la información de IoT de un vehículo. Además, se crearon los gráficos de métricas para intervenciones por día, marcas de vehículos y tipos de intervención. 
 
 Por otro lado, se desarrolló la pantalla de login y se implementaron las validaciones de entrada de datos y mensajes de error para datos inválidos. 
 
@@ -6520,7 +6584,7 @@ A continuación, se presentan las evidencias de las pruebas realizadas:
 
 En el sprint 3 se alcanzó un desarrollo parcial del frontend y backend de la aplicación web, que permite al usuario navegar por ciertas funcionalidades de la aplicación.
 
-En el frontend se contempló el desarrollo los flujos de la ejecucion de una intervencion principalmente.
+En el frontend se contempló el desarrollo los flujos de la ejecucion de una intervencion donde se 
 
 A continuación algunas evidencias en imágen de las historias de usuario más relevantes:
 
@@ -7731,9 +7795,237 @@ Este proceso ha permitido que el backend web services se actualice automáticame
 
 ### 5.3.1. Diseño de Entrevistas
 
+En esta sección, se detalla los User Goals que orientan el flujo de nuestras entrevistas
+A continuación, se presentarán los User Goals definidos:
+
+#### User goal: Registro de cuenta
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo registro de cuenta en WorkShop N-GINE comienza con una pantalla de bienvenida en la que el dueño del taller puede iniciar sesión o registrarse si aún no tiene una cuenta. Al presionar el botón "Create account", el usuario es redirigido al formulario de registro donde ingresa su nombre, correo electrónico, contraseña y nombre del taller. Si se completa correctamente el formulario y se presiona "Crear", el sistema redirige al usuario nuevamente a la pantalla de inicio de sesión con un mensaje de confirmación. Tras iniciar sesión exitosamente, el usuario es dirigido al panel principal de la aplicación, donde puede acceder a secciones clave. La primera vista disponible es la sección de Personal vacía, con un botón para añadir personal.
+
+Si los campos del formulario de registro no se llenan correctamente o hay errores en los datos ingresados, el usuario verá un mensaje de error emergente que indica el problema específico (por ejemplo, "correo electrónico inválido" o "contraseña no coincide"). El usuario deberá corregir los errores antes de poder continuar con el proceso de registro.
+
+
+#### User goal: Acceder a la cuenta
+User persona: Dueño de taller, cliente de taller, mecánico
+
+Explicación del flujo: El proceso de inicio de sesión en WorkShop N-GINE arranca con una pantalla donde el dueño del taller debe ingresar su correo electrónico y contraseña. Una vez completados estos campos y presionado el botón "Iniciar Sesión", el sistema verifica las credenciales ingresadas. Si las credenciales son correctas, el usuario es redirigido directamente al panel principal de la aplicación. Desde ahí, puede navegar por las secciones clave como Personal, Clientes, Intervenciones, Inventario, Métricas y Notificaciones. En este caso, el sistema mostrará la vista de Personal con una lista de empleados registrados. En caso de que los datos sean incorrectos, el sistema desplegará un mensaje emergente de error, detallando cuál es el problema (por ejemplo, "Contraseña incorrecta"). Esto obligará al usuario a corregir los campos antes de poder continuar con el inicio de sesión.
+
+
+#### Registrar personal
+User persona: Dueño de taller
+
+Explicación del flujo: El proceso de gestión de personal en WorkShop N-GINE comienza cuando el dueño del taller accede a la sección de Personnel desde el panel principal. Si no hay empleados registrados, el sistema muestra un mensaje indicando "No registered personnel" y un botón para añadir nuevo personal. El usuario puede hacer clic en el botón New mechanic para iniciar el proceso de registro de un nuevo mecánico. Una vez que el usuario presiona el botón, aparece un formulario de registro donde se deben ingresar los datos del mecánico, como nombre, edad, ubicación, etc. Si los datos se completan correctamente, el usuario puede hacer clic en Save, y el sistema agregará el nuevo mecánico a la lista de personal, mostrando un mensaje de confirmación exitoso. Si el usuario no completa correctamente el formulario (por ejemplo, si falta algún dato obligatorio), se mostrará un mensaje de error emergente, indicando la necesidad de corregir los errores antes de poder continuar con el registro del nuevo mecánico.
+
+#### Manejar información de empleados
+User persona: Dueño de taller
+
+Explicación del flujo: En el proceso de edición de información del personal en WorkShop N-GINE, el usuario accede primero a la vista de Personnel, donde se muestran los perfiles de los mecánicos en formato de tarjetas. El usuario selecciona el perfil que desea editar, lo que abre una ventana modal con la información actual del empleado. El usuario puede modificar los datos del mecánico, como nombre, apellido, y otros campos. Al presionar el botón Update, el sistema despliega un cuadro de confirmación, pidiendo al usuario verificar la acción. Si el usuario confirma, los cambios se guardan y el sistema muestra un mensaje emergente indicando que la operación fue exitosa. Si el proceso es exitoso, el sistema actualiza la información del mecánico en la tabla principal de Personnel, reflejando los nuevos datos ingresados.
+
+
+#### Registrar cliente
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo de gestión de clientes en WorkShop N-GINE inicia cuando el usuario accede a la sección de Clients desde el menú principal. Al visualizar la tabla de clientes registrados, puede decidir añadir un nuevo cliente presionando el botón New Client. Al hacerlo, se despliega una ventana modal de registro donde se ingresan los datos del cliente, como nombre, documento de identidad, edad y correo electrónico. Si los datos ingresados son correctos y únicos, el sistema guarda el nuevo cliente y actualiza la tabla de clientes, mostrando un mensaje de éxito que confirma la acción. En caso de que la información ingresada ya exista en el sistema (por ejemplo, si el documento de identidad coincide con un cliente registrado previamente), el sistema despliega un mensaje de error indicando que el cliente ya está registrado. El usuario deberá corregir los datos antes de poder completar el proceso de registro del nuevo cliente.
+
+
+#### User Goal: Manejar información de clientes.
+User Persona: Dueño de taller.
+
+Explicación del flujo:El proceso de gestión de clientes en WorkShop N-GINE comienza cuando el usuario accede a la sección de Clients desde el panel principal, donde puede ver una tabla con la información de los clientes registrados. Al seleccionar un cliente, el sistema muestra una nueva pantalla con los datos personales del cliente, como nombre, edad, y ubicación, además de los vehículos registrados a nombre del cliente. El usuario tiene la opción de editar la información del cliente. Si se realizan cambios, al presionar Confirm, el sistema verifica la validez de los nuevos datos. Si los datos ingresados ya existen en el sistema (por ejemplo, un número de identificación duplicado), se muestra un mensaje emergente de error indicando que el cliente ya está registrado. Si los cambios son exitosos, el sistema guarda la nueva información y muestra un mensaje de confirmación, actualizando tanto los datos del cliente como la tabla en la vista de Clients.
+
+
+#### User Goal: Gestionar intervenciones
+User Persona: Dueño de taller.
+
+Explicación del flujo: el dueño de taller accede a la sección de Interventions, donde puede ver una tabla con las intervenciones de los vehículos en diferentes estados: pendiente, en progreso y completado. Para agendar una nueva intervención, el usuario presiona el botón Schedule intervention, lo que abre un formulario modal donde se ingresan detalles como el número de documento del cliente, matrícula del vehículo, modalidad, y descripción de la intervención. Después de completar el formulario, el usuario hace clic en Schedule. Si la disponibilidad de horario es adecuada, el sistema registra la nueva intervención y actualiza la tabla, mostrando un mensaje de éxito. Sin embargo, si el horario seleccionado ya está ocupado o no es válido, el sistema despliega un mensaje de error emergente que indica que el horario no está disponible. El usuario deberá corregir los datos para proceder con la programación de la intervención.
+
+
+#### User Goal: Visualizar detalles de intervención
+User Persona: Dueño de taller.
+Explicación del flujo: El flujo de actualización y gestión de una intervención en WorkShop N-GINE comienza con el usuario accediendo a la sección de Interventions. Aquí, el usuario selecciona una intervención específica de la lista, que lo redirige a una nueva vista donde se muestran los detalles de la intervención seleccionada. El usuario tiene la opción de actualizar el estado de la intervención, como pasarla a "En progreso" o "Completado". Si los datos ingresados son correctos y la intervención puede continuar según lo previsto, el sistema guarda los cambios y muestra un mensaje emergente de éxito. La intervención también se actualiza en la tabla principal, reflejando el nuevo estado. Si surge algún problema (por ejemplo, horarios de intervención en conflicto), el sistema desplegará un mensaje de error, pidiendo al usuario resolver el conflicto antes de continuar. El flujo asegura que los datos se gestionan de forma precisa y oportuna, permitiendo mantener control sobre el progreso de cada intervención en el taller.
+
+
+#### User Goal: Visualizar tareas pendientes como mecánico lider 
+User Persona: Mecánico.
+
+Explicación del flujo: En el flujo de visualización de tareas pendientes como mecánico líder, el usuario, que es un mecánico, accede a la sección "Mis Tareas" desde el menú lateral de la aplicación. Al ingresar, se carga una tabla con las tareas pendientes en las que el mecánico es líder, organizadas con campos como identificador de tarea, cliente, auto, fecha, modalidad, tipo de tarea y estado. Si el mecánico desea más información sobre alguna tarea específica, puede hacer clic en la tarea, lo que lo lleva a una pantalla detallada de la intervención. En esta pantalla, se despliegan las secciones clave como la información general del cliente y el vehículo, los detalles del diagnóstico y preparación, la ejecución de la intervención, y la supervisión de los procesos. Este flujo permite al mecánico tener una visión clara de sus responsabilidades, ayudando a gestionar de manera eficiente las intervenciones pendientes bajo su liderazgo.
+
+
+
+#### User goal: Consultar información de intervención
+User persona: Mecánico
+
+Explicación de flujo: En este flujo de consulta de información de intervención, el mecánico comienza en la interfaz de "Mis Tareas" donde se despliega una lista de intervenciones asignadas. Al seleccionar una intervención específica, el mecánico es redirigido a una pantalla con la información detallada de la intervención. Esta pantalla contiene varias secciones clave. En primer lugar, la "Información General", que incluye detalles del cliente, el vehículo, la modalidad del servicio, las fechas de registro, inicio y finalización, y una descripción del servicio. A continuación, el mecánico puede acceder a la sección de "Información IoT", donde se muestra un resumen del análisis OBD-IoT del vehículo, indicando el estado de los componentes y los códigos de error detectados. Adicionalmente, se presenta una lista de "Intervenciones Anteriores", lo que permite al mecánico revisar registros históricos relacionados con el vehículo. Si desea ver más detalles sobre alguna intervención previa, el mecánico puede hacer clic en "Leer más", accediendo a una vista detallada de esa intervención específica. Cuando el mecánico selecciona "Leer más" en la lista de intervenciones anteriores, accede a una vista detallada de la intervención específica. Esta vista está diseñada para proporcionar información clave que permita comprender en profundidad lo ocurrido durante la intervención pasada. En la parte superior de la pantalla, se muestran los detalles generales como el tipo de intervención (por ejemplo, reparación o mantenimiento), la fecha en que se realizó y el mecánico responsable de dicha intervención. En la sección de detalles técnicos, el mecánico puede ver un desglose de las tareas realizadas durante esa intervención, con información sobre los componentes del vehículo que fueron diagnosticados o reemplazados, junto con el estado final de esos componentes (por ejemplo, "reparado", "reemplazado", "sin cambios"). Si durante la intervención se detectaron códigos de error específicos mediante el sistema OBD-IoT, también se muestran estos códigos junto con su descripción, ayudando al mecánico a entender el problema que se atendió. Adicionalmente, se proporciona un campo de observaciones, donde el mecánico anterior pudo haber registrado notas importantes o recomendaciones para intervenciones futuras. Esto es especialmente útil para dar seguimiento a posibles problemas recurrentes o recomendaciones de mantenimiento preventivo.
+
+#### User goal: Modelar diagnóstico de intervención.
+User Persona: Mecánico.
+
+Explicación de flujo: En la interfaz de diagnóstico y preparación de una intervención, el mecánico líder tiene la capacidad de modelar el diagnóstico de la intervención. Este flujo comienza con la visualización de las tareas asignadas para la intervención. El sistema carga la lista de tareas que se deben realizar, cada una de ellas asociada a un mecánico asignado. Si el mecánico desea añadir una nueva tarea, puede hacerlo completando un campo de texto con la descripción de la tarea, seleccionando un mecánico responsable y haciendo clic en el botón "Agregar". Esto añadirá la tarea a la lista y restablecerá el campo de texto para que pueda añadir otra tarea de manera inmediata. El flujo también incluye opciones para guardar los cambios realizados en las tareas. Al hacer clic en el icono de "Guardar cambios", el sistema registrará las modificaciones realizadas y mostrará un mensaje de éxito ("Cambios guardados"), confirmando que las tareas actualizadas han sido guardadas correctamente en el sistema.
+
+
+#### User goal: Controlar ejecución de tareas
+User persona: Mecánico
+
+Explicación de flujo: El flujo comienza en la pestaña "Solicitudes de repuesto" dentro de la interfaz de ejecución de la intervención. Al ingresar, el mecánico tiene acceso a una lista de solicitudes de repuestos necesarios para completar las tareas asignadas a la intervención. Cada solicitud incluye detalles como el nombre del mecánico solicitante, el repuesto requerido, la cantidad solicitada y el estado actual de la solicitud.
+
+En esta etapa, el mecánico puede agregar nuevas solicitudes de repuestos mediante un formulario que permite seleccionar el repuesto necesario, verificar la cantidad disponible en el inventario, y definir la cantidad requerida. Una vez completada la información, el mecánico puede hacer clic en "Agregar" para incluir la nueva solicitud a la lista.
+
+Además, el mecánico tiene la opción de actualizar el estado de las solicitudes ya existentes. Puede seleccionar una o varias solicitudes, y luego hacer clic en "Guardar cambios" para confirmar que los repuestos solicitados han sido gestionados. Esto también notifica a los mecánicos correspondientes que las piezas solicitadas están disponibles, permitiendo continuar con las tareas asignadas.
+
+Si el mecánico realiza cambios pero decide revertirlos antes de guardarlos, puede hacer clic en "Deshacer", lo que restaurará la lista de solicitudes al estado previo antes de las modificaciones. Una vez que todas las solicitudes de repuestos hayan sido atendidas, el mecánico puede proceder al seguimiento del avance de la intervención o continuar con la ejecución de las tareas pendientes.
+
+
+#### User goal: Verificar cumplimiento de tareas
+User persona: Mecánico
+
+Explicación del flujo: El flujo de "Verificar cumplimiento de tareas" comienza en la pestaña de Ejecución dentro de una intervención. En esta etapa, el mecánico líder accede al seguimiento de las tareas asignadas y revisa su estado. A medida que las tareas son completadas por los mecánicos asignados, el estado de cada tarea se actualiza en tiempo real, mostrando si están en progreso, pendientes o finalizadas. Una vez que todas las tareas en la pestaña de Ejecución han sido completadas, el mecánico líder puede pasar a la pestaña de Supervisión, que ofrece una visión más detallada del progreso total de la intervención. En esta pestaña, se muestra un resumen de todas las tareas realizadas, los tiempos registrados y el estado final de cada una. Si todas las tareas han sido completadas con éxito, el sistema habilita el botón "Finalizar" en la parte superior. Al hacer clic en este botón, el mecánico líder puede finalizar la intervención, lo que cambia su estado a "Finalizada" en todo el sistema. Finalmente, el sistema redirige al usuario a la ventana de tareas.
+
+
+#### User Goal: Registrar su propio vehículo.
+User Persona: cliente de taller.
+
+Explicación del flujo: El flujo inicia cuando el dueño del carro, como cliente del taller, accede a su perfil dentro de la aplicación y navega a la sección de Mis Vehículos. Si ya tiene vehículos registrados, se despliega una lista que muestra detalles de cada vehículo como marca, modelo, placa, estado de mantenimiento, entre otros.
+
+Si el dueño del carro desea agregar un nuevo vehículo, hace clic en el botón "Agregar vehículo", lo que abre un formulario para introducir la información del nuevo vehículo, como marca, modelo, número de placa, año de fabricación y otros detalles necesarios. Una vez que el cliente ha llenado todos los campos obligatorios correctamente, hace clic en "Registrar". El sistema valida la información ingresada, y si todo está en orden, el nuevo vehículo se agrega a la lista de vehículos registrados del cliente. El formulario se cierra automáticamente, y el cliente puede ver el nuevo vehículo registrado en su sección de Mis Vehículos, con la opción de monitorear su estado o programar futuras intervenciones en el taller.
+
+
+#### User goal: Acceder al registro de intervenciones de un carro.
+User persona: Cliente de taller
+
+Explicación de flujo: el usuario comienza desde la vista principal de sus vehículos registrados. Puede seleccionar uno de sus vehículos para visualizar su información detallada y el historial de intervenciones. Una vez seleccionado el vehículo, se despliega una nueva interfaz que muestra una línea de tiempo cronológica con todas las intervenciones asociadas al vehículo, permitiendo al usuario ver rápidamente un resumen de cada intervención, como la fecha y el tipo de servicio realizado.
+
+Al hacer clic en una intervención específica dentro de esta línea de tiempo, el usuario accede a los detalles completos de la intervención. En esta vista detallada, se muestra toda la información relevante de la intervención, como la modalidad, la fecha programada, el mecánico líder, las observaciones adicionales, y el estado de la intervención. Además, el usuario puede acceder a un resumen de las tareas ejecutadas durante la intervención, con un desglose de las tareas y su estado actual.
+
+
+
 ### 5.3.2. Registro de Entrevistas
 
+#### Primer segmento objetivo (Dueño de Taller):
+
+Entrevista de validación usuario dueño de taller 01:
+
+| **Entrevistado 01**                                          | Jhonny Riva                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![jhonnyEntrevista.png](img/validation/jhonnyEntrevista.png) | Durante la entrevista de validación, Johnny Michael Riva, dueño de un taller de mecánica automotriz, evaluó la aplicación Workshop N-GINE. Comentó que la landing page era interesante y útil para organizar las tareas en su taller. Al probar la creación de un nuevo mecánico, destacó la sencillez e intuitividad de la interfaz, mencionando que el proceso de registro de datos era fácil de seguir. En general, Johnny expresó satisfacción con la aplicación y elogió su simplicidad y funcionalidad, sin sugerir mejoras. |
+| Timing: 0:00 - 4:33                                          | URL: [ValidationInterviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EW3V3EShXuBNtFPqs1EdfnUBv73XexvQ9Dx3MxSkc1L87g?e=9BnYZP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MS4xM319)                                                                                                                      |
+
+
+Entrevista de validación usuario dueño de taller 02:
+
+| **Entrevistado 02**                                      | Jhonny Riva                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![paulEntrevista.png](img/validation/paulEntrevista.png) | Durante la entrevista de validación, Paul Sulca, un dueño de taller mecánico, evaluó la aplicación Workshop N-GINE. Opinó que la regla de negocio que permite a los dueños de talleres crear cuentas para sus mecánicos era lógica. Al probar el inicio de sesión, comentó que la pantalla era familiar y fácil de usar. También destacó la claridad de la información de las intervenciones y elogió la funcionalidad de “Previous Interventions”, apreciando la línea de tiempo visual. En general, Paul consideró los colores y el diseño de la interfaz agradables y funcionales. |
+| Timing: 4:34 - 9:34                                      | URL: [ValidationInterviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EW3V3EShXuBNtFPqs1EdfnUBv73XexvQ9Dx3MxSkc1L87g?e=8N0nyL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mjc0LjYzfX0%3D)                                                                                                                                                                   |
+
+#### Segundo segmento objetivo (Mecánico):
+
+Entrevista de validación usuario mecánico 01:
+
+| **Entrevistado 01**                                        | Mateo Sánchez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![mateoEntrevista.png](img/validation/mateoEntrevista.png) | Durante la entrevista de validación, Eric Hernández entrevistó a Mateo, un mecánico, para evaluar la aplicación Workshop N-GINE. Mateo destacó que la paleta de colores, especialmente el azul, le transmitía una sensación tecnológica y que el diseño simple era amigable y adecuado para usuarios acostumbrados al trabajo físico. Exploró la landing page, elogió la facilidad del proceso de inicio de sesión, y revisó las tareas de un mecánico líder, la asignación y ejecución de tareas, y la solicitud de productos del inventario. Mateo también apreció la organización de la información en la interfaz, describiéndola como compacta y relevante. Afirmó que la aplicación era útil y eficiente para gestionar y asignar tareas. |
+| Timing: 9:34 - 18:56                                       | URL: [ValidationInterviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EW3V3EShXuBNtFPqs1EdfnUBv73XexvQ9Dx3MxSkc1L87g?e=2Vui18&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTc0LjA3fX0%3D)                                                                                                                                                                                                                                                                                                                             |
+
+Entrevista de validación usuario mecánico 02:
+
+| **Entrevistado 02**                                                | Giancarlo Dávila                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![giancarloEntrevista.png](img/validation/giancarloEntrevista.png) | Durante la entrevista de validación, Giancarlo Dávila, un ingeniero mecánico, evaluó la aplicación Workshop N-GINE. Destacó la claridad y concisión de la landing page, afirmando que es útil para atraer clientes del segmento automotriz. Giancarlo probó la interfaz de gestión de tareas, observando que las intervenciones y los datos del cliente y vehículo se presentaban de manera intuitiva. También evaluó la creación y asignación de tareas y la solicitud de productos del inventario, resaltando la simplicidad y eficiencia del flujo. Sugerió que la interfaz podría ser más amplia, pero concluyó que la aplicación cumple con su propósito funcional y facilita la gestión en talleres mecánicos. |
+| Timing: 18:56 - 28:43                                              | URL: [ValidationInterviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EW3V3EShXuBNtFPqs1EdfnUBv73XexvQ9Dx3MxSkc1L87g?e=JxHSO1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTEzNi42OX19)                                                                                                                                                                                                                                                                                                    |
+
+Entrevista de validación usuario mecánico 03:
+
+| **Entrevistado 03**                                        | Salim Ramírez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![salimEntrevista.png](img/validation/salimEntrevista.png) | Durante la entrevista de validación, Salim Ramírez, un mecánico de 21 años, evaluó la aplicación Workshop N-GINE. Salim destacó que la landing page tiene un diseño llamativo, es intuitiva y ofrece información relevante. Al probar la aplicación, confirmó la facilidad de uso al visualizar tareas pendientes y consultar detalles de intervenciones. Evaluó la creación y asignación de tareas, así como la ejecución y solicitud de productos del inventario, destacando la eficiencia e intuición del flujo. En general, elogió la accesibilidad y simplicidad de la aplicación. |
+| Timing: 28:44 - 38:22                                      | URL: [ValidationInterviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EW3V3EShXuBNtFPqs1EdfnUBv73XexvQ9Dx3MxSkc1L87g?e=4Khda5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTcyNC40OX19)                                                                                                                                                                       |
+
+
 ### 5.3.3. Evaluaciones según heurísticas
+
+#### SITE o APP A EVALUAR:
+##### Workshop N-GINE
+
+#### TAREAS A EVALUAR:
+##### Desktop landing page:
+1.	Información y descripción de la aplicación.
+2.	Realizar scroll para explorar todas las secciones de la landing page.
+3.	Botón de inicio de sesión.
+##### Web Application:
+1.	Registro de un nuevo usuario (dueño del taller)
+2.	Inicio de sesión con un usuario existente.
+3.	Creación de una cuenta de mecánico.
+4.	Ingreso de datos personales y validación en la interfaz de personal.
+5.	Confirmación de la creación de un nuevo mecánico en la sección de personal.
+6.	Visualización de tareas pendientes como mecánico líder.
+7.	Consulta de información detallada de una intervención.
+8.	Modelado y asignación de tareas dentro de una intervención.
+9.	Solicitud de productos del inventario.
+10.	Verificación del estado de las tareas en la sección de supervisión.
+________________________________________
+
+#### PROBLEMAS IDENTIFICADOS Y CUMPLIMIENTO DE HEURÍSTICAS:
+
+##### PROBLEMA #01: Ausencia de confirmación visual tras crear un mecánico
+
+Escala de severidad: 03
+
+Principio violado: Usability - Visibilidad del estado del sistema
+
+Descripción del problema: Después de crear un nuevo mecánico, no hay un mensaje de confirmación visual claro que indique que la acción se ha realizado correctamente, lo que puede generar dudas.
+
+![heuristic1.png](img/validation/heuristics/heuristic1.png)
+
+Recomendación: Agregar un mensaje de éxito que informe al usuario que el mecánico ha sido creado exitosamente, junto con una opción para ver los detalles.
+
+#### PROBLEMA #02: Diseño de formulario de creación de mecánicos sin validaciones en tiempo real
+
+Escala de severidad: 02
+
+Principio violado: Usability - Prevención de errores
+
+Descripción del problema: El formulario de creación de mecánicos no tiene validaciones en tiempo real, lo que puede permitir errores de entrada y llevar a problemas con la gestión de datos.
+
+![heuristic2.png](img/validation/heuristics/heuristic2.png)
+
+Recomendación: Implementar validaciones en tiempo real que muestren advertencias si los datos ingresados no cumplen con los requisitos, como formatos de correo electrónico incorrectos o campos obligatorios sin completar.
+
+#### PROBLEMA #03: Escasa información en la sección de personal para nuevos usuarios
+Escala de severidad: 02
+
+Principio violado: Usability - Coincidencia entre el sistema y el mundo real
+
+Descripción del problema: La sección de personal no proporciona suficiente contexto o ejemplos para ayudar a los nuevos usuarios a entender cómo registrar y gestionar mecánicos de manera eficiente.
+
+![heuristic3.png](img/validation/heuristics/heuristic3.png)
+
+Recomendación: Añadir descripciones o ejemplos breves sobre cómo se puede usar la sección de personal, o incluir sugerencias para el uso óptimo de la función.
+
+#### PROBLEMA #04: Interfaz de solicitud de productos sin validación previa
+
+Escala de severidad: 02
+
+Principio violado: Usability - Prevención de errores
+
+Descripción del problema: La interfaz permite que los mecánicos soliciten productos sin validaciones claras para prevenir errores, como pedir más productos de los disponibles en el inventario. Esto es debido a que la validación ocurre después de hacer la solicitud y no al seleccionar la cantidad.
+
+![heuristic4.png](img/validation/heuristics/heuristic4.png)
+
+Recomendación: Implementar validaciones que alerten a los usuarios si la cantidad solicitada no es posible debido a la falta de inventario en el momento de elegir la cantidad.
+
+#### PROBLEMA #05:  Diseño de interfaz de consulta de intervenciones sobrecargado
+
+Escala de severidad: 02
+
+Principio violado: Estética y diseño minimalista
+
+Descripción del problema: La interfaz que muestra los detalles de la intervención contiene muchos datos en un solo lugar, lo que puede hacer que el contenido se sienta abrumador y difícil de procesar rápidamente.
+
+![heuristic5.png](img/validation/heuristics/heuristic5.png)
+
+Recomendación: Simplificar la disposición de la información y dividirla en secciones bien definidas, destacando solo los datos esenciales.
+
 
 ## 5.4. Video About-the-Product
 
@@ -7742,17 +8034,26 @@ A continuación, la primera version del video About The Product
 <br>
 [Enlace Video About The Product](https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
+[Enlace Video About The Product YouTube](https://www.youtube.com/watch?v=5zjb5uaVMX8)
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
 
+El equipo ha concluido que el sector de la mecánica automotriz se enfoca principalmente en atender clientes con necesidades correctivas, sin estrategias claras para la fidelización. Nuestro producto ha demostrado ser efectivo al abordar estas deficiencias mediante funcionalidades clave como la gestión de personal, almacenamiento de información de clientes y control de inventario. Las validaciones realizadas confirman que estas herramientas mejoran significativamente la eficiencia operativa de los talleres, destacando la importancia de optimizar la atención al cliente para alcanzar los objetivos de 2500 usuarios y un 90% de retención.
+
+Las hipótesis fueron validadas parcialmente: la consulta de historial de vehículos se mostró útil para aumentar la eficiencia de los mecánicos, y se espera que el sistema de gestión de horarios tenga un impacto positivo en la captación de usuarios. Sin embargo, el análisis heurístico identificó problemas como la falta de confirmación visual y la ausencia de validaciones en tiempo real, lo que afecta la experiencia de usuario. A pesar de esto, los usuarios han resaltado la claridad y utilidad general de la aplicación.
+
+Recomendamos implementar mensajes de éxito visuales tras crear mecánicos y añadir validaciones en tiempo real en los formularios para prevenir errores. Además, simplificar las interfaces cargadas dividiría mejor la información. Es crucial priorizar el desarrollo de funcionalidades que optimicen el trabajo del taller y explorar el sistema de salud vehicular como incentivo para la suscripción premium. También se debe considerar un sistema de aforo para mejorar la satisfacción y fidelización. Validar continuamente estas mejoras con usuarios y ajustar el producto según sus necesidades es esencial para alcanzar los objetivos de negocio y maximizar la rentabilidad del modelo de suscripció
+
 ## Video About-the-Team
 
-A continuación, la primera version del video About The Team
+A continuación, la versión final del video About The Team
 <img src="img/5/2/videos/AboutTheTeam.png">
 <br>
-[Enlace de Video About The Team](https://www.canva.com/design/DAGVM_ZK3PM/7hTxeqOyIRzgtSVTm5T1qQ/watch?utm_content=DAGVM_ZK3PM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+[Enlace de Video About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EcB44jugRdZFtMsGBz3u1c0B-VWeicneB9hE8mSqu95D6g?e=qL7rpg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+[Enlace de Video About The Team YouTube](https://youtu.be/kVaMQdAs4-I)
 
 # Bibliografía
 
@@ -7772,11 +8073,20 @@ Testing protoypes web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e
 Testing prototypes mobile: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ef_ZB2PJR8dAunoOhdG1MFcBPzJ9J79mlDk0-jS6bgmBsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DQQg0b
 
 
-Enlace Video About The Product: https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor
+Enlace Video About The Product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/ESx-bUM4WTFDlA_VrkPq93MBmqV4fqeB7fj5JLfUHzHu8Q?e=bxGCh5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Enlace de Video About The Team: https://www.canva.com/design/DAGVM_ZK3PM/7hTxeqOyIRzgtSVTm5T1qQ/watch?utm_content=DAGVM_ZK3PM&utm_campaign=designshare&utm_medium=link&utm_source=editor
-
+Enlace de Video About The Team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EcB44jugRdZFtMsGBz3u1c0B-VWeicneB9hE8mSqu95D6g?e=qL7rpg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Video expositivo entrega TB2: https://www.canva.com/design/DAGVMxTlQwY/gqpbmrFevsFGvLM_VJD6aw/watch?utm_content=DAGVMxTlQwY&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 Documentación Swagger - Workshop N-GINE: https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html
+
+Landing Page: https://web-workshop-n-gine-landing-page.netlify.app/
+
+Front End Web Application: https://web-workshop-n-gine.netlify.app/
+
+Link repositorio FrontEnd: https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd
+
+Link repositorio BackEnd: https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform
+
+
