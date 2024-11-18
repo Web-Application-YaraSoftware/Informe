@@ -7327,18 +7327,26 @@ A continuación, la primera version del video About The Product
 <br>
 [Enlace Video About The Product](https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
+[Enlace Video About The Product YouTube](https://www.youtube.com/watch?v=5zjb5uaVMX8)
 
 # Conclusiones
 
 ## Conclusiones y recomendaciones
 
+El equipo ha concluido que el sector de la mecánica automotriz se enfoca principalmente en atender clientes con necesidades correctivas, sin estrategias claras para la fidelización. Nuestro producto ha demostrado ser efectivo al abordar estas deficiencias mediante funcionalidades clave como la gestión de personal, almacenamiento de información de clientes y control de inventario. Las validaciones realizadas confirman que estas herramientas mejoran significativamente la eficiencia operativa de los talleres, destacando la importancia de optimizar la atención al cliente para alcanzar los objetivos de 2500 usuarios y un 90% de retención.
+
+Las hipótesis fueron validadas parcialmente: la consulta de historial de vehículos se mostró útil para aumentar la eficiencia de los mecánicos, y se espera que el sistema de gestión de horarios tenga un impacto positivo en la captación de usuarios. Sin embargo, el análisis heurístico identificó problemas como la falta de confirmación visual y la ausencia de validaciones en tiempo real, lo que afecta la experiencia de usuario. A pesar de esto, los usuarios han resaltado la claridad y utilidad general de la aplicación.
+
+Recomendamos implementar mensajes de éxito visuales tras crear mecánicos y añadir validaciones en tiempo real en los formularios para prevenir errores. Además, simplificar las interfaces cargadas dividiría mejor la información. Es crucial priorizar el desarrollo de funcionalidades que optimicen el trabajo del taller y explorar el sistema de salud vehicular como incentivo para la suscripción premium. También se debe considerar un sistema de aforo para mejorar la satisfacción y fidelización. Validar continuamente estas mejoras con usuarios y ajustar el producto según sus necesidades es esencial para alcanzar los objetivos de negocio y maximizar la rentabilidad del modelo de suscripció
+
 ## Video About-the-Team
 
-A continuación, la primera version del video About The Team
+A continuación, la versión final del video About The Team
 <img src="img/5/2/videos/AboutTheTeam.png">
 <br>
-[Enlace de Video About The Team](https://www.canva.com/design/DAGVM_ZK3PM/7hTxeqOyIRzgtSVTm5T1qQ/watch?utm_content=DAGVM_ZK3PM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+[Enlace de Video About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EcB44jugRdZFtMsGBz3u1c0B-VWeicneB9hE8mSqu95D6g?e=qL7rpg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+[Enlace de Video About The Team YouTube](https://youtu.be/kVaMQdAs4-I)
 
 # Bibliografía
 
@@ -7358,15 +7366,20 @@ Testing protoypes web: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e
 Testing prototypes mobile: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ef_ZB2PJR8dAunoOhdG1MFcBPzJ9J79mlDk0-jS6bgmBsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=DQQg0b
 
 
-Enlace Video About The Product: https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor
+Enlace Video About The Product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/ESx-bUM4WTFDlA_VrkPq93MBmqV4fqeB7fj5JLfUHzHu8Q?e=bxGCh5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Enlace de Video About The Team: https://www.canva.com/design/DAGVM_ZK3PM/7hTxeqOyIRzgtSVTm5T1qQ/watch?utm_content=DAGVM_ZK3PM&utm_campaign=designshare&utm_medium=link&utm_source=editor
-
+Enlace de Video About The Team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EcB44jugRdZFtMsGBz3u1c0B-VWeicneB9hE8mSqu95D6g?e=qL7rpg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Video expositivo entrega TB2: https://www.canva.com/design/DAGVMxTlQwY/gqpbmrFevsFGvLM_VJD6aw/watch?utm_content=DAGVMxTlQwY&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 Documentación Swagger - Workshop N-GINE: https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html
 
+Landing Page: https://web-workshop-n-gine-landing-page.netlify.app/
+
+Front End Web Application: https://web-workshop-n-gine.netlify.app/
+
 Link repositorio FrontEnd: https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-FrontEnd
 
 Link repositorio BackEnd: https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform
+
+
